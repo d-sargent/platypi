@@ -14,7 +14,7 @@
 
 Inspired by the enigmatic platypus, Platypi blends unexpected features with conventional approaches. Dramatically tapered strokes and sheared wedge serifs combine with smooth curves and traditional proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. Heavier weights push this tension further with increased tapering and overall contrast.
 
-Platypi comes in multiple weights from Regular to Black, alongside a Regular Italic style. Additional Italic weights are planned.
+Platypi is in development. It currently comes in multiple weights from Regular to Black, alongside a Regular Italic style. Additional Italic weights are planned.
 
 ![Sample Image](documentation/platypi-image-initial-draft.png)
 
