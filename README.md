@@ -14,7 +14,7 @@
 
 Inspired by the enigmatic platypus, Platypi blends unexpected features with conventional approaches. Dramatically tapered strokes and sheared wedge serifs combine with smooth curves and traditional proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. Heavier weights push this tension further with increased tapering and overall contrast.
 
-Platypi is in development. It currently comes in multiple weights from Regular to Black, alongside a Regular Italic style. Additional Italic weights are planned.
+Platypi is in development. The first version was produced as part of my final project for Type West Online in 2022. It currently comes in multiple weights from Regular to Black, alongside a Regular Italic style. Additional Italic weights are planned.
 
 ![Sample Image](documentation/platypi-image-initial-draft.png)
 
@@ -36,13 +36,8 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
-Changelog example:
-
-**26 May 2021. Version 2.13**
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+**18 August 2023. Version 0.1.0**
+- SIGNIFICANT drawings from 2022 imported for development.
 
 ## License
 
