@@ -36,7 +36,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-**18 August 2023. Version 0.1.0**
+**18 August 2023. Version 0.01**
 - SIGNIFICANT drawings from 2022 imported for development.
 
 ## License
