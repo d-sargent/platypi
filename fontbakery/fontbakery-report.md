@@ -811,7 +811,7 @@ Fontbakery version: 0.8.13
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 250, but got 235 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 251, but got 235 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -1017,9 +1017,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* C (U+0043): X=532.5,Y=689.5 (should be at cap-height 690?)
-
-	* d (U+0064): X=328.0,Y=688.0 (should be at cap-height 690?)
+	* d (U+0064): X=338.0,Y=688.0 (should be at cap-height 690?)
 
 	* h (U+0068): X=35.0,Y=688.0 (should be at cap-height 690?) 
 
@@ -1031,107 +1029,111 @@ The following glyphs do not have the recommended number of contours:
 
 	* A (U+0041) contains a short segment L<<2.0,0.0>--<2.0,16.0>>
 
-	* A (U+0041) contains a short segment L<<217.0,674.0>--<217.0,690.0>>
+	* A (U+0041) contains a short segment L<<224.0,674.0>--<224.0,690.0>>
 
-	* A (U+0041) contains a short segment L<<711.0,16.0>--<711.0,0.0>>
+	* A (U+0041) contains a short segment L<<708.0,16.0>--<708.0,0.0>>
 
-	* A (U+0041) contains a short segment L<<440.0,0.0>--<440.0,16.0>>
+	* A (U+0041) contains a short segment L<<447.0,0.0>--<447.0,16.0>>
 
-	* A (U+0041) contains a short segment L<<244.0,16.0>--<244.0,0.0>>
+	* A (U+0041) contains a short segment L<<245.0,16.0>--<245.0,0.0>>
 
-	* C (U+0043) contains a short segment L<<577.0,512.0>--<561.0,512.0>>
+	* C (U+0043) contains a short segment L<<595.0,517.0>--<579.0,517.0>>
 
-	* E (U+0045) contains a short segment L<<46.0,0.0>--<46.0,16.0>>
+	* E (U+0045) contains a short segment L<<28.0,0.0>--<28.0,16.0>>
 
-	* E (U+0045) contains a short segment L<<46.0,674.0>--<46.0,690.0>>
+	* E (U+0045) contains a short segment L<<28.0,674.0>--<28.0,690.0>>
 
-	* E (U+0045) contains a short segment L<<557.0,696.0>--<568.0,696.0>>
+	* E (U+0045) contains a short segment L<<543.0,698.0>--<554.0,698.0>>
 
-	* E (U+0045) contains a short segment L<<572.0,546.0>--<556.0,546.0>>
+	* E (U+0045) contains a short segment L<<560.0,546.0>--<544.0,546.0>>
 
-	* E (U+0045) contains a short segment L<<471.0,451.0>--<487.0,451.0>>
+	* E (U+0045) contains a short segment L<<457.0,455.0>--<473.0,455.0>>
 
-	* E (U+0045) contains a short segment L<<477.0,257.0>--<461.0,257.0>>
+	* E (U+0045) contains a short segment L<<473.0,257.0>--<457.0,257.0>>
 
-	* E (U+0045) contains a short segment L<<575.0,165.0>--<591.0,165.0>>
+	* E (U+0045) contains a short segment L<<556.0,167.0>--<572.0,167.0>>
 
-	* F (U+0046) contains a short segment L<<46.0,0.0>--<46.0,16.0>>
+	* F (U+0046) contains a short segment L<<28.0,0.0>--<28.0,16.0>>
 
-	* F (U+0046) contains a short segment L<<46.0,674.0>--<46.0,690.0>>
+	* F (U+0046) contains a short segment L<<28.0,674.0>--<28.0,690.0>>
 
-	* F (U+0046) contains a short segment L<<547.0,696.0>--<558.0,696.0>>
+	* F (U+0046) contains a short segment L<<528.0,698.0>--<539.0,698.0>>
 
-	* F (U+0046) contains a short segment L<<562.0,546.0>--<546.0,546.0>>
+	* F (U+0046) contains a short segment L<<545.0,546.0>--<529.0,546.0>>
 
-	* F (U+0046) contains a short segment L<<462.0,431.0>--<478.0,431.0>>
+	* F (U+0046) contains a short segment L<<447.0,435.0>--<463.0,435.0>>
 
-	* F (U+0046) contains a short segment L<<468.0,237.0>--<452.0,237.0>>
+	* F (U+0046) contains a short segment L<<463.0,237.0>--<447.0,237.0>>
 
-	* F (U+0046) contains a short segment L<<321.0,16.0>--<321.0,0.0>>
+	* F (U+0046) contains a short segment L<<312.0,16.0>--<312.0,0.0>>
 
 	* H (U+0048) contains a short segment L<<28.0,0.0>--<28.0,16.0>>
 
 	* H (U+0048) contains a short segment L<<28.0,674.0>--<28.0,690.0>>
 
-	* H (U+0048) contains a short segment L<<280.0,690.0>--<280.0,674.0>>
+	* H (U+0048) contains a short segment L<<282.0,690.0>--<282.0,674.0>>
 
-	* H (U+0048) contains a short segment L<<471.0,674.0>--<471.0,690.0>>
+	* H (U+0048) contains a short segment L<<470.0,674.0>--<470.0,690.0>>
 
 	* H (U+0048) contains a short segment L<<724.0,690.0>--<724.0,674.0>>
 
 	* H (U+0048) contains a short segment L<<724.0,16.0>--<724.0,0.0>>
 
-	* H (U+0048) contains a short segment L<<471.0,0.0>--<471.0,16.0>>
+	* H (U+0048) contains a short segment L<<470.0,0.0>--<470.0,16.0>>
 
-	* H (U+0048) contains a short segment L<<280.0,16.0>--<280.0,0.0>>
+	* H (U+0048) contains a short segment L<<282.0,16.0>--<282.0,0.0>>
 
-	* L (U+004C) contains a short segment L<<46.0,0.0>--<46.0,16.0>>
+	* L (U+004C) contains a short segment L<<28.0,0.0>--<28.0,16.0>>
 
-	* L (U+004C) contains a short segment L<<46.0,674.0>--<46.0,690.0>>
+	* L (U+004C) contains a short segment L<<28.0,674.0>--<28.0,690.0>>
 
-	* L (U+004C) contains a short segment L<<296.0,690.0>--<296.0,674.0>>
+	* L (U+004C) contains a short segment L<<292.0,690.0>--<292.0,674.0>>
 
-	* L (U+004C) contains a short segment L<<544.0,178.0>--<560.0,178.0>>
+	* L (U+004C) contains a short segment L<<535.0,183.0>--<551.0,183.0>>
 
-	* T (U+0054) contains a short segment L<<225.0,0.0>--<225.0,16.0>>
+	* T (U+0054) contains a short segment L<<44.0,539.0>--<28.0,539.0>>
 
-	* T (U+0054) contains a short segment L<<75.0,540.0>--<59.0,540.0>>
+	* T (U+0054) contains a short segment L<<31.0,698.0>--<42.0,698.0>>
 
-	* T (U+0054) contains a short segment L<<46.0,696.0>--<57.0,696.0>>
+	* T (U+0054) contains a short segment L<<640.0,698.0>--<651.0,698.0>>
 
-	* T (U+0054) contains a short segment L<<643.0,696.0>--<654.0,696.0>>
+	* T (U+0054) contains a short segment L<<654.0,539.0>--<638.0,539.0>>
 
-	* T (U+0054) contains a short segment L<<641.0,540.0>--<625.0,540.0>>
+	* T (U+0054) contains a short segment L<<478.0,16.0>--<478.0,0.0>>
 
-	* T (U+0054) contains a short segment L<<474.0,16.0>--<474.0,0.0>>
+	* T (U+0054) contains a short segment L<<204.0,0.0>--<204.0,16.0>>
 
-	* V (U+0056) contains a short segment L<<682.0,690.0>--<682.0,674.0>>
+	* V (U+0056) contains a short segment L<<666.0,690.0>--<666.0,674.0>>
 
 	* V (U+0056) contains a short segment L<<2.0,674.0>--<2.0,690.0>>
 
-	* V (U+0056) contains a short segment L<<273.0,690.0>--<273.0,674.0>>
+	* V (U+0056) contains a short segment L<<258.0,690.0>--<258.0,674.0>>
 
-	* V (U+0056) contains a short segment L<<440.0,674.0>--<440.0,690.0>>
+	* V (U+0056) contains a short segment L<<429.0,674.0>--<429.0,690.0>>
 
-	* a (U+0061) contains a short segment L<<375.0,79.0>--<366.0,79.0>>
+	* a (U+0061) contains a short segment L<<369.0,67.0>--<360.0,67.0>>
 
-	* d (U+0064) contains a short segment L<<412.0,71.0>--<403.0,71.0>>
+	* d (U+0064) contains a short segment L<<420.0,77.0>--<411.0,77.0>>
 
-	* g (U+0067) contains a short segment L<<460.0,584.0>--<469.0,584.0>>
+	* d (U+0064) contains a short segment L<<338.0,688.0>--<338.0,703.0>>
 
-	* g (U+0067) contains a short segment L<<539.0,513.0>--<539.0,498.0>>
+	* d (U+0064) contains a short segment L<<567.0,68.0>--<567.0,53.0>>
 
-	* g (U+0067) contains a short segment L<<400.0,463.0>--<400.0,460.0>>
+	* e (U+0065) contains a short segment L<<135.0,254.0>--<135.0,250.0>>
+
+	* g (U+0067) contains a short segment L<<517.0,576.0>--<533.0,576.0>>
+
+	* g (U+0067) contains a short segment L<<553.0,468.0>--<547.0,461.0>>
+
+	* g (U+0067) contains a short segment L<<423.0,461.0>--<423.0,456.0>>
 
 	* h (U+0068) contains a short segment L<<34.0,0.0>--<34.0,14.0>>
 
 	* h (U+0068) contains a short segment L<<35.0,688.0>--<35.0,703.0>>
 
-	* h (U+0068) contains a short segment L<<187.0,401.0>--<196.0,401.0>>
+	* h (U+0068) contains a short segment L<<616.0,14.0>--<616.0,0.0>>
 
-	* h (U+0068) contains a short segment L<<620.0,14.0>--<620.0,0.0>>
-
-	* h (U+0068) contains a short segment L<<383.0,0.0>--<383.0,14.0>>
+	* h (U+0068) contains a short segment L<<379.0,0.0>--<379.0,14.0>>
 
 	* h (U+0068) contains a short segment L<<272.0,14.0>--<272.0,0.0>>
 
@@ -1139,79 +1141,75 @@ The following glyphs do not have the recommended number of contours:
 
 	* m (U+006D) contains a short segment L<<35.0,407.0>--<35.0,422.0>>
 
-	* m (U+006D) contains a short segment L<<171.0,484.0>--<193.0,484.0>>
+	* m (U+006D) contains a short segment L<<175.0,484.0>--<198.0,484.0>>
 
-	* m (U+006D) contains a short segment L<<187.0,401.0>--<196.0,401.0>>
+	* m (U+006D) contains a short segment L<<193.0,401.0>--<198.0,401.0>>
 
-	* m (U+006D) contains a short segment L<<929.0,14.0>--<929.0,0.0>>
+	* m (U+006D) contains a short segment L<<941.0,14.0>--<941.0,0.0>>
 
-	* m (U+006D) contains a short segment L<<692.0,0.0>--<692.0,14.0>>
+	* m (U+006D) contains a short segment L<<704.0,0.0>--<704.0,14.0>>
 
-	* m (U+006D) contains a short segment L<<600.0,14.0>--<600.0,0.0>>
+	* m (U+006D) contains a short segment L<<606.0,14.0>--<606.0,0.0>>
 
-	* m (U+006D) contains a short segment L<<363.0,0.0>--<363.0,14.0>>
+	* m (U+006D) contains a short segment L<<369.0,0.0>--<369.0,14.0>>
 
 	* m (U+006D) contains a short segment L<<272.0,14.0>--<272.0,0.0>>
 
-	* n (U+006E) contains a short segment L<<30.0,0.0>--<30.0,14.0>>
+	* n (U+006E) contains a short segment L<<34.0,0.0>--<34.0,14.0>>
 
-	* n (U+006E) contains a short segment L<<31.0,407.0>--<31.0,422.0>>
+	* n (U+006E) contains a short segment L<<35.0,407.0>--<35.0,422.0>>
 
-	* n (U+006E) contains a short segment L<<187.0,401.0>--<194.0,401.0>>
+	* n (U+006E) contains a short segment L<<193.0,401.0>--<198.0,401.0>>
 
-	* n (U+006E) contains a short segment L<<612.0,14.0>--<612.0,0.0>>
+	* n (U+006E) contains a short segment L<<616.0,14.0>--<616.0,0.0>>
 
-	* n (U+006E) contains a short segment L<<375.0,0.0>--<375.0,14.0>>
+	* n (U+006E) contains a short segment L<<379.0,0.0>--<379.0,14.0>>
 
-	* n (U+006E) contains a short segment L<<268.0,14.0>--<268.0,0.0>>
+	* n (U+006E) contains a short segment L<<272.0,14.0>--<272.0,0.0>>
 
-	* p (U+0070) contains a short segment L<<30.0,-235.0>--<30.0,-221.0>>
+	* p (U+0070) contains a short segment L<<34.0,-235.0>--<34.0,-221.0>>
 
-	* p (U+0070) contains a short segment L<<31.0,407.0>--<31.0,422.0>>
+	* p (U+0070) contains a short segment L<<35.0,407.0>--<35.0,422.0>>
 
-	* p (U+0070) contains a short segment L<<187.0,403.0>--<194.0,403.0>>
+	* p (U+0070) contains a short segment L<<193.0,403.0>--<198.0,403.0>>
 
-	* p (U+0070) contains a short segment L<<288.0,-221.0>--<288.0,-235.0>>
+	* p (U+0070) contains a short segment L<<296.0,-221.0>--<296.0,-235.0>>
 
-	* u (U+0075) contains a short segment L<<435.0,79.0>--<426.0,79.0>>
+	* u (U+0075) contains a short segment L<<22.0,417.0>--<22.0,432.0>>
 
-	* u (U+0075) contains a short segment L<<28.0,413.0>--<28.0,428.0>>
+	* u (U+0075) contains a short segment L<<347.0,417.0>--<347.0,432.0>>
 
-	* u (U+0075) contains a short segment L<<351.0,413.0>--<351.0,428.0>>
+	* u (U+0075) contains a short segment L<<571.0,68.0>--<571.0,53.0>>
 
-	* u (U+0075) contains a short segment L<<578.0,68.0>--<578.0,53.0>>
+	* u (U+0075) contains a short segment L<<424.0,77.0>--<415.0,77.0>>
 
 	* v (U+0076) contains a short segment L<<2.0,466.0>--<2.0,480.0>>
 
-	* v (U+0076) contains a short segment L<<227.0,480.0>--<227.0,466.0>>
+	* v (U+0076) contains a short segment L<<223.0,480.0>--<223.0,466.0>>
 
-	* v (U+0076) contains a short segment L<<341.0,466.0>--<341.0,480.0>> 
+	* v (U+0076) contains a short segment L<<334.0,466.0>--<334.0,480.0>> 
 
-	* v (U+0076) contains a short segment L<<530.0,480.0>--<530.0,466.0>> [code: found-short-segments]
+	* v (U+0076) contains a short segment L<<527.0,480.0>--<527.0,466.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* E (U+0045): L<<459.0,690.0>--<557.0,696.0>> -> L<<557.0,696.0>--<568.0,696.0>>
+	* E (U+0045): L<<28.0,690.0>--<445.0,690.0>> -> L<<445.0,690.0>--<543.0,698.0>>
 
-	* E (U+0045): L<<46.0,690.0>--<459.0,690.0>> -> L<<459.0,690.0>--<557.0,696.0>>
+	* E (U+0045): L<<445.0,690.0>--<543.0,698.0>> -> L<<543.0,698.0>--<554.0,698.0>>
 
-	* F (U+0046): L<<449.0,690.0>--<547.0,696.0>> -> L<<547.0,696.0>--<558.0,696.0>>
+	* F (U+0046): L<<28.0,690.0>--<430.0,690.0>> -> L<<430.0,690.0>--<528.0,698.0>>
 
-	* F (U+0046): L<<46.0,690.0>--<449.0,690.0>> -> L<<449.0,690.0>--<547.0,696.0>>
+	* F (U+0046): L<<430.0,690.0>--<528.0,698.0>> -> L<<528.0,698.0>--<539.0,698.0>>
 
-	* T (U+0054): L<<158.0,690.0>--<542.0,690.0>> -> L<<542.0,690.0>--<643.0,696.0>>
+	* T (U+0054): L<<150.0,690.0>--<532.0,690.0>> -> L<<532.0,690.0>--<640.0,698.0>>
 
-	* T (U+0054): L<<46.0,696.0>--<57.0,696.0>> -> L<<57.0,696.0>--<158.0,690.0>>
+	* T (U+0054): L<<31.0,698.0>--<42.0,698.0>> -> L<<42.0,698.0>--<150.0,690.0>>
 
-	* T (U+0054): L<<542.0,690.0>--<643.0,696.0>> -> L<<643.0,696.0>--<654.0,696.0>>
+	* T (U+0054): L<<42.0,698.0>--<150.0,690.0>> -> L<<150.0,690.0>--<532.0,690.0>> 
 
-	* T (U+0054): L<<57.0,696.0>--<158.0,690.0>> -> L<<158.0,690.0>--<542.0,690.0>>
-
-	* d (U+0064): L<<408.0,467.0>--<403.0,617.0>> -> L<<403.0,617.0>--<403.0,636.0>> 
-
-	* h (U+0068): L<<196.0,765.0>--<196.0,578.0>> -> L<<196.0,578.0>--<187.0,401.0>> [code: found-colinear-vectors]
+	* T (U+0054): L<<532.0,690.0>--<640.0,698.0>> -> L<<640.0,698.0>--<651.0,698.0>> [code: found-colinear-vectors]
 </div></details><br></div></details><details><summary><b>[18] Platypi-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -2021,7 +2019,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 250, but got 235 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 251, but got 235 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -2227,7 +2225,9 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* g (U+0067): X=107.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
+	* c (U+0063): X=407.5,Y=482.0 (should be at x-height 480?) 
+
+	* g (U+0067): X=112.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -2244,6 +2244,12 @@ The following glyphs do not have the recommended number of contours:
 	* A (U+0041) contains a short segment L<<-53.0,0.0>--<-49.0,16.0>>
 
 	* C (U+0043) contains a short segment L<<615.0,545.0>--<601.0,545.0>>
+
+	* D (U+0044) contains a short segment L<<212.0,626.0>--<212.0,626.0>>
+
+	* D (U+0044) contains a short segment L<<177.0,64.0>--<177.0,64.0>>
+
+	* D (U+0044) contains a short segment L<<177.0,64.0>--<177.0,64.0>>
 
 	* E (U+0045) contains a short segment L<<554.0,144.0>--<570.0,144.0>>
 
@@ -2273,21 +2279,29 @@ The following glyphs do not have the recommended number of contours:
 
 	* F (U+0046) contains a short segment L<<477.0,231.0>--<461.0,231.0>>
 
-	* H (U+0048) contains a short segment L<<575.0,674.0>--<579.0,690.0>>
+	* H (U+0048) contains a short segment L<<-4.0,0.0>--<0.0,16.0>>
 
-	* H (U+0048) contains a short segment L<<804.0,690.0>--<800.0,674.0>>
+	* H (U+0048) contains a short segment L<<212.0,626.0>--<212.0,626.0>>
 
-	* H (U+0048) contains a short segment L<<659.0,16.0>--<655.0,0.0>>
+	* H (U+0048) contains a short segment L<<150.0,674.0>--<154.0,690.0>>
 
-	* H (U+0048) contains a short segment L<<430.0,0.0>--<434.0,16.0>>
+	* H (U+0048) contains a short segment L<<393.0,690.0>--<389.0,674.0>>
 
-	* H (U+0048) contains a short segment L<<243.0,16.0>--<239.0,0.0>>
+	* H (U+0048) contains a short segment L<<621.0,626.0>--<621.0,626.0>>
 
-	* H (U+0048) contains a short segment L<<14.0,0.0>--<18.0,16.0>>
+	* H (U+0048) contains a short segment L<<559.0,674.0>--<563.0,690.0>>
 
-	* H (U+0048) contains a short segment L<<159.0,674.0>--<163.0,690.0>>
+	* H (U+0048) contains a short segment L<<802.0,690.0>--<798.0,674.0>>
 
-	* H (U+0048) contains a short segment L<<388.0,690.0>--<384.0,674.0>>
+	* H (U+0048) contains a short segment L<<586.0,64.0>--<586.0,64.0>>
+
+	* H (U+0048) contains a short segment L<<648.0,16.0>--<644.0,0.0>>
+
+	* H (U+0048) contains a short segment L<<405.0,0.0>--<409.0,16.0>>
+
+	* H (U+0048) contains a short segment L<<177.0,64.0>--<177.0,64.0>>
+
+	* H (U+0048) contains a short segment L<<239.0,16.0>--<235.0,0.0>>
 
 	* L (U+004C) contains a short segment L<<159.0,674.0>--<163.0,690.0>>
 
@@ -2317,39 +2331,43 @@ The following glyphs do not have the recommended number of contours:
 
 	* V (U+0056) contains a short segment L<<332.0,690.0>--<328.0,674.0>>
 
-	* a (U+0061) contains a short segment L<<372.0,227.0>--<367.0,227.0>>
+	* a (U+0061) contains a short segment L<<354.0,193.0>--<352.0,193.0>>
 
-	* c (U+0063) contains a short segment L<<429.0,346.0>--<416.0,346.0>>
+	* d (U+0064) contains a short segment L<<361.0,223.0>--<359.0,223.0>>
 
-	* d (U+0064) contains a short segment L<<397.0,703.0>--<397.0,718.0>>
+	* d (U+0064) contains a short segment L<<388.0,701.0>--<392.0,716.0>>
 
-	* d (U+0064) contains a short segment L<<555.0,765.0>--<572.0,765.0>>
+	* d (U+0064) contains a short segment L<<556.0,765.0>--<573.0,765.0>>
 
-	* d (U+0064) contains a short segment L<<372.0,227.0>--<367.0,227.0>>
+	* h (U+0068) contains a short segment L<<108.0,701.0>--<112.0,716.0>>
 
-	* h (U+0068) contains a short segment L<<130.0,703.0>--<130.0,718.0>>
+	* h (U+0068) contains a short segment L<<276.0,765.0>--<293.0,765.0>>
 
-	* h (U+0068) contains a short segment L<<290.0,765.0>--<307.0,765.0>>
+	* h (U+0068) contains a short segment L<<176.0,253.0>--<178.0,253.0>>
 
-	* h (U+0068) contains a short segment L<<176.0,253.0>--<181.0,253.0>>
+	* m (U+006D) contains a short segment L<<215.0,253.0>--<217.0,253.0>>
 
-	* m (U+006D) contains a short segment L<<222.0,253.0>--<227.0,253.0>>
+	* m (U+006D) contains a short segment L<<511.0,253.0>--<513.0,253.0>>
 
-	* m (U+006D) contains a short segment L<<516.0,253.0>--<521.0,253.0>>
+	* n (U+006E) contains a short segment L<<215.0,253.0>--<217.0,253.0>>
 
-	* n (U+006E) contains a short segment L<<222.0,253.0>--<227.0,253.0>>
+	* p (U+0070) contains a short segment L<<-44.0,-235.0>--<-40.0,-220.0>>
 
-	* p (U+0070) contains a short segment L<<-27.0,-235.0>--<-27.0,-221.0>>
+	* p (U+0070) contains a short segment L<<216.0,257.0>--<218.0,257.0>>
 
-	* p (U+0070) contains a short segment L<<222.0,253.0>--<227.0,253.0>>
+	* p (U+0070) contains a short segment L<<157.0,0.0>--<157.0,0.0>>
 
-	* p (U+0070) contains a short segment L<<244.0,-221.0>--<244.0,-235.0>> 
+	* p (U+0070) contains a short segment L<<116.0,-179.0>--<116.0,-179.0>>
 
-	* u (U+0075) contains a short segment L<<427.0,227.0>--<422.0,227.0>> [code: found-short-segments]
+	* p (U+0070) contains a short segment L<<217.0,-220.0>--<213.0,-235.0>> 
+
+	* u (U+0075) contains a short segment L<<420.0,227.0>--<418.0,227.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* D (U+0044): L<<177.0,64.0>--<177.0,64.0>> -> L<<177.0,64.0>--<177.0,64.0>>
 
 	* E (U+0045): L<<163.0,690.0>--<584.0,690.0>> -> L<<584.0,690.0>--<674.0,696.0>>
 
@@ -2363,11 +2381,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): L<<175.0,696.0>--<259.0,690.0>> -> L<<259.0,690.0>--<685.0,690.0>>
 
-	* T (U+0054): L<<259.0,690.0>--<685.0,690.0>> -> L<<685.0,690.0>--<779.0,696.0>>
+	* T (U+0054): L<<259.0,690.0>--<685.0,690.0>> -> L<<685.0,690.0>--<779.0,696.0>> 
 
-	* T (U+0054): L<<685.0,690.0>--<779.0,696.0>> -> L<<779.0,696.0>--<790.0,696.0>> 
-
-	* h (U+0068): L<<307.0,765.0>--<233.0,447.0>> -> L<<233.0,447.0>--<176.0,253.0>> [code: found-colinear-vectors]
+	* T (U+0054): L<<685.0,690.0>--<779.0,696.0>> -> L<<779.0,696.0>--<790.0,696.0>> [code: found-colinear-vectors]
 </div></details><br></div></details>
 
 ### Summary
