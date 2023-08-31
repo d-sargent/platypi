@@ -1101,13 +1101,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* V (U+0056) contains a short segment L<<666.0,690.0>--<666.0,674.0>>
 
-	* a (U+0061) contains a short segment L<<370.0,67.0>--<360.0,67.0>>
+	* a (U+0061) contains a short segment L<<386.0,67.0>--<376.0,67.0>>
 
 	* d (U+0064) contains a short segment L<<339.0,694.0>--<339.0,709.0>>
 
 	* d (U+0064) contains a short segment L<<568.0,63.0>--<568.0,48.0>>
 
-	* d (U+0064) contains a short segment L<<421.0,70.0>--<412.0,70.0>>
+	* d (U+0064) contains a short segment L<<421.0,74.0>--<412.0,74.0>>
 
 	* e (U+0065) contains a short segment L<<135.0,254.0>--<135.0,250.0>>
 
@@ -1115,7 +1115,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* g (U+0067) contains a short segment L<<555.0,466.0>--<549.0,461.0>>
 
-	* g (U+0067) contains a short segment L<<408.0,461.0>--<408.0,458.0>>
+	* g (U+0067) contains a short segment L<<416.0,461.0>--<416.0,458.0>>
 
 	* h (U+0068) contains a short segment L<<379.0,0.0>--<379.0,14.0>>
 
