@@ -1019,7 +1019,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* A (U+0041) contains a short segment L<<2.0,0.0>--<2.0,16.0>>
 
-	* A (U+0041) contains a short segment L<<222.0,674.0>--<222.0,690.0>>
+	* A (U+0041) contains a short segment L<<228.0,674.0>--<228.0,690.0>>
 
 	* A (U+0041) contains a short segment L<<708.0,16.0>--<708.0,0.0>>
 
