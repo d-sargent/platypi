@@ -5,7 +5,7 @@ DisplayStrings = (
 "nophdm
 uıilvagFonec
 modelled",
-ACDEFHILOTV
+HACDEFHILOTV
 );
 axes = (
 {
@@ -73,9 +73,9 @@ visible = 1;
 );
 glyphs = (
 {
-color = 8;
+color = 4;
 glyphname = A;
-lastChange = "2023-08-24 05:15:00 +0000";
+lastChange = "2023-08-31 00:50:47 +0000";
 layers = (
 {
 guides = (
@@ -138,11 +138,11 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(399,602,l),
+(399,609,l),
 (399,690,l),
 (275,690,l),
 (271,674,l),
-(357,602,l)
+(357,609,l)
 );
 }
 );
@@ -221,9 +221,9 @@ width = 592;
 unicode = 66;
 },
 {
-color = 8;
+color = 4;
 glyphname = C;
-lastChange = "2023-08-26 05:25:00 +0000";
+lastChange = "2023-08-31 00:50:47 +0000";
 layers = (
 {
 background = {
@@ -478,9 +478,9 @@ metricRight = "=O";
 unicode = 67;
 },
 {
-color = 8;
+color = 4;
 glyphname = D;
-lastChange = "2023-08-24 04:56:27 +0000";
+lastChange = "2023-08-31 00:50:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -652,9 +652,9 @@ metricRight = "=O";
 unicode = 68;
 },
 {
-color = 8;
+color = 4;
 glyphname = E;
-lastChange = "2023-08-24 04:49:00 +0000";
+lastChange = "2023-08-31 00:50:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -836,9 +836,9 @@ metricRight = "=H";
 unicode = 69;
 },
 {
-color = 8;
+color = 4;
 glyphname = F;
-lastChange = "2023-08-24 06:39:53 +0000";
+lastChange = "2023-08-31 00:50:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -1075,9 +1075,9 @@ width = 592;
 unicode = 71;
 },
 {
-color = 8;
+color = 4;
 glyphname = H;
-lastChange = "2023-08-26 05:24:35 +0000";
+lastChange = "2023-08-31 00:50:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -1334,9 +1334,9 @@ metricRight = "=|";
 unicode = 72;
 },
 {
-color = 8;
+color = 4;
 glyphname = I;
-lastChange = "2023-08-24 05:00:52 +0000";
+lastChange = "2023-08-31 00:50:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -1442,9 +1442,9 @@ width = 592;
 unicode = 75;
 },
 {
-color = 8;
+color = 4;
 glyphname = L;
-lastChange = "2023-08-26 05:34:46 +0000";
+lastChange = "2023-08-31 00:50:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -1629,9 +1629,9 @@ width = 592;
 unicode = 78;
 },
 {
-color = 8;
+color = 4;
 glyphname = O;
-lastChange = "2023-08-24 04:56:25 +0000";
+lastChange = "2023-08-31 00:50:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -1848,9 +1848,9 @@ width = 592;
 unicode = 83;
 },
 {
-color = 8;
+color = 4;
 glyphname = T;
-lastChange = "2023-08-24 05:00:46 +0000";
+lastChange = "2023-08-31 00:50:47 +0000";
 layers = (
 {
 guides = (
@@ -2069,9 +2069,9 @@ width = 592;
 unicode = 85;
 },
 {
-color = 8;
+color = 4;
 glyphname = V;
-lastChange = "2023-08-24 05:05:18 +0000";
+lastChange = "2023-08-31 00:50:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -2659,7 +2659,7 @@ nodes = (
 (333,-12,o),
 (395,-12,cs)
 );
-},
+}
 );
 width = 569;
 }
