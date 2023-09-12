@@ -74,18 +74,18 @@
             <tr>
                 <td>0</td>
                 <td>16</td>
-                <td>19</td>
+                <td>20</td>
                 <td>246</td>
                 <td>13</td>
-                <td>181</td>
+                <td>180</td>
             </tr>
             <tr>
                 <td>0%</td>
                 <td>5%</td>
-                <td>5%</td>
+                <td>6%</td>
                 <td>70%</td>
                 <td>4%</td>
-                <td>52%</td>
+                <td>51%</td>
             </tr>
             </table>
             
@@ -479,9 +479,6 @@
 - 0x00E1 (LATIN SMALL LETTER A WITH ACUTE)
 
 
-- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
-
-
 - 0x00E2 (LATIN SMALL LETTER A WITH CIRCUMFLEX)
 
 
@@ -531,9 +528,6 @@
 
 
 - 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-- 0x00EA (LATIN SMALL LETTER E WITH CIRCUMFLEX)
 
 
 - 0x00EB (LATIN SMALL LETTER E WITH DIAERESIS)
@@ -827,13 +821,7 @@
 - 0x005E (CIRCUMFLEX ACCENT)
 
 
-- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
 - 0x030C (COMBINING CARON)
-
-
-- 0x0306 (COMBINING BREVE)
 
 
 - 0x030A (COMBINING RING ABOVE)
@@ -1821,6 +1809,16 @@
 
 - Glyph name: z	Contours detected: 0	Expected: 1
 
+- Glyph name: ecircumflex	Contours detected: 4	Expected: 3
+
+- Glyph name: abreve	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0302	Contours detected: 2	Expected: 1
+
+- Glyph name: uni0306	Contours detected: 2	Expected: 1
+
+- Glyph name: hookabovecomb	Contours detected: 0	Expected: 1
+
 - Glyph name: B	Contours detected: 0	Expected: 2 or 3
 
 - Glyph name: G	Contours detected: 0	Expected: 1
@@ -1851,9 +1849,13 @@
 
 - Glyph name: Z	Contours detected: 0	Expected: 1
 
+- Glyph name: abreve	Contours detected: 4	Expected: 3
+
 - Glyph name: b	Contours detected: 0	Expected: 2
 
 - Glyph name: comma	Contours detected: 0	Expected: 1
+
+- Glyph name: ecircumflex	Contours detected: 4	Expected: 3
 
 - Glyph name: eight	Contours detected: 0	Expected: 3
 
@@ -1890,6 +1892,10 @@
 - Glyph name: three	Contours detected: 0	Expected: 1
 
 - Glyph name: two	Contours detected: 0	Expected: 1
+
+- Glyph name: uni0302	Contours detected: 2	Expected: 1
+
+- Glyph name: uni0306	Contours detected: 2	Expected: 1
 
 - Glyph name: w	Contours detected: 0	Expected: 1
 
@@ -2085,7 +2091,7 @@
 <h3>Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_dotted&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/Platypi-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters should disappear in other cases, for example: i̇ j̇ [code: soft-dotted]</p>
+<details><summary>⚠️ <strong>fonts/ttf/Platypi-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters should disappear in other cases, for example: î ĭ i̇ ỉ ĵ j̆ j̇ j̉ [code: soft-dotted]</p>
 </span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/Platypi-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters should disappear in other cases, for example: i̇ j̇ [code: soft-dotted]</p>
 </span></li></ul></div></details>
@@ -2104,12 +2110,24 @@
 </span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/Platypi-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⏩</h2>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⏩</h2>
 <h3>Are there any misaligned on-curve points?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
 
+<details><summary>⚠️ <strong>fonts/ttf/Platypi-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* abreve (U+0103): X=350.5,Y=692.0 (should be at cap-height 690?) 
+
+* uni0306 (U+0306): X=250.5,Y=692.0 (should be at cap-height 690?) [code: found-misalignments]
+</code></pre>
+</span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/Platypi-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* g (U+0067): X=382.5,Y=0.5 (should be at baseline 0?) [code: found-misalignments]
+<pre><code>* g (U+0067): X=408.5,Y=0.5 (should be at baseline 0?)
+
+* g (U+0067): X=38.0,Y=-234.5 (should be at descender -235?)
+
+* g (U+0067): X=524.5,Y=479.0 (should be at x-height 480?) 
+
+* g (U+0067): X=144.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Are any segments inordinately short?</h3>
@@ -2276,9 +2294,13 @@
 
 * v (U+0076) contains a short segment L&lt;&lt;224.0,480.0&gt;--&lt;224.0,466.0&gt;&gt;
 
-* v (U+0076) contains a short segment L&lt;&lt;338.0,466.0&gt;--&lt;338.0,480.0&gt;&gt; 
+* v (U+0076) contains a short segment L&lt;&lt;338.0,466.0&gt;--&lt;338.0,480.0&gt;&gt;
 
-* v (U+0076) contains a short segment L&lt;&lt;545.0,480.0&gt;--&lt;545.0,466.0&gt;&gt; [code: found-short-segments]
+* v (U+0076) contains a short segment L&lt;&lt;545.0,480.0&gt;--&lt;545.0,466.0&gt;&gt;
+
+* ecircumflex (U+00EA) contains a short segment L&lt;&lt;135.0,254.0&gt;--&lt;135.0,250.0&gt;&gt; 
+
+* abreve (U+0103) contains a short segment L&lt;&lt;386.0,67.0&gt;--&lt;376.0,67.0&gt;&gt; [code: found-short-segments]
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/Platypi-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>

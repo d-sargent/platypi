@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[17] Platypi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[18] Platypi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -382,9 +382,6 @@ Fontbakery version: 0.8.13
 	- 0x00E1 (LATIN SMALL LETTER A WITH ACUTE)
 
 
-	- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
-
-
 	- 0x00E2 (LATIN SMALL LETTER A WITH CIRCUMFLEX)
 
 
@@ -434,9 +431,6 @@ Fontbakery version: 0.8.13
 
 
 	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x00EA (LATIN SMALL LETTER E WITH CIRCUMFLEX)
 
 
 	- 0x00EB (LATIN SMALL LETTER E WITH DIAERESIS)
@@ -730,13 +724,7 @@ Fontbakery version: 0.8.13
 	- 0x005E (CIRCUMFLEX ACCENT)
 
 
-	- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
 	- 0x030C (COMBINING CARON)
-
-
-	- 0x0306 (COMBINING BREVE)
 
 
 	- 0x030A (COMBINING RING ABOVE)
@@ -916,6 +904,16 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: z	Contours detected: 0	Expected: 1
 
+	- Glyph name: ecircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: abreve	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni0302	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 2	Expected: 1
+
+	- Glyph name: hookabovecomb	Contours detected: 0	Expected: 1
+
 	- Glyph name: B	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: G	Contours detected: 0	Expected: 1
@@ -946,9 +944,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Z	Contours detected: 0	Expected: 1
 
+	- Glyph name: abreve	Contours detected: 4	Expected: 3
+
 	- Glyph name: b	Contours detected: 0	Expected: 2
 
 	- Glyph name: comma	Contours detected: 0	Expected: 1
+
+	- Glyph name: ecircumflex	Contours detected: 4	Expected: 3
 
 	- Glyph name: eight	Contours detected: 0	Expected: 3
 
@@ -986,6 +988,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: two	Contours detected: 0	Expected: 1
 
+	- Glyph name: uni0302	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 2	Expected: 1
+
 	- Glyph name: w	Contours detected: 0	Expected: 1
 
 	- Glyph name: x	Contours detected: 0	Expected: 1
@@ -1003,7 +1009,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i̇ j̇ [code: soft-dotted]
+* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: î ĭ i̇ ỉ ĵ j̆ j̇ j̉ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -1012,6 +1018,14 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* abreve (U+0103): X=350.5,Y=692.0 (should be at cap-height 690?) 
+
+	* uni0306 (U+0306): X=250.5,Y=692.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -1177,9 +1191,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* v (U+0076) contains a short segment L<<224.0,480.0>--<224.0,466.0>>
 
-	* v (U+0076) contains a short segment L<<338.0,466.0>--<338.0,480.0>> 
+	* v (U+0076) contains a short segment L<<338.0,466.0>--<338.0,480.0>>
 
-	* v (U+0076) contains a short segment L<<545.0,480.0>--<545.0,466.0>> [code: found-short-segments]
+	* v (U+0076) contains a short segment L<<545.0,480.0>--<545.0,466.0>>
+
+	* ecircumflex (U+00EA) contains a short segment L<<135.0,254.0>--<135.0,250.0>> 
+
+	* abreve (U+0103) contains a short segment L<<386.0,67.0>--<376.0,67.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2223,7 +2241,13 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* g (U+0067): X=382.5,Y=0.5 (should be at baseline 0?) [code: found-misalignments]
+	* g (U+0067): X=408.5,Y=0.5 (should be at baseline 0?)
+
+	* g (U+0067): X=38.0,Y=-234.5 (should be at descender -235?)
+
+	* g (U+0067): X=524.5,Y=479.0 (should be at x-height 480?) 
+
+	* g (U+0067): X=144.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -2390,7 +2414,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 16 | 19 | 246 | 13 | 181 | 0 |
+| 0 | 16 | 20 | 246 | 13 | 180 | 0 |
 | 0% | 3% | 4% | 52% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
