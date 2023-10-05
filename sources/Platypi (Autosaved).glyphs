@@ -7008,7 +7008,7 @@ unicode = 57;
 },
 {
 glyphname = space;
-lastChange = "2023-09-12 11:41:08 +0000";
+lastChange = "2023-10-05 06:31:12 +0000";
 layers = (
 {
 layerId = m01;
@@ -7016,10 +7016,11 @@ width = 265;
 },
 {
 layerId = m002;
-width = 265;
+width = 260;
 }
 );
 unicode = 32;
+changeCount = 1;
 },
 {
 glyphname = period;
