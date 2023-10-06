@@ -4819,7 +4819,7 @@ unicode = 100;
 {
 color = 8;
 glyphname = e;
-lastChange = "2023-10-05 04:50:01 +0000";
+lastChange = "2023-10-06 00:37:07 +0000";
 layers = (
 {
 guides = (
@@ -5220,6 +5220,12 @@ nodes = (
 (84,-16,o),
 (248,-16,cs)
 );
+},
+{
+closed = 0;
+nodes = (
+(-2286,2515,l)
+);
 }
 );
 width = 559;
@@ -5228,6 +5234,7 @@ width = 559;
 metricLeft = "=o";
 metricRight = "=o";
 unicode = 101;
+changeCount = 2;
 },
 {
 glyphname = f;
