@@ -14,13 +14,13 @@
 
 Inspired by the enigmatic platypus, Platypi blends unexpected features with conventional approaches. Dramatically tapered strokes and sheared wedge serifs combine with smooth curves and traditional proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. Heavier weights push this tension further with increased tapering and overall contrast.
 
-The original design (pictured below) was produced while completing a Certificate in Type Design by Type West / Letterform Archive in 2022. This design had multiple weights from Regular to Black, alongside a Regular Italic style. 
+An original design for Platypi was produced while completing a Certificate in Type Design at Type West / Letterform Archive in 2022. This design had multiple weights from Regular to Black, alongside a Regular Italic style. 
 
-Letterforms are currently being redrawn. The aim of the project is to add additional italic weights (Regular to Black) and variable Roman and Italic options.
+All letterforms are currently being redrawn after reflection and space away from the project. The current goal is to redraw the characters as well as add additional italic weights (Regular to Black) and develop variable Roman and Italic options.
 
-![Sample Image](documentation/platypi-image-initial-draft.png)
+![Sample Image](documentation/platypi-sample-image-oct-2023.png)
 
-## About
+## About the Designer
 
 David Sargent is Creative Director of Liveworm, a work-integrated learning incubator within the Queensland College of Art & Design, Griffith University. Liveworm operates as a working design studio for students to engage with a broad range of ‘real world’ projects for not-for-profit, cultural, educational, and small to medium commercial clients. As a design researcher, David is interested in how creative practice can engage, communicate, and spark social change. His studio practice focuses on typography, expressive lettering, and disruptive augmented reality, with creative works exhibited in Australian and international galleries. He releases typefaces under the moniker Bolt Cutter Type.
 
@@ -39,7 +39,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 ## Changelog
 
 **18 August 2023. Version 0.01**
-- Original drawings from 2022 imported for development.
+- Original letterforms from 2022 imported for development.
 
 ## License
 
