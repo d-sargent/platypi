@@ -14,9 +14,9 @@
 
 Inspired by the enigmatic platypus, Platypi blends unexpected features with conventional approaches. Dramatically tapered strokes and sheared wedge serifs combine with smooth curves and traditional proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. Heavier weights push this tension further with increased tapering and overall contrast.
 
-An original design for Platypi was produced while completing a Certificate in Type Design at Type West / Letterform Archive in 2022. This design had multiple weights from Regular to Black, alongside a Regular Italic style. 
+An original design for Platypi was produced while completing a Certificate in Type Design at Type West / Letterform Archive in 2022. The aim of the project was to create a 'latin' wedge serif model suitable for long-form text usage. The original design had multiple weights from Regular to Black, alongside a Regular Italic style. 
 
-All letterforms are currently being redrawn after reflection and space away from the project. The current goal is to redraw the characters as well as add additional italic weights (Regular to Black) and develop variable Roman and Italic options.
+All letterforms are currently being redrawn after reflection and time away from the project. The current goal is to refine the design as well as add additional italic weights (Regular to Black).
 
 ![Sample Image](documentation/platypi-sample-image-oct-2023.png)
 
