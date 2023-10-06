@@ -38,8 +38,11 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-**18 August 2023. Version 0.01**
-- Original letterforms from 2022 imported for development.
+**August 2023. Version 0.02**
+- Updated design started and uploaded onto GitHub.
+
+**December 2022. Version 0.01**
+- Original version created while studying at Type West.
 
 ## License
 

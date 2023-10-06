@@ -26,7 +26,9 @@ EFIT,
 "C    cAO",
 c,
 "google egged
-google egged    "
+glad lice
+google egged
+glad lice    "
 );
 axes = (
 {
@@ -6165,7 +6167,7 @@ unicode = 104;
 {
 color = 8;
 glyphname = i;
-lastChange = "2023-10-05 07:26:02 +0000";
+lastChange = "2023-10-06 02:38:43 +0000";
 layers = (
 {
 anchors = (
