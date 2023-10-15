@@ -28,7 +28,9 @@ c,
 "google egged
 glad lice
 google egged
-glad lice    "
+glad lice    ",
+e,
+g
 );
 axes = (
 {
@@ -48,7 +50,7 @@ familyName = Platypi;
 fontMaster = (
 {
 axesValues = (
-400
+300
 );
 guides = (
 {
@@ -90,12 +92,12 @@ over = -16;
 pos = 13;
 }
 );
-name = Italic;
+name = "Light Italic";
 visible = 1;
 },
 {
 axesValues = (
-900
+800
 );
 id = "B15366B1-D24E-431F-AB58-0431975245D7";
 metricValues = (
@@ -122,7 +124,7 @@ pos = -235;
 pos = 13;
 }
 );
-name = "Black Italic";
+name = "Extra Bold Italic";
 }
 );
 glyphs = (
@@ -4823,7 +4825,7 @@ unicode = 100;
 {
 color = 8;
 glyphname = e;
-lastChange = "2023-10-06 00:37:07 +0000";
+lastChange = "2023-10-15 04:44:45 +0000";
 layers = (
 {
 guides = (
@@ -9493,46 +9495,44 @@ unicode = 775;
 instances = (
 {
 axesValues = (
-400
+300
 );
 instanceInterpolations = {
 m01 = 1;
 };
-isItalic = 1;
-linkStyle = Platypi;
-name = Italic;
+name = "Light Italic";
+weightClass = 300;
 },
 {
 axesValues = (
-500
+390
 );
 instanceInterpolations = {
-"B15366B1-D24E-431F-AB58-0431975245D7" = 0.2;
-m01 = 0.8;
+"B15366B1-D24E-431F-AB58-0431975245D7" = 0.18;
+m01 = 0.82;
 };
-name = "Medium Italic";
-weightClass = 500;
+name = Regular;
 },
 {
 axesValues = (
-600
+550
 );
 instanceInterpolations = {
-"B15366B1-D24E-431F-AB58-0431975245D7" = 0.4;
-m01 = 0.6;
+"B15366B1-D24E-431F-AB58-0431975245D7" = 0.5;
+m01 = 0.5;
 };
-name = "SemiBold Italic";
+name = "Semi Bold";
 weightClass = 600;
 },
 {
 axesValues = (
-700
+690
 );
 instanceInterpolations = {
-"B15366B1-D24E-431F-AB58-0431975245D7" = 0.6;
-m01 = 0.4;
+"B15366B1-D24E-431F-AB58-0431975245D7" = 0.78;
+m01 = 0.22;
 };
-name = "Bold Italic";
+name = Bold;
 weightClass = 700;
 },
 {
@@ -9540,21 +9540,10 @@ axesValues = (
 800
 );
 instanceInterpolations = {
-"B15366B1-D24E-431F-AB58-0431975245D7" = 0.8;
-m01 = 0.2;
-};
-name = "ExtraBold Italic";
-weightClass = 800;
-},
-{
-axesValues = (
-900
-);
-instanceInterpolations = {
 "B15366B1-D24E-431F-AB58-0431975245D7" = 1;
 };
-name = "Black Italic";
-weightClass = 900;
+name = "Extra Bold Italic";
+weightClass = 800;
 }
 );
 metrics = (
