@@ -16,7 +16,7 @@ Inspired by the enigmatic platypus, Platypi blends unexpected features with conv
 
 An original design for Platypi was produced while completing a Certificate in Type Design at Type West / Letterform Archive in 2022. The aim of the project was to create a 'latin' wedge serif model suitable for long-form text usage. The original design had multiple weights from Regular to Black, alongside a Regular Italic style. 
 
-All letterforms are currently being redrawn after reflection and time away from the project. The current goal is to refine the design as well as add additional italic weights (Regular to Black).
+All letterforms are currently being redrawn after reflection and time away from the project. The current goal is to refine the design as well as add additional matching weights in the italic.
 
 ![Sample Image](documentation/platypi-sample-image-oct-2023.png)
 
