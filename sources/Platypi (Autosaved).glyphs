@@ -5903,6 +5903,7 @@ width = 580;
 }
 );
 unicode = 234;
+changeCount = 1;
 },
 {
 glyphname = f;
