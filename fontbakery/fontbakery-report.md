@@ -807,7 +807,7 @@ Fontbakery version: 0.8.13
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -2040,7 +2040,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -3187,7 +3187,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -3411,25 +3411,25 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* C (U+0043): X=611.5,Y=688.0 (should be at cap-height 690?)
+	* a (U+0061): X=582.0,Y=502.0 (should be at x-height 500?)
 
-	* c (U+0063): X=453.5,Y=499.0 (should be at x-height 500?)
+	* a (U+0061): X=611.0,Y=502.0 (should be at x-height 500?)
 
-	* g (U+0067): X=374.0,Y=-234.0 (should be at descender -235?) 
+	* g (U+0067): X=378.0,Y=-234.0 (should be at descender -235?) 
 
-	* g (U+0067): X=63.0,Y=-234.0 (should be at descender -235?) [code: found-misalignments]
+	* g (U+0067): X=67.0,Y=-234.0 (should be at descender -235?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* A (U+0041) contains a short segment L<<12.0,83.0>--<12.0,83.0>>
+	* A (U+0041) contains a short segment L<<13.0,85.0>--<13.0,85.0>>
 
-	* D (U+0044) contains a short segment L<<54.0,82.0>--<54.0,82.0>>
+	* D (U+0044) contains a short segment L<<54.0,84.0>--<54.0,84.0>>
 
 	* E (U+0045) contains a short segment L<<-22.0,0.0>--<-15.0,23.0>>
 
-	* E (U+0045) contains a short segment L<<54.0,82.0>--<54.0,82.0>>
+	* E (U+0045) contains a short segment L<<54.0,84.0>--<54.0,84.0>>
 
 	* E (U+0045) contains a short segment L<<115.0,668.0>--<122.0,690.0>>
 
@@ -3443,87 +3443,93 @@ The following glyphs do not have the recommended number of contours:
 
 	* E (U+0045) contains a short segment L<<540.0,166.0>--<564.0,166.0>>
 
-	* F (U+0046) contains a short segment L<<54.0,82.0>--<54.0,82.0>>
+	* F (U+0046) contains a short segment L<<54.0,84.0>--<54.0,84.0>>
 
 	* F (U+0046) contains a short segment L<<623.0,698.0>--<642.0,698.0>>
 
 	* H (U+0048) contains a short segment L<<-22.0,0.0>--<-15.0,23.0>>
 
-	* H (U+0048) contains a short segment L<<54.0,82.0>--<54.0,82.0>>
+	* H (U+0048) contains a short segment L<<54.0,84.0>--<54.0,84.0>>
 
 	* H (U+0048) contains a short segment L<<115.0,668.0>--<122.0,690.0>>
 
 	* H (U+0048) contains a short segment L<<443.0,690.0>--<436.0,667.0>>
 
-	* H (U+0048) contains a short segment L<<367.0,608.0>--<367.0,608.0>>
+	* H (U+0048) contains a short segment L<<367.0,606.0>--<367.0,606.0>>
 
 	* H (U+0048) contains a short segment L<<526.0,668.0>--<533.0,690.0>>
 
 	* H (U+0048) contains a short segment L<<854.0,690.0>--<847.0,667.0>>
 
-	* H (U+0048) contains a short segment L<<778.0,608.0>--<778.0,608.0>>
+	* H (U+0048) contains a short segment L<<778.0,606.0>--<778.0,606.0>>
 
 	* H (U+0048) contains a short segment L<<717.0,22.0>--<710.0,0.0>>
 
 	* H (U+0048) contains a short segment L<<389.0,0.0>--<396.0,23.0>>
 
-	* H (U+0048) contains a short segment L<<465.0,82.0>--<465.0,82.0>>
+	* H (U+0048) contains a short segment L<<465.0,84.0>--<465.0,84.0>>
 
 	* H (U+0048) contains a short segment L<<306.0,22.0>--<299.0,0.0>>
 
-	* I (U+0049) contains a short segment L<<54.0,82.0>--<54.0,82.0>>
+	* I (U+0049) contains a short segment L<<54.0,84.0>--<54.0,84.0>>
 
-	* I (U+0049) contains a short segment L<<367.0,608.0>--<367.0,608.0>>
+	* I (U+0049) contains a short segment L<<367.0,606.0>--<367.0,606.0>>
 
-	* L (U+004C) contains a short segment L<<54.0,82.0>--<54.0,82.0>>
+	* L (U+004C) contains a short segment L<<54.0,84.0>--<54.0,84.0>>
 
-	* L (U+004C) contains a short segment L<<367.0,608.0>--<367.0,608.0>>
+	* L (U+004C) contains a short segment L<<367.0,606.0>--<367.0,606.0>>
 
-	* T (U+0054) contains a short segment L<<217.0,82.0>--<217.0,82.0>>
+	* T (U+0054) contains a short segment L<<217.0,84.0>--<217.0,84.0>>
 
 	* T (U+0054) contains a short segment L<<131.0,698.0>--<150.0,698.0>>
 
 	* T (U+0054) contains a short segment L<<762.0,698.0>--<781.0,698.0>>
 
-	* V (U+0056) contains a short segment L<<151.0,607.0>--<150.0,607.0>>
+	* V (U+0056) contains a short segment L<<151.0,605.0>--<151.0,605.0>>
 
-	* V (U+0056) contains a short segment L<<759.0,607.0>--<757.0,607.0>>
+	* a (U+0061) contains a short segment L<<366.0,194.0>--<365.0,194.0>>
 
-	* a (U+0061) contains a short segment L<<360.0,194.0>--<358.0,194.0>>
+	* a (U+0061) contains a short segment L<<418.0,420.0>--<418.0,420.0>>
 
-	* a (U+0061) contains a short segment L<<411.0,420.0>--<411.0,420.0>>
+	* d (U+0064) contains a short segment L<<366.0,194.0>--<365.0,194.0>>
 
-	* d (U+0064) contains a short segment L<<360.0,194.0>--<358.0,194.0>>
+	* d (U+0064) contains a short segment L<<418.0,420.0>--<418.0,420.0>>
 
-	* d (U+0064) contains a short segment L<<411.0,420.0>--<411.0,420.0>>
+	* h (U+0068) contains a short segment L<<89.0,679.0>--<95.0,700.0>>
 
-	* h (U+0068) contains a short segment L<<97.0,680.0>--<102.0,698.0>>
+	* h (U+0068) contains a short segment L<<257.0,306.0>--<259.0,306.0>>
 
-	* h (U+0068) contains a short segment L<<257.0,277.0>--<259.0,277.0>>
+	* h (U+0068) contains a short segment L<<206.0,82.0>--<206.0,82.0>>
 
-	* m (U+006D) contains a short segment B<<119.5,421.5>-<114.0,441.0>-<100.0,441.0>>
+	* m (U+006D) contains a short segment B<<111.5,421.5>-<106.0,441.0>-<92.0,441.0>>
 
-	* m (U+006D) contains a short segment B<<100.0,441.0>-<87.0,441.0>-<76.0,425.5>>
+	* m (U+006D) contains a short segment B<<92.0,441.0>-<79.0,441.0>-<68.0,425.5>>
 
-	* m (U+006D) contains a short segment L<<270.0,277.0>--<271.0,277.0>>
+	* m (U+006D) contains a short segment L<<268.0,306.0>--<270.0,306.0>>
 
-	* m (U+006D) contains a short segment L<<596.0,277.0>--<597.0,277.0>>
+	* m (U+006D) contains a short segment L<<594.0,306.0>--<595.0,306.0>>
 
-	* m (U+006D) contains a short segment B<<893.0,59.0>-<905.0,59.0>-<916.5,75.0>>
+	* m (U+006D) contains a short segment B<<861.0,78.0>-<864.0,59.0>-<878.0,59.0>>
 
-	* n (U+006E) contains a short segment L<<270.0,277.0>--<271.0,277.0>>
+	* m (U+006D) contains a short segment B<<878.0,59.0>-<891.0,59.0>-<902.0,74.5>>
 
-	* p (U+0070) contains a short segment L<<-70.0,-235.0>--<-65.0,-217.0>>
+	* m (U+006D) contains a short segment L<<217.0,82.0>--<217.0,82.0>>
 
-	* p (U+0070) contains a short segment L<<276.0,306.0>--<278.0,306.0>>
+	* n (U+006E) contains a short segment L<<273.0,306.0>--<275.0,306.0>>
 
-	* p (U+0070) contains a short segment L<<170.0,-162.0>--<170.0,-162.0>>
+	* n (U+006E) contains a short segment L<<222.0,82.0>--<222.0,82.0>>
 
-	* p (U+0070) contains a short segment L<<260.0,-217.0>--<255.0,-235.0>>
+	* p (U+0070) contains a short segment L<<-73.0,-235.0>--<-68.0,-217.0>>
 
-	* p (U+0070) contains a short segment L<<225.0,80.0>--<225.0,80.0>> 
+	* p (U+0070) contains a short segment L<<273.0,306.0>--<275.0,306.0>>
 
-	* u (U+0075) contains a short segment L<<398.0,223.0>--<396.0,223.0>> [code: found-short-segments]
+	* p (U+0070) contains a short segment L<<167.0,-162.0>--<167.0,-162.0>>
+
+	* p (U+0070) contains a short segment L<<257.0,-217.0>--<252.0,-235.0>>
+
+	* p (U+0070) contains a short segment L<<222.0,80.0>--<222.0,80.0>> 
+
+	* u (U+0075) contains a short segment L<<389.0,194.0>--<388.0,194.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -4374,7 +4380,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -4725,27 +4731,27 @@ The following glyphs do not have the recommended number of contours:
 
 	* d (U+0064) contains a short segment L<<345.0,210.0>--<343.0,210.0>>
 
-	* h (U+0068) contains a short segment L<<112.0,701.0>--<116.0,716.0>>
+	* h (U+0068) contains a short segment L<<108.0,701.0>--<112.0,716.0>>
 
-	* h (U+0068) contains a short segment L<<280.0,765.0>--<297.0,765.0>>
+	* h (U+0068) contains a short segment L<<276.0,765.0>--<293.0,765.0>>
 
-	* h (U+0068) contains a short segment L<<180.0,253.0>--<182.0,253.0>>
+	* h (U+0068) contains a short segment L<<176.0,253.0>--<178.0,253.0>>
 
-	* m (U+006D) contains a short segment L<<205.0,253.0>--<207.0,253.0>>
+	* m (U+006D) contains a short segment L<<201.0,253.0>--<203.0,253.0>>
 
-	* m (U+006D) contains a short segment L<<501.0,253.0>--<503.0,253.0>>
+	* m (U+006D) contains a short segment L<<497.0,253.0>--<499.0,253.0>>
 
-	* n (U+006E) contains a short segment L<<205.0,253.0>--<207.0,253.0>>
+	* n (U+006E) contains a short segment L<<201.0,253.0>--<203.0,253.0>>
 
-	* p (U+0070) contains a short segment L<<106.0,-179.0>--<106.0,-179.0>>
+	* p (U+0070) contains a short segment L<<102.0,-179.0>--<102.0,-179.0>>
 
-	* p (U+0070) contains a short segment L<<207.0,-220.0>--<203.0,-235.0>>
+	* p (U+0070) contains a short segment L<<203.0,-220.0>--<199.0,-235.0>>
 
-	* p (U+0070) contains a short segment L<<-54.0,-235.0>--<-50.0,-220.0>>
+	* p (U+0070) contains a short segment L<<-58.0,-235.0>--<-54.0,-220.0>>
 
-	* p (U+0070) contains a short segment L<<209.0,270.0>--<212.0,270.0>> 
+	* p (U+0070) contains a short segment L<<205.0,270.0>--<208.0,270.0>> 
 
-	* u (U+0075) contains a short segment L<<404.0,227.0>--<402.0,227.0>> [code: found-short-segments]
+	* u (U+0075) contains a short segment L<<400.0,227.0>--<398.0,227.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -5571,7 +5577,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -5990,7 +5996,7 @@ The following glyphs do not have the recommended number of contours:
 	* T (U+0054): L<<53.0,698.0>--<64.0,698.0>> -> L<<64.0,698.0>--<174.0,690.0>> 
 
 	* T (U+0054): L<<64.0,698.0>--<174.0,690.0>> -> L<<174.0,690.0>--<522.0,690.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[25] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[26] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -6824,7 +6830,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -7048,29 +7054,27 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* d (U+0064): X=418.0,Y=489.0 (should be at x-height 490?)
+	* d (U+0064): X=422.0,Y=489.0 (should be at x-height 490?)
 
-	* d (U+0064): X=384.0,Y=691.0 (should be at cap-height 690?)
+	* g (U+0067): X=50.5,Y=-234.5 (should be at descender -235?) 
 
-	* g (U+0067): X=48.5,Y=-234.5 (should be at descender -235?)
-
-	* h (U+0068): X=105.0,Y=691.0 (should be at cap-height 690?)
-
-	* l (U+006C): X=105.0,Y=691.0 (should be at cap-height 690?) 
-
-	* p (U+0070): X=177.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
+	* p (U+0070): X=173.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* A (U+0041) contains a short segment L<<14.0,78.0>--<14.0,78.0>>
+	* A (U+0041) contains a short segment L<<14.0,79.0>--<14.0,79.0>>
 
-	* D (U+0044) contains a short segment L<<183.0,613.0>--<183.0,613.0>>
+	* D (U+0044) contains a short segment L<<59.0,79.0>--<59.0,78.0>>
+
+	* D (U+0044) contains a short segment L<<183.0,612.0>--<183.0,613.0>>
 
 	* E (U+0045) contains a short segment L<<-23.0,0.0>--<-18.0,20.0>>
 
-	* E (U+0045) contains a short segment L<<183.0,613.0>--<183.0,613.0>>
+	* E (U+0045) contains a short segment L<<59.0,79.0>--<59.0,78.0>>
+
+	* E (U+0045) contains a short segment L<<183.0,612.0>--<183.0,613.0>>
 
 	* E (U+0045) contains a short segment L<<119.0,671.0>--<124.0,690.0>>
 
@@ -7084,7 +7088,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* E (U+0045) contains a short segment L<<528.0,159.0>--<548.0,159.0>>
 
-	* F (U+0046) contains a short segment L<<183.0,613.0>--<183.0,613.0>>
+	* F (U+0046) contains a short segment L<<59.0,79.0>--<59.0,78.0>>
+
+	* F (U+0046) contains a short segment L<<183.0,612.0>--<183.0,613.0>>
 
 	* F (U+0046) contains a short segment L<<119.0,671.0>--<124.0,690.0>>
 
@@ -7102,17 +7108,23 @@ The following glyphs do not have the recommended number of contours:
 
 	* H (U+0048) contains a short segment L<<-23.0,0.0>--<-18.0,20.0>>
 
-	* H (U+0048) contains a short segment L<<183.0,613.0>--<183.0,613.0>>
+	* H (U+0048) contains a short segment L<<59.0,79.0>--<59.0,78.0>>
+
+	* H (U+0048) contains a short segment L<<183.0,612.0>--<183.0,613.0>>
 
 	* H (U+0048) contains a short segment L<<119.0,671.0>--<124.0,690.0>>
 
 	* H (U+0048) contains a short segment L<<408.0,690.0>--<402.0,671.0>>
 
-	* H (U+0048) contains a short segment L<<593.0,613.0>--<593.0,613.0>>
+	* H (U+0048) contains a short segment L<<326.0,612.0>--<325.0,612.0>>
+
+	* H (U+0048) contains a short segment L<<593.0,612.0>--<593.0,613.0>>
 
 	* H (U+0048) contains a short segment L<<529.0,671.0>--<534.0,690.0>>
 
 	* H (U+0048) contains a short segment L<<818.0,690.0>--<812.0,671.0>>
+
+	* H (U+0048) contains a short segment L<<736.0,612.0>--<735.0,612.0>>
 
 	* H (U+0048) contains a short segment L<<611.0,78.0>--<612.0,78.0>>
 
@@ -7120,15 +7132,27 @@ The following glyphs do not have the recommended number of contours:
 
 	* H (U+0048) contains a short segment L<<387.0,0.0>--<392.0,20.0>>
 
+	* H (U+0048) contains a short segment L<<469.0,79.0>--<469.0,78.0>>
+
 	* H (U+0048) contains a short segment L<<201.0,78.0>--<202.0,78.0>>
 
 	* H (U+0048) contains a short segment L<<266.0,19.0>--<260.0,0.0>>
 
-	* I (U+0049) contains a short segment L<<183.0,613.0>--<183.0,613.0>>
+	* I (U+0049) contains a short segment L<<59.0,79.0>--<59.0,78.0>>
+
+	* I (U+0049) contains a short segment L<<183.0,612.0>--<183.0,613.0>>
+
+	* I (U+0049) contains a short segment L<<326.0,612.0>--<325.0,612.0>>
 
 	* I (U+0049) contains a short segment L<<201.0,78.0>--<202.0,78.0>>
 
-	* L (U+004C) contains a short segment L<<183.0,613.0>--<183.0,613.0>>
+	* L (U+004C) contains a short segment L<<59.0,79.0>--<59.0,78.0>>
+
+	* L (U+004C) contains a short segment L<<183.0,612.0>--<183.0,613.0>>
+
+	* L (U+004C) contains a short segment L<<326.0,612.0>--<325.0,612.0>>
+
+	* T (U+0054) contains a short segment L<<228.0,79.0>--<228.0,78.0>>
 
 	* T (U+0054) contains a short segment L<<139.0,698.0>--<154.0,698.0>>
 
@@ -7136,47 +7160,45 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054) contains a short segment L<<371.0,78.0>--<371.0,78.0>>
 
-	* V (U+0056) contains a short segment L<<153.0,612.0>--<153.0,612.0>>
+	* V (U+0056) contains a short segment L<<101.0,671.0>--<105.0,690.0>>
 
-	* V (U+0056) contains a short segment L<<101.0,671.0>--<106.0,690.0>>
-
-	* V (U+0056) contains a short segment L<<372.0,690.0>--<366.0,671.0>>
+	* V (U+0056) contains a short segment L<<371.0,690.0>--<366.0,671.0>>
 
 	* V (U+0056) contains a short segment L<<526.0,671.0>--<531.0,690.0>>
 
-	* V (U+0056) contains a short segment L<<788.0,690.0>--<782.0,671.0>>
+	* V (U+0056) contains a short segment L<<789.0,690.0>--<784.0,671.0>>
 
-	* V (U+0056) contains a short segment L<<716.0,612.0>--<715.0,612.0>>
+	* a (U+0061) contains a short segment L<<356.0,202.0>--<354.0,202.0>>
 
-	* a (U+0061) contains a short segment L<<352.0,202.0>--<351.0,202.0>>
+	* d (U+0064) contains a short segment L<<356.0,202.0>--<354.0,202.0>>
 
-	* c (U+0063) contains a short segment B<<342.0,441.0>-<339.0,441.0>-<336.0,441.0>>
+	* h (U+0068) contains a short segment L<<99.0,690.0>--<104.0,708.0>>
 
-	* d (U+0064) contains a short segment L<<384.0,691.0>--<388.0,707.0>>
+	* h (U+0068) contains a short segment L<<305.0,765.0>--<328.0,765.0>>
 
-	* d (U+0064) contains a short segment L<<352.0,202.0>--<351.0,202.0>>
+	* h (U+0068) contains a short segment L<<216.0,280.0>--<219.0,280.0>>
 
-	* h (U+0068) contains a short segment L<<105.0,691.0>--<109.0,707.0>>
+	* h (U+0068) contains a short segment L<<162.0,41.0>--<162.0,41.0>>
 
-	* h (U+0068) contains a short segment L<<310.0,765.0>--<333.0,765.0>>
+	* m (U+006D) contains a short segment L<<235.0,280.0>--<237.0,280.0>>
 
-	* h (U+0068) contains a short segment L<<219.0,265.0>--<221.0,265.0>>
+	* m (U+006D) contains a short segment L<<546.0,280.0>--<547.0,280.0>>
 
-	* m (U+006D) contains a short segment L<<237.0,265.0>--<239.0,265.0>>
+	* m (U+006D) contains a short segment L<<180.0,41.0>--<180.0,41.0>>
 
-	* m (U+006D) contains a short segment L<<548.0,265.0>--<550.0,265.0>>
+	* n (U+006E) contains a short segment L<<237.0,280.0>--<239.0,280.0>>
 
-	* n (U+006E) contains a short segment L<<237.0,265.0>--<239.0,265.0>>
+	* p (U+0070) contains a short segment L<<-65.0,-235.0>--<-61.0,-218.0>>
 
-	* p (U+0070) contains a short segment L<<-62.0,-235.0>--<-57.0,-218.0>>
+	* p (U+0070) contains a short segment L<<239.0,288.0>--<242.0,288.0>>
 
-	* p (U+0070) contains a short segment L<<243.0,288.0>--<245.0,288.0>>
+	* p (U+0070) contains a short segment L<<134.0,-170.0>--<135.0,-170.0>>
 
-	* p (U+0070) contains a short segment L<<138.0,-170.0>--<138.0,-170.0>>
+	* p (U+0070) contains a short segment L<<230.0,-218.0>--<226.0,-235.0>>
 
-	* p (U+0070) contains a short segment L<<234.0,-218.0>--<229.0,-235.0>> 
+	* u (U+0075) contains a short segment L<<450.0,449.0>--<450.0,449.0>> 
 
-	* u (U+0075) contains a short segment L<<401.0,225.0>--<399.0,225.0>> [code: found-short-segments]
+	* u (U+0075) contains a short segment L<<395.0,211.0>--<393.0,211.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -7197,6 +7219,26 @@ The following glyphs do not have the recommended number of contours:
 	* T (U+0054): L<<264.0,690.0>--<608.0,690.0>> -> L<<608.0,690.0>--<735.0,698.0>> 
 
 	* T (U+0054): L<<608.0,690.0>--<735.0,698.0>> -> L<<735.0,698.0>--<750.0,698.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* D (U+0044): L<<59.0,79.0>--<59.0,78.0>>/L<<59.0,78.0>--<183.0,612.0>> = 13.072953876700758
+
+	* E (U+0045): L<<59.0,79.0>--<59.0,78.0>>/L<<59.0,78.0>--<183.0,612.0>> = 13.072953876700758
+
+	* F (U+0046): L<<59.0,79.0>--<59.0,78.0>>/L<<59.0,78.0>--<183.0,612.0>> = 13.072953876700758
+
+	* H (U+0048): L<<469.0,79.0>--<469.0,78.0>>/L<<469.0,78.0>--<526.0,328.0>> = 12.843882846882014
+
+	* H (U+0048): L<<59.0,79.0>--<59.0,78.0>>/L<<59.0,78.0>--<183.0,612.0>> = 13.072953876700758
+
+	* I (U+0049): L<<59.0,79.0>--<59.0,78.0>>/L<<59.0,78.0>--<183.0,612.0>> = 13.072953876700758
+
+	* L (U+004C): L<<59.0,79.0>--<59.0,78.0>>/L<<59.0,78.0>--<183.0,612.0>> = 13.072953876700758 
+
+	* T (U+0054): L<<228.0,79.0>--<228.0,78.0>>/L<<228.0,78.0>--<359.0,642.0>> = 13.076202960029233 [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[22] Platypi-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -8019,7 +8061,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -9197,7 +9239,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -9532,7 +9574,7 @@ The following glyphs do not have the recommended number of contours:
 	* T (U+0054): L<<39.0,518.0>--<40.0,704.0>> 
 
 	* T (U+0054): L<<689.0,704.0>--<690.0,518.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[24] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[23] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -10362,7 +10404,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -10581,25 +10623,29 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* d (U+0064): X=425.0,Y=497.0 (should be at x-height 496?)
+	* d (U+0064): X=430.0,Y=497.0 (should be at x-height 496?)
 
-	* g (U+0067): X=356.0,Y=-233.0 (should be at descender -235?)
+	* g (U+0067): X=359.5,Y=-233.0 (should be at descender -235?)
 
-	* g (U+0067): X=56.5,Y=-234.0 (should be at descender -235?) 
+	* g (U+0067): X=59.5,Y=-234.0 (should be at descender -235?) 
 
-	* p (U+0070): X=193.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
+	* p (U+0070): X=190.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* A (U+0041) contains a short segment L<<13.0,81.0>--<13.0,81.0>>
+	* A (U+0041) contains a short segment L<<13.0,82.0>--<14.0,82.0>>
 
-	* C (U+0043) contains a short segment B<<496.0,644.0>-<490.0,645.0>-<484.0,645.0>>
+	* C (U+0043) contains a short segment B<<487.0,644.0>-<482.0,645.0>-<476.0,645.0>>
+
+	* D (U+0044) contains a short segment L<<56.0,82.0>--<56.0,82.0>>
 
 	* D (U+0044) contains a short segment L<<179.0,610.0>--<179.0,610.0>>
 
 	* E (U+0045) contains a short segment L<<-23.0,0.0>--<-16.0,21.0>>
+
+	* E (U+0045) contains a short segment L<<56.0,82.0>--<56.0,82.0>>
 
 	* E (U+0045) contains a short segment L<<179.0,610.0>--<179.0,610.0>>
 
@@ -10615,6 +10661,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* E (U+0045) contains a short segment L<<535.0,163.0>--<557.0,163.0>>
 
+	* F (U+0046) contains a short segment L<<56.0,82.0>--<56.0,82.0>>
+
 	* F (U+0046) contains a short segment L<<179.0,610.0>--<179.0,610.0>>
 
 	* F (U+0046) contains a short segment L<<616.0,698.0>--<634.0,698.0>>
@@ -10623,11 +10671,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* H (U+0048) contains a short segment L<<-23.0,0.0>--<-16.0,21.0>>
 
+	* H (U+0048) contains a short segment L<<56.0,82.0>--<56.0,82.0>>
+
 	* H (U+0048) contains a short segment L<<179.0,610.0>--<179.0,610.0>>
 
 	* H (U+0048) contains a short segment L<<117.0,669.0>--<123.0,690.0>>
 
 	* H (U+0048) contains a short segment L<<427.0,690.0>--<421.0,669.0>>
+
+	* H (U+0048) contains a short segment L<<349.0,608.0>--<348.0,608.0>>
 
 	* H (U+0048) contains a short segment L<<589.0,610.0>--<589.0,610.0>>
 
@@ -10635,21 +10687,35 @@ The following glyphs do not have the recommended number of contours:
 
 	* H (U+0048) contains a short segment L<<838.0,690.0>--<832.0,669.0>>
 
+	* H (U+0048) contains a short segment L<<759.0,608.0>--<759.0,608.0>>
+
 	* H (U+0048) contains a short segment L<<636.0,80.0>--<636.0,80.0>>
 
 	* H (U+0048) contains a short segment L<<699.0,21.0>--<692.0,0.0>>
 
 	* H (U+0048) contains a short segment L<<388.0,0.0>--<394.0,21.0>>
 
+	* H (U+0048) contains a short segment L<<467.0,82.0>--<467.0,82.0>>
+
 	* H (U+0048) contains a short segment L<<226.0,80.0>--<226.0,80.0>>
 
 	* H (U+0048) contains a short segment L<<288.0,21.0>--<282.0,0.0>>
 
+	* I (U+0049) contains a short segment L<<56.0,82.0>--<56.0,82.0>>
+
 	* I (U+0049) contains a short segment L<<179.0,610.0>--<179.0,610.0>>
+
+	* I (U+0049) contains a short segment L<<349.0,608.0>--<348.0,608.0>>
 
 	* I (U+0049) contains a short segment L<<226.0,80.0>--<226.0,80.0>>
 
+	* L (U+004C) contains a short segment L<<56.0,82.0>--<56.0,82.0>>
+
 	* L (U+004C) contains a short segment L<<179.0,610.0>--<179.0,610.0>>
+
+	* L (U+004C) contains a short segment L<<349.0,608.0>--<348.0,608.0>>
+
+	* T (U+0054) contains a short segment L<<222.0,82.0>--<222.0,82.0>>
 
 	* T (U+0054) contains a short segment L<<134.0,698.0>--<152.0,698.0>>
 
@@ -10657,39 +10723,43 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054) contains a short segment L<<392.0,80.0>--<392.0,80.0>>
 
-	* V (U+0056) contains a short segment L<<152.0,609.0>--<151.0,609.0>>
+	* V (U+0056) contains a short segment L<<152.0,608.0>--<152.0,608.0>>
 
-	* V (U+0056) contains a short segment L<<740.0,609.0>--<739.0,609.0>>
+	* a (U+0061) contains a short segment L<<362.0,198.0>--<360.0,198.0>>
 
-	* a (U+0061) contains a short segment L<<357.0,198.0>--<355.0,198.0>>
+	* a (U+0061) contains a short segment L<<414.0,425.0>--<414.0,425.0>>
 
-	* d (U+0064) contains a short segment L<<388.0,685.0>--<393.0,702.0>>
+	* d (U+0064) contains a short segment L<<362.0,198.0>--<360.0,198.0>>
 
-	* d (U+0064) contains a short segment L<<357.0,198.0>--<355.0,198.0>>
+	* d (U+0064) contains a short segment L<<414.0,425.0>--<414.0,425.0>>
 
-	* h (U+0068) contains a short segment L<<100.0,685.0>--<105.0,702.0>>
+	* h (U+0068) contains a short segment L<<93.0,684.0>--<99.0,704.0>>
 
-	* h (U+0068) contains a short segment L<<240.0,272.0>--<242.0,272.0>>
+	* h (U+0068) contains a short segment L<<239.0,294.0>--<241.0,294.0>>
 
-	* m (U+006D) contains a short segment B<<125.0,420.0>-<120.0,440.0>-<106.0,440.0>>
+	* m (U+006D) contains a short segment B<<118.0,420.0>-<113.0,440.0>-<98.0,440.0>>
 
-	* m (U+006D) contains a short segment L<<255.0,272.0>--<257.0,272.0>>
+	* m (U+006D) contains a short segment L<<253.0,294.0>--<255.0,294.0>>
 
-	* m (U+006D) contains a short segment L<<575.0,272.0>--<576.0,272.0>>
+	* m (U+006D) contains a short segment L<<573.0,294.0>--<574.0,294.0>>
 
-	* n (U+006E) contains a short segment L<<255.0,272.0>--<257.0,272.0>>
+	* m (U+006D) contains a short segment B<<836.0,76.0>-<839.0,56.0>-<854.0,56.0>>
 
-	* p (U+0070) contains a short segment L<<-66.0,-235.0>--<-62.0,-218.0>>
+	* m (U+006D) contains a short segment L<<201.0,64.0>--<201.0,64.0>>
 
-	* p (U+0070) contains a short segment L<<261.0,298.0>--<263.0,298.0>>
+	* n (U+006E) contains a short segment L<<257.0,294.0>--<259.0,294.0>>
 
-	* p (U+0070) contains a short segment L<<156.0,-166.0>--<156.0,-166.0>>
+	* p (U+0070) contains a short segment L<<-70.0,-235.0>--<-65.0,-218.0>>
 
-	* p (U+0070) contains a short segment L<<248.0,-218.0>--<244.0,-235.0>>
+	* p (U+0070) contains a short segment L<<258.0,298.0>--<260.0,298.0>>
 
-	* p (U+0070) contains a short segment L<<210.0,71.0>--<210.0,71.0>> 
+	* p (U+0070) contains a short segment L<<152.0,-166.0>--<153.0,-166.0>>
 
-	* u (U+0075) contains a short segment L<<400.0,224.0>--<397.0,224.0>> [code: found-short-segments]
+	* p (U+0070) contains a short segment L<<245.0,-218.0>--<240.0,-235.0>>
+
+	* u (U+0075) contains a short segment L<<445.0,432.0>--<445.0,432.0>> 
+
+	* u (U+0075) contains a short segment L<<391.0,201.0>--<390.0,201.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -10710,14 +10780,6 @@ The following glyphs do not have the recommended number of contours:
 	* T (U+0054): L<<262.0,690.0>--<616.0,690.0>> -> L<<616.0,690.0>--<750.0,698.0>> 
 
 	* T (U+0054): L<<616.0,690.0>--<750.0,698.0>> -> L<<750.0,698.0>--<767.0,698.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* a (U+0061): L<<408.0,425.0>--<408.0,424.0>>/L<<408.0,424.0>--<410.0,432.0>> = 14.036243467926484 
-
-	* d (U+0064): L<<408.0,425.0>--<408.0,424.0>>/L<<408.0,424.0>--<410.0,432.0>> = 14.036243467926484 [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[21] Platypi-RegularItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -11548,7 +11610,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -11754,11 +11816,11 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* g (U+0067): X=39.0,Y=-234.5 (should be at descender -235?)
+	* g (U+0067): X=40.0,Y=-234.5 (should be at descender -235?)
 
-	* g (U+0067): X=104.0,Y=2.0 (should be at baseline 0?) 
+	* g (U+0067): X=105.0,Y=2.0 (should be at baseline 0?) 
 
-	* g (U+0067): X=537.5,Y=482.0 (should be at x-height 484?) [code: found-misalignments]
+	* g (U+0067): X=537.0,Y=482.0 (should be at x-height 484?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -11766,7 +11828,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* A (U+0041) contains a short segment L<<-54.0,0.0>--<-49.0,17.0>>
 
-	* A (U+0041) contains a short segment L<<14.0,75.0>--<15.0,75.0>>
+	* A (U+0041) contains a short segment L<<15.0,75.0>--<15.0,75.0>>
 
 	* A (U+0041) contains a short segment L<<269.0,673.0>--<274.0,690.0>>
 
@@ -11776,9 +11838,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* A (U+0041) contains a short segment L<<178.0,17.0>--<174.0,0.0>>
 
+	* D (U+0044) contains a short segment L<<61.0,75.0>--<61.0,75.0>>
+
 	* D (U+0044) contains a short segment L<<187.0,615.0>--<187.0,615.0>>
 
 	* E (U+0045) contains a short segment L<<-24.0,0.0>--<-20.0,17.0>>
+
+	* E (U+0045) contains a short segment L<<61.0,75.0>--<61.0,75.0>>
 
 	* E (U+0045) contains a short segment L<<187.0,615.0>--<187.0,615.0>>
 
@@ -11795,6 +11861,8 @@ The following glyphs do not have the recommended number of contours:
 	* E (U+0045) contains a short segment L<<520.0,154.0>--<538.0,154.0>>
 
 	* F (U+0046) contains a short segment L<<-24.0,0.0>--<-20.0,17.0>>
+
+	* F (U+0046) contains a short segment L<<61.0,75.0>--<61.0,75.0>>
 
 	* F (U+0046) contains a short segment L<<187.0,615.0>--<187.0,615.0>>
 
@@ -11814,11 +11882,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* H (U+0048) contains a short segment L<<-24.0,0.0>--<-20.0,17.0>>
 
+	* H (U+0048) contains a short segment L<<61.0,75.0>--<61.0,75.0>>
+
 	* H (U+0048) contains a short segment L<<187.0,615.0>--<187.0,615.0>>
 
 	* H (U+0048) contains a short segment L<<121.0,673.0>--<125.0,690.0>>
 
 	* H (U+0048) contains a short segment L<<385.0,690.0>--<380.0,673.0>>
+
+	* H (U+0048) contains a short segment L<<299.0,615.0>--<299.0,615.0>>
 
 	* H (U+0048) contains a short segment L<<596.0,615.0>--<596.0,615.0>>
 
@@ -11826,23 +11898,37 @@ The following glyphs do not have the recommended number of contours:
 
 	* H (U+0048) contains a short segment L<<794.0,690.0>--<790.0,673.0>>
 
+	* H (U+0048) contains a short segment L<<708.0,615.0>--<708.0,615.0>>
+
 	* H (U+0048) contains a short segment L<<583.0,75.0>--<583.0,75.0>>
 
 	* H (U+0048) contains a short segment L<<649.0,17.0>--<644.0,0.0>>
 
 	* H (U+0048) contains a short segment L<<385.0,0.0>--<389.0,17.0>>
 
+	* H (U+0048) contains a short segment L<<471.0,75.0>--<471.0,75.0>>
+
 	* H (U+0048) contains a short segment L<<174.0,75.0>--<174.0,75.0>>
 
 	* H (U+0048) contains a short segment L<<240.0,17.0>--<235.0,0.0>>
 
+	* I (U+0049) contains a short segment L<<61.0,75.0>--<61.0,75.0>>
+
 	* I (U+0049) contains a short segment L<<187.0,615.0>--<187.0,615.0>>
+
+	* I (U+0049) contains a short segment L<<299.0,615.0>--<299.0,615.0>>
 
 	* I (U+0049) contains a short segment L<<174.0,75.0>--<174.0,75.0>>
 
+	* L (U+004C) contains a short segment L<<61.0,75.0>--<61.0,75.0>>
+
 	* L (U+004C) contains a short segment L<<187.0,615.0>--<187.0,615.0>>
 
-	* T (U+0054) contains a short segment L<<149.0,0.0>--<154.0,17.0>>
+	* L (U+004C) contains a short segment L<<299.0,615.0>--<299.0,615.0>>
+
+	* T (U+0054) contains a short segment L<<148.0,0.0>--<153.0,17.0>>
+
+	* T (U+0054) contains a short segment L<<235.0,75.0>--<235.0,75.0>>
 
 	* T (U+0054) contains a short segment L<<141.0,545.0>--<124.0,545.0>>
 
@@ -11854,7 +11940,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054) contains a short segment L<<347.0,75.0>--<347.0,75.0>>
 
-	* T (U+0054) contains a short segment L<<413.0,17.0>--<409.0,0.0>>
+	* T (U+0054) contains a short segment L<<414.0,17.0>--<410.0,0.0>>
 
 	* V (U+0056) contains a short segment L<<101.0,673.0>--<106.0,690.0>>
 
@@ -11864,37 +11950,59 @@ The following glyphs do not have the recommended number of contours:
 
 	* V (U+0056) contains a short segment L<<512.0,673.0>--<517.0,690.0>>
 
-	* V (U+0056) contains a short segment L<<764.0,690.0>--<759.0,673.0>>
+	* V (U+0056) contains a short segment L<<764.0,690.0>--<760.0,673.0>>
 
 	* V (U+0056) contains a short segment L<<688.0,615.0>--<688.0,615.0>>
 
-	* a (U+0061) contains a short segment L<<348.0,207.0>--<346.0,207.0>>
+	* a (U+0061) contains a short segment L<<349.0,207.0>--<347.0,207.0>>
 
-	* d (U+0064) contains a short segment L<<378.0,697.0>--<382.0,713.0>>
+	* c (U+0063) contains a short segment B<<325.0,444.0>-<321.0,445.0>-<315.0,445.0>>
 
-	* d (U+0064) contains a short segment L<<348.0,207.0>--<346.0,207.0>>
+	* d (U+0064) contains a short segment L<<379.0,697.0>--<384.0,713.0>>
 
-	* h (U+0068) contains a short segment L<<109.0,697.0>--<113.0,713.0>>
+	* d (U+0064) contains a short segment L<<349.0,207.0>--<347.0,207.0>>
 
-	* h (U+0068) contains a short segment L<<291.0,765.0>--<310.0,765.0>>
+	* h (U+0068) contains a short segment L<<105.0,697.0>--<109.0,713.0>>
 
-	* h (U+0068) contains a short segment L<<194.0,257.0>--<196.0,257.0>>
+	* h (U+0068) contains a short segment L<<286.0,765.0>--<305.0,765.0>>
 
-	* m (U+006D) contains a short segment L<<217.0,257.0>--<219.0,257.0>>
+	* h (U+0068) contains a short segment L<<190.0,263.0>--<193.0,263.0>>
 
-	* m (U+006D) contains a short segment L<<518.0,257.0>--<520.0,257.0>>
+	* h (U+0068) contains a short segment L<<134.0,15.0>--<134.0,15.0>>
 
-	* n (U+006E) contains a short segment L<<217.0,257.0>--<219.0,257.0>>
+	* h (U+0068) contains a short segment L<<134.0,15.0>--<130.0,0.0>>
 
-	* p (U+0070) contains a short segment L<<117.0,-176.0>--<118.0,-176.0>>
+	* m (U+006D) contains a short segment L<<213.0,263.0>--<215.0,263.0>>
 
-	* p (U+0070) contains a short segment L<<217.0,-219.0>--<212.0,-235.0>>
+	* m (U+006D) contains a short segment L<<515.0,263.0>--<516.0,263.0>>
 
-	* p (U+0070) contains a short segment L<<-57.0,-235.0>--<-53.0,-219.0>>
+	* m (U+006D) contains a short segment L<<458.0,15.0>--<458.0,15.0>>
 
-	* p (U+0070) contains a short segment L<<221.0,276.0>--<224.0,276.0>> 
+	* m (U+006D) contains a short segment L<<458.0,15.0>--<454.0,0.0>>
 
-	* u (U+0075) contains a short segment L<<403.0,226.0>--<401.0,226.0>> [code: found-short-segments]
+	* m (U+006D) contains a short segment L<<156.0,15.0>--<156.0,15.0>>
+
+	* m (U+006D) contains a short segment L<<156.0,15.0>--<153.0,0.0>>
+
+	* n (U+006E) contains a short segment L<<214.0,263.0>--<216.0,263.0>>
+
+	* n (U+006E) contains a short segment L<<157.0,15.0>--<157.0,15.0>>
+
+	* n (U+006E) contains a short segment L<<157.0,15.0>--<154.0,0.0>>
+
+	* p (U+0070) contains a short segment L<<114.0,-176.0>--<114.0,-176.0>>
+
+	* p (U+0070) contains a short segment L<<213.0,-219.0>--<209.0,-235.0>>
+
+	* p (U+0070) contains a short segment L<<-61.0,-235.0>--<-57.0,-219.0>>
+
+	* p (U+0070) contains a short segment L<<217.0,276.0>--<220.0,276.0>>
+
+	* u (U+0075) contains a short segment L<<455.0,469.0>--<455.0,469.0>>
+
+	* u (U+0075) contains a short segment L<<455.0,469.0>--<458.0,484.0>> 
+
+	* u (U+0075) contains a short segment L<<398.0,221.0>--<396.0,221.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
