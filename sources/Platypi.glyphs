@@ -13,7 +13,7 @@ knitting
 ratting
 ratting
 jellyshots
-jellyshots
+ȷjellyshots
 Platypi
 Platypi 
 blowout
@@ -10407,7 +10407,7 @@ unicode = 305;
 {
 color = 8;
 glyphname = j;
-lastChange = "2023-10-31 11:25:20 +0000";
+lastChange = "2023-11-01 12:32:20 +0000";
 layers = (
 {
 layerId = m01;
@@ -10429,11 +10429,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (75,0);
+pos = (76,0);
 ref = dotaccentcomb;
 }
 );
-width = 340;
+width = 341;
 }
 );
 unicode = 106;
@@ -10441,7 +10441,7 @@ unicode = 106;
 {
 color = 8;
 glyphname = jdotless;
-lastChange = "2023-10-29 23:15:20 +0000";
+lastChange = "2023-11-01 12:32:20 +0000";
 layers = (
 {
 anchors = (
@@ -10479,7 +10479,7 @@ width = 293;
 anchors = (
 {
 name = top;
-pos = (185,500);
+pos = (186,500);
 }
 );
 layerId = m002;
@@ -10487,25 +10487,25 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(128,-123,l),
-(-17,-81,l),
-(-31,-90,l),
-(-31,-235,l),
-(-17,-235,l),
-(144,-235,o),
-(271,-110,o),
-(271,49,cs),
-(271,510,l),
-(238,510,l),
-(22,442,l),
-(22,418,l),
-(134,321,l),
-(91,384,l),
-(91,-177,l)
+(129,-123,l),
+(-16,-81,l),
+(-30,-90,l),
+(-30,-235,l),
+(-16,-235,l),
+(145,-235,o),
+(272,-110,o),
+(272,49,cs),
+(272,510,l),
+(239,510,l),
+(23,442,l),
+(23,418,l),
+(135,321,l),
+(92,384,l),
+(92,-177,l)
 );
 }
 );
-width = 340;
+width = 341;
 }
 );
 unicode = 567;
