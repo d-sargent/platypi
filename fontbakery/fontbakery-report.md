@@ -3237,7 +3237,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* exclam (U+0021): X=193.0,Y=692.0 (should be at cap-height 690?)
 
-	* ampersand (U+0026): X=711.0,Y=1.5 (should be at baseline 0?)
+	* ampersand (U+0026): X=746.5,Y=1.5 (should be at baseline 0?)
+
+	* ampersand (U+0026): X=596.5,Y=-0.5 (should be at baseline 0?)
+
+	* ampersand (U+0026): X=440.0,Y=-0.5 (should be at baseline 0?)
 
 	* question (U+003F): X=116.5,Y=689.0 (should be at cap-height 690?)
 
@@ -7448,7 +7452,11 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* ampersand (U+0026): X=421.0,Y=691.5 (should be at cap-height 690?)
+	* ampersand (U+0026): X=435.5,Y=690.5 (should be at cap-height 690?)
+
+	* ampersand (U+0026): X=578.5,Y=0.5 (should be at baseline 0?)
+
+	* ampersand (U+0026): X=425.5,Y=0.5 (should be at baseline 0?)
 
 	* question (U+003F): X=115.0,Y=689.5 (should be at cap-height 690?)
 
@@ -9566,6 +9574,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* exclam (U+0021): X=221.0,Y=691.0 (should be at cap-height 690?)
 
+	* ampersand (U+0026): X=497.5,Y=689.0 (should be at cap-height 690?)
+
+	* ampersand (U+0026): X=465.5,Y=-2.0 (should be at baseline 0?)
+
 	* question (U+003F): X=119.0,Y=688.0 (should be at cap-height 690?)
 
 	* M (U+004D): X=482.0,Y=-2.0 (should be at baseline 0?)
@@ -10513,6 +10525,8 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
 	* exclam (U+0021): X=244.0,Y=689.0 (should be at cap-height 690?)
+
+	* ampersand (U+0026): X=533.0,Y=688.0 (should be at cap-height 690?)
 
 	* M (U+004D): X=493.0,Y=-1.0 (should be at baseline 0?)
 
