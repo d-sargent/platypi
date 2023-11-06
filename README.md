@@ -24,6 +24,20 @@ All letterforms are currently being redrawn after reflection and time away from 
 
 David Sargent is Creative Director of Liveworm, a work-integrated learning incubator within the Queensland College of Art & Design, Griffith University. Liveworm operates as a working design studio for students to engage with a broad range of ‘real world’ projects for not-for-profit, cultural, educational, and small to medium commercial clients. As a design researcher, David is interested in how creative practice can engage, communicate, and spark social change. His studio practice focuses on typography, expressive lettering, and disruptive augmented reality, with creative works exhibited in Australian and international galleries. He releases typefaces under the moniker Bolt Cutter Type.
 
+## Contributors
+
+The original design was developed while studying at Type West under the direction of:
+
+* Juan Villanueva [Website](http://www.juankafka.com)
+* Lynne Yun [Website](http://www.lynneyun.com)
+* Gen Ramirez [Website](https://genramirez.com)
+
+Additional direction and polish provided by:
+
+* Troy Leinster [Website](https://www.leinstertype.com)
+
+This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished.
+
 ## Building
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
