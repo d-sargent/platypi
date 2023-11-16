@@ -20871,7 +20871,7 @@ unicode = 114;
 {
 color = 4;
 glyphname = s;
-lastChange = "2023-11-15 06:35:02 +0000";
+lastChange = "2023-11-16 22:25:22 +0000";
 layers = (
 {
 layerId = m01;
@@ -20943,7 +20943,7 @@ nodes = (
 (375,427,o),
 (394,392,c),
 (394,492,l),
-(295,492,l),
+(291,492,l),
 (427,320,l),
 (456,320,l),
 (515,467,l),
@@ -20963,7 +20963,7 @@ nodes = (
 (167,74,o),
 (148,108,c),
 (148,8,l),
-(247,8,l),
+(251,8,l),
 (115,187,l),
 (86,187,l),
 (27,37,l),
@@ -21983,6 +21983,7 @@ width = 552;
 metricLeft = "=o*0.8";
 metricRight = "=o";
 unicode = 115;
+changeCount = 8;
 },
 {
 color = 4;
@@ -27219,7 +27220,7 @@ width = 788;
 {
 background = {
 backgroundImage = {
-imagePath = "../../../../Desktop/Screenshot 2023-11-16 at 4.26.11 pm.png";
+imagePath = "/Users/davidsargent/Desktop/Screenshot 2023-11-16 at 4.26.11 pm.png";
 pos = (-118,-148);
 scale = (12.0863,12.0863);
 };
@@ -27306,7 +27307,7 @@ width = 795;
 associatedMasterId = m01;
 background = {
 backgroundImage = {
-imagePath = "../../../../Desktop/Screenshot 2023-11-16 at 4.26.11 pm.png";
+imagePath = "/Users/davidsargent/Desktop/Screenshot 2023-11-16 at 4.26.11 pm.png";
 pos = (-118,-148);
 scale = (12.0863,12.0863);
 };
@@ -27644,7 +27645,7 @@ width = 864;
 associatedMasterId = m01;
 background = {
 backgroundImage = {
-imagePath = "../../../../Desktop/Screenshot 2023-11-16 at 4.26.11 pm.png";
+imagePath = "/Users/davidsargent/Desktop/Screenshot 2023-11-16 at 4.26.11 pm.png";
 pos = (-118,-148);
 scale = (12.0863,12.0863);
 };
@@ -29700,7 +29701,7 @@ width = 788;
 {
 background = {
 backgroundImage = {
-imagePath = "../../../../Desktop/Screenshot 2023-11-16 at 4.26.11 pm.png";
+imagePath = "/Users/davidsargent/Desktop/Screenshot 2023-11-16 at 4.26.11 pm.png";
 pos = (-118,-148);
 scale = (12.0863,12.0863);
 };
@@ -29787,7 +29788,7 @@ width = 795;
 associatedMasterId = m01;
 background = {
 backgroundImage = {
-imagePath = "../../../../Desktop/Screenshot 2023-11-16 at 4.26.11 pm.png";
+imagePath = "/Users/davidsargent/Desktop/Screenshot 2023-11-16 at 4.26.11 pm.png";
 pos = (-118,-148);
 scale = (12.0863,12.0863);
 };
@@ -30125,7 +30126,7 @@ width = 864;
 associatedMasterId = m01;
 background = {
 backgroundImage = {
-imagePath = "../../../../Desktop/Screenshot 2023-11-16 at 4.26.11 pm.png";
+imagePath = "/Users/davidsargent/Desktop/Screenshot 2023-11-16 at 4.26.11 pm.png";
 pos = (-118,-148);
 scale = (12.0863,12.0863);
 };
