@@ -53,17 +53,17 @@ The proof files and QA tests are also available automatically via GitHub Actions
 ## Changelog
 
 **August 2023. Version 0.2**
-- Redrawn design started and uploaded onto GitHub
-– Upright roman design in light and extra bold weights
-– Matching italic design in light and extra bold weights
-– Reconfigured vertical metrics for larger x-height
-– New version features a streamlined serif design
+* Redrawn design started and uploaded onto GitHub
+* Upright roman design in light and extra bold weights
+* Matching italic design in light and extra bold weights
+* Reconfigured vertical metrics for larger x-height
+* New version features a streamlined serif design
 
 **December 2022. Version 0.1**
-- Original version created while studying at Type West
-– Upright roman design in light weight
-– Upright roman design in extra bold weight
-– Italic design in light weight only
+* Original version created while studying at Type West
+* Upright roman design in light weight
+* Upright roman design in extra bold weight
+* Italic design in light weight only
 
 ## License
 
