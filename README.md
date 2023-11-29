@@ -14,9 +14,9 @@
 
 Inspired by the enigmatic platypus, Platypi blends unexpected features with conventional approaches. Dramatically tapered strokes and sheared wedge serifs combine with smooth curves and traditional proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. Heavier weights push this tension further with increased tapering and overall contrast.
 
-An original design for Platypi was produced while completing a Certificate in Type Design at Type West / Letterform Archive in 2022. The aim of the project was to create a 'latin' wedge serif model suitable for long-form text usage. The original design had multiple weights from Regular to Black, alongside a Regular Italic style. 
+An original design for Platypi was produced while completing a Certificate in Type Design at Type West / Letterform Archive in 2022. The aim of the project was to create a 'latin' wedge serif model suitable for long-form text usage. The original design featured multiple weights, alongside a single weight italic style. 
 
-All letterforms are currently being redrawn after reflection and time away from the project. The current goal is to refine the design as well as add additional matching weights in the italic.
+All letterforms are currently being redrawn after reflection and time away from the project. All weights will have matching italic styles.
 
 ![Sample Image](documentation/platypi-sample-image-oct-2023.png)
 
@@ -32,7 +32,7 @@ The original design was developed while studying at Type West under the directio
 * Lynne Yun [Website](http://www.lynneyun.com)
 * Gen Ramirez [Website](https://genramirez.com)
 
-Additional direction and polish provided by:
+Additional direction, polish, and advice provided by:
 
 * Troy Leinster [Website](https://www.leinstertype.com)
 
@@ -52,11 +52,18 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-**August 2023. Version 0.02**
-- Updated design started and uploaded onto GitHub.
+**August 2023. Version 0.2**
+- Redrawn design started and uploaded onto GitHub
+– Upright roman design in light and extra bold weights
+– Matching italic design in light and extra bold weights
+– Reconfigured vertical metrics for larger x-height
+– New version features a streamlined serif design
 
-**December 2022. Version 0.01**
-- Original version created while studying at Type West.
+**December 2022. Version 0.1**
+- Original version created while studying at Type West
+– Upright roman design in light weight
+– Upright roman design in extra bold weight
+– Italic design in light weight only
 
 ## License
 

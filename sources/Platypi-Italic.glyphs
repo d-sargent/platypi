@@ -33,7 +33,8 @@ silver",
 c,
 "vmh  vwmyv",
 rxmv,
-O
+OQ,
+f
 );
 axes = (
 {
@@ -5038,9 +5039,9 @@ metricRight = "=H";
 unicode = 78;
 },
 {
-color = 9;
+color = 6;
 glyphname = O;
-lastChange = "2023-11-28 09:07:26 +0000";
+lastChange = "2023-11-28 09:08:19 +0000";
 layers = (
 {
 anchors = (
@@ -5058,7 +5059,7 @@ pos = (582,10);
 },
 {
 name = qtail;
-pos = (419,0);
+pos = (425,0);
 },
 {
 name = top;
@@ -5871,7 +5872,7 @@ unicode = 80;
 {
 color = 1;
 glyphname = Q;
-lastChange = "2023-11-28 09:07:31 +0000";
+lastChange = "2023-11-28 09:08:19 +0000";
 layers = (
 {
 layerId = m01;
@@ -5880,7 +5881,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (374,0);
+pos = (380,0);
 ref = _tail.Q;
 }
 );
@@ -22730,5 +22731,5 @@ oV = "92";
 };
 };
 versionMajor = 0;
-versionMinor = 2;
+versionMinor = 200;
 }
