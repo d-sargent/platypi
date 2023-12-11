@@ -17,7 +17,7 @@ vyvy",
 z,
 Z,
 kzt,
-"10692S538034HOiȷjiȷfȷjz   "
+"10692S538034HOiȷjiȷfȷjzesa   "
 );
 axes = (
 {
@@ -26482,7 +26482,7 @@ unicode = 49;
 },
 {
 glyphname = two;
-lastChange = "2023-12-11 11:35:34 +0000";
+lastChange = "2023-12-11 22:33:04 +0000";
 layers = (
 {
 layerId = m01;
@@ -26525,7 +26525,7 @@ nodes = (
 );
 }
 );
-width = 577;
+width = 587;
 },
 {
 layerId = "B15366B1-D24E-431F-AB58-0431975245D7";
@@ -26533,7 +26533,7 @@ width = 600;
 }
 );
 metricLeft = "=o";
-metricRight = "=o";
+metricRight = "=o+10";
 unicode = 50;
 },
 {
