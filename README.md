@@ -57,7 +57,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 * Upright roman design in light and extra bold weights
 * Matching italic design in light and extra bold weights
 * Reconfigured vertical metrics for larger x-height
-* New version features a streamlined serif design
+* Streamlined serif design
 
 **December 2022. Version 0.1**
 * Original version created while studying at Type West
