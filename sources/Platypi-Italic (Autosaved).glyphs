@@ -9,7 +9,10 @@ t,
 "AĄ/ogonekcomb.case ̨ąĄEĘIĮUŲ",
 "@",
 "0%
-0%"
+0%",
+"̦",
+"/ogonekcomb.case",
+"4"
 );
 axes = (
 {
@@ -687,7 +690,7 @@ unicode = 256;
 },
 {
 glyphname = Aogonek;
-lastChange = "2024-01-08 01:36:02 +0000";
+lastChange = "2024-01-08 02:08:00 +0000";
 layers = (
 {
 layerId = m01;
@@ -709,7 +712,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (446,0);
+pos = (445,0);
 ref = ogonekcomb.case;
 }
 );
@@ -717,6 +720,7 @@ width = 749;
 }
 );
 unicode = 260;
+changeCount = 1;
 },
 {
 glyphname = Aring;
@@ -3936,7 +3940,7 @@ unicode = 274;
 },
 {
 glyphname = Eogonek;
-lastChange = "2024-01-08 01:36:19 +0000";
+lastChange = "2024-01-08 02:08:00 +0000";
 layers = (
 {
 layerId = m01;
@@ -3958,7 +3962,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (286,0);
+pos = (285,0);
 ref = ogonekcomb.case;
 }
 );
@@ -3966,6 +3970,7 @@ width = 616;
 }
 );
 unicode = 280;
+changeCount = 1;
 },
 {
 color = 8;
@@ -6168,7 +6173,7 @@ unicode = 298;
 },
 {
 glyphname = Iogonek;
-lastChange = "2024-01-08 01:36:33 +0000";
+lastChange = "2024-01-08 02:08:00 +0000";
 layers = (
 {
 layerId = m01;
@@ -6190,7 +6195,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (49,0);
+pos = (48,0);
 ref = ogonekcomb.case;
 }
 );
@@ -6198,6 +6203,7 @@ width = 381;
 }
 );
 unicode = 302;
+changeCount = 1;
 },
 {
 color = 8;
@@ -11877,7 +11883,7 @@ unicode = 362;
 },
 {
 glyphname = Uogonek;
-lastChange = "2024-01-08 01:36:41 +0000";
+lastChange = "2024-01-08 02:08:00 +0000";
 layers = (
 {
 layerId = m01;
@@ -11899,7 +11905,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (264,0);
+pos = (263,0);
 ref = ogonekcomb.case;
 }
 );
@@ -11907,6 +11913,7 @@ width = 752;
 }
 );
 unicode = 370;
+changeCount = 1;
 },
 {
 glyphname = Uring;
@@ -36182,7 +36189,7 @@ unicode = 51;
 {
 color = 8;
 glyphname = four;
-lastChange = "2024-01-04 00:55:03 +0000";
+lastChange = "2024-01-08 02:07:58 +0000";
 layers = (
 {
 layerId = m01;
@@ -36192,9 +36199,9 @@ closed = 1;
 nodes = (
 (51,178,l),
 (66,211,l),
-(539,677,l),
-(539,690,l),
-(403,690,l),
+(527,677,l),
+(527,690,l),
+(391,690,l),
 (14,206,l),
 (22,178,l)
 );
@@ -36233,9 +36240,9 @@ closed = 1;
 nodes = (
 (53,178,l),
 (71,211,l),
-(631,666,l),
-(631,690,l),
-(371,690,l),
+(621,666,l),
+(621,690,l),
+(361,690,l),
 (8,207,l),
 (19,169,l)
 );
@@ -42081,7 +42088,6 @@ width = 334;
 );
 metricLeft = "=o";
 metricRight = "=o";
-changeCount = 1;
 },
 {
 glyphname = strokeshortcomb.case;
