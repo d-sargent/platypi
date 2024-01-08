@@ -7,57 +7,6 @@ Fontbakery version: 0.8.13
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x002F (SOLIDUS)
-
-
-	- 0x005C (REVERSE SOLIDUS)
-
-
-	- 0x0028 (LEFT PARENTHESIS)
-
-
-	- 0x0029 (RIGHT PARENTHESIS)
-
-
-	- 0x007B (LEFT CURLY BRACKET)
-
-
-	- 0x007D (RIGHT CURLY BRACKET)
-
-
-	- 0x005B (LEFT SQUARE BRACKET)
-
-
-	- 0x005D (RIGHT SQUARE BRACKET)
-
-
-	- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-	- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
-	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
-	- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-	- 0x0022 (QUOTATION MARK)
-
-
-	- 0x0027 (APOSTROPHE)
-
-
-	- 0x007C (VERTICAL LINE)
-
-
 	- 0x002B (PLUS SIGN)
 
 
@@ -104,12 +53,6 @@ Fontbakery version: 0.8.13
 
 
 	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-	- 0x2039 (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
-
-
-	- 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
 
 
 	- 0x00B6 (PILCROW SIGN)
@@ -306,6 +249,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* exclam (U+0021): X=350.0,Y=691.0 (should be at cap-height 690?)
 
+	* parenright (U+0029): X=129.0,Y=766.0 (should be at ascender 765?)
+
+	* parenright (U+0029): X=-101.0,Y=-234.0 (should be at descender -235?)
+
 	* question (U+003F): X=240.5,Y=691.0 (should be at cap-height 690?)
 
 	* at (U+0040): X=477.5,Y=689.0 (should be at cap-height 690?)
@@ -410,9 +357,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* Cdotaccent (U+010A): X=412.0,Y=763.5 (should be at ascender 765?)
 
+	* ccaron (U+010D): X=365.0,Y=689.0 (should be at cap-height 690?)
+
 	* Edotaccent (U+0116): X=368.0,Y=763.5 (should be at ascender 765?)
 
 	* Eogonek (U+0118): X=364.0,Y=-2.0 (should be at baseline 0?)
+
+	* ecaron (U+011B): X=365.0,Y=689.0 (should be at cap-height 690?)
 
 	* Gbreve (U+011E): X=584.0,Y=688.0 (should be at cap-height 690?)
 
@@ -436,9 +387,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* nacute (U+0144): X=593.0,Y=692.0 (should be at cap-height 690?)
 
+	* ncaron (U+0148): X=424.0,Y=689.0 (should be at cap-height 690?)
+
 	* racute (U+0155): X=516.0,Y=692.0 (should be at cap-height 690?)
 
+	* rcaron (U+0159): X=347.0,Y=689.0 (should be at cap-height 690?)
+
 	* sacute (U+015B): X=503.0,Y=692.0 (should be at cap-height 690?)
+
+	* scaron (U+0161): X=334.0,Y=689.0 (should be at cap-height 690?)
 
 	* Ubreve (U+016C): X=413.0,Y=766.5 (should be at ascender 765?)
 
@@ -454,6 +411,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* Zdotaccent (U+017B): X=360.0,Y=763.5 (should be at ascender 765?)
 
+	* zcaron (U+017E): X=358.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni01CE (U+01CE): X=399.0,Y=689.0 (should be at cap-height 690?)
+
+	* aeacute (U+01FD): X=720.0,Y=692.0 (should be at cap-height 690?)
+
+	* caron (U+02C7): X=294.0,Y=689.0 (should be at cap-height 690?)
+
 	* ring (U+02DA): X=177.5,Y=765.5 (should be at ascender 765?)
 
 	* acutecomb (U+0301): X=355.0,Y=692.0 (should be at cap-height 690?)
@@ -463,6 +428,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni0308 (U+0308): X=150.0,Y=691.0 (should be at cap-height 690?)
 
 	* uni030A (U+030A): X=177.5,Y=765.5 (should be at ascender 765?)
+
+	* uni030C (U+030C): X=294.0,Y=689.0 (should be at cap-height 690?)
 
 	* wacute (U+1E83): X=673.0,Y=692.0 (should be at cap-height 690?)
 
@@ -481,6 +448,10 @@ The following glyphs do not have the recommended number of contours:
 	* AE (U+00C6): L<<282.0,690.0>--<723.0,690.0>> -> L<<723.0,690.0>--<856.0,698.0>>
 
 	* AE (U+00C6): L<<723.0,690.0>--<856.0,698.0>> -> L<<856.0,698.0>--<871.0,698.0>>
+
+	* AEacute (U+01FC): L<<282.0,690.0>--<723.0,690.0>> -> L<<723.0,690.0>--<856.0,698.0>>
+
+	* AEacute (U+01FC): L<<723.0,690.0>--<856.0,698.0>> -> L<<856.0,698.0>--<871.0,698.0>>
 
 	* B (U+0042): L<<276.0,393.0>--<283.0,393.0>> -> L<<283.0,393.0>--<393.0,397.0>>
 
@@ -691,7 +662,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 522:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -1155,7 +1126,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 520:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -1514,57 +1485,6 @@ less, greater
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x002F (SOLIDUS)
-
-
-	- 0x005C (REVERSE SOLIDUS)
-
-
-	- 0x0028 (LEFT PARENTHESIS)
-
-
-	- 0x0029 (RIGHT PARENTHESIS)
-
-
-	- 0x007B (LEFT CURLY BRACKET)
-
-
-	- 0x007D (RIGHT CURLY BRACKET)
-
-
-	- 0x005B (LEFT SQUARE BRACKET)
-
-
-	- 0x005D (RIGHT SQUARE BRACKET)
-
-
-	- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-	- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
-	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
-	- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-	- 0x0022 (QUOTATION MARK)
-
-
-	- 0x0027 (APOSTROPHE)
-
-
-	- 0x007C (VERTICAL LINE)
-
-
 	- 0x002B (PLUS SIGN)
 
 
@@ -1611,12 +1531,6 @@ less, greater
 
 
 	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-	- 0x2039 (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
-
-
-	- 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
 
 
 	- 0x00B6 (PILCROW SIGN)
@@ -1813,6 +1727,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* exclam (U+0021): X=394.0,Y=688.0 (should be at cap-height 690?)
 
+	* parenright (U+0029): X=128.0,Y=766.0 (should be at ascender 765?)
+
+	* parenright (U+0029): X=-102.0,Y=-234.0 (should be at descender -235?)
+
 	* at (U+0040): X=740.5,Y=-237.0 (should be at descender -235?)
 
 	* at (U+0040): X=846.0,Y=1.0 (should be at baseline 0?)
@@ -1844,6 +1762,8 @@ The following glyphs do not have the recommended number of contours:
 	* x (U+0078): X=-19.0,Y=2.0 (should be at baseline 0?)
 
 	* x (U+0078): X=662.0,Y=498.0 (should be at x-height 500?)
+
+	* braceleft (U+007B): X=319.0,Y=689.5 (should be at cap-height 690?)
 
 	* acute (U+00B4): X=371.0,Y=689.0 (should be at cap-height 690?)
 
@@ -1961,6 +1881,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* zdotaccent (U+017C): X=379.0,Y=763.0 (should be at ascender 765?)
 
+	* aeacute (U+01FD): X=761.0,Y=689.0 (should be at cap-height 690?)
+
 	* dotaccent (U+02D9): X=233.0,Y=763.0 (should be at ascender 765?)
 
 	* tilde (U+02DC): X=397.0,Y=690.5 (should be at cap-height 690?)
@@ -1984,6 +1906,10 @@ The following glyphs do not have the recommended number of contours:
 	* AE (U+00C6): L<<298.0,690.0>--<750.0,690.0>> -> L<<750.0,690.0>--<902.0,698.0>>
 
 	* AE (U+00C6): L<<750.0,690.0>--<902.0,698.0>> -> L<<902.0,698.0>--<921.0,698.0>>
+
+	* AEacute (U+01FC): L<<298.0,690.0>--<750.0,690.0>> -> L<<750.0,690.0>--<902.0,698.0>>
+
+	* AEacute (U+01FC): L<<750.0,690.0>--<902.0,698.0>> -> L<<902.0,698.0>--<921.0,698.0>>
 
 	* E (U+0045): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>>
 
@@ -2194,7 +2120,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 514:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -2607,57 +2533,6 @@ less, greater
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x002F (SOLIDUS)
-
-
-	- 0x005C (REVERSE SOLIDUS)
-
-
-	- 0x0028 (LEFT PARENTHESIS)
-
-
-	- 0x0029 (RIGHT PARENTHESIS)
-
-
-	- 0x007B (LEFT CURLY BRACKET)
-
-
-	- 0x007D (RIGHT CURLY BRACKET)
-
-
-	- 0x005B (LEFT SQUARE BRACKET)
-
-
-	- 0x005D (RIGHT SQUARE BRACKET)
-
-
-	- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-	- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
-	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
-	- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-	- 0x0022 (QUOTATION MARK)
-
-
-	- 0x0027 (APOSTROPHE)
-
-
-	- 0x007C (VERTICAL LINE)
-
-
 	- 0x002B (PLUS SIGN)
 
 
@@ -2704,12 +2579,6 @@ less, greater
 
 
 	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-	- 0x2039 (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
-
-
-	- 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
 
 
 	- 0x00B6 (PILCROW SIGN)
@@ -2901,6 +2770,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* at (U+0040): X=806.0,Y=1.0 (should be at baseline 0?)
 
+	* bracketleft (U+005B): X=264.0,Y=692.0 (should be at cap-height 690?)
+
+	* bracketright (U+005D): X=231.0,Y=692.0 (should be at cap-height 690?)
+
 	* g (U+0067): X=6.5,Y=-237.0 (should be at descender -235?)
 
 	* g (U+0067): X=478.0,Y=478.0 (should be at x-height 480?)
@@ -2997,6 +2870,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* Zdotaccent (U+017B): X=349.0,Y=763.0 (should be at ascender 765?)
 
+	* aeacute (U+01FD): X=679.0,Y=692.0 (should be at cap-height 690?)
+
 	* acutecomb (U+0301): X=339.0,Y=692.0 (should be at cap-height 690?)
 
 	* uni0327 (U+0327): X=109.5,Y=-233.5 (should be at descender -235?)
@@ -3012,6 +2887,10 @@ The following glyphs do not have the recommended number of contours:
 	* AE (U+00C6): L<<265.0,690.0>--<696.0,690.0>> -> L<<696.0,690.0>--<810.0,698.0>>
 
 	* AE (U+00C6): L<<696.0,690.0>--<810.0,698.0>> -> L<<810.0,698.0>--<821.0,698.0>>
+
+	* AEacute (U+01FC): L<<265.0,690.0>--<696.0,690.0>> -> L<<696.0,690.0>--<810.0,698.0>>
+
+	* AEacute (U+01FC): L<<696.0,690.0>--<810.0,698.0>> -> L<<810.0,698.0>--<821.0,698.0>>
 
 	* E (U+0045): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>>
 
@@ -3243,7 +3122,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 512:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -3482,57 +3361,6 @@ less, greater
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x002F (SOLIDUS)
-
-
-	- 0x005C (REVERSE SOLIDUS)
-
-
-	- 0x0028 (LEFT PARENTHESIS)
-
-
-	- 0x0029 (RIGHT PARENTHESIS)
-
-
-	- 0x007B (LEFT CURLY BRACKET)
-
-
-	- 0x007D (RIGHT CURLY BRACKET)
-
-
-	- 0x005B (LEFT SQUARE BRACKET)
-
-
-	- 0x005D (RIGHT SQUARE BRACKET)
-
-
-	- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-	- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
-	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
-	- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-	- 0x0022 (QUOTATION MARK)
-
-
-	- 0x0027 (APOSTROPHE)
-
-
-	- 0x007C (VERTICAL LINE)
-
-
 	- 0x002B (PLUS SIGN)
 
 
@@ -3579,12 +3407,6 @@ less, greater
 
 
 	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-	- 0x2039 (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
-
-
-	- 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
 
 
 	- 0x00B6 (PILCROW SIGN)
@@ -3759,11 +3581,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* exclam (U+0021): X=321.0,Y=692.0 (should be at cap-height 690?)
 
+	* parenleft (U+0028): X=58.5,Y=1.5 (should be at baseline 0?)
+
 	* question (U+003F): X=232.5,Y=691.0 (should be at cap-height 690?)
 
 	* at (U+0040): X=813.0,Y=1.0 (should be at baseline 0?)
 
 	* G (U+0047): X=564.5,Y=689.0 (should be at cap-height 690?)
+
+	* bracketleft (U+005B): X=269.0,Y=688.0 (should be at cap-height 690?)
+
+	* bracketright (U+005D): X=228.0,Y=688.0 (should be at cap-height 690?)
 
 	* g (U+0067): X=495.0,Y=482.0 (should be at x-height 484?)
 
@@ -3811,9 +3639,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* Idotaccent (U+0130): X=226.5,Y=763.0 (should be at ascender 765?)
 
-	* Lcaron (U+013D): X=485.0,Y=692.0 (should be at cap-height 690?)
+	* Lcaron (U+013D): X=444.0,Y=692.0 (should be at cap-height 690?)
 
-	* Lcaron (U+013D): X=488.0,Y=692.0 (should be at cap-height 690?)
+	* Lcaron (U+013D): X=447.0,Y=692.0 (should be at cap-height 690?)
 
 	* lcaron (U+013E): X=358.0,Y=767.0 (should be at ascender 765?)
 
@@ -3849,9 +3677,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* tildecomb (U+0303): X=498.0,Y=691.0 (should be at cap-height 690?)
 
-	* uni030C (U+030C): X=161.0,Y=767.0 (should be at ascender 765?) 
+	* uni030C (U+030C): X=161.0,Y=767.0 (should be at ascender 765?)
 
-	* uni0327 (U+0327): X=110.0,Y=-234.0 (should be at descender -235?) [code: found-misalignments]
+	* uni0327 (U+0327): X=110.0,Y=-234.0 (should be at descender -235?)
+
+	* quoteright (U+2019): X=279.5,Y=688.0 (should be at cap-height 690?)
+
+	* quotedblright (U+201D): X=458.5,Y=688.0 (should be at cap-height 690?) 
+
+	* quotedblright (U+201D): X=279.5,Y=688.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -3860,6 +3694,10 @@ The following glyphs do not have the recommended number of contours:
 	* AE (U+00C6): L<<271.0,690.0>--<706.0,690.0>> -> L<<706.0,690.0>--<827.0,698.0>>
 
 	* AE (U+00C6): L<<706.0,690.0>--<827.0,698.0>> -> L<<827.0,698.0>--<839.0,698.0>>
+
+	* AEacute (U+01FC): L<<271.0,690.0>--<706.0,690.0>> -> L<<706.0,690.0>--<827.0,698.0>>
+
+	* AEacute (U+01FC): L<<706.0,690.0>--<827.0,698.0>> -> L<<827.0,698.0>--<839.0,698.0>>
 
 	* B (U+0042): L<<248.0,392.0>--<285.0,392.0>> -> L<<285.0,392.0>--<385.0,394.0>>
 
@@ -3950,61 +3788,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni021A (U+021A): L<<270.0,690.0>--<583.0,690.0>> -> L<<583.0,690.0>--<714.0,698.0>> 
 
 	* uni021A (U+021A): L<<583.0,690.0>--<714.0,698.0>> -> L<<714.0,698.0>--<727.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[22] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
-
-	- 0x002F (SOLIDUS)
-
-
-	- 0x005C (REVERSE SOLIDUS)
-
-
-	- 0x0028 (LEFT PARENTHESIS)
-
-
-	- 0x0029 (RIGHT PARENTHESIS)
-
-
-	- 0x007B (LEFT CURLY BRACKET)
-
-
-	- 0x007D (RIGHT CURLY BRACKET)
-
-
-	- 0x005B (LEFT SQUARE BRACKET)
-
-
-	- 0x005D (RIGHT SQUARE BRACKET)
-
-
-	- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-	- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
-	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
-	- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-	- 0x0022 (QUOTATION MARK)
-
-
-	- 0x0027 (APOSTROPHE)
-
-
-	- 0x007C (VERTICAL LINE)
-
 
 	- 0x002B (PLUS SIGN)
 
@@ -4052,12 +3839,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-	- 0x2039 (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
-
-
-	- 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
 
 
 	- 0x00B6 (PILCROW SIGN)
@@ -4238,208 +4019,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* exclam (U+0021): X=374.0,Y=689.0 (should be at cap-height 690?)
-
-	* at (U+0040): X=837.0,Y=1.0 (should be at baseline 0?)
-
-	* G (U+0047): X=503.5,Y=1.0 (should be at baseline 0?)
-
-	* J (U+004A): X=131.5,Y=-1.5 (should be at baseline 0?)
-
-	* N (U+004E): X=589.0,Y=-1.0 (should be at baseline 0?)
-
-	* N (U+004E): X=507.0,Y=-1.0 (should be at baseline 0?)
-
-	* Q (U+0051): X=439.0,Y=-2.0 (should be at baseline 0?)
-
-	* d (U+0064): X=433.0,Y=497.0 (should be at x-height 496?)
-
-	* f (U+0066): X=182.0,Y=2.0 (should be at baseline 0?)
-
-	* g (U+0067): X=77.0,Y=1.0 (should be at baseline 0?)
-
-	* g (U+0067): X=77.0,Y=1.0 (should be at baseline 0?)
-
-	* j (U+006A): X=190.0,Y=2.0 (should be at baseline 0?)
-
-	* p (U+0070): X=189.0,Y=-2.0 (should be at baseline 0?)
-
-	* s (U+0073): X=404.0,Y=496.5 (should be at x-height 496?)
-
-	* x (U+0078): X=-16.0,Y=2.0 (should be at baseline 0?)
-
-	* Atilde (U+00C3): X=461.0,Y=763.0 (should be at ascender 765?)
-
-	* Atilde (U+00C3): X=228.0,Y=766.0 (should be at ascender 765?)
-
-	* Adieresis (U+00C4): X=291.5,Y=764.0 (should be at ascender 765?)
-
-	* Adieresis (U+00C4): X=481.0,Y=764.0 (should be at ascender 765?)
-
-	* Edieresis (U+00CB): X=280.5,Y=764.0 (should be at ascender 765?)
-
-	* Edieresis (U+00CB): X=470.0,Y=764.0 (should be at ascender 765?)
-
-	* Idieresis (U+00CF): X=159.5,Y=764.0 (should be at ascender 765?)
-
-	* Idieresis (U+00CF): X=349.0,Y=764.0 (should be at ascender 765?)
-
-	* Ntilde (U+00D1): X=589.0,Y=-1.0 (should be at baseline 0?)
-
-	* Ntilde (U+00D1): X=507.0,Y=-1.0 (should be at baseline 0?)
-
-	* Ntilde (U+00D1): X=522.0,Y=763.0 (should be at ascender 765?)
-
-	* Ntilde (U+00D1): X=289.0,Y=766.0 (should be at ascender 765?)
-
-	* Otilde (U+00D5): X=525.0,Y=763.0 (should be at ascender 765?)
-
-	* Otilde (U+00D5): X=292.0,Y=766.0 (should be at ascender 765?)
-
-	* Odieresis (U+00D6): X=354.5,Y=764.0 (should be at ascender 765?)
-
-	* Odieresis (U+00D6): X=544.0,Y=764.0 (should be at ascender 765?)
-
-	* Udieresis (U+00DC): X=376.5,Y=764.0 (should be at ascender 765?)
-
-	* Udieresis (U+00DC): X=566.0,Y=764.0 (should be at ascender 765?)
-
-	* germandbls (U+00DF): X=182.0,Y=2.0 (should be at baseline 0?)
-
-	* aring (U+00E5): X=425.0,Y=767.0 (should be at ascender 765?)
-
-	* eth (U+00F0): X=227.0,Y=767.0 (should be at ascender 765?)
-
-	* eth (U+00F0): X=231.0,Y=767.0 (should be at ascender 765?)
-
-	* thorn (U+00FE): X=170.0,Y=-2.0 (should be at baseline 0?)
-
-	* Abreve (U+0102): X=339.5,Y=765.5 (should be at ascender 765?)
-
-	* abreve (U+0103): X=265.0,Y=763.0 (should be at ascender 765?)
-
-	* abreve (U+0103): X=293.0,Y=763.0 (should be at ascender 765?)
-
-	* abreve (U+0103): X=569.0,Y=763.0 (should be at ascender 765?)
-
-	* abreve (U+0103): X=597.0,Y=763.0 (should be at ascender 765?)
-
-	* Cdotaccent (U+010A): X=412.0,Y=763.5 (should be at ascender 765?)
-
-	* dcaron (U+010F): X=839.0,Y=688.0 (should be at cap-height 690?)
-
-	* Edotaccent (U+0116): X=362.0,Y=763.5 (should be at ascender 765?)
-
-	* Gbreve (U+011E): X=503.5,Y=1.0 (should be at baseline 0?)
-
-	* Gbreve (U+011E): X=398.5,Y=765.5 (should be at ascender 765?)
-
-	* gbreve (U+011F): X=77.0,Y=1.0 (should be at baseline 0?)
-
-	* gbreve (U+011F): X=77.0,Y=1.0 (should be at baseline 0?)
-
-	* gbreve (U+011F): X=211.0,Y=763.0 (should be at ascender 765?)
-
-	* gbreve (U+011F): X=239.0,Y=763.0 (should be at ascender 765?)
-
-	* gbreve (U+011F): X=515.0,Y=763.0 (should be at ascender 765?)
-
-	* gbreve (U+011F): X=543.0,Y=763.0 (should be at ascender 765?)
-
-	* Gdotaccent (U+0120): X=503.5,Y=1.0 (should be at baseline 0?)
-
-	* Gdotaccent (U+0120): X=431.0,Y=763.5 (should be at ascender 765?)
-
-	* gdotaccent (U+0121): X=77.0,Y=1.0 (should be at baseline 0?)
-
-	* gdotaccent (U+0121): X=77.0,Y=1.0 (should be at baseline 0?)
-
-	* uni0122 (U+0122): X=503.5,Y=1.0 (should be at baseline 0?)
-
-	* uni0123 (U+0123): X=77.0,Y=1.0 (should be at baseline 0?)
-
-	* uni0123 (U+0123): X=77.0,Y=1.0 (should be at baseline 0?)
-
-	* Idotaccent (U+0130): X=242.0,Y=763.5 (should be at ascender 765?)
-
-	* IJ (U+0132): X=494.5,Y=-1.5 (should be at baseline 0?)
-
-	* ij (U+0133): X=529.0,Y=2.0 (should be at baseline 0?)
-
-	* lcaron (U+013E): X=534.0,Y=688.0 (should be at cap-height 690?)
-
-	* Nacute (U+0143): X=589.0,Y=-1.0 (should be at baseline 0?)
-
-	* Nacute (U+0143): X=507.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni0145 (U+0145): X=589.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni0145 (U+0145): X=507.0,Y=-1.0 (should be at baseline 0?)
-
-	* Ncaron (U+0147): X=589.0,Y=-1.0 (should be at baseline 0?)
-
-	* Ncaron (U+0147): X=507.0,Y=-1.0 (should be at baseline 0?)
-
-	* Eng (U+014A): X=589.0,Y=-1.0 (should be at baseline 0?)
-
-	* Eng (U+014A): X=169.5,Y=-233.0 (should be at descender -235?)
-
-	* Eng (U+014A): X=454.0,Y=-1.0 (should be at baseline 0?)
-
-	* eng (U+014B): X=514.0,Y=2.0 (should be at baseline 0?)
-
-	* tcaron (U+0165): X=541.0,Y=688.0 (should be at cap-height 690?)
-
-	* Ubreve (U+016C): X=425.5,Y=765.5 (should be at ascender 765?)
-
-	* ubreve (U+016D): X=256.0,Y=763.0 (should be at ascender 765?)
-
-	* ubreve (U+016D): X=284.0,Y=763.0 (should be at ascender 765?)
-
-	* ubreve (U+016D): X=560.0,Y=763.0 (should be at ascender 765?)
-
-	* ubreve (U+016D): X=588.0,Y=763.0 (should be at ascender 765?)
-
-	* uring (U+016F): X=416.0,Y=767.0 (should be at ascender 765?)
-
-	* uogonek (U+0173): X=474.0,Y=2.0 (should be at baseline 0?)
-
-	* Ydieresis (U+0178): X=355.5,Y=764.0 (should be at ascender 765?)
-
-	* Ydieresis (U+0178): X=545.0,Y=764.0 (should be at ascender 765?)
-
-	* Zdotaccent (U+017B): X=366.0,Y=763.5 (should be at ascender 765?)
-
-	* uni0237 (U+0237): X=190.0,Y=2.0 (should be at baseline 0?)
-
-	* breve (U+02D8): X=119.0,Y=763.0 (should be at ascender 765?)
-
-	* breve (U+02D8): X=147.0,Y=763.0 (should be at ascender 765?)
-
-	* breve (U+02D8): X=423.0,Y=763.0 (should be at ascender 765?)
-
-	* breve (U+02D8): X=451.0,Y=763.0 (should be at ascender 765?)
-
-	* ring (U+02DA): X=280.0,Y=767.0 (should be at ascender 765?)
-
-	* uni0306 (U+0306): X=119.0,Y=763.0 (should be at ascender 765?)
-
-	* uni0306 (U+0306): X=147.0,Y=763.0 (should be at ascender 765?)
-
-	* uni0306 (U+0306): X=423.0,Y=763.0 (should be at ascender 765?)
-
-	* uni0306 (U+0306): X=451.0,Y=763.0 (should be at ascender 765?)
-
-	* uni030A (U+030A): X=280.0,Y=767.0 (should be at ascender 765?)
-
-	* Wdieresis (U+1E84): X=561.5,Y=764.0 (should be at ascender 765?) 
-
-	* Wdieresis (U+1E84): X=751.0,Y=764.0 (should be at ascender 765?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -4448,6 +4027,10 @@ The following glyphs do not have the recommended number of contours:
 	* AE (U+00C6): L<<291.0,690.0>--<738.0,690.0>> -> L<<738.0,690.0>--<882.0,698.0>>
 
 	* AE (U+00C6): L<<738.0,690.0>--<882.0,698.0>> -> L<<882.0,698.0>--<899.0,698.0>>
+
+	* AEacute (U+01FC): L<<291.0,690.0>--<738.0,690.0>> -> L<<738.0,690.0>--<882.0,698.0>>
+
+	* AEacute (U+01FC): L<<738.0,690.0>--<882.0,698.0>> -> L<<882.0,698.0>--<899.0,698.0>>
 
 	* E (U+0045): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>>
 
@@ -4673,7 +4256,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 517:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -4951,7 +4534,7 @@ less, greater
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 114 | 107 | 1203 | 61 | 822 | 0 |
+| 0 | 114 | 106 | 1203 | 61 | 823 | 0 |
 | 0% | 5% | 5% | 52% | 3% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
