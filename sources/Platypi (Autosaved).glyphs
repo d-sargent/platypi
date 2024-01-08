@@ -48873,6 +48873,7 @@ width = 421;
 metricLeft = "=v*3";
 metricRight = "=v*3";
 unicode = 47;
+changeCount = 1;
 },
 {
 color = 4;
@@ -49441,7 +49442,7 @@ unicode = 125;
 {
 color = 4;
 glyphname = bracketleft;
-lastChange = "2024-01-04 01:01:23 +0000";
+lastChange = "2024-01-08 06:03:06 +0000";
 layers = (
 {
 layerId = m01;
@@ -49489,6 +49490,7 @@ width = 304;
 metricLeft = "=parenleft";
 metricRight = "=parenleft";
 unicode = 91;
+changeCount = 3;
 },
 {
 color = 4;
@@ -49653,14 +49655,14 @@ unicode = 8221;
 {
 color = 4;
 glyphname = quoteleft;
-lastChange = "2024-01-04 01:01:23 +0000";
+lastChange = "2024-01-08 07:27:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 angle = 180;
-pos = (285,563);
+pos = (285,573);
 ref = comma;
 }
 );
@@ -49680,6 +49682,7 @@ width = 332;
 );
 metricLeft = "=o*1.5";
 unicode = 8216;
+changeCount = 1;
 },
 {
 color = 4;
