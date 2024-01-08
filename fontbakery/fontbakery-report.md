@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[24] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[23] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -144,7 +144,7 @@ Fontbakery version: 0.8.13
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĩ̵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i̵̇ i̵̊ i̵̋ ǐ̵ i̵̒ i̶̇ i̶̊ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -180,6 +180,8 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- i.TRK 
 
 	- i.loclTRK
  [code: unreachable-glyphs]
@@ -242,204 +244,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* exclam (U+0021): X=350.0,Y=691.0 (should be at cap-height 690?)
-
-	* parenright (U+0029): X=129.0,Y=766.0 (should be at ascender 765?)
-
-	* parenright (U+0029): X=-101.0,Y=-234.0 (should be at descender -235?)
-
-	* question (U+003F): X=240.5,Y=691.0 (should be at cap-height 690?)
-
-	* at (U+0040): X=477.5,Y=689.0 (should be at cap-height 690?)
-
-	* at (U+0040): X=826.0,Y=1.0 (should be at baseline 0?)
-
-	* G (U+0047): X=584.0,Y=688.0 (should be at cap-height 690?)
-
-	* G (U+0047): X=486.5,Y=1.5 (should be at baseline 0?)
-
-	* d (U+0064): X=426.0,Y=489.0 (should be at x-height 490?)
-
-	* g (U+0067): X=526.0,Y=489.5 (should be at x-height 490?)
-
-	* p (U+0070): X=170.0,Y=1.0 (should be at baseline 0?)
-
-	* r (U+0072): X=517.0,Y=488.0 (should be at x-height 490?)
-
-	* s (U+0073): X=384.5,Y=490.5 (should be at x-height 490?)
-
-	* x (U+0078): X=627.0,Y=488.0 (should be at x-height 490?)
-
-	* dieresis (U+00A8): X=329.5,Y=691.0 (should be at cap-height 690?)
-
-	* dieresis (U+00A8): X=150.0,Y=691.0 (should be at cap-height 690?)
-
-	* acute (U+00B4): X=355.0,Y=692.0 (should be at cap-height 690?)
-
-	* Atilde (U+00C3): X=229.0,Y=766.0 (should be at ascender 765?)
-
-	* Adieresis (U+00C4): X=294.0,Y=763.0 (should be at ascender 765?)
-
-	* Adieresis (U+00C4): X=473.0,Y=763.0 (should be at ascender 765?)
-
-	* Edieresis (U+00CB): X=289.0,Y=763.0 (should be at ascender 765?)
-
-	* Edieresis (U+00CB): X=468.0,Y=763.0 (should be at ascender 765?)
-
-	* Idieresis (U+00CF): X=156.0,Y=763.0 (should be at ascender 765?)
-
-	* Idieresis (U+00CF): X=335.0,Y=763.0 (should be at ascender 765?)
-
-	* Ntilde (U+00D1): X=274.0,Y=766.0 (should be at ascender 765?)
-
-	* Otilde (U+00D5): X=293.0,Y=766.0 (should be at ascender 765?)
-
-	* Odieresis (U+00D6): X=357.0,Y=763.0 (should be at ascender 765?)
-
-	* Odieresis (U+00D6): X=536.0,Y=763.0 (should be at ascender 765?)
-
-	* Udieresis (U+00DC): X=369.0,Y=763.0 (should be at ascender 765?)
-
-	* Udieresis (U+00DC): X=548.0,Y=763.0 (should be at ascender 765?)
-
-	* aacute (U+00E1): X=568.0,Y=692.0 (should be at cap-height 690?)
-
-	* adieresis (U+00E4): X=438.5,Y=691.0 (should be at cap-height 690?)
-
-	* adieresis (U+00E4): X=259.0,Y=691.0 (should be at cap-height 690?)
-
-	* aring (U+00E5): X=315.5,Y=765.5 (should be at ascender 765?)
-
-	* eacute (U+00E9): X=534.0,Y=692.0 (should be at cap-height 690?)
-
-	* edieresis (U+00EB): X=403.5,Y=691.0 (should be at cap-height 690?)
-
-	* edieresis (U+00EB): X=224.0,Y=691.0 (should be at cap-height 690?)
-
-	* iacute (U+00ED): X=420.0,Y=692.0 (should be at cap-height 690?)
-
-	* idieresis (U+00EF): X=289.5,Y=691.0 (should be at cap-height 690?)
-
-	* idieresis (U+00EF): X=110.0,Y=691.0 (should be at cap-height 690?)
-
-	* oacute (U+00F3): X=551.0,Y=692.0 (should be at cap-height 690?)
-
-	* odieresis (U+00F6): X=420.5,Y=691.0 (should be at cap-height 690?)
-
-	* odieresis (U+00F6): X=241.0,Y=691.0 (should be at cap-height 690?)
-
-	* oslash (U+00F8): X=47.0,Y=-2.0 (should be at baseline 0?)
-
-	* uacute (U+00FA): X=560.0,Y=692.0 (should be at cap-height 690?)
-
-	* udieresis (U+00FC): X=429.5,Y=691.0 (should be at cap-height 690?)
-
-	* udieresis (U+00FC): X=250.0,Y=691.0 (should be at cap-height 690?)
-
-	* yacute (U+00FD): X=513.0,Y=692.0 (should be at cap-height 690?)
-
-	* thorn (U+00FE): X=149.0,Y=1.0 (should be at baseline 0?)
-
-	* ydieresis (U+00FF): X=383.5,Y=691.0 (should be at cap-height 690?)
-
-	* ydieresis (U+00FF): X=204.0,Y=691.0 (should be at cap-height 690?)
-
-	* Abreve (U+0102): X=338.0,Y=766.5 (should be at ascender 765?)
-
-	* Aogonek (U+0104): X=502.0,Y=-2.0 (should be at baseline 0?)
-
-	* cacute (U+0107): X=534.0,Y=692.0 (should be at cap-height 690?)
-
-	* Cdotaccent (U+010A): X=412.0,Y=763.5 (should be at ascender 765?)
-
-	* ccaron (U+010D): X=365.0,Y=689.0 (should be at cap-height 690?)
-
-	* Edotaccent (U+0116): X=368.0,Y=763.5 (should be at ascender 765?)
-
-	* Eogonek (U+0118): X=364.0,Y=-2.0 (should be at baseline 0?)
-
-	* ecaron (U+011B): X=365.0,Y=689.0 (should be at cap-height 690?)
-
-	* Gbreve (U+011E): X=584.0,Y=688.0 (should be at cap-height 690?)
-
-	* Gbreve (U+011E): X=486.5,Y=1.5 (should be at baseline 0?)
-
-	* Gbreve (U+011E): X=393.0,Y=766.5 (should be at ascender 765?)
-
-	* Gdotaccent (U+0120): X=584.0,Y=688.0 (should be at cap-height 690?)
-
-	* Gdotaccent (U+0120): X=486.5,Y=1.5 (should be at baseline 0?)
-
-	* Gdotaccent (U+0120): X=428.0,Y=763.5 (should be at ascender 765?)
-
-	* uni0122 (U+0122): X=584.0,Y=688.0 (should be at cap-height 690?)
-
-	* uni0122 (U+0122): X=486.5,Y=1.5 (should be at baseline 0?)
-
-	* Iogonek (U+012E): X=100.0,Y=-2.0 (should be at baseline 0?)
-
-	* Idotaccent (U+0130): X=235.0,Y=763.5 (should be at ascender 765?)
-
-	* nacute (U+0144): X=593.0,Y=692.0 (should be at cap-height 690?)
-
-	* ncaron (U+0148): X=424.0,Y=689.0 (should be at cap-height 690?)
-
-	* racute (U+0155): X=516.0,Y=692.0 (should be at cap-height 690?)
-
-	* rcaron (U+0159): X=347.0,Y=689.0 (should be at cap-height 690?)
-
-	* sacute (U+015B): X=503.0,Y=692.0 (should be at cap-height 690?)
-
-	* scaron (U+0161): X=334.0,Y=689.0 (should be at cap-height 690?)
-
-	* Ubreve (U+016C): X=413.0,Y=766.5 (should be at ascender 765?)
-
-	* uring (U+016F): X=307.5,Y=765.5 (should be at ascender 765?)
-
-	* Uogonek (U+0172): X=324.0,Y=-2.0 (should be at baseline 0?)
-
-	* Ydieresis (U+0178): X=344.0,Y=763.0 (should be at ascender 765?)
-
-	* Ydieresis (U+0178): X=523.0,Y=763.0 (should be at ascender 765?)
-
-	* zacute (U+017A): X=527.0,Y=692.0 (should be at cap-height 690?)
-
-	* Zdotaccent (U+017B): X=360.0,Y=763.5 (should be at ascender 765?)
-
-	* zcaron (U+017E): X=358.0,Y=689.0 (should be at cap-height 690?)
-
-	* uni01CE (U+01CE): X=399.0,Y=689.0 (should be at cap-height 690?)
-
-	* aeacute (U+01FD): X=720.0,Y=692.0 (should be at cap-height 690?)
-
-	* caron (U+02C7): X=294.0,Y=689.0 (should be at cap-height 690?)
-
-	* ring (U+02DA): X=177.5,Y=765.5 (should be at ascender 765?)
-
-	* acutecomb (U+0301): X=355.0,Y=692.0 (should be at cap-height 690?)
-
-	* uni0308 (U+0308): X=329.5,Y=691.0 (should be at cap-height 690?)
-
-	* uni0308 (U+0308): X=150.0,Y=691.0 (should be at cap-height 690?)
-
-	* uni030A (U+030A): X=177.5,Y=765.5 (should be at ascender 765?)
-
-	* uni030C (U+030C): X=294.0,Y=689.0 (should be at cap-height 690?)
-
-	* wacute (U+1E83): X=673.0,Y=692.0 (should be at cap-height 690?)
-
-	* Wdieresis (U+1E84): X=549.0,Y=763.0 (should be at ascender 765?)
-
-	* Wdieresis (U+1E84): X=728.0,Y=763.0 (should be at ascender 765?)
-
-	* wdieresis (U+1E85): X=543.5,Y=691.0 (should be at cap-height 690?) 
-
-	* wdieresis (U+1E85): X=364.0,Y=691.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -462,6 +266,10 @@ The following glyphs do not have the recommended number of contours:
 	* Eacute (U+00C9): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>>
 
 	* Eacute (U+00C9): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>>
+
+	* Ebreve (U+0114): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>>
+
+	* Ebreve (U+0114): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>>
 
 	* Ecaron (U+011A): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>>
 
@@ -539,9 +347,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni021A (U+021A): L<<150.0,698.0>--<278.0,690.0>> -> L<<278.0,690.0>--<586.0,690.0>>
 
-	* uni021A (U+021A): L<<278.0,690.0>--<586.0,690.0>> -> L<<586.0,690.0>--<732.0,698.0>> 
+	* uni021A (U+021A): L<<278.0,690.0>--<586.0,690.0>> -> L<<586.0,690.0>--<732.0,698.0>>
 
-	* uni021A (U+021A): L<<586.0,690.0>--<732.0,698.0>> -> L<<732.0,698.0>--<748.0,698.0>> [code: found-colinear-vectors]
+	* uni021A (U+021A): L<<586.0,690.0>--<732.0,698.0>> -> L<<732.0,698.0>--<748.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>> 
+
+	* uni1EBC (U+1EBC): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>> [code: found-colinear-vectors]
 </div></details><br></div></details><details><summary><b>[21] Platypi-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -662,7 +474,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 522:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -1126,7 +938,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 520:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -1480,7 +1292,7 @@ less, greater
 	* paragraph (U+00B6): L<<418.0,-107.0>--<416.0,638.0>> 
 
 	* paragraph (U+00B6): L<<466.0,616.0>--<468.0,-107.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[24] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[23] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1622,7 +1434,7 @@ less, greater
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĩ̵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i̵̇ i̵̊ i̵̋ ǐ̵ i̵̒ i̶̇ i̶̊ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -1658,6 +1470,8 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- i.TRK 
 
 	- i.loclTRK
  [code: unreachable-glyphs]
@@ -1720,184 +1534,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* exclam (U+0021): X=394.0,Y=688.0 (should be at cap-height 690?)
-
-	* parenright (U+0029): X=128.0,Y=766.0 (should be at ascender 765?)
-
-	* parenright (U+0029): X=-102.0,Y=-234.0 (should be at descender -235?)
-
-	* at (U+0040): X=740.5,Y=-237.0 (should be at descender -235?)
-
-	* at (U+0040): X=846.0,Y=1.0 (should be at baseline 0?)
-
-	* J (U+004A): X=138.5,Y=-1.0 (should be at baseline 0?)
-
-	* Q (U+0051): X=446.0,Y=-2.0 (should be at baseline 0?)
-
-	* a (U+0061): X=584.0,Y=502.0 (should be at x-height 500?)
-
-	* a (U+0061): X=613.0,Y=502.0 (should be at x-height 500?)
-
-	* c (U+0063): X=455.0,Y=501.5 (should be at x-height 500?)
-
-	* g (U+0067): X=78.0,Y=-2.0 (should be at baseline 0?)
-
-	* g (U+0067): X=78.0,Y=-1.0 (should be at baseline 0?)
-
-	* i (U+0069): X=267.0,Y=763.0 (should be at ascender 765?)
-
-	* j (U+006A): X=270.0,Y=763.0 (should be at ascender 765?)
-
-	* q (U+0071): X=584.0,Y=502.0 (should be at x-height 500?)
-
-	* q (U+0071): X=613.0,Y=502.0 (should be at x-height 500?)
-
-	* r (U+0072): X=574.0,Y=498.0 (should be at x-height 500?)
-
-	* x (U+0078): X=-19.0,Y=2.0 (should be at baseline 0?)
-
-	* x (U+0078): X=662.0,Y=498.0 (should be at x-height 500?)
-
-	* braceleft (U+007B): X=319.0,Y=689.5 (should be at cap-height 690?)
-
-	* acute (U+00B4): X=371.0,Y=689.0 (should be at cap-height 690?)
-
-	* Atilde (U+00C3): X=470.5,Y=763.5 (should be at ascender 765?)
-
-	* Atilde (U+00C3): X=227.0,Y=767.0 (should be at ascender 765?)
-
-	* Adieresis (U+00C4): X=289.0,Y=765.5 (should be at ascender 765?)
-
-	* Adieresis (U+00C4): X=487.0,Y=765.5 (should be at ascender 765?)
-
-	* Edieresis (U+00CB): X=274.0,Y=765.5 (should be at ascender 765?)
-
-	* Edieresis (U+00CB): X=472.0,Y=765.5 (should be at ascender 765?)
-
-	* Idieresis (U+00CF): X=163.0,Y=765.5 (should be at ascender 765?)
-
-	* Idieresis (U+00CF): X=361.0,Y=765.5 (should be at ascender 765?)
-
-	* Ntilde (U+00D1): X=544.5,Y=763.5 (should be at ascender 765?)
-
-	* Ntilde (U+00D1): X=301.0,Y=767.0 (should be at ascender 765?)
-
-	* Otilde (U+00D5): X=534.5,Y=763.5 (should be at ascender 765?)
-
-	* Otilde (U+00D5): X=291.0,Y=767.0 (should be at ascender 765?)
-
-	* Odieresis (U+00D6): X=353.0,Y=765.5 (should be at ascender 765?)
-
-	* Odieresis (U+00D6): X=551.0,Y=765.5 (should be at ascender 765?)
-
-	* Udieresis (U+00DC): X=382.0,Y=765.5 (should be at ascender 765?)
-
-	* Udieresis (U+00DC): X=580.0,Y=765.5 (should be at ascender 765?)
-
-	* aacute (U+00E1): X=602.0,Y=689.0 (should be at cap-height 690?)
-
-	* atilde (U+00E3): X=480.0,Y=690.5 (should be at cap-height 690?)
-
-	* eacute (U+00E9): X=568.0,Y=689.0 (should be at cap-height 690?)
-
-	* iacute (U+00ED): X=446.0,Y=689.0 (should be at cap-height 690?)
-
-	* eth (U+00F0): X=232.0,Y=767.0 (should be at ascender 765?)
-
-	* eth (U+00F0): X=235.0,Y=767.0 (should be at ascender 765?)
-
-	* ntilde (U+00F1): X=502.0,Y=690.5 (should be at cap-height 690?)
-
-	* oacute (U+00F3): X=587.0,Y=689.0 (should be at cap-height 690?)
-
-	* otilde (U+00F5): X=465.0,Y=690.5 (should be at cap-height 690?)
-
-	* uacute (U+00FA): X=592.0,Y=689.0 (should be at cap-height 690?)
-
-	* yacute (U+00FD): X=553.0,Y=689.0 (should be at cap-height 690?)
-
-	* cacute (U+0107): X=563.0,Y=689.0 (should be at cap-height 690?)
-
-	* Cdotaccent (U+010A): X=412.5,Y=763.5 (should be at ascender 765?)
-
-	* cdotaccent (U+010B): X=384.0,Y=763.0 (should be at ascender 765?)
-
-	* dcaron (U+010F): X=873.0,Y=688.0 (should be at cap-height 690?)
-
-	* Edotaccent (U+0116): X=358.5,Y=763.5 (should be at ascender 765?)
-
-	* edotaccent (U+0117): X=389.0,Y=763.0 (should be at ascender 765?)
-
-	* gbreve (U+011F): X=78.0,Y=-2.0 (should be at baseline 0?)
-
-	* gbreve (U+011F): X=78.0,Y=-1.0 (should be at baseline 0?)
-
-	* Gdotaccent (U+0120): X=434.5,Y=763.5 (should be at ascender 765?)
-
-	* gdotaccent (U+0121): X=78.0,Y=-2.0 (should be at baseline 0?)
-
-	* gdotaccent (U+0121): X=78.0,Y=-1.0 (should be at baseline 0?)
-
-	* gdotaccent (U+0121): X=368.0,Y=763.0 (should be at ascender 765?)
-
-	* uni0123 (U+0123): X=78.0,Y=-2.0 (should be at baseline 0?)
-
-	* uni0123 (U+0123): X=78.0,Y=-1.0 (should be at baseline 0?)
-
-	* iogonek (U+012F): X=267.0,Y=763.0 (should be at ascender 765?)
-
-	* Idotaccent (U+0130): X=247.5,Y=763.5 (should be at ascender 765?)
-
-	* IJ (U+0132): X=519.5,Y=-1.0 (should be at baseline 0?)
-
-	* ij (U+0133): X=267.0,Y=763.0 (should be at ascender 765?)
-
-	* ij (U+0133): X=617.0,Y=763.0 (should be at ascender 765?)
-
-	* lcaron (U+013E): X=561.0,Y=688.0 (should be at cap-height 690?)
-
-	* nacute (U+0144): X=624.0,Y=689.0 (should be at cap-height 690?)
-
-	* racute (U+0155): X=555.0,Y=689.0 (should be at cap-height 690?)
-
-	* sacute (U+015B): X=537.0,Y=689.0 (should be at cap-height 690?)
-
-	* tcaron (U+0165): X=571.0,Y=688.0 (should be at cap-height 690?)
-
-	* uogonek (U+0173): X=486.0,Y=1.0 (should be at baseline 0?)
-
-	* Ydieresis (U+0178): X=365.0,Y=765.5 (should be at ascender 765?)
-
-	* Ydieresis (U+0178): X=563.0,Y=765.5 (should be at ascender 765?)
-
-	* zacute (U+017A): X=558.0,Y=689.0 (should be at cap-height 690?)
-
-	* Zdotaccent (U+017B): X=370.5,Y=763.5 (should be at ascender 765?)
-
-	* zdotaccent (U+017C): X=379.0,Y=763.0 (should be at ascender 765?)
-
-	* aeacute (U+01FD): X=761.0,Y=689.0 (should be at cap-height 690?)
-
-	* dotaccent (U+02D9): X=233.0,Y=763.0 (should be at ascender 765?)
-
-	* tilde (U+02DC): X=397.0,Y=690.5 (should be at cap-height 690?)
-
-	* acutecomb (U+0301): X=371.0,Y=689.0 (should be at cap-height 690?)
-
-	* tildecomb (U+0303): X=397.0,Y=690.5 (should be at cap-height 690?)
-
-	* uni0307 (U+0307): X=233.0,Y=763.0 (should be at ascender 765?)
-
-	* wacute (U+1E83): X=715.0,Y=689.0 (should be at cap-height 690?)
-
-	* Wdieresis (U+1E84): X=572.0,Y=765.5 (should be at ascender 765?) 
-
-	* Wdieresis (U+1E84): X=770.0,Y=765.5 (should be at ascender 765?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1918,6 +1554,10 @@ The following glyphs do not have the recommended number of contours:
 	* Eacute (U+00C9): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>>
 
 	* Eacute (U+00C9): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>>
+
+	* Ebreve (U+0114): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>>
+
+	* Ebreve (U+0114): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>>
 
 	* Ecaron (U+011A): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>>
 
@@ -1997,9 +1637,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni021A (U+021A): L<<148.0,698.0>--<289.0,690.0>> -> L<<289.0,690.0>--<591.0,690.0>>
 
-	* uni021A (U+021A): L<<289.0,690.0>--<591.0,690.0>> -> L<<591.0,690.0>--<760.0,698.0>> 
+	* uni021A (U+021A): L<<289.0,690.0>--<591.0,690.0>> -> L<<591.0,690.0>--<760.0,698.0>>
 
-	* uni021A (U+021A): L<<591.0,690.0>--<760.0,698.0>> -> L<<760.0,698.0>--<780.0,698.0>> [code: found-colinear-vectors]
+	* uni021A (U+021A): L<<591.0,690.0>--<760.0,698.0>> -> L<<760.0,698.0>--<780.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>> 
+
+	* uni1EBC (U+1EBC): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>> [code: found-colinear-vectors]
 </div></details><br></div></details><details><summary><b>[21] Platypi-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -2120,7 +1764,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 514:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -2666,7 +2310,7 @@ less, greater
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĩ̵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i̵̇ i̵̊ i̵̋ ǐ̵ i̵̒ i̶̇ i̶̊ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -2695,6 +2339,8 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- i.TRK 
 
 	- i.loclTRK
  [code: unreachable-glyphs]
@@ -2824,6 +2470,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* Eogonek (U+0118): X=365.0,Y=-2.0 (should be at baseline 0?)
 
+	* gcircumflex (U+011D): X=6.5,Y=-237.0 (should be at descender -235?)
+
 	* gbreve (U+011F): X=6.5,Y=-237.0 (should be at descender -235?)
 
 	* Gdotaccent (U+0120): X=420.0,Y=763.0 (should be at ascender 765?)
@@ -2831,6 +2479,8 @@ The following glyphs do not have the recommended number of contours:
 	* gdotaccent (U+0121): X=6.5,Y=-237.0 (should be at descender -235?)
 
 	* uni0123 (U+0123): X=6.5,Y=-237.0 (should be at descender -235?)
+
+	* Itilde (U+0128): X=82.0,Y=764.0 (should be at ascender 765?)
 
 	* Iogonek (U+012E): X=74.0,Y=-2.0 (should be at baseline 0?)
 
@@ -2858,6 +2508,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* tcaron (U+0165): X=343.0,Y=766.0 (should be at ascender 765?)
 
+	* Utilde (U+0168): X=289.0,Y=764.0 (should be at ascender 765?)
+
 	* Uring (U+016E): X=549.0,Y=763.0 (should be at ascender 765?)
 
 	* Uring (U+016E): X=467.0,Y=767.0 (should be at ascender 765?)
@@ -2870,15 +2522,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* Zdotaccent (U+017B): X=349.0,Y=763.0 (should be at ascender 765?)
 
+	* gcaron (U+01E7): X=6.5,Y=-237.0 (should be at descender -235?)
+
 	* aeacute (U+01FD): X=679.0,Y=692.0 (should be at cap-height 690?)
+
+	* oslashacute (U+01FF): X=514.0,Y=692.0 (should be at cap-height 690?)
 
 	* acutecomb (U+0301): X=339.0,Y=692.0 (should be at cap-height 690?)
 
 	* uni0327 (U+0327): X=109.5,Y=-233.5 (should be at descender -235?)
 
-	* uni0338 (U+0338): X=21.0,Y=1.0 (should be at baseline 0?) 
+	* uni0338 (U+0338): X=21.0,Y=1.0 (should be at baseline 0?)
 
-	* wacute (U+1E83): X=631.0,Y=692.0 (should be at cap-height 690?) [code: found-misalignments]
+	* wacute (U+1E83): X=631.0,Y=692.0 (should be at cap-height 690?) 
+
+	* uni1EBC (U+1EBC): X=237.0,Y=764.0 (should be at ascender 765?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2899,6 +2557,10 @@ The following glyphs do not have the recommended number of contours:
 	* Eacute (U+00C9): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>>
 
 	* Eacute (U+00C9): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>>
+
+	* Ebreve (U+0114): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>>
+
+	* Ebreve (U+0114): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>>
 
 	* Ecaron (U+011A): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>>
 
@@ -2982,9 +2644,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni021A (U+021A): L<<266.0,690.0>--<581.0,690.0>> -> L<<581.0,690.0>--<704.0,698.0>>
 
-	* uni021A (U+021A): L<<581.0,690.0>--<704.0,698.0>> -> L<<704.0,698.0>--<715.0,698.0>> 
+	* uni021A (U+021A): L<<581.0,690.0>--<704.0,698.0>> -> L<<704.0,698.0>--<715.0,698.0>>
 
-	* uni021B (U+021B): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>> [code: found-colinear-vectors]
+	* uni021B (U+021B): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
+
+	* uni1EBC (U+1EBC): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>> 
+
+	* uni1EBC (U+1EBC): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>> [code: found-colinear-vectors]
 </div></details><br></div></details><details><summary><b>[23] Platypi-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
@@ -3122,7 +2788,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 512:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -3494,7 +3160,7 @@ less, greater
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĩ̵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i̵̇ i̵̊ i̵̋ ǐ̵ i̵̒ i̶̇ i̶̊ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
 
 
@@ -3512,6 +3178,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- i.TRK 
 
 	- i.loclTRK
  [code: unreachable-glyphs]
@@ -3607,7 +3275,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* otilde (U+00F5): X=549.0,Y=691.0 (should be at cap-height 690?)
 
-	* Abreve (U+0102): X=336.0,Y=767.0 (should be at ascender 765?)
+	* Abreve (U+0102): X=338.5,Y=767.0 (should be at ascender 765?)
 
 	* Aogonek (U+0104): X=488.0,Y=-2.0 (should be at baseline 0?)
 
@@ -3619,21 +3287,29 @@ The following glyphs do not have the recommended number of contours:
 
 	* dcaron (U+010F): X=646.0,Y=767.0 (should be at ascender 765?)
 
+	* Ebreve (U+0114): X=340.5,Y=767.0 (should be at ascender 765?)
+
 	* Edotaccent (U+0116): X=373.5,Y=763.0 (should be at ascender 765?)
 
 	* Eogonek (U+0118): X=364.0,Y=-2.0 (should be at baseline 0?)
 
 	* ecaron (U+011B): X=229.0,Y=767.0 (should be at ascender 765?)
 
+	* Gcircumflex (U+011C): X=564.5,Y=689.0 (should be at cap-height 690?)
+
 	* Gbreve (U+011E): X=564.5,Y=689.0 (should be at cap-height 690?)
 
-	* Gbreve (U+011E): X=387.0,Y=767.0 (should be at ascender 765?)
+	* Gbreve (U+011E): X=389.5,Y=767.0 (should be at ascender 765?)
 
 	* Gdotaccent (U+0120): X=564.5,Y=689.0 (should be at cap-height 690?)
 
 	* Gdotaccent (U+0120): X=422.5,Y=763.0 (should be at ascender 765?)
 
 	* uni0122 (U+0122): X=564.5,Y=689.0 (should be at cap-height 690?)
+
+	* itilde (U+0129): X=424.0,Y=691.0 (should be at cap-height 690?)
+
+	* Ibreve (U+012C): X=193.5,Y=767.0 (should be at ascender 765?)
 
 	* Iogonek (U+012E): X=83.0,Y=-2.0 (should be at baseline 0?)
 
@@ -3649,6 +3325,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* ncaron (U+0148): X=291.0,Y=767.0 (should be at ascender 765?)
 
+	* Obreve (U+014E): X=401.5,Y=767.0 (should be at ascender 765?)
+
 	* rcaron (U+0159): X=208.0,Y=767.0 (should be at ascender 765?)
 
 	* Scedilla (U+015E): X=268.0,Y=-234.0 (should be at descender -235?)
@@ -3661,7 +3339,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* tcaron (U+0165): X=358.0,Y=767.0 (should be at ascender 765?)
 
-	* Ubreve (U+016C): X=400.0,Y=767.0 (should be at ascender 765?)
+	* utilde (U+0169): X=560.0,Y=691.0 (should be at cap-height 690?)
+
+	* Ubreve (U+016C): X=402.5,Y=767.0 (should be at ascender 765?)
 
 	* Uogonek (U+0172): X=312.0,Y=-2.0 (should be at baseline 0?)
 
@@ -3670,6 +3350,10 @@ The following glyphs do not have the recommended number of contours:
 	* zcaron (U+017E): X=224.0,Y=767.0 (should be at ascender 765?)
 
 	* uni01CE (U+01CE): X=264.0,Y=767.0 (should be at ascender 765?)
+
+	* Gcaron (U+01E6): X=564.5,Y=689.0 (should be at cap-height 690?)
+
+	* gcaron (U+01E7): X=212.0,Y=767.0 (should be at ascender 765?)
 
 	* caron (U+02C7): X=161.0,Y=767.0 (should be at ascender 765?)
 
@@ -3680,6 +3364,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni030C (U+030C): X=161.0,Y=767.0 (should be at ascender 765?)
 
 	* uni0327 (U+0327): X=110.0,Y=-234.0 (should be at descender -235?)
+
+	* uni1EBD (U+1EBD): X=533.0,Y=691.0 (should be at cap-height 690?)
 
 	* quoteright (U+2019): X=279.5,Y=688.0 (should be at cap-height 690?)
 
@@ -3708,6 +3394,10 @@ The following glyphs do not have the recommended number of contours:
 	* Eacute (U+00C9): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>>
 
 	* Eacute (U+00C9): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>>
+
+	* Ebreve (U+0114): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>>
+
+	* Ebreve (U+0114): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>>
 
 	* Ecaron (U+011A): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>>
 
@@ -3785,9 +3475,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni021A (U+021A): L<<150.0,698.0>--<270.0,690.0>> -> L<<270.0,690.0>--<583.0,690.0>>
 
-	* uni021A (U+021A): L<<270.0,690.0>--<583.0,690.0>> -> L<<583.0,690.0>--<714.0,698.0>> 
+	* uni021A (U+021A): L<<270.0,690.0>--<583.0,690.0>> -> L<<583.0,690.0>--<714.0,698.0>>
 
-	* uni021A (U+021A): L<<583.0,690.0>--<714.0,698.0>> -> L<<714.0,698.0>--<727.0,698.0>> [code: found-colinear-vectors]
+	* uni021A (U+021A): L<<583.0,690.0>--<714.0,698.0>> -> L<<714.0,698.0>--<727.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>> 
+
+	* uni1EBC (U+1EBC): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>> [code: found-colinear-vectors]
 </div></details><br></div></details><details><summary><b>[21] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -3926,7 +3620,7 @@ The following glyphs do not have the recommended number of contours:
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĩ̵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i̵̇ i̵̊ i̵̋ ǐ̵ i̵̒ i̶̇ i̶̊ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -3957,6 +3651,8 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- i.TRK 
 
 	- i.loclTRK
  [code: unreachable-glyphs]
@@ -4040,6 +3736,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* Eacute (U+00C9): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>>
 
+	* Ebreve (U+0114): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>>
+
+	* Ebreve (U+0114): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>>
+
 	* Ecaron (U+011A): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>>
 
 	* Ecaron (U+011A): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>>
@@ -4116,9 +3816,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni021A (U+021A): L<<149.0,698.0>--<284.0,690.0>> -> L<<284.0,690.0>--<589.0,690.0>>
 
-	* uni021A (U+021A): L<<284.0,690.0>--<589.0,690.0>> -> L<<589.0,690.0>--<748.0,698.0>> 
+	* uni021A (U+021A): L<<284.0,690.0>--<589.0,690.0>> -> L<<589.0,690.0>--<748.0,698.0>>
 
-	* uni021A (U+021A): L<<589.0,690.0>--<748.0,698.0>> -> L<<748.0,698.0>--<766.0,698.0>> [code: found-colinear-vectors]
+	* uni021A (U+021A): L<<589.0,690.0>--<748.0,698.0>> -> L<<748.0,698.0>--<766.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>> 
+
+	* uni1EBC (U+1EBC): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>> [code: found-colinear-vectors]
 </div></details><br></div></details><details><summary><b>[23] Platypi-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
@@ -4256,7 +3960,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 517:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -4534,7 +4238,7 @@ less, greater
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 114 | 106 | 1203 | 61 | 823 | 0 |
+| 0 | 114 | 104 | 1203 | 61 | 825 | 0 |
 | 0% | 5% | 5% | 52% | 3% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
