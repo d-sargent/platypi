@@ -404,7 +404,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* Abreve (U+0102): X=338.0,Y=766.5 (should be at ascender 765?)
 
-	* Aogonek (U+0104): X=501.0,Y=-2.0 (should be at baseline 0?)
+	* Aogonek (U+0104): X=502.0,Y=-2.0 (should be at baseline 0?)
 
 	* cacute (U+0107): X=534.0,Y=692.0 (should be at cap-height 690?)
 
@@ -412,7 +412,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* Edotaccent (U+0116): X=368.0,Y=763.5 (should be at ascender 765?)
 
-	* Eogonek (U+0118): X=363.0,Y=-2.0 (should be at baseline 0?)
+	* Eogonek (U+0118): X=364.0,Y=-2.0 (should be at baseline 0?)
 
 	* Gbreve (U+011E): X=584.0,Y=688.0 (should be at cap-height 690?)
 
@@ -430,7 +430,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0122 (U+0122): X=486.5,Y=1.5 (should be at baseline 0?)
 
-	* Iogonek (U+012E): X=99.0,Y=-2.0 (should be at baseline 0?)
+	* Iogonek (U+012E): X=100.0,Y=-2.0 (should be at baseline 0?)
 
 	* Idotaccent (U+0130): X=235.0,Y=763.5 (should be at ascender 765?)
 
@@ -444,7 +444,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uring (U+016F): X=307.5,Y=765.5 (should be at ascender 765?)
 
-	* Uogonek (U+0172): X=323.0,Y=-2.0 (should be at baseline 0?)
+	* Uogonek (U+0172): X=324.0,Y=-2.0 (should be at baseline 0?)
 
 	* Ydieresis (U+0178): X=344.0,Y=763.0 (should be at ascender 765?)
 
@@ -691,7 +691,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 522:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -1155,7 +1155,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 520:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -2194,7 +2194,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 514:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -3243,7 +3243,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 512:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -4673,7 +4673,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 517:
-less, greater
+greater, less
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
