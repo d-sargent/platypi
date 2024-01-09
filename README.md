@@ -14,9 +14,7 @@
 
 Inspired by the enigmatic platypus, Platypi blends unexpected features with conventional approaches. Dramatically tapered strokes and sheared wedge serifs combine with smooth curves and traditional proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. Heavier weights push this tension further with increased tapering and overall contrast.
 
-An original design for Platypi was produced while completing a Certificate in Type Design at Type West / Letterform Archive in 2022. The aim of the project was to create a 'latin' wedge serif model suitable for long-form text usage. The original design featured multiple weights, alongside a single weight italic style. 
-
-All letterforms are currently being redrawn after reflection and time away from the project. All weights will have matching italic styles.
+An original design for Platypi was produced while completing a Certificate in Type Design at Type West / Letterform Archive in 2022. The project aimed to create a 'latin' wedge serif model suitable for long-form text usage. The original design featured multiple weights alongside a single-weight italic style. In 2023 all letterforms were redrawn after reflection and time away from the project. All weights now have matching italic styles. In 2024, the project aims to develop expanded language support.
 
 ![Sample Image](documentation/platypi-sample-image-oct-2023.png)
 
@@ -26,17 +24,17 @@ David Sargent is Creative Director of Liveworm, a work-integrated learning incub
 
 ## Contributors
 
-The original design was developed while studying at Type West under the direction of:
+The original design was developed while studying at Type West under the guidance of:
 
 * Juan Villanueva [Website](http://www.juankafka.com)
 * Lynne Yun [Website](http://www.lynneyun.com)
 * Gen Ramirez [Website](https://genramirez.com)
 
-Additional direction, polish, and advice provided by:
+Additional direction, polish, and advice was provided by:
 
 * Troy Leinster [Website](https://www.leinstertype.com)
 
-This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished.
+This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished; I like to think you would have approved.
 
 ## Building
 
