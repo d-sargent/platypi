@@ -24,7 +24,9 @@ _,
 "ƒ฿₿¢|¤$₫€£₩¥",
 "l/periodcentered.loclCAT l L/periodcentered.loclCAT.case L",
 "Ŀŀ",
-"ªº"
+"ªº",
+"̱",
+"/macronbelowcomb.case"
 );
 axes = (
 {
@@ -64215,5 +64217,5 @@ oV = "94";
 };
 };
 versionMajor = 0;
-versionMinor = 300;
+versionMinor = 350;
 }

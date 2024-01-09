@@ -52,17 +52,20 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-**January 2024. Version 0.3**
+**January 2024. Version 0.35**
+* Australian Indigenous support completed
+
+**January 2024. Version 0.30**
 * Google Fonts Latin Core Character Set completed
 
-**August 2023. Version 0.2**
+**August 2023. Version 0.20**
 * Redrawn design started and uploaded onto GitHub
 * Upright roman design in light and extra bold weights
 * Matching italic design in light and extra bold weights
 * Reconfigured vertical metrics for larger x-height
 * Streamlined serif design
 
-**December 2022. Version 0.1**
+**December 2022. Version 0.10**
 * Original version created while studying at Type West
 * Upright roman design in light weight
 * Upright roman design in extra bold weight
