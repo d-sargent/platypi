@@ -2,98 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[23] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x002B (PLUS SIGN)
-
-
-	- 0x00D7 (MULTIPLICATION SIGN)
-
-
-	- 0x00F7 (DIVISION SIGN)
-
-
-	- 0x003D (EQUALS SIGN)
-
-
-	- 0x003E (GREATER-THAN SIGN)
-
-
-	- 0x003C (LESS-THAN SIGN)
-
-
-	- 0x00B0 (DEGREE SIGN)
-
-
-	- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-	- 0x00BA (MASCULINE ORDINAL INDICATOR)
-
-
-	- 0x00A1 (INVERTED EXCLAMATION MARK)
-
-
-	- 0x00BF (INVERTED QUESTION MARK)
-
-
-	- 0x00B7 (MIDDLE DOT)
-
-
-	- 0x2022 (BULLET)
-
-
-	- 0x005F (LOW LINE)
-
-
-	- 0x201A (SINGLE LOW-9 QUOTATION MARK)
-
-
-	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-	- 0x00B6 (PILCROW SIGN)
-
-
-	- 0x00A7 (SECTION SIGN)
-
-
-	- 0x00A9 (COPYRIGHT SIGN)
-
-
-	- 0x00AE (REGISTERED SIGN)
-
-
-	- 0x2122 (TRADE MARK SIGN)
-
-
-	- 0x00A2 (CENT SIGN)
-
-
-	- 0x0024 (DOLLAR SIGN)
-
-
-	- 0x20AC (EURO SIGN)
-
-
-	- 0x00A3 (POUND SIGN)
-
-
-	- 0x00A5 (YEN SIGN)
-
-
-	- 0x2212 (MINUS SIGN)
-
-
-	- 0x007E (TILDE)
- 
-
-	- 0x005E (CIRCUMFLEX ACCENT)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+<details><summary><b>[24] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Semi Bold Italic'. Expected OS/2 usWeightClass is 700, got 600. [code: bad-value]
@@ -160,6 +69,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * 🔥 **FAIL** Name ID 1 (Family Name) must not contain 'Italic'. [code: bad-familyname]
 * 🔥 **FAIL** Name ID 2 (Subfamily Name) does not conform to specs. Only R/I/B/BI are allowed.
 Got: 'Regular'. [code: bad-subfamilyname]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
+
+
+* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
+	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -181,9 +95,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.TRK 
+	- i.TRK
 
 	- i.loclTRK
+
+	- periodcentered.loclCAT 
+
+	- periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -191,6 +109,22 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
+
+	- Glyph name: underscore	Contours detected: 0	Expected: 1
+
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
+
+	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: degree	Contours detected: 0	Expected: 2
+
+	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -212,9 +146,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
@@ -222,20 +160,48 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: degree	Contours detected: 0	Expected: 2
+
+	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
+
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 2	Expected: 1 
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: questiondown	Contours detected: 0	Expected: 2
+
+	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: underscore	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1 
+
+	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 515 among a set of 4 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 514:
+greater, less
+
+Width = 584:
+multiply
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -340,6 +306,14 @@ The following glyphs do not have the recommended number of contours:
 	* Zdotaccent (U+017B): L<<136.0,702.0>--<151.0,702.0>> -> L<<151.0,702.0>--<291.0,690.0>>
 
 	* Zdotaccent (U+017B): L<<151.0,702.0>--<291.0,690.0>> -> L<<291.0,690.0>--<654.0,690.0>>
+
+	* trademark (U+2122): L<<135.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<278.0,690.0>>
+
+	* trademark (U+2122): L<<150.0,698.0>--<278.0,690.0>> -> L<<278.0,690.0>--<586.0,690.0>>
+
+	* trademark (U+2122): L<<278.0,690.0>--<586.0,690.0>> -> L<<586.0,690.0>--<732.0,698.0>>
+
+	* trademark (U+2122): L<<586.0,690.0>--<732.0,698.0>> -> L<<732.0,698.0>--<748.0,698.0>>
 
 	* uni0136 (U+0136): L<<801.0,671.0>--<673.0,596.0>> -> L<<673.0,596.0>--<449.0,439.0>>
 
@@ -815,9 +789,9 @@ greater, less
 
 	* paragraph (U+00B6): L<<336.0,640.0>--<338.0,-107.0>>
 
-	* paragraph (U+00B6): L<<411.0,-107.0>--<409.0,640.0>> 
+	* paragraph (U+00B6): L<<431.0,-107.0>--<429.0,640.0>> 
 
-	* paragraph (U+00B6): L<<457.0,620.0>--<459.0,-107.0>> [code: found-semi-vertical]
+	* paragraph (U+00B6): L<<477.0,620.0>--<479.0,-107.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[21] Platypi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1129,9 +1103,11 @@ greater, less
 
 	* Wdieresis (U+1E84): X=602.5,Y=765.5 (should be at ascender 765?)
 
-	* Wdieresis (U+1E84): X=700.5,Y=765.5 (should be at ascender 765?) 
+	* Wdieresis (U+1E84): X=700.5,Y=765.5 (should be at ascender 765?)
 
-	* uni1EB3 (U+1EB3): X=334.0,Y=763.0 (should be at ascender 765?) [code: found-misalignments]
+	* uni1EB3 (U+1EB3): X=334.0,Y=763.0 (should be at ascender 765?) 
+
+	* uni1EBD (U+1EBD): X=210.0,Y=689.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1289,101 +1265,10 @@ greater, less
 
 	* paragraph (U+00B6): L<<345.0,638.0>--<347.0,-107.0>>
 
-	* paragraph (U+00B6): L<<418.0,-107.0>--<416.0,638.0>> 
+	* paragraph (U+00B6): L<<438.0,-107.0>--<436.0,638.0>> 
 
-	* paragraph (U+00B6): L<<466.0,616.0>--<468.0,-107.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[23] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x002B (PLUS SIGN)
-
-
-	- 0x00D7 (MULTIPLICATION SIGN)
-
-
-	- 0x00F7 (DIVISION SIGN)
-
-
-	- 0x003D (EQUALS SIGN)
-
-
-	- 0x003E (GREATER-THAN SIGN)
-
-
-	- 0x003C (LESS-THAN SIGN)
-
-
-	- 0x00B0 (DEGREE SIGN)
-
-
-	- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-	- 0x00BA (MASCULINE ORDINAL INDICATOR)
-
-
-	- 0x00A1 (INVERTED EXCLAMATION MARK)
-
-
-	- 0x00BF (INVERTED QUESTION MARK)
-
-
-	- 0x00B7 (MIDDLE DOT)
-
-
-	- 0x2022 (BULLET)
-
-
-	- 0x005F (LOW LINE)
-
-
-	- 0x201A (SINGLE LOW-9 QUOTATION MARK)
-
-
-	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-	- 0x00B6 (PILCROW SIGN)
-
-
-	- 0x00A7 (SECTION SIGN)
-
-
-	- 0x00A9 (COPYRIGHT SIGN)
-
-
-	- 0x00AE (REGISTERED SIGN)
-
-
-	- 0x2122 (TRADE MARK SIGN)
-
-
-	- 0x00A2 (CENT SIGN)
-
-
-	- 0x0024 (DOLLAR SIGN)
-
-
-	- 0x20AC (EURO SIGN)
-
-
-	- 0x00A3 (POUND SIGN)
-
-
-	- 0x00A5 (YEN SIGN)
-
-
-	- 0x2212 (MINUS SIGN)
-
-
-	- 0x007E (TILDE)
- 
-
-	- 0x005E (CIRCUMFLEX ACCENT)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+	* paragraph (U+00B6): L<<486.0,616.0>--<488.0,-107.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[24] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Extra Bold Italic'. Expected OS/2 usWeightClass is 700, got 800. [code: bad-value]
@@ -1450,6 +1335,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * 🔥 **FAIL** Name ID 1 (Family Name) must not contain 'Italic'. [code: bad-familyname]
 * 🔥 **FAIL** Name ID 2 (Subfamily Name) does not conform to specs. Only R/I/B/BI are allowed.
 Got: 'Regular'. [code: bad-subfamilyname]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
+
+
+* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
+	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1471,9 +1361,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.TRK 
+	- i.TRK
 
 	- i.loclTRK
+
+	- periodcentered.loclCAT 
+
+	- periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1481,6 +1375,22 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
+
+	- Glyph name: underscore	Contours detected: 0	Expected: 1
+
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
+
+	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: degree	Contours detected: 0	Expected: 2
+
+	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -1502,9 +1412,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
@@ -1512,20 +1426,51 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: degree	Contours detected: 0	Expected: 2
+
+	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
+
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 2	Expected: 1 
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: questiondown	Contours detected: 0	Expected: 2
+
+	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: underscore	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1 
+
+	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 515 among a set of 4 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 508:
+less
+
+Width = 509:
+greater
+
+Width = 584:
+multiply
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -1630,6 +1575,14 @@ The following glyphs do not have the recommended number of contours:
 	* Zdotaccent (U+017B): L<<131.0,706.0>--<151.0,706.0>> -> L<<151.0,706.0>--<320.0,690.0>>
 
 	* Zdotaccent (U+017B): L<<151.0,706.0>--<320.0,690.0>> -> L<<320.0,690.0>--<689.0,690.0>>
+
+	* trademark (U+2122): L<<129.0,698.0>--<148.0,698.0>> -> L<<148.0,698.0>--<289.0,690.0>>
+
+	* trademark (U+2122): L<<148.0,698.0>--<289.0,690.0>> -> L<<289.0,690.0>--<591.0,690.0>>
+
+	* trademark (U+2122): L<<289.0,690.0>--<591.0,690.0>> -> L<<591.0,690.0>--<760.0,698.0>>
+
+	* trademark (U+2122): L<<591.0,690.0>--<760.0,698.0>> -> L<<760.0,698.0>--<780.0,698.0>>
 
 	* uni0136 (U+0136): L<<860.0,668.0>--<721.0,590.0>> -> L<<721.0,590.0>--<506.0,445.0>>
 
@@ -2163,107 +2116,16 @@ greater, less
 
 	* paragraph (U+00B6): L<<376.0,632.0>--<378.0,-107.0>>
 
-	* paragraph (U+00B6): L<<441.0,-107.0>--<440.0,632.0>>
+	* paragraph (U+00B6): L<<461.0,-107.0>--<460.0,632.0>>
 
-	* paragraph (U+00B6): L<<497.0,602.0>--<499.0,-107.0>>
+	* paragraph (U+00B6): L<<517.0,602.0>--<519.0,-107.0>>
 
 	* uni013B (U+013B): L<<580.0,212.0>--<579.0,0.0>>
 
 	* uni1EB8 (U+1EB8): L<<581.0,704.0>--<582.0,524.0>> 
 
 	* uni1EBC (U+1EBC): L<<581.0,704.0>--<582.0,524.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[22] Platypi-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x002B (PLUS SIGN)
-
-
-	- 0x00D7 (MULTIPLICATION SIGN)
-
-
-	- 0x00F7 (DIVISION SIGN)
-
-
-	- 0x003D (EQUALS SIGN)
-
-
-	- 0x003E (GREATER-THAN SIGN)
-
-
-	- 0x003C (LESS-THAN SIGN)
-
-
-	- 0x00B0 (DEGREE SIGN)
-
-
-	- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-	- 0x00BA (MASCULINE ORDINAL INDICATOR)
-
-
-	- 0x00A1 (INVERTED EXCLAMATION MARK)
-
-
-	- 0x00BF (INVERTED QUESTION MARK)
-
-
-	- 0x00B7 (MIDDLE DOT)
-
-
-	- 0x2022 (BULLET)
-
-
-	- 0x005F (LOW LINE)
-
-
-	- 0x201A (SINGLE LOW-9 QUOTATION MARK)
-
-
-	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-	- 0x00B6 (PILCROW SIGN)
-
-
-	- 0x00A7 (SECTION SIGN)
-
-
-	- 0x00A9 (COPYRIGHT SIGN)
-
-
-	- 0x00AE (REGISTERED SIGN)
-
-
-	- 0x2122 (TRADE MARK SIGN)
-
-
-	- 0x00A2 (CENT SIGN)
-
-
-	- 0x0024 (DOLLAR SIGN)
-
-
-	- 0x20AC (EURO SIGN)
-
-
-	- 0x00A3 (POUND SIGN)
-
-
-	- 0x00A5 (YEN SIGN)
-
-
-	- 0x2212 (MINUS SIGN)
-
-
-	- 0x007E (TILDE)
- 
-
-	- 0x005E (CIRCUMFLEX ACCENT)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[23] Platypi-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -2326,6 +2188,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * 🔥 **FAIL** Name ID 1 (Family Name) must not contain 'Italic'. [code: bad-familyname]
 * 🔥 **FAIL** Name ID 2 (Subfamily Name) does not conform to specs. Only R/I/B/BI are allowed.
 Got: 'Regular'. [code: bad-subfamilyname]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
+
+
+* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
+	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2340,9 +2207,13 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.TRK 
+	- i.TRK
 
 	- i.loclTRK
+
+	- periodcentered.loclCAT 
+
+	- periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2350,6 +2221,22 @@ Got: 'Regular'. [code: bad-subfamilyname]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
+
+	- Glyph name: underscore	Contours detected: 0	Expected: 1
+
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
+
+	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: degree	Contours detected: 0	Expected: 2
+
+	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -2371,9 +2258,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
@@ -2381,20 +2272,51 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: degree	Contours detected: 0	Expected: 2
+
+	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
+
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 2	Expected: 1 
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: questiondown	Contours detected: 0	Expected: 2
+
+	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: underscore	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1 
+
+	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 515 among a set of 4 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 519:
+less
+
+Width = 518:
+greater
+
+Width = 584:
+multiply
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -2423,6 +2345,8 @@ The following glyphs do not have the recommended number of contours:
 	* g (U+0067): X=6.5,Y=-237.0 (should be at descender -235?)
 
 	* g (U+0067): X=478.0,Y=478.0 (should be at x-height 480?)
+
+	* section (U+00A7): X=272.0,Y=690.5 (should be at cap-height 690?)
 
 	* acute (U+00B4): X=339.0,Y=692.0 (should be at cap-height 690?)
 
@@ -2635,6 +2559,14 @@ The following glyphs do not have the recommended number of contours:
 	* t (U+0074): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
 
 	* tcaron (U+0165): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
+
+	* trademark (U+2122): L<<140.0,698.0>--<151.0,698.0>> -> L<<151.0,698.0>--<266.0,690.0>>
+
+	* trademark (U+2122): L<<151.0,698.0>--<266.0,690.0>> -> L<<266.0,690.0>--<581.0,690.0>>
+
+	* trademark (U+2122): L<<266.0,690.0>--<581.0,690.0>> -> L<<581.0,690.0>--<704.0,698.0>>
+
+	* trademark (U+2122): L<<581.0,690.0>--<704.0,698.0>> -> L<<704.0,698.0>--<715.0,698.0>>
 
 	* uni0136 (U+0136): L<<741.0,674.0>--<616.0,595.0>> -> L<<616.0,595.0>--<391.0,434.0>>
 
@@ -3019,101 +2951,10 @@ greater, less
 
 	* paragraph (U+00B6): L<<387.0,630.0>--<389.0,-107.0>>
 
-	* paragraph (U+00B6): L<<450.0,-107.0>--<448.0,630.0>> 
+	* paragraph (U+00B6): L<<470.0,-107.0>--<468.0,630.0>> 
 
-	* paragraph (U+00B6): L<<508.0,597.0>--<510.0,-107.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[20] Platypi-RegularItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x002B (PLUS SIGN)
-
-
-	- 0x00D7 (MULTIPLICATION SIGN)
-
-
-	- 0x00F7 (DIVISION SIGN)
-
-
-	- 0x003D (EQUALS SIGN)
-
-
-	- 0x003E (GREATER-THAN SIGN)
-
-
-	- 0x003C (LESS-THAN SIGN)
-
-
-	- 0x00B0 (DEGREE SIGN)
-
-
-	- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-	- 0x00BA (MASCULINE ORDINAL INDICATOR)
-
-
-	- 0x00A1 (INVERTED EXCLAMATION MARK)
-
-
-	- 0x00BF (INVERTED QUESTION MARK)
-
-
-	- 0x00B7 (MIDDLE DOT)
-
-
-	- 0x2022 (BULLET)
-
-
-	- 0x005F (LOW LINE)
-
-
-	- 0x201A (SINGLE LOW-9 QUOTATION MARK)
-
-
-	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-	- 0x00B6 (PILCROW SIGN)
-
-
-	- 0x00A7 (SECTION SIGN)
-
-
-	- 0x00A9 (COPYRIGHT SIGN)
-
-
-	- 0x00AE (REGISTERED SIGN)
-
-
-	- 0x2122 (TRADE MARK SIGN)
-
-
-	- 0x00A2 (CENT SIGN)
-
-
-	- 0x0024 (DOLLAR SIGN)
-
-
-	- 0x20AC (EURO SIGN)
-
-
-	- 0x00A3 (POUND SIGN)
-
-
-	- 0x00A5 (YEN SIGN)
-
-
-	- 0x2212 (MINUS SIGN)
-
-
-	- 0x007E (TILDE)
- 
-
-	- 0x005E (CIRCUMFLEX ACCENT)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+	* paragraph (U+00B6): L<<528.0,597.0>--<530.0,-107.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[21] Platypi-RegularItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -3165,6 +3006,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * 🔥 **FAIL** On the 'name' table, the full font name 'Platypi Regular Italic' does not begin with the font family name 'Platypi Italic' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
+
+
+* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
+	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3179,9 +3025,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.TRK 
+	- i.TRK
 
 	- i.loclTRK
+
+	- periodcentered.loclCAT 
+
+	- periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3189,6 +3039,22 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
+
+	- Glyph name: underscore	Contours detected: 0	Expected: 1
+
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
+
+	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: degree	Contours detected: 0	Expected: 2
+
+	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -3210,9 +3076,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
@@ -3220,20 +3090,51 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: degree	Contours detected: 0	Expected: 2
+
+	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
+
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 2	Expected: 1 
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: questiondown	Contours detected: 0	Expected: 2
+
+	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: underscore	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1 
+
+	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 515 among a set of 4 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 517:
+less
+
+Width = 516:
+greater
+
+Width = 584:
+multiply
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -3262,6 +3163,12 @@ The following glyphs do not have the recommended number of contours:
 	* bracketright (U+005D): X=228.0,Y=688.0 (should be at cap-height 690?)
 
 	* g (U+0067): X=495.0,Y=482.0 (should be at x-height 484?)
+
+	* section (U+00A7): X=280.5,Y=689.0 (should be at cap-height 690?)
+
+	* registered (U+00AE): X=278.0,Y=688.0 (should be at cap-height 690?)
+
+	* registered (U+00AE): X=387.0,Y=688.0 (should be at cap-height 690?)
 
 	* cedilla (U+00B8): X=110.0,Y=-234.0 (should be at descender -235?)
 
@@ -3469,6 +3376,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* Zdotaccent (U+017B): L<<151.0,699.0>--<272.0,690.0>> -> L<<272.0,690.0>--<631.0,690.0>>
 
+	* trademark (U+2122): L<<138.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<270.0,690.0>>
+
+	* trademark (U+2122): L<<150.0,698.0>--<270.0,690.0>> -> L<<270.0,690.0>--<583.0,690.0>>
+
+	* trademark (U+2122): L<<270.0,690.0>--<583.0,690.0>> -> L<<583.0,690.0>--<714.0,698.0>>
+
+	* trademark (U+2122): L<<583.0,690.0>--<714.0,698.0>> -> L<<714.0,698.0>--<727.0,698.0>>
+
 	* uni0136 (U+0136): L<<762.0,673.0>--<638.0,597.0>> -> L<<638.0,597.0>--<412.0,436.0>>
 
 	* uni021A (U+021A): L<<138.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<270.0,690.0>>
@@ -3482,98 +3397,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EBC (U+1EBC): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>> 
 
 	* uni1EBC (U+1EBC): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[21] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x002B (PLUS SIGN)
-
-
-	- 0x00D7 (MULTIPLICATION SIGN)
-
-
-	- 0x00F7 (DIVISION SIGN)
-
-
-	- 0x003D (EQUALS SIGN)
-
-
-	- 0x003E (GREATER-THAN SIGN)
-
-
-	- 0x003C (LESS-THAN SIGN)
-
-
-	- 0x00B0 (DEGREE SIGN)
-
-
-	- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-	- 0x00BA (MASCULINE ORDINAL INDICATOR)
-
-
-	- 0x00A1 (INVERTED EXCLAMATION MARK)
-
-
-	- 0x00BF (INVERTED QUESTION MARK)
-
-
-	- 0x00B7 (MIDDLE DOT)
-
-
-	- 0x2022 (BULLET)
-
-
-	- 0x005F (LOW LINE)
-
-
-	- 0x201A (SINGLE LOW-9 QUOTATION MARK)
-
-
-	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-	- 0x00B6 (PILCROW SIGN)
-
-
-	- 0x00A7 (SECTION SIGN)
-
-
-	- 0x00A9 (COPYRIGHT SIGN)
-
-
-	- 0x00AE (REGISTERED SIGN)
-
-
-	- 0x2122 (TRADE MARK SIGN)
-
-
-	- 0x00A2 (CENT SIGN)
-
-
-	- 0x0024 (DOLLAR SIGN)
-
-
-	- 0x20AC (EURO SIGN)
-
-
-	- 0x00A3 (POUND SIGN)
-
-
-	- 0x00A5 (YEN SIGN)
-
-
-	- 0x2212 (MINUS SIGN)
-
-
-	- 0x007E (TILDE)
- 
-
-	- 0x005E (CIRCUMFLEX ACCENT)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[22] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -3638,6 +3462,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * 🔥 **FAIL** Name ID 1 (Family Name) must not contain 'Italic'. [code: bad-familyname]
 * 🔥 **FAIL** Name ID 2 (Subfamily Name) does not conform to specs. Only R/I/B/BI are allowed.
 Got: 'Regular'. [code: bad-subfamilyname]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
+
+
+* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
+	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3652,9 +3481,13 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.TRK 
+	- i.TRK
 
 	- i.loclTRK
+
+	- periodcentered.loclCAT 
+
+	- periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3662,6 +3495,22 @@ Got: 'Regular'. [code: bad-subfamilyname]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
+
+	- Glyph name: underscore	Contours detected: 0	Expected: 1
+
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
+
+	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: degree	Contours detected: 0	Expected: 2
+
+	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -3683,9 +3532,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
@@ -3693,20 +3546,51 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: degree	Contours detected: 0	Expected: 2
+
+	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
+
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 2	Expected: 1 
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: questiondown	Contours detected: 0	Expected: 2
+
+	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: underscore	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1 
+
+	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 515 among a set of 4 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 510:
+less
+
+Width = 511:
+greater
+
+Width = 584:
+multiply
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -3809,6 +3693,14 @@ The following glyphs do not have the recommended number of contours:
 	* Zdotaccent (U+017B): L<<133.0,704.0>--<151.0,704.0>> -> L<<151.0,704.0>--<307.0,690.0>>
 
 	* Zdotaccent (U+017B): L<<151.0,704.0>--<307.0,690.0>> -> L<<307.0,690.0>--<673.0,690.0>>
+
+	* trademark (U+2122): L<<131.0,698.0>--<149.0,698.0>> -> L<<149.0,698.0>--<284.0,690.0>>
+
+	* trademark (U+2122): L<<149.0,698.0>--<284.0,690.0>> -> L<<284.0,690.0>--<589.0,690.0>>
+
+	* trademark (U+2122): L<<284.0,690.0>--<589.0,690.0>> -> L<<589.0,690.0>--<748.0,698.0>>
+
+	* trademark (U+2122): L<<589.0,690.0>--<748.0,698.0>> -> L<<748.0,698.0>--<766.0,698.0>>
 
 	* uni0136 (U+0136): L<<834.0,669.0>--<701.0,593.0>> -> L<<701.0,593.0>--<481.0,442.0>>
 
@@ -4061,19 +3953,13 @@ greater, less
 
 	* uni1EB1 (U+1EB1): X=333.0,Y=764.0 (should be at ascender 765?)
 
-	* uni1EB5 (U+1EB5): X=370.0,Y=763.0 (should be at ascender 765?)
-
-	* uni1EB5 (U+1EB5): X=370.0,Y=763.0 (should be at ascender 765?)
-
-	* uni1EBD (U+1EBD): X=279.5,Y=689.0 (should be at cap-height 690?)
-
 	* uni1EF9 (U+1EF9): X=299.5,Y=689.0 (should be at cap-height 690?)
 
-	* quoteleft (U+2018): X=263.0,Y=688.0 (should be at cap-height 690?)
+	* quoteleft (U+2018): X=152.0,Y=688.0 (should be at cap-height 690?)
 
-	* quotedblleft (U+201C): X=500.0,Y=688.0 (should be at cap-height 690?) 
+	* quotedblleft (U+201C): X=389.0,Y=688.0 (should be at cap-height 690?) 
 
-	* quotedblleft (U+201C): X=263.0,Y=688.0 (should be at cap-height 690?) [code: found-misalignments]
+	* quotedblleft (U+201C): X=152.0,Y=688.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -4229,16 +4115,16 @@ greater, less
 
 	* paragraph (U+00B6): L<<362.0,635.0>--<364.0,-107.0>>
 
-	* paragraph (U+00B6): L<<431.0,-107.0>--<429.0,635.0>> 
+	* paragraph (U+00B6): L<<451.0,-107.0>--<449.0,635.0>> 
 
-	* paragraph (U+00B6): L<<483.0,608.0>--<485.0,-107.0>> [code: found-semi-vertical]
+	* paragraph (U+00B6): L<<503.0,608.0>--<505.0,-107.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 114 | 104 | 1203 | 61 | 825 | 0 |
+| 0 | 114 | 109 | 1203 | 61 | 820 | 0 |
 | 0% | 5% | 5% | 52% | 3% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
