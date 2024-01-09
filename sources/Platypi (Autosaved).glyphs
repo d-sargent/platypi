@@ -18,7 +18,13 @@ _,
 "̈/dieresiscomb.case",
 "©",
 "̊",
-"©+®"
+"©+®",
+"·/periodcentered.loclCAT/periodcentered.loclCAT.case",
+"/periodcentered.loclCAT :;…·•/periodcentered.loclCAT.case",
+"ƒ฿₿¢|¤$₫€£₩¥",
+"l/periodcentered.loclCAT l L/periodcentered.loclCAT.case L",
+"Ŀŀ",
+"ªº"
 );
 axes = (
 {
@@ -56375,7 +56381,6 @@ width = 724;
 metricLeft = "=O";
 metricRight = "=C";
 unicode = 8364;
-changeCount = 8;
 },
 {
 color = 4;
@@ -57034,7 +57039,6 @@ width = 649;
 metricLeft = "=O";
 metricRight = "=O";
 unicode = 163;
-changeCount = 6;
 },
 {
 color = 4;
@@ -57683,7 +57687,6 @@ width = 676;
 metricLeft = "=Y";
 metricRight = "=Y";
 unicode = 165;
-changeCount = 10;
 },
 {
 color = 4;
@@ -64212,5 +64215,5 @@ oV = "94";
 };
 };
 versionMajor = 0;
-versionMinor = 200;
+versionMinor = 300;
 }
