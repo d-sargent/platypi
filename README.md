@@ -52,6 +52,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
+**January 2024. Version 0.3**
+* Google Fonts Latin Core Character Set completed
+
 **August 2023. Version 0.2**
 * Redrawn design started and uploaded onto GitHub
 * Upright roman design in light and extra bold weights
