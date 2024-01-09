@@ -53,7 +53,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 ## Changelog
 
 **January 2024. Version 0.35**
-* Australian Indigenous support completed
+* Support for Australian Indigenous languages completed
 
 **January 2024. Version 0.30**
 * Google Fonts Latin Core Character Set completed
