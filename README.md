@@ -30,15 +30,15 @@ The original design was developed while studying at Type West under the guidance
 * Lynne Yun [Website](http://www.lynneyun.com)
 * Gen Ramirez [Website](https://genramirez.com)
 
-Critical and timely advice on serif design provided by:
+Some timely advice on serif design was provided by:
 
 * David Jonathan Ross [Website](https://djr.com)
 
-Additional design advice post Type West provided by:
+Additional design advice was provided by:
 
 * Troy Leinster [Website](https://www.leinstertype.com)
 
-This project is dedicated to the memory of Donald Welch who sparked my passion for typography many years ago. A shame you never got to see it finished; I think you would have approved.
+This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished; you would have approved.
 
 ## Building
 
