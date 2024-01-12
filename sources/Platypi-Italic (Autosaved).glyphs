@@ -677,6 +677,7 @@ width = 749;
 }
 );
 unicode = 258;
+changeCount = 1;
 },
 {
 glyphname = Abrevedotbelow;
@@ -718,6 +719,7 @@ width = 749;
 }
 );
 unicode = 7862;
+changeCount = 1;
 },
 {
 glyphname = Acaron;
@@ -4122,6 +4124,7 @@ width = 616;
 }
 );
 unicode = 276;
+changeCount = 1;
 },
 {
 glyphname = Ecaron;
@@ -5364,6 +5367,7 @@ width = 768;
 }
 );
 unicode = 286;
+changeCount = 1;
 },
 {
 glyphname = Gcaron;
@@ -6718,6 +6722,7 @@ width = 381;
 }
 );
 unicode = 300;
+changeCount = 1;
 },
 {
 glyphname = Icircumflex;
@@ -10108,6 +10113,7 @@ width = 753;
 }
 );
 unicode = 334;
+changeCount = 1;
 },
 {
 glyphname = Ocircumflex;
@@ -13192,6 +13198,7 @@ width = 752;
 }
 );
 unicode = 364;
+changeCount = 1;
 },
 {
 glyphname = Ucircumflex;
@@ -16235,6 +16242,7 @@ width = 643;
 }
 );
 unicode = 259;
+changeCount = 1;
 },
 {
 glyphname = abrevedotbelow;
@@ -16276,6 +16284,7 @@ width = 643;
 }
 );
 unicode = 7863;
+changeCount = 1;
 },
 {
 glyphname = acaron;
@@ -20393,6 +20402,7 @@ width = 555;
 }
 );
 unicode = 277;
+changeCount = 1;
 },
 {
 glyphname = ecaron;
@@ -23395,6 +23405,7 @@ width = 568;
 }
 );
 unicode = 287;
+changeCount = 1;
 },
 {
 glyphname = gcaron;
@@ -24332,6 +24343,7 @@ width = 347;
 }
 );
 unicode = 301;
+changeCount = 1;
 },
 {
 glyphname = icircumflex;
@@ -28195,6 +28207,7 @@ width = 613;
 }
 );
 unicode = 335;
+changeCount = 1;
 },
 {
 glyphname = ocircumflex;
@@ -32989,6 +33002,7 @@ width = 664;
 }
 );
 unicode = 365;
+changeCount = 1;
 },
 {
 glyphname = ucircumflex;
