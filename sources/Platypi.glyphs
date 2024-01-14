@@ -2,24 +2,9 @@
 .appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
-"/brevecomb_acutecomb Ă/brevecomb_acutecomb.case ắẮ/gravecomb.case/brevecomb_gravecomb.case Ằ/brevecomb_hookabovecomb.case Ẳ/brevecomb_tildecomb.case/brevecomb_tildecomb ẵẴắằẳẵ",
-"/brevecomb_gravecomb.case/brevecomb_acutecomb.case/brevecomb_tildecomb.case/brevecomb_hookabovecomb.case",
-"/tildecomb.case",
-"ằ̂â/circumflexcomb_acutecomb ấ/circumflexcomb_gravecomb ầ/circumflexcomb_hookabovecomb ẩ/circumflexcomb_tildecomb ẫ̃̂/circumflexcomb.case ̃/circumflexcomb_tildecomb ắẫ/_tildenarrowcomb/brevecomb_tildecomb ẵ",
-"ĩi",
-"/brevecomb_acutecomb.case ẮẰẲ/_tildecombnarrow.case/brevecomb_tildecomb.case ẴÂ/circumflexcomb_acutecomb.case Ấ/circumflexcomb_gravecomb.case Ầ/circumflexcomb_hookabovecomb.case Ẩ/circumflexcomb_tildecomb.case Ẫ
-ắằẳẵâấ/circumflexcomb_gravecomb ầ/circumflexcomb_hookabovecomb ẩẫ",
-"/circumflexcomb_acutecomb.case ẾỀỄ",
-"/circumflexcomb_gravecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_tildecomb.case/hookabovecomb.case/circumflexcomb_hookabovecomb.case",
-"ÊẾỀỄ",
-"O/horncomb.case Ơ/horncomb.case ƯTư̛ơuưoòg
-xương s̛ưnưn",
-"ỜÕỠ/horncomb.case ƯTờỡư",
-"̃õ",
-"ỠÕƯỮTŨỡõữũ",
-"/horncomb.case",
-"ƠƯ",
-"̛ưử"
+"âấ",
+"ằ/circumflexcomb_tildecomb ẫầẩè",
+"ẮẤ"
 );
 axes = (
 {
@@ -30,7 +15,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Acaron Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat Dmacronbelow E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Edotbelow Egrave Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Idotbelow Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lmacronbelow Lslash M N Nacute Ncaron Ncommaaccent Nhookleft Nmacronbelow Ntilde Eng O Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohungarumlaut Omacron Oogonek Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent Rmacronbelow S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tmacronbelow U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat Dmacronbelow E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lmacronbelow Lslash M N Nacute Ncaron Ncommaaccent Nhookleft Nmacronbelow Ntilde Eng O Oacute Obreve Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oogonek Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent Rmacronbelow S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tmacronbelow U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent";
 name = Uppercase;
 }
 );
@@ -75,11 +60,11 @@ tag = aalt;
 automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaabovecomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb dotbelowcomb macronbelowcomb ogonekcomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];
+	@CombiningNonTopAccents = [cedillacomb dotbelowcomb macronbelowcomb ogonekcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb ogonekcomb macronbelowcomb strokeshortcomb slashshortcomb slashlongcomb];
-	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case ogonekcomb.case macronbelowcomb.case strokeshortcomb.case slashshortcomb.case slashlongcomb.case];
+	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb circumflexcomb_gravecomb circumflexcomb_acutecomb circumflexcomb_tildecomb circumflexcomb_hookabovecomb caroncomb brevecomb brevecomb_gravecomb brevecomb_acutecomb brevecomb_tildecomb brevecomb_hookabovecomb ringcomb tildecomb macroncomb hookabovecomb horncomb ogonekcomb macronbelowcomb strokeshortcomb slashshortcomb slashlongcomb];
+	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case circumflexcomb_gravecomb.case circumflexcomb_acutecomb.case circumflexcomb_tildecomb.case circumflexcomb_hookabovecomb.case caroncomb.case brevecomb.case brevecomb_gravecomb.case brevecomb_acutecomb.case brevecomb_tildecomb.case brevecomb_hookabovecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case horncomb.case ogonekcomb.case macronbelowcomb.case strokeshortcomb.case slashshortcomb.case slashlongcomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_1;
@@ -91,12 +76,20 @@ lookup ccmp_Other_2 {
 
 lookup ccmp_latn_1 {
 	sub fi by f i;
+	sub fl by f l;
 	sub Ldot by L periodcentered.loclCAT.case;
 } ccmp_latn_1;
 
 lookup ccmp_latn_2 {
 	lookupflag 0;
+	sub brevecomb acutecomb by brevecomb_acutecomb;
+	sub brevecomb gravecomb by brevecomb_gravecomb;
 	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
+	sub brevecomb tildecomb by brevecomb_tildecomb;
+	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
+	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
+	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
+	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
 } ccmp_latn_2;
 
 script latn;
@@ -168,11 +161,21 @@ sub gravecomb by gravecomb.case;
 sub acutecomb by acutecomb.case;
 sub hungarumlautcomb by hungarumlautcomb.case;
 sub circumflexcomb by circumflexcomb.case;
+sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.case;
+sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.case;
+sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;
+sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;
 sub caroncomb by caroncomb.case;
 sub brevecomb by brevecomb.case;
+sub brevecomb_gravecomb by brevecomb_gravecomb.case;
+sub brevecomb_acutecomb by brevecomb_acutecomb.case;
+sub brevecomb_tildecomb by brevecomb_tildecomb.case;
+sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.case;
 sub ringcomb by ringcomb.case;
 sub tildecomb by tildecomb.case;
 sub macroncomb by macroncomb.case;
+sub hookabovecomb by hookabovecomb.case;
+sub horncomb by horncomb.case;
 sub ogonekcomb by ogonekcomb.case;
 sub macronbelowcomb by macronbelowcomb.case;
 sub strokeshortcomb by strokeshortcomb.case;
@@ -186,6 +189,7 @@ automatic = 1;
 code = "lookupflag IgnoreMarks;
 sub f f i by f_f_i;
 sub f i by fi;
+sub f l by fl;
 ";
 tag = liga;
 }
@@ -16617,7 +16621,7 @@ unicode = 7910;
 {
 color = 4;
 glyphname = Uhorn;
-lastChange = "2024-01-12 04:30:17 +0000";
+lastChange = "2024-01-12 07:07:03 +0000";
 layers = (
 {
 anchors = (
@@ -21447,7 +21451,7 @@ unicode = 7849;
 },
 {
 glyphname = acircumflextilde;
-lastChange = "2024-01-12 01:28:44 +0000";
+lastChange = "2024-01-14 00:45:08 +0000";
 layers = (
 {
 layerId = m01;
@@ -21723,7 +21727,7 @@ unicode = 229;
 },
 {
 glyphname = atilde;
-lastChange = "2024-01-12 04:34:32 +0000";
+lastChange = "2024-01-12 04:34:59 +0000";
 layers = (
 {
 layerId = m01;
@@ -21745,7 +21749,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (56,0);
+pos = (66,0);
 ref = tildecomb;
 }
 );
@@ -25380,7 +25384,7 @@ unicode = 281;
 },
 {
 glyphname = etilde;
-lastChange = "2024-01-12 04:34:32 +0000";
+lastChange = "2024-01-12 04:34:59 +0000";
 layers = (
 {
 layerId = m01;
@@ -25402,7 +25406,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (58,0);
+pos = (68,0);
 ref = tildecomb;
 }
 );
@@ -32399,7 +32403,7 @@ unicode = 7753;
 {
 color = 4;
 glyphname = ntilde;
-lastChange = "2024-01-12 04:34:32 +0000";
+lastChange = "2024-01-12 05:01:53 +0000";
 layers = (
 {
 layerId = m01;
@@ -32421,7 +32425,7 @@ shapes = (
 ref = n;
 },
 {
-pos = (104,0);
+pos = (114,0);
 ref = tildecomb;
 }
 );
@@ -41054,7 +41058,7 @@ unicode = 563;
 },
 {
 glyphname = ytilde;
-lastChange = "2024-01-12 04:29:34 +0000";
+lastChange = "2024-01-12 05:01:53 +0000";
 layers = (
 {
 layerId = m01;
@@ -41063,7 +41067,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (59,0);
+pos = (64,0);
 ref = tildecomb;
 }
 );
@@ -44368,6 +44372,190 @@ width = 658;
 metricLeft = "=f";
 metricRight = "=i";
 unicode = 64257;
+},
+{
+color = 4;
+glyphname = fl;
+lastChange = "2024-01-12 05:09:17 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (541,0);
+},
+{
+name = center;
+pos = (547,383);
+},
+{
+name = top;
+pos = (548,735);
+},
+{
+name = topright;
+pos = (612,761);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(281,0,l),
+(281,14,l),
+(192,81,l),
+(207,52,l),
+(207,565,ls),
+(207,664,o),
+(258,726,o),
+(339,726,c),
+(378,726,o),
+(401,712,o),
+(430,670,c),
+(422,753,l),
+(354,753,l),
+(488,567,l),
+(537,567,l),
+(537,606,ls),
+(537,711,o),
+(461,777,o),
+(339,777,cs),
+(215,777,o),
+(117,671,o),
+(117,537,cs),
+(117,506,l),
+(34,429,l),
+(34,414,l),
+(160,414,l),
+(117,449,l),
+(117,54,l),
+(133,82,l),
+(43,14,l),
+(43,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(364,411,l),
+(364,492,l),
+(352,492,l),
+(184,474,l),
+(184,431,l),
+(355,405,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(636,0,l),
+(636,14,l),
+(547,81,l),
+(562,52,l),
+(562,765,l),
+(539,765,l),
+(472,702,l),
+(472,54,l),
+(488,82,l),
+(398,14,l),
+(398,0,l)
+);
+}
+);
+width = 658;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (621,0);
+},
+{
+name = center;
+pos = (630,383);
+},
+{
+name = top;
+pos = (621,735);
+},
+{
+name = topright;
+pos = (752,761);
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(340,0,l),
+(340,18,l),
+(265,104,l),
+(281,76,l),
+(281,551,ls),
+(281,642,o),
+(332,706,o),
+(404,706,cs),
+(453,706,o),
+(488,682,o),
+(508,635,c),
+(508,737,l),
+(397,737,l),
+(534,540,l),
+(646,540,l),
+(646,594,ls),
+(646,701,o),
+(547,777,o),
+(405,777,cs),
+(227,777,o),
+(101,670,o),
+(101,518,cs),
+(101,507,l),
+(22,407,l),
+(22,383,l),
+(144,383,l),
+(101,460,l),
+(101,76,l),
+(117,104,l),
+(42,18,l),
+(42,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(417,385,l),
+(417,524,l),
+(395,524,l),
+(207,465,l),
+(207,421,l),
+(399,371,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(741,0,l),
+(741,18,l),
+(666,104,l),
+(682,76,l),
+(682,765,l),
+(649,765,l),
+(502,666,l),
+(502,76,l),
+(518,104,l),
+(443,18,l),
+(443,0,l)
+);
+}
+);
+width = 751;
+}
+);
+metricLeft = f;
+metricRight = l;
+unicode = 64258;
 },
 {
 glyphname = ordfeminine;
@@ -61802,7 +61990,7 @@ unicode = 8240;
 {
 color = 4;
 glyphname = brevecomb_acutecomb;
-lastChange = "2024-01-11 10:22:31 +0000";
+lastChange = "2024-01-12 10:22:56 +0000";
 layers = (
 {
 anchors = (
@@ -61813,6 +62001,14 @@ pos = (192,480);
 {
 name = top;
 pos = (192,945);
+}
+);
+guides = (
+{
+pos = (39,538);
+},
+{
+pos = (129,885);
 }
 );
 layerId = m01;
@@ -61838,6 +62034,14 @@ pos = (200,500);
 {
 name = top;
 pos = (200,1055);
+}
+);
+guides = (
+{
+pos = (39,547);
+},
+{
+pos = (291,975);
 }
 );
 layerId = m002;
@@ -62150,7 +62354,7 @@ width = 448;
 {
 color = 4;
 glyphname = circumflexcomb_tildecomb;
-lastChange = "2024-01-12 00:43:19 +0000";
+lastChange = "2024-01-14 00:45:02 +0000";
 layers = (
 {
 guides = (
@@ -66424,7 +66628,7 @@ metricRight = "=o";
 {
 color = 4;
 glyphname = brevecomb_gravecomb.case;
-lastChange = "2024-01-11 10:28:03 +0000";
+lastChange = "2024-01-14 00:01:37 +0000";
 layers = (
 {
 anchors = (
@@ -66467,6 +66671,14 @@ name = top;
 pos = (200,907);
 }
 );
+guides = (
+{
+pos = (327,721);
+},
+{
+pos = (299,1122);
+}
+);
 layerId = m002;
 shapes = (
 {
@@ -66486,7 +66698,7 @@ width = 400;
 {
 color = 4;
 glyphname = brevecomb_acutecomb.case;
-lastChange = "2024-01-11 10:22:48 +0000";
+lastChange = "2024-01-13 23:42:47 +0000";
 layers = (
 {
 anchors = (
@@ -66501,7 +66713,13 @@ pos = (192,835);
 );
 guides = (
 {
-pos = (33,834);
+pos = (64,1025);
+},
+{
+pos = (0,-25);
+},
+{
+pos = (44,723);
 }
 );
 layerId = m01;
