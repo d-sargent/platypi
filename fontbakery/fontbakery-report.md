@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[24] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+<details><summary><b>[23] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Semi Bold Italic'. Expected OS/2 usWeightClass is 700, got 600. [code: bad-value]
@@ -13,7 +13,7 @@ Fontbakery version: 0.8.13
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.200; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -38,7 +38,7 @@ Fontbakery version: 0.8.13
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1055, but got 965 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
@@ -47,13 +47,13 @@ Fontbakery version: 0.8.13
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i̵̇ i̵̊ i̵̋ ǐ̵ i̵̒ i̶̇ i̶̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̉ j̛̀ j̛́ j̛̃ j̛̄ j̛̆ j̛̇ j̛̈ j̛̉ j̛̊ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -97,11 +97,29 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- i.TRK
 
-	- i.loclTRK
+	- uni03020300
 
-	- periodcentered.loclCAT 
+	- uni03020300.case
 
-	- periodcentered.loclCAT.case
+	- uni03020301
+
+	- uni03020301.case
+
+	- uni03020309
+
+	- uni03020309.case
+
+	- uni03060300
+
+	- uni03060300.case
+
+	- uni03060301
+
+	- uni03060301.case
+
+	- uni03060309 
+
+	- uni03060309.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -109,22 +127,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
-
-	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: degree	Contours detected: 0	Expected: 2
-
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -146,13 +148,29 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
@@ -160,48 +178,40 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
-
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: degree	Contours detected: 0	Expected: 2
-
-	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1 
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
 
-	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 515 among a set of 4 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 514:
-less, greater
-
-Width = 584:
-multiply
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -291,6 +301,14 @@ multiply
 
 	* Tcaron (U+0164): L<<586.0,690.0>--<732.0,698.0>> -> L<<732.0,698.0>--<748.0,698.0>>
 
+	* Tmacronbelow (U+1E6E): L<<135.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<278.0,690.0>>
+
+	* Tmacronbelow (U+1E6E): L<<150.0,698.0>--<278.0,690.0>> -> L<<278.0,690.0>--<586.0,690.0>>
+
+	* Tmacronbelow (U+1E6E): L<<278.0,690.0>--<586.0,690.0>> -> L<<586.0,690.0>--<732.0,698.0>>
+
+	* Tmacronbelow (U+1E6E): L<<586.0,690.0>--<732.0,698.0>> -> L<<732.0,698.0>--<748.0,698.0>>
+
 	* Z (U+005A): L<<136.0,702.0>--<151.0,702.0>> -> L<<151.0,702.0>--<291.0,690.0>>
 
 	* Z (U+005A): L<<151.0,702.0>--<291.0,690.0>> -> L<<291.0,690.0>--<654.0,690.0>>
@@ -307,13 +325,13 @@ multiply
 
 	* Zdotaccent (U+017B): L<<151.0,702.0>--<291.0,690.0>> -> L<<291.0,690.0>--<654.0,690.0>>
 
-	* trademark (U+2122): L<<135.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<278.0,690.0>>
+	* trademark (U+2122): L<<209.0,690.0>--<341.0,690.0>> -> L<<341.0,690.0>--<402.0,696.0>>
 
-	* trademark (U+2122): L<<150.0,698.0>--<278.0,690.0>> -> L<<278.0,690.0>--<586.0,690.0>>
+	* trademark (U+2122): L<<341.0,690.0>--<402.0,696.0>> -> L<<402.0,696.0>--<411.0,696.0>>
 
-	* trademark (U+2122): L<<278.0,690.0>--<586.0,690.0>> -> L<<586.0,690.0>--<732.0,698.0>>
+	* uni00B5 (U+00B5): L<<-42.0,-236.0>--<74.0,169.0>> -> L<<74.0,169.0>--<75.0,173.0>>
 
-	* trademark (U+2122): L<<586.0,690.0>--<732.0,698.0>> -> L<<732.0,698.0>--<748.0,698.0>>
+	* uni00B5 (U+00B5): L<<74.0,169.0>--<75.0,173.0>> -> L<<75.0,173.0>--<129.0,362.0>>
 
 	* uni0136 (U+0136): L<<801.0,671.0>--<673.0,596.0>> -> L<<673.0,596.0>--<449.0,439.0>>
 
@@ -325,17 +343,45 @@ multiply
 
 	* uni021A (U+021A): L<<586.0,690.0>--<732.0,698.0>> -> L<<732.0,698.0>--<748.0,698.0>>
 
-	* uni1EBC (U+1EBC): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>> 
+	* uni1EB8 (U+1EB8): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>>
 
-	* uni1EBC (U+1EBC): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[21] Platypi-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+	* uni1EB8 (U+1EB8): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>>
+
+	* uni1EBA (U+1EBA): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>>
+
+	* uni1EBA (U+1EBA): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>>
+
+	* uni1EBE (U+1EBE): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>>
+
+	* uni1EBE (U+1EBE): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>>
+
+	* uni1EC0 (U+1EC0): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>>
+
+	* uni1EC0 (U+1EC0): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>>
+
+	* uni1EC2 (U+1EC2): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>>
+
+	* uni1EC2 (U+1EC2): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>>
+
+	* uni1EC4 (U+1EC4): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>>
+
+	* uni1EC4 (U+1EC4): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>>
+
+	* uni1EC6 (U+1EC6): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>> 
+
+	* uni1EC6 (U+1EC6): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>> [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[19] Platypi-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.200; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -347,7 +393,7 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1055, but got 965 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
@@ -356,13 +402,13 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ j̦̓ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ j̦̓ į̆ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -415,6 +461,30 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -429,11 +499,37 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: tbar	Contours detected: 2	Expected: 1 
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -441,15 +537,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 518 among a set of 5 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 522:
-less, greater
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -505,45 +592,45 @@ less, greater
 
 	* braceright (U+007D): X=200.0,Y=2.0 (should be at baseline 0?)
 
-	* Adieresis (U+00C4): X=203.5,Y=764.5 (should be at ascender 765?)
+	* Adieresis (U+00C4): X=197.5,Y=764.5 (should be at ascender 765?)
 
-	* Adieresis (U+00C4): X=292.5,Y=764.5 (should be at ascender 765?)
+	* Adieresis (U+00C4): X=286.5,Y=764.5 (should be at ascender 765?)
 
-	* Adieresis (U+00C4): X=394.5,Y=764.5 (should be at ascender 765?)
+	* Adieresis (U+00C4): X=400.5,Y=764.5 (should be at ascender 765?)
 
-	* Adieresis (U+00C4): X=484.5,Y=764.5 (should be at ascender 765?)
+	* Adieresis (U+00C4): X=490.5,Y=764.5 (should be at ascender 765?)
 
-	* Edieresis (U+00CB): X=169.5,Y=764.5 (should be at ascender 765?)
+	* Edieresis (U+00CB): X=163.5,Y=764.5 (should be at ascender 765?)
 
-	* Edieresis (U+00CB): X=258.5,Y=764.5 (should be at ascender 765?)
+	* Edieresis (U+00CB): X=252.5,Y=764.5 (should be at ascender 765?)
 
-	* Edieresis (U+00CB): X=360.5,Y=764.5 (should be at ascender 765?)
+	* Edieresis (U+00CB): X=366.5,Y=764.5 (should be at ascender 765?)
 
-	* Edieresis (U+00CB): X=450.5,Y=764.5 (should be at ascender 765?)
+	* Edieresis (U+00CB): X=456.5,Y=764.5 (should be at ascender 765?)
 
-	* Idieresis (U+00CF): X=16.5,Y=764.5 (should be at ascender 765?)
+	* Idieresis (U+00CF): X=10.5,Y=764.5 (should be at ascender 765?)
 
-	* Idieresis (U+00CF): X=105.5,Y=764.5 (should be at ascender 765?)
+	* Idieresis (U+00CF): X=99.5,Y=764.5 (should be at ascender 765?)
 
-	* Idieresis (U+00CF): X=207.5,Y=764.5 (should be at ascender 765?)
+	* Idieresis (U+00CF): X=213.5,Y=764.5 (should be at ascender 765?)
 
-	* Idieresis (U+00CF): X=297.5,Y=764.5 (should be at ascender 765?)
+	* Idieresis (U+00CF): X=303.5,Y=764.5 (should be at ascender 765?)
 
-	* Odieresis (U+00D6): X=246.5,Y=764.5 (should be at ascender 765?)
+	* Odieresis (U+00D6): X=240.5,Y=764.5 (should be at ascender 765?)
 
-	* Odieresis (U+00D6): X=335.5,Y=764.5 (should be at ascender 765?)
+	* Odieresis (U+00D6): X=329.5,Y=764.5 (should be at ascender 765?)
 
-	* Odieresis (U+00D6): X=437.5,Y=764.5 (should be at ascender 765?)
+	* Odieresis (U+00D6): X=443.5,Y=764.5 (should be at ascender 765?)
 
-	* Odieresis (U+00D6): X=527.5,Y=764.5 (should be at ascender 765?)
+	* Odieresis (U+00D6): X=533.5,Y=764.5 (should be at ascender 765?)
 
-	* Udieresis (U+00DC): X=217.5,Y=764.5 (should be at ascender 765?)
+	* Udieresis (U+00DC): X=211.5,Y=764.5 (should be at ascender 765?)
 
-	* Udieresis (U+00DC): X=306.5,Y=764.5 (should be at ascender 765?)
+	* Udieresis (U+00DC): X=300.5,Y=764.5 (should be at ascender 765?)
 
-	* Udieresis (U+00DC): X=408.5,Y=764.5 (should be at ascender 765?)
+	* Udieresis (U+00DC): X=414.5,Y=764.5 (should be at ascender 765?)
 
-	* Udieresis (U+00DC): X=498.5,Y=764.5 (should be at ascender 765?)
+	* Udieresis (U+00DC): X=504.5,Y=764.5 (should be at ascender 765?)
 
 	* germandbls (U+00DF): X=499.5,Y=688.5 (should be at cap-height 690?)
 
@@ -591,13 +678,13 @@ less, greater
 
 	* uhungarumlaut (U+0171): X=362.0,Y=767.0 (should be at ascender 765?)
 
-	* Ydieresis (U+0178): X=202.5,Y=764.5 (should be at ascender 765?)
+	* Ydieresis (U+0178): X=196.5,Y=764.5 (should be at ascender 765?)
 
-	* Ydieresis (U+0178): X=291.5,Y=764.5 (should be at ascender 765?)
+	* Ydieresis (U+0178): X=285.5,Y=764.5 (should be at ascender 765?)
 
-	* Ydieresis (U+0178): X=393.5,Y=764.5 (should be at ascender 765?)
+	* Ydieresis (U+0178): X=399.5,Y=764.5 (should be at ascender 765?)
 
-	* Ydieresis (U+0178): X=483.5,Y=764.5 (should be at ascender 765?)
+	* Ydieresis (U+0178): X=489.5,Y=764.5 (should be at ascender 765?)
 
 	* Zdotaccent (U+017B): X=264.0,Y=766.5 (should be at ascender 765?)
 
@@ -611,15 +698,47 @@ less, greater
 
 	* uni030B (U+030B): X=180.0,Y=767.0 (should be at ascender 765?)
 
-	* Wdieresis (U+1E84): X=396.5,Y=764.5 (should be at ascender 765?)
+	* Wdieresis (U+1E84): X=390.5,Y=764.5 (should be at ascender 765?)
 
-	* Wdieresis (U+1E84): X=485.5,Y=764.5 (should be at ascender 765?)
+	* Wdieresis (U+1E84): X=479.5,Y=764.5 (should be at ascender 765?)
 
-	* Wdieresis (U+1E84): X=587.5,Y=764.5 (should be at ascender 765?)
+	* Wdieresis (U+1E84): X=593.5,Y=764.5 (should be at ascender 765?)
 
-	* Wdieresis (U+1E84): X=677.5,Y=764.5 (should be at ascender 765?) 
+	* Wdieresis (U+1E84): X=683.5,Y=764.5 (should be at ascender 765?)
 
-	* uni1EB5 (U+1EB5): X=417.0,Y=766.5 (should be at ascender 765?) [code: found-misalignments]
+	* uni1EA2 (U+1EA2): X=299.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EAE (U+1EAE): X=240.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EAE (U+1EAE): X=452.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EB0 (U+1EB0): X=238.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EB0 (U+1EB0): X=450.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EB2 (U+1EB2): X=240.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EB2 (U+1EB2): X=452.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EB3 (U+1EB3): X=232.0,Y=692.0 (should be at cap-height 690?)
+
+	* uni1EB4 (U+1EB4): X=241.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EB4 (U+1EB4): X=453.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EBA (U+1EBA): X=265.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EC8 (U+1EC8): X=112.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1ECE (U+1ECE): X=342.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EDE (U+1EDE): X=342.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EE6 (U+1EE6): X=313.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EEC (U+1EEC): X=313.0,Y=763.0 (should be at ascender 765?) 
+
+	* uni1EF6 (U+1EF6): X=298.0,Y=763.0 (should be at ascender 765?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -773,33 +892,45 @@ less, greater
 
 	* uni1EB8 (U+1EB8): L<<432.0,690.0>--<545.0,698.0>> -> L<<545.0,698.0>--<556.0,698.0>>
 
+	* uni1EBA (U+1EBA): L<<30.0,690.0>--<432.0,690.0>> -> L<<432.0,690.0>--<545.0,698.0>>
+
+	* uni1EBA (U+1EBA): L<<432.0,690.0>--<545.0,698.0>> -> L<<545.0,698.0>--<556.0,698.0>>
+
 	* uni1EBC (U+1EBC): L<<30.0,690.0>--<432.0,690.0>> -> L<<432.0,690.0>--<545.0,698.0>>
 
 	* uni1EBC (U+1EBC): L<<432.0,690.0>--<545.0,698.0>> -> L<<545.0,698.0>--<556.0,698.0>>
 
+	* uni1EBE (U+1EBE): L<<30.0,690.0>--<432.0,690.0>> -> L<<432.0,690.0>--<545.0,698.0>>
+
+	* uni1EBE (U+1EBE): L<<432.0,690.0>--<545.0,698.0>> -> L<<545.0,698.0>--<556.0,698.0>>
+
+	* uni1EC0 (U+1EC0): L<<30.0,690.0>--<432.0,690.0>> -> L<<432.0,690.0>--<545.0,698.0>>
+
+	* uni1EC0 (U+1EC0): L<<432.0,690.0>--<545.0,698.0>> -> L<<545.0,698.0>--<556.0,698.0>>
+
+	* uni1EC2 (U+1EC2): L<<30.0,690.0>--<432.0,690.0>> -> L<<432.0,690.0>--<545.0,698.0>>
+
+	* uni1EC2 (U+1EC2): L<<432.0,690.0>--<545.0,698.0>> -> L<<545.0,698.0>--<556.0,698.0>>
+
+	* uni1EC4 (U+1EC4): L<<30.0,690.0>--<432.0,690.0>> -> L<<432.0,690.0>--<545.0,698.0>>
+
+	* uni1EC4 (U+1EC4): L<<432.0,690.0>--<545.0,698.0>> -> L<<545.0,698.0>--<556.0,698.0>>
+
+	* uni1EC6 (U+1EC6): L<<30.0,690.0>--<432.0,690.0>> -> L<<432.0,690.0>--<545.0,698.0>>
+
+	* uni1EC6 (U+1EC6): L<<432.0,690.0>--<545.0,698.0>> -> L<<545.0,698.0>--<556.0,698.0>>
+
 	* uni20A9 (U+20A9): L<<348.0,82.0>--<348.0,82.0>> -> L<<348.0,82.0>--<348.0,82.0>> 
 
 	* uni20A9 (U+20A9): L<<737.0,82.0>--<737.0,82.0>> -> L<<737.0,82.0>--<737.0,82.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* paragraph (U+00B6): L<<290.0,-107.0>--<289.0,324.0>>
-
-	* paragraph (U+00B6): L<<336.0,640.0>--<338.0,-107.0>>
-
-	* paragraph (U+00B6): L<<431.0,-107.0>--<429.0,640.0>> 
-
-	* paragraph (U+00B6): L<<477.0,620.0>--<479.0,-107.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[21] Platypi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] Platypi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.200; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -811,7 +942,7 @@ less, greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1055, but got 965 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
@@ -820,13 +951,13 @@ less, greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ j̦̓ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ j̦̓ į̆ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -879,6 +1010,30 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -893,11 +1048,37 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: tbar	Contours detected: 2	Expected: 1 
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -905,15 +1086,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 518 among a set of 5 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 520:
-less, greater
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -922,192 +1094,6 @@ less, greater
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* exclam (U+0021): X=204.0,Y=692.0 (should be at cap-height 690?)
-
-	* ampersand (U+0026): X=757.0,Y=1.0 (should be at baseline 0?)
-
-	* asterisk (U+002A): X=137.0,Y=766.0 (should be at ascender 765?)
-
-	* asterisk (U+002A): X=254.0,Y=766.0 (should be at ascender 765?)
-
-	* three (U+0033): X=159.5,Y=2.0 (should be at baseline 0?)
-
-	* five (U+0035): X=161.5,Y=2.0 (should be at baseline 0?)
-
-	* at (U+0040): X=822.0,Y=1.0 (should be at baseline 0?)
-
-	* bracketleft (U+005B): X=127.0,Y=688.0 (should be at cap-height 690?)
-
-	* bracketright (U+005D): X=150.0,Y=688.0 (should be at cap-height 690?)
-
-	* a (U+0061): X=153.0,Y=483.5 (should be at x-height 484?)
-
-	* b (U+0062): X=16.0,Y=689.0 (should be at cap-height 690?)
-
-	* d (U+0064): X=342.0,Y=689.0 (should be at cap-height 690?)
-
-	* g (U+0067): X=150.5,Y=-233.5 (should be at descender -235?)
-
-	* g (U+0067): X=370.0,Y=485.0 (should be at x-height 484?)
-
-	* h (U+0068): X=33.0,Y=689.0 (should be at cap-height 690?)
-
-	* k (U+006B): X=33.0,Y=689.0 (should be at cap-height 690?)
-
-	* l (U+006C): X=33.0,Y=689.0 (should be at cap-height 690?)
-
-	* r (U+0072): X=440.0,Y=485.0 (should be at x-height 484?)
-
-	* s (U+0073): X=371.5,Y=483.0 (should be at x-height 484?)
-
-	* registered (U+00AE): X=172.0,Y=688.0 (should be at cap-height 690?)
-
-	* registered (U+00AE): X=287.0,Y=688.0 (should be at cap-height 690?)
-
-	* Adieresis (U+00C4): X=200.0,Y=765.5 (should be at ascender 765?)
-
-	* Adieresis (U+00C4): X=297.5,Y=765.5 (should be at ascender 765?)
-
-	* Adieresis (U+00C4): X=398.5,Y=765.5 (should be at ascender 765?)
-
-	* Adieresis (U+00C4): X=496.5,Y=765.5 (should be at ascender 765?)
-
-	* Edieresis (U+00CB): X=163.0,Y=765.5 (should be at ascender 765?)
-
-	* Edieresis (U+00CB): X=260.5,Y=765.5 (should be at ascender 765?)
-
-	* Edieresis (U+00CB): X=361.5,Y=765.5 (should be at ascender 765?)
-
-	* Edieresis (U+00CB): X=459.5,Y=765.5 (should be at ascender 765?)
-
-	* Idieresis (U+00CF): X=15.0,Y=765.5 (should be at ascender 765?)
-
-	* Idieresis (U+00CF): X=112.5,Y=765.5 (should be at ascender 765?)
-
-	* Idieresis (U+00CF): X=213.5,Y=765.5 (should be at ascender 765?)
-
-	* Idieresis (U+00CF): X=311.5,Y=765.5 (should be at ascender 765?)
-
-	* Odieresis (U+00D6): X=245.0,Y=765.5 (should be at ascender 765?)
-
-	* Odieresis (U+00D6): X=342.5,Y=765.5 (should be at ascender 765?)
-
-	* Odieresis (U+00D6): X=443.5,Y=765.5 (should be at ascender 765?)
-
-	* Odieresis (U+00D6): X=541.5,Y=765.5 (should be at ascender 765?)
-
-	* Udieresis (U+00DC): X=219.0,Y=765.5 (should be at ascender 765?)
-
-	* Udieresis (U+00DC): X=316.5,Y=765.5 (should be at ascender 765?)
-
-	* Udieresis (U+00DC): X=417.5,Y=765.5 (should be at ascender 765?)
-
-	* Udieresis (U+00DC): X=515.5,Y=765.5 (should be at ascender 765?)
-
-	* germandbls (U+00DF): X=316.5,Y=-1.5 (should be at baseline 0?)
-
-	* eth (U+00F0): X=469.0,Y=692.0 (should be at cap-height 690?)
-
-	* ntilde (U+00F1): X=256.0,Y=689.0 (should be at cap-height 690?)
-
-	* thorn (U+00FE): X=33.0,Y=689.0 (should be at cap-height 690?)
-
-	* Aogonek (U+0104): X=561.0,Y=-2.0 (should be at baseline 0?)
-
-	* Cdotaccent (U+010A): X=345.5,Y=767.0 (should be at ascender 765?)
-
-	* Cdotaccent (U+010A): X=456.0,Y=767.0 (should be at ascender 765?)
-
-	* dcaron (U+010F): X=342.0,Y=689.0 (should be at cap-height 690?)
-
-	* dcroat (U+0111): X=342.0,Y=689.0 (should be at cap-height 690?)
-
-	* Edotaccent (U+0116): X=255.5,Y=767.0 (should be at ascender 765?)
-
-	* Edotaccent (U+0116): X=366.0,Y=767.0 (should be at ascender 765?)
-
-	* Eogonek (U+0118): X=407.0,Y=-2.0 (should be at baseline 0?)
-
-	* gcircumflex (U+011D): X=150.5,Y=-233.5 (should be at descender -235?)
-
-	* gbreve (U+011F): X=150.5,Y=-233.5 (should be at descender -235?)
-
-	* Gdotaccent (U+0120): X=342.5,Y=767.0 (should be at ascender 765?)
-
-	* Gdotaccent (U+0120): X=453.0,Y=767.0 (should be at ascender 765?)
-
-	* gdotaccent (U+0121): X=150.5,Y=-233.5 (should be at descender -235?)
-
-	* uni0123 (U+0123): X=150.5,Y=-233.5 (should be at descender -235?)
-
-	* hcircumflex (U+0125): X=33.0,Y=689.0 (should be at cap-height 690?)
-
-	* hbar (U+0127): X=33.0,Y=689.0 (should be at cap-height 690?)
-
-	* Iogonek (U+012E): X=137.0,Y=-2.0 (should be at baseline 0?)
-
-	* iogonek (U+012F): X=132.0,Y=-2.0 (should be at baseline 0?)
-
-	* Idotaccent (U+0130): X=107.5,Y=767.0 (should be at ascender 765?)
-
-	* Idotaccent (U+0130): X=218.0,Y=767.0 (should be at ascender 765?)
-
-	* uni0137 (U+0137): X=33.0,Y=689.0 (should be at cap-height 690?)
-
-	* lacute (U+013A): X=33.0,Y=689.0 (should be at cap-height 690?)
-
-	* uni013C (U+013C): X=33.0,Y=689.0 (should be at cap-height 690?)
-
-	* lcaron (U+013E): X=33.0,Y=689.0 (should be at cap-height 690?)
-
-	* ldot (U+0140): X=33.0,Y=689.0 (should be at cap-height 690?)
-
-	* lslash (U+0142): X=33.0,Y=689.0 (should be at cap-height 690?)
-
-	* napostrophe (U+0149): X=225.0,Y=692.0 (should be at cap-height 690?)
-
-	* Ydieresis (U+0178): X=205.0,Y=765.5 (should be at ascender 765?)
-
-	* Ydieresis (U+0178): X=302.5,Y=765.5 (should be at ascender 765?)
-
-	* Ydieresis (U+0178): X=403.5,Y=765.5 (should be at ascender 765?)
-
-	* Ydieresis (U+0178): X=501.5,Y=765.5 (should be at ascender 765?)
-
-	* Zdotaccent (U+017B): X=262.5,Y=767.0 (should be at ascender 765?)
-
-	* Zdotaccent (U+017B): X=373.0,Y=767.0 (should be at ascender 765?)
-
-	* gcaron (U+01E7): X=150.5,Y=-233.5 (should be at descender -235?)
-
-	* tilde (U+02DC): X=154.0,Y=689.0 (should be at cap-height 690?)
-
-	* tildecomb (U+0303): X=154.0,Y=689.0 (should be at cap-height 690?)
-
-	* uni0313 (U+0313): X=212.0,Y=692.0 (should be at cap-height 690?)
-
-	* dmacronbelow (U+1E0F): X=342.0,Y=689.0 (should be at cap-height 690?)
-
-	* uni1E21 (U+1E21): X=150.5,Y=-233.5 (should be at descender -235?)
-
-	* lmacronbelow (U+1E3B): X=33.0,Y=689.0 (should be at cap-height 690?)
-
-	* Wdieresis (U+1E84): X=404.0,Y=765.5 (should be at ascender 765?)
-
-	* Wdieresis (U+1E84): X=501.5,Y=765.5 (should be at ascender 765?)
-
-	* Wdieresis (U+1E84): X=602.5,Y=765.5 (should be at ascender 765?)
-
-	* Wdieresis (U+1E84): X=700.5,Y=765.5 (should be at ascender 765?)
-
-	* uni1EB3 (U+1EB3): X=334.0,Y=763.0 (should be at ascender 765?) 
-
-	* uni1EBD (U+1EBD): X=210.0,Y=689.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1251,24 +1237,36 @@ less, greater
 
 	* uni1EB8 (U+1EB8): L<<428.0,690.0>--<549.0,699.0>> -> L<<549.0,699.0>--<562.0,699.0>>
 
+	* uni1EBA (U+1EBA): L<<29.0,690.0>--<428.0,690.0>> -> L<<428.0,690.0>--<549.0,699.0>>
+
+	* uni1EBA (U+1EBA): L<<428.0,690.0>--<549.0,699.0>> -> L<<549.0,699.0>--<562.0,699.0>>
+
 	* uni1EBC (U+1EBC): L<<29.0,690.0>--<428.0,690.0>> -> L<<428.0,690.0>--<549.0,699.0>>
 
-	* uni1EBC (U+1EBC): L<<428.0,690.0>--<549.0,699.0>> -> L<<549.0,699.0>--<562.0,699.0>> 
+	* uni1EBC (U+1EBC): L<<428.0,690.0>--<549.0,699.0>> -> L<<549.0,699.0>--<562.0,699.0>>
+
+	* uni1EBE (U+1EBE): L<<29.0,690.0>--<428.0,690.0>> -> L<<428.0,690.0>--<549.0,699.0>>
+
+	* uni1EBE (U+1EBE): L<<428.0,690.0>--<549.0,699.0>> -> L<<549.0,699.0>--<562.0,699.0>>
+
+	* uni1EC0 (U+1EC0): L<<29.0,690.0>--<428.0,690.0>> -> L<<428.0,690.0>--<549.0,699.0>>
+
+	* uni1EC0 (U+1EC0): L<<428.0,690.0>--<549.0,699.0>> -> L<<549.0,699.0>--<562.0,699.0>>
+
+	* uni1EC2 (U+1EC2): L<<29.0,690.0>--<428.0,690.0>> -> L<<428.0,690.0>--<549.0,699.0>>
+
+	* uni1EC2 (U+1EC2): L<<428.0,690.0>--<549.0,699.0>> -> L<<549.0,699.0>--<562.0,699.0>>
+
+	* uni1EC4 (U+1EC4): L<<29.0,690.0>--<428.0,690.0>> -> L<<428.0,690.0>--<549.0,699.0>>
+
+	* uni1EC4 (U+1EC4): L<<428.0,690.0>--<549.0,699.0>> -> L<<549.0,699.0>--<562.0,699.0>>
+
+	* uni1EC6 (U+1EC6): L<<29.0,690.0>--<428.0,690.0>> -> L<<428.0,690.0>--<549.0,699.0>>
+
+	* uni1EC6 (U+1EC6): L<<428.0,690.0>--<549.0,699.0>> -> L<<549.0,699.0>--<562.0,699.0>> 
 
 	* uni20BF (U+20BF): L<<220.0,379.0>--<249.0,379.0>> -> L<<249.0,379.0>--<327.0,382.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* paragraph (U+00B6): L<<297.0,-107.0>--<296.0,314.0>>
-
-	* paragraph (U+00B6): L<<345.0,638.0>--<347.0,-107.0>>
-
-	* paragraph (U+00B6): L<<438.0,-107.0>--<436.0,638.0>> 
-
-	* paragraph (U+00B6): L<<486.0,616.0>--<488.0,-107.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[24] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[23] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Extra Bold Italic'. Expected OS/2 usWeightClass is 700, got 800. [code: bad-value]
@@ -1279,7 +1277,7 @@ less, greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.200; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -1304,7 +1302,7 @@ less, greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1055, but got 965 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
@@ -1313,13 +1311,13 @@ less, greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i̵̇ i̵̊ i̵̋ ǐ̵ i̵̒ i̶̇ i̶̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̉ j̛̀ j̛́ j̛̃ j̛̄ j̛̆ j̛̇ j̛̈ j̛̉ j̛̊ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -1363,11 +1361,29 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- i.TRK
 
-	- i.loclTRK
+	- uni03020300
 
-	- periodcentered.loclCAT 
+	- uni03020300.case
 
-	- periodcentered.loclCAT.case
+	- uni03020301
+
+	- uni03020301.case
+
+	- uni03020309
+
+	- uni03020309.case
+
+	- uni03060300
+
+	- uni03060300.case
+
+	- uni03060301
+
+	- uni03060301.case
+
+	- uni03060309 
+
+	- uni03060309.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1375,22 +1391,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
-
-	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: degree	Contours detected: 0	Expected: 2
-
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -1412,13 +1412,29 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
@@ -1426,51 +1442,40 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
-
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: degree	Contours detected: 0	Expected: 2
-
-	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1 
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
 
-	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 515 among a set of 4 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 508:
-less
-
-Width = 509:
-greater
-
-Width = 584:
-multiply
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -1558,6 +1563,14 @@ multiply
 
 	* Tcaron (U+0164): L<<591.0,690.0>--<760.0,698.0>> -> L<<760.0,698.0>--<780.0,698.0>>
 
+	* Tmacronbelow (U+1E6E): L<<129.0,698.0>--<148.0,698.0>> -> L<<148.0,698.0>--<289.0,690.0>>
+
+	* Tmacronbelow (U+1E6E): L<<148.0,698.0>--<289.0,690.0>> -> L<<289.0,690.0>--<591.0,690.0>>
+
+	* Tmacronbelow (U+1E6E): L<<289.0,690.0>--<591.0,690.0>> -> L<<591.0,690.0>--<760.0,698.0>>
+
+	* Tmacronbelow (U+1E6E): L<<591.0,690.0>--<760.0,698.0>> -> L<<760.0,698.0>--<780.0,698.0>>
+
 	* X (U+0058): L<<830.0,668.0>--<747.0,606.0>> -> L<<747.0,606.0>--<501.0,383.0>>
 
 	* Z (U+005A): L<<131.0,706.0>--<151.0,706.0>> -> L<<151.0,706.0>--<320.0,690.0>>
@@ -1576,13 +1589,13 @@ multiply
 
 	* Zdotaccent (U+017B): L<<151.0,706.0>--<320.0,690.0>> -> L<<320.0,690.0>--<689.0,690.0>>
 
-	* trademark (U+2122): L<<129.0,698.0>--<148.0,698.0>> -> L<<148.0,698.0>--<289.0,690.0>>
+	* trademark (U+2122): L<<135.0,696.0>--<145.0,696.0>> -> L<<145.0,696.0>--<205.0,690.0>>
 
-	* trademark (U+2122): L<<148.0,698.0>--<289.0,690.0>> -> L<<289.0,690.0>--<591.0,690.0>>
+	* trademark (U+2122): L<<145.0,696.0>--<205.0,690.0>> -> L<<205.0,690.0>--<339.0,690.0>>
 
-	* trademark (U+2122): L<<289.0,690.0>--<591.0,690.0>> -> L<<591.0,690.0>--<760.0,698.0>>
+	* trademark (U+2122): L<<205.0,690.0>--<339.0,690.0>> -> L<<339.0,690.0>--<401.0,696.0>>
 
-	* trademark (U+2122): L<<591.0,690.0>--<760.0,698.0>> -> L<<760.0,698.0>--<780.0,698.0>>
+	* trademark (U+2122): L<<339.0,690.0>--<401.0,696.0>> -> L<<401.0,696.0>--<411.0,696.0>>
 
 	* uni0136 (U+0136): L<<860.0,668.0>--<721.0,590.0>> -> L<<721.0,590.0>--<506.0,445.0>>
 
@@ -1594,17 +1607,45 @@ multiply
 
 	* uni021A (U+021A): L<<591.0,690.0>--<760.0,698.0>> -> L<<760.0,698.0>--<780.0,698.0>>
 
-	* uni1EBC (U+1EBC): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>> 
+	* uni1EB8 (U+1EB8): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>>
 
-	* uni1EBC (U+1EBC): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[21] Platypi-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+	* uni1EB8 (U+1EB8): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>>
+
+	* uni1EBA (U+1EBA): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>>
+
+	* uni1EBA (U+1EBA): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>>
+
+	* uni1EBE (U+1EBE): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>>
+
+	* uni1EBE (U+1EBE): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>>
+
+	* uni1EC0 (U+1EC0): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>>
+
+	* uni1EC0 (U+1EC0): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>>
+
+	* uni1EC2 (U+1EC2): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>>
+
+	* uni1EC2 (U+1EC2): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>>
+
+	* uni1EC4 (U+1EC4): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>>
+
+	* uni1EC4 (U+1EC4): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>>
+
+	* uni1EC6 (U+1EC6): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>> 
+
+	* uni1EC6 (U+1EC6): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>> [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[20] Platypi-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.200; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -1616,7 +1657,7 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1055, but got 965 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
@@ -1625,13 +1666,13 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ j̦̓ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ j̦̓ į̆ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -1684,6 +1725,30 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -1698,11 +1763,37 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: tbar	Contours detected: 2	Expected: 1 
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -1710,15 +1801,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 518 among a set of 5 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 514:
-less, greater
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -1754,6 +1836,10 @@ less, greater
 
 	* s (U+0073): X=403.0,Y=497.5 (should be at x-height 496?)
 
+	* uni00B5 (U+00B5): X=91.0,Y=-236.0 (should be at descender -235?)
+
+	* uni00B5 (U+00B5): X=81.0,Y=-236.0 (should be at descender -235?)
+
 	* questiondown (U+00BF): X=221.0,Y=-0.5 (should be at baseline 0?)
 
 	* Aring (U+00C5): X=272.0,Y=765.5 (should be at ascender 765?)
@@ -1782,21 +1868,21 @@ less, greater
 
 	* eth (U+00F0): X=359.0,Y=691.0 (should be at cap-height 690?)
 
-	* abreve (U+0103): X=159.0,Y=763.0 (should be at ascender 765?)
+	* abreve (U+0103): X=158.0,Y=763.0 (should be at ascender 765?)
 
-	* abreve (U+0103): X=440.0,Y=763.0 (should be at ascender 765?)
+	* abreve (U+0103): X=441.0,Y=763.0 (should be at ascender 765?)
 
-	* ebreve (U+0115): X=162.0,Y=763.0 (should be at ascender 765?)
+	* ebreve (U+0115): X=161.0,Y=763.0 (should be at ascender 765?)
 
-	* ebreve (U+0115): X=443.0,Y=763.0 (should be at ascender 765?)
+	* ebreve (U+0115): X=444.0,Y=763.0 (should be at ascender 765?)
 
 	* gbreve (U+011F): X=155.0,Y=763.0 (should be at ascender 765?)
 
-	* gbreve (U+011F): X=436.0,Y=763.0 (should be at ascender 765?)
+	* gbreve (U+011F): X=438.0,Y=763.0 (should be at ascender 765?)
 
-	* ibreve (U+012D): X=37.0,Y=763.0 (should be at ascender 765?)
+	* ibreve (U+012D): X=36.0,Y=763.0 (should be at ascender 765?)
 
-	* ibreve (U+012D): X=318.0,Y=763.0 (should be at ascender 765?)
+	* ibreve (U+012D): X=319.0,Y=763.0 (should be at ascender 765?)
 
 	* iogonek (U+012F): X=147.0,Y=-2.0 (should be at baseline 0?)
 
@@ -1816,15 +1902,15 @@ less, greater
 
 	* Ncaron (U+0147): X=574.0,Y=-1.0 (should be at baseline 0?)
 
-	* obreve (U+014F): X=182.0,Y=763.0 (should be at ascender 765?)
+	* obreve (U+014F): X=181.0,Y=763.0 (should be at ascender 765?)
 
-	* obreve (U+014F): X=463.0,Y=763.0 (should be at ascender 765?)
+	* obreve (U+014F): X=464.0,Y=763.0 (should be at ascender 765?)
 
 	* ohungarumlaut (U+0151): X=363.0,Y=766.0 (should be at ascender 765?)
 
 	* ubreve (U+016D): X=184.0,Y=763.0 (should be at ascender 765?)
 
-	* ubreve (U+016D): X=465.0,Y=763.0 (should be at ascender 765?)
+	* ubreve (U+016D): X=467.0,Y=763.0 (should be at ascender 765?)
 
 	* Uring (U+016E): X=310.0,Y=765.5 (should be at ascender 765?)
 
@@ -1846,11 +1932,13 @@ less, greater
 
 	* uni019D (U+019D): X=574.0,Y=-1.0 (should be at baseline 0?)
 
+	* Ohorn (U+01A0): X=741.5,Y=765.5 (should be at ascender 765?)
+
 	* uni01EB (U+01EB): X=417.0,Y=-1.0 (should be at baseline 0?)
 
-	* breve (U+02D8): X=63.0,Y=763.0 (should be at ascender 765?)
+	* breve (U+02D8): X=57.0,Y=763.0 (should be at ascender 765?)
 
-	* breve (U+02D8): X=344.0,Y=763.0 (should be at ascender 765?)
+	* breve (U+02D8): X=340.0,Y=763.0 (should be at ascender 765?)
 
 	* ring (U+02DA): X=36.0,Y=692.0 (should be at cap-height 690?)
 
@@ -1864,9 +1952,9 @@ less, greater
 
 	* hungarumlaut (U+02DD): X=183.0,Y=766.0 (should be at ascender 765?)
 
-	* uni0306 (U+0306): X=63.0,Y=763.0 (should be at ascender 765?)
+	* uni0306 (U+0306): X=57.0,Y=763.0 (should be at ascender 765?)
 
-	* uni0306 (U+0306): X=344.0,Y=763.0 (should be at ascender 765?)
+	* uni0306 (U+0306): X=340.0,Y=763.0 (should be at ascender 765?)
 
 	* uni030A (U+030A): X=36.0,Y=692.0 (should be at cap-height 690?)
 
@@ -1886,43 +1974,45 @@ less, greater
 
 	* Nmacronbelow (U+1E48): X=574.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EAF (U+1EAF): X=159.0,Y=763.0 (should be at ascender 765?)
+	* uni1EA2 (U+1EA2): X=309.0,Y=766.0 (should be at ascender 765?)
 
-	* uni1EAF (U+1EAF): X=440.0,Y=763.0 (should be at ascender 765?)
+	* uni1EAB (U+1EAB): X=149.0,Y=764.0 (should be at ascender 765?)
 
-	* uni1EB1 (U+1EB1): X=159.0,Y=763.0 (should be at ascender 765?)
+	* uni1EB7 (U+1EB7): X=158.0,Y=763.0 (should be at ascender 765?)
 
-	* uni1EB1 (U+1EB1): X=440.0,Y=763.0 (should be at ascender 765?)
+	* uni1EB7 (U+1EB7): X=441.0,Y=763.0 (should be at ascender 765?)
 
-	* uni1EB3 (U+1EB3): X=159.0,Y=763.0 (should be at ascender 765?)
+	* uni1EBA (U+1EBA): X=265.0,Y=766.0 (should be at ascender 765?)
 
-	* uni1EB3 (U+1EB3): X=440.0,Y=763.0 (should be at ascender 765?)
+	* uni1EC5 (U+1EC5): X=152.0,Y=764.0 (should be at ascender 765?)
 
-	* uni1EB5 (U+1EB5): X=159.0,Y=763.0 (should be at ascender 765?)
+	* uni1EC8 (U+1EC8): X=133.0,Y=766.0 (should be at ascender 765?)
 
-	* uni1EB5 (U+1EB5): X=440.0,Y=763.0 (should be at ascender 765?)
+	* uni1ECE (U+1ECE): X=360.0,Y=766.0 (should be at ascender 765?)
 
-	* uni1EB7 (U+1EB7): X=159.0,Y=763.0 (should be at ascender 765?)
+	* uni1ED7 (U+1ED7): X=172.0,Y=764.0 (should be at ascender 765?)
 
-	* uni1EB7 (U+1EB7): X=440.0,Y=763.0 (should be at ascender 765?)
+	* uni1EDA (U+1EDA): X=741.5,Y=765.5 (should be at ascender 765?)
+
+	* uni1EDC (U+1EDC): X=742.0,Y=765.5 (should be at ascender 765?)
+
+	* uni1EDE (U+1EDE): X=741.5,Y=765.5 (should be at ascender 765?)
+
+	* uni1EDE (U+1EDE): X=360.0,Y=766.0 (should be at ascender 765?)
+
+	* uni1EE2 (U+1EE2): X=741.5,Y=765.5 (should be at ascender 765?)
+
+	* uni1EE6 (U+1EE6): X=347.0,Y=766.0 (should be at ascender 765?)
+
+	* uni1EEC (U+1EEC): X=347.0,Y=766.0 (should be at ascender 765?)
+
+	* uni1EF6 (U+1EF6): X=336.0,Y=766.0 (should be at ascender 765?)
 
 	* uni20BF (U+20BF): X=356.0,Y=1.0 (should be at baseline 0?)
 
-	* uni2116 (U+2116): X=663.0,Y=-1.0 (should be at baseline 0?)
+	* uni2116 (U+2116): X=663.0,Y=-1.0 (should be at baseline 0?) 
 
-	* uni2116 (U+2116): X=574.0,Y=-1.0 (should be at baseline 0?)
-
-	* trademark (U+2122): X=72.0,Y=689.0 (should be at cap-height 690?)
-
-	* trademark (U+2122): X=205.0,Y=689.0 (should be at cap-height 690?)
-
-	* trademark (U+2122): X=290.0,Y=689.0 (should be at cap-height 690?)
-
-	* trademark (U+2122): X=397.0,Y=689.0 (should be at cap-height 690?)
-
-	* trademark (U+2122): X=526.0,Y=689.0 (should be at cap-height 690?) 
-
-	* trademark (U+2122): X=655.0,Y=689.0 (should be at cap-height 690?) [code: found-misalignments]
+	* uni2116 (U+2116): X=574.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2034,13 +2124,13 @@ less, greater
 
 	* fi (U+FB01): L<<265.0,477.0>--<625.0,507.0>> -> L<<625.0,507.0>--<656.0,507.0>>
 
-	* trademark (U+2122): L<<12.0,695.0>--<72.0,689.0>> -> L<<72.0,689.0>--<205.0,689.0>>
+	* trademark (U+2122): L<<12.0,696.0>--<72.0,690.0>> -> L<<72.0,690.0>--<205.0,690.0>>
 
-	* trademark (U+2122): L<<2.0,695.0>--<12.0,695.0>> -> L<<12.0,695.0>--<72.0,689.0>>
+	* trademark (U+2122): L<<2.0,696.0>--<12.0,696.0>> -> L<<12.0,696.0>--<72.0,690.0>>
 
-	* trademark (U+2122): L<<205.0,689.0>--<266.0,695.0>> -> L<<266.0,695.0>--<275.0,695.0>>
+	* trademark (U+2122): L<<205.0,690.0>--<266.0,696.0>> -> L<<266.0,696.0>--<275.0,696.0>>
 
-	* trademark (U+2122): L<<72.0,689.0>--<205.0,689.0>> -> L<<205.0,689.0>--<266.0,695.0>>
+	* trademark (U+2122): L<<72.0,690.0>--<205.0,690.0>> -> L<<205.0,690.0>--<266.0,696.0>>
 
 	* uni0162 (U+0162): L<<206.0,690.0>--<530.0,690.0>> -> L<<530.0,690.0>--<676.0,704.0>>
 
@@ -2062,9 +2152,33 @@ less, greater
 
 	* uni1EB8 (U+1EB8): L<<416.0,690.0>--<563.0,704.0>> -> L<<563.0,704.0>--<581.0,704.0>>
 
-	* uni1EBC (U+1EBC): L<<27.0,690.0>--<416.0,690.0>> -> L<<416.0,690.0>--<563.0,704.0>> 
+	* uni1EBA (U+1EBA): L<<27.0,690.0>--<416.0,690.0>> -> L<<416.0,690.0>--<563.0,704.0>>
 
-	* uni1EBC (U+1EBC): L<<416.0,690.0>--<563.0,704.0>> -> L<<563.0,704.0>--<581.0,704.0>> [code: found-colinear-vectors]
+	* uni1EBA (U+1EBA): L<<416.0,690.0>--<563.0,704.0>> -> L<<563.0,704.0>--<581.0,704.0>>
+
+	* uni1EBC (U+1EBC): L<<27.0,690.0>--<416.0,690.0>> -> L<<416.0,690.0>--<563.0,704.0>>
+
+	* uni1EBC (U+1EBC): L<<416.0,690.0>--<563.0,704.0>> -> L<<563.0,704.0>--<581.0,704.0>>
+
+	* uni1EBE (U+1EBE): L<<27.0,690.0>--<416.0,690.0>> -> L<<416.0,690.0>--<563.0,704.0>>
+
+	* uni1EBE (U+1EBE): L<<416.0,690.0>--<563.0,704.0>> -> L<<563.0,704.0>--<581.0,704.0>>
+
+	* uni1EC0 (U+1EC0): L<<27.0,690.0>--<416.0,690.0>> -> L<<416.0,690.0>--<563.0,704.0>>
+
+	* uni1EC0 (U+1EC0): L<<416.0,690.0>--<563.0,704.0>> -> L<<563.0,704.0>--<581.0,704.0>>
+
+	* uni1EC2 (U+1EC2): L<<27.0,690.0>--<416.0,690.0>> -> L<<416.0,690.0>--<563.0,704.0>>
+
+	* uni1EC2 (U+1EC2): L<<416.0,690.0>--<563.0,704.0>> -> L<<563.0,704.0>--<581.0,704.0>>
+
+	* uni1EC4 (U+1EC4): L<<27.0,690.0>--<416.0,690.0>> -> L<<416.0,690.0>--<563.0,704.0>>
+
+	* uni1EC4 (U+1EC4): L<<416.0,690.0>--<563.0,704.0>> -> L<<563.0,704.0>--<581.0,704.0>>
+
+	* uni1EC6 (U+1EC6): L<<27.0,690.0>--<416.0,690.0>> -> L<<416.0,690.0>--<563.0,704.0>> 
+
+	* uni1EC6 (U+1EC6): L<<416.0,690.0>--<563.0,704.0>> -> L<<563.0,704.0>--<581.0,704.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -2112,27 +2226,31 @@ less, greater
 
 	* asterisk (U+002A): L<<412.0,561.0>--<263.0,560.0>>
 
-	* paragraph (U+00B6): L<<320.0,-107.0>--<319.0,279.0>>
-
-	* paragraph (U+00B6): L<<376.0,632.0>--<378.0,-107.0>>
-
-	* paragraph (U+00B6): L<<461.0,-107.0>--<460.0,632.0>>
-
-	* paragraph (U+00B6): L<<517.0,602.0>--<519.0,-107.0>>
-
 	* uni013B (U+013B): L<<580.0,212.0>--<579.0,0.0>>
 
-	* uni1EB8 (U+1EB8): L<<581.0,704.0>--<582.0,524.0>> 
+	* uni1EB8 (U+1EB8): L<<581.0,704.0>--<582.0,524.0>>
 
-	* uni1EBC (U+1EBC): L<<581.0,704.0>--<582.0,524.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[23] Platypi-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+	* uni1EBA (U+1EBA): L<<581.0,704.0>--<582.0,524.0>>
+
+	* uni1EBC (U+1EBC): L<<581.0,704.0>--<582.0,524.0>>
+
+	* uni1EBE (U+1EBE): L<<581.0,704.0>--<582.0,524.0>>
+
+	* uni1EC0 (U+1EC0): L<<581.0,704.0>--<582.0,524.0>>
+
+	* uni1EC2 (U+1EC2): L<<581.0,704.0>--<582.0,524.0>>
+
+	* uni1EC4 (U+1EC4): L<<581.0,704.0>--<582.0,524.0>> 
+
+	* uni1EC6 (U+1EC6): L<<581.0,704.0>--<582.0,524.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[22] Platypi-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.200; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -2157,7 +2275,7 @@ less, greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1055, but got 965 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
@@ -2166,13 +2284,13 @@ less, greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i̵̇ i̵̊ i̵̋ ǐ̵ i̵̒ i̶̇ i̶̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̉ j̛̀ j̛́ j̛̃ j̛̄ j̛̆ j̛̇ j̛̈ j̛̉ j̛̊ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -2209,11 +2327,29 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 	- i.TRK
 
-	- i.loclTRK
+	- uni03020300
 
-	- periodcentered.loclCAT 
+	- uni03020300.case
 
-	- periodcentered.loclCAT.case
+	- uni03020301
+
+	- uni03020301.case
+
+	- uni03020309
+
+	- uni03020309.case
+
+	- uni03060300
+
+	- uni03060300.case
+
+	- uni03060301
+
+	- uni03060301.case
+
+	- uni03060309 
+
+	- uni03060309.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2221,22 +2357,6 @@ Got: 'Regular'. [code: bad-subfamilyname]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
-
-	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: degree	Contours detected: 0	Expected: 2
-
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -2258,13 +2378,31 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uni019D	Contours detected: 2	Expected: 1
+
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
@@ -2272,51 +2410,42 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
-
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: degree	Contours detected: 0	Expected: 2
-
-	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
+	- Glyph name: uni019D	Contours detected: 2	Expected: 1
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1 
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
-	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 515 among a set of 4 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 519:
-less
-
-Width = 518:
-greater
-
-Width = 584:
-multiply
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -2336,7 +2465,11 @@ multiply
 
 	* question (U+003F): X=228.0,Y=691.5 (should be at cap-height 690?)
 
-	* at (U+0040): X=806.0,Y=1.0 (should be at baseline 0?)
+	* at (U+0040): X=468.5,Y=692.0 (should be at cap-height 690?)
+
+	* at (U+0040): X=105.5,Y=0.5 (should be at baseline 0?)
+
+	* at (U+0040): X=803.0,Y=1.0 (should be at baseline 0?)
 
 	* bracketleft (U+005B): X=264.0,Y=692.0 (should be at cap-height 690?)
 
@@ -2352,13 +2485,13 @@ multiply
 
 	* cedilla (U+00B8): X=109.5,Y=-233.5 (should be at descender -235?)
 
-	* Atilde (U+00C3): X=231.0,Y=764.0 (should be at ascender 765?)
+	* Atilde (U+00C3): X=221.0,Y=764.0 (should be at ascender 765?)
 
-	* Aring (U+00C5): X=491.0,Y=763.0 (should be at ascender 765?)
+	* Aring (U+00C5): X=481.0,Y=763.0 (should be at ascender 765?)
 
-	* Aring (U+00C5): X=409.0,Y=767.0 (should be at ascender 765?)
+	* Aring (U+00C5): X=399.0,Y=767.0 (should be at ascender 765?)
 
-	* Aring (U+00C5): X=409.0,Y=767.0 (should be at ascender 765?)
+	* Aring (U+00C5): X=399.0,Y=767.0 (should be at ascender 765?)
 
 	* Ccedilla (U+00C7): X=286.5,Y=-233.5 (should be at descender -235?)
 
@@ -2446,6 +2579,8 @@ multiply
 
 	* Zdotaccent (U+017B): X=349.0,Y=763.0 (should be at ascender 765?)
 
+	* uni018F (U+018F): X=232.5,Y=692.0 (should be at cap-height 690?)
+
 	* gcaron (U+01E7): X=6.5,Y=-237.0 (should be at descender -235?)
 
 	* aeacute (U+01FD): X=679.0,Y=692.0 (should be at cap-height 690?)
@@ -2458,9 +2593,41 @@ multiply
 
 	* uni0338 (U+0338): X=21.0,Y=1.0 (should be at baseline 0?)
 
-	* wacute (U+1E83): X=631.0,Y=692.0 (should be at cap-height 690?) 
+	* wacute (U+1E83): X=631.0,Y=692.0 (should be at cap-height 690?)
 
-	* uni1EBC (U+1EBC): X=237.0,Y=764.0 (should be at ascender 765?) [code: found-misalignments]
+	* uni1EA2 (U+1EA2): X=329.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EA5 (U+1EA5): X=477.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1EAF (U+1EAF): X=341.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1EB3 (U+1EB3): X=402.0,Y=766.0 (should be at ascender 765?)
+
+	* uni1EBA (U+1EBA): X=345.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EBC (U+1EBC): X=237.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1EBF (U+1EBF): X=442.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1EC8 (U+1EC8): X=190.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1ECE (U+1ECE): X=402.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1ED1 (U+1ED1): X=457.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1EDB (U+1EDB): X=514.0,Y=692.0 (should be at cap-height 690?)
+
+	* uni1EDE (U+1EDE): X=402.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EE6 (U+1EE6): X=397.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EE9 (U+1EE9): X=527.0,Y=692.0 (should be at cap-height 690?)
+
+	* uni1EEC (U+1EEC): X=397.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EF6 (U+1EF6): X=363.0,Y=763.0 (should be at ascender 765?) 
+
+	* uni1EF8 (U+1EF8): X=255.0,Y=764.0 (should be at ascender 765?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2540,6 +2707,14 @@ multiply
 
 	* Tcaron (U+0164): L<<581.0,690.0>--<704.0,698.0>> -> L<<704.0,698.0>--<715.0,698.0>>
 
+	* Tmacronbelow (U+1E6E): L<<140.0,698.0>--<151.0,698.0>> -> L<<151.0,698.0>--<266.0,690.0>>
+
+	* Tmacronbelow (U+1E6E): L<<151.0,698.0>--<266.0,690.0>> -> L<<266.0,690.0>--<581.0,690.0>>
+
+	* Tmacronbelow (U+1E6E): L<<266.0,690.0>--<581.0,690.0>> -> L<<581.0,690.0>--<704.0,698.0>>
+
+	* Tmacronbelow (U+1E6E): L<<581.0,690.0>--<704.0,698.0>> -> L<<704.0,698.0>--<715.0,698.0>>
+
 	* Z (U+005A): L<<140.0,698.0>--<151.0,698.0>> -> L<<151.0,698.0>--<261.0,690.0>>
 
 	* Z (U+005A): L<<151.0,698.0>--<261.0,690.0>> -> L<<261.0,690.0>--<618.0,690.0>>
@@ -2560,13 +2735,19 @@ multiply
 
 	* tcaron (U+0165): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
 
-	* trademark (U+2122): L<<140.0,698.0>--<151.0,698.0>> -> L<<151.0,698.0>--<266.0,690.0>>
+	* tmacronbelow (U+1E6F): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
 
-	* trademark (U+2122): L<<151.0,698.0>--<266.0,690.0>> -> L<<266.0,690.0>--<581.0,690.0>>
+	* trademark (U+2122): L<<147.0,695.0>--<155.0,695.0>> -> L<<155.0,695.0>--<213.0,690.0>>
 
-	* trademark (U+2122): L<<266.0,690.0>--<581.0,690.0>> -> L<<581.0,690.0>--<704.0,698.0>>
+	* trademark (U+2122): L<<155.0,695.0>--<213.0,690.0>> -> L<<213.0,690.0>--<343.0,690.0>>
 
-	* trademark (U+2122): L<<581.0,690.0>--<704.0,698.0>> -> L<<704.0,698.0>--<715.0,698.0>>
+	* trademark (U+2122): L<<213.0,690.0>--<343.0,690.0>> -> L<<343.0,690.0>--<402.0,695.0>>
+
+	* trademark (U+2122): L<<343.0,690.0>--<402.0,695.0>> -> L<<402.0,695.0>--<411.0,695.0>>
+
+	* uni00B5 (U+00B5): L<<-25.0,-238.0>--<88.0,158.0>> -> L<<88.0,158.0>--<89.0,163.0>>
+
+	* uni00B5 (U+00B5): L<<88.0,158.0>--<89.0,163.0>> -> L<<89.0,163.0>--<143.0,353.0>>
 
 	* uni0136 (U+0136): L<<741.0,674.0>--<616.0,595.0>> -> L<<616.0,595.0>--<391.0,434.0>>
 
@@ -2580,10 +2761,38 @@ multiply
 
 	* uni021B (U+021B): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
 
-	* uni1EBC (U+1EBC): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>> 
+	* uni1EB8 (U+1EB8): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>>
 
-	* uni1EBC (U+1EBC): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[23] Platypi-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+	* uni1EB8 (U+1EB8): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>>
+
+	* uni1EBA (U+1EBA): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>>
+
+	* uni1EBA (U+1EBA): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>>
+
+	* uni1EBE (U+1EBE): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>>
+
+	* uni1EBE (U+1EBE): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>>
+
+	* uni1EC0 (U+1EC0): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>>
+
+	* uni1EC0 (U+1EC0): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>>
+
+	* uni1EC2 (U+1EC2): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>>
+
+	* uni1EC2 (U+1EC2): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>>
+
+	* uni1EC4 (U+1EC4): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>>
+
+	* uni1EC4 (U+1EC4): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>>
+
+	* uni1EC6 (U+1EC6): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>> 
+
+	* uni1EC6 (U+1EC6): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>> [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[22] Platypi-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Extra Bold'. Expected OS/2 usWeightClass is 700, got 800. [code: bad-value]
@@ -2594,7 +2803,7 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.200; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -2619,7 +2828,7 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1055, but got 965 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
@@ -2628,13 +2837,13 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ j̦̓ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ j̦̓ į̆ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -2687,6 +2896,30 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -2701,11 +2934,37 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: tbar	Contours detected: 2	Expected: 1 
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -2713,15 +2972,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 518 among a set of 5 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 512:
-less, greater
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -2761,21 +3011,9 @@ less, greater
 
 	* eth (U+00F0): X=513.0,Y=767.0 (should be at ascender 765?)
 
-	* abreve (U+0103): X=133.0,Y=767.0 (should be at ascender 765?)
-
-	* abreve (U+0103): X=479.0,Y=767.0 (should be at ascender 765?)
-
-	* ebreve (U+0115): X=135.0,Y=767.0 (should be at ascender 765?)
-
-	* ebreve (U+0115): X=481.0,Y=767.0 (should be at ascender 765?)
-
 	* Gcircumflex (U+011C): X=496.5,Y=1.0 (should be at baseline 0?)
 
 	* Gbreve (U+011E): X=496.5,Y=1.0 (should be at baseline 0?)
-
-	* gbreve (U+011F): X=130.0,Y=767.0 (should be at ascender 765?)
-
-	* gbreve (U+011F): X=476.0,Y=767.0 (should be at ascender 765?)
 
 	* Gdotaccent (U+0120): X=496.5,Y=1.0 (should be at baseline 0?)
 
@@ -2783,35 +3021,15 @@ less, greater
 
 	* uni0123 (U+0123): X=223.0,Y=765.5 (should be at ascender 765?)
 
-	* ibreve (U+012D): X=11.0,Y=767.0 (should be at ascender 765?)
-
-	* ibreve (U+012D): X=357.0,Y=767.0 (should be at ascender 765?)
-
 	* iogonek (U+012F): X=153.0,Y=-2.0 (should be at baseline 0?)
 
 	* IJ (U+0132): X=575.0,Y=-1.0 (should be at baseline 0?)
 
 	* Jcircumflex (U+0134): X=189.0,Y=-1.0 (should be at baseline 0?)
 
-	* obreve (U+014F): X=157.0,Y=767.0 (should be at ascender 765?)
-
-	* obreve (U+014F): X=503.0,Y=767.0 (should be at ascender 765?)
-
-	* ubreve (U+016D): X=160.0,Y=767.0 (should be at ascender 765?)
-
-	* ubreve (U+016D): X=506.0,Y=767.0 (should be at ascender 765?)
-
 	* Gcaron (U+01E6): X=496.5,Y=1.0 (should be at baseline 0?)
 
 	* uni02BB (U+02BB): X=-71.0,Y=765.5 (should be at ascender 765?)
-
-	* breve (U+02D8): X=34.0,Y=767.0 (should be at ascender 765?)
-
-	* breve (U+02D8): X=380.0,Y=767.0 (should be at ascender 765?)
-
-	* uni0306 (U+0306): X=34.0,Y=767.0 (should be at ascender 765?)
-
-	* uni0306 (U+0306): X=380.0,Y=767.0 (should be at ascender 765?)
 
 	* uni0312 (U+0312): X=63.0,Y=765.5 (should be at ascender 765?)
 
@@ -2831,33 +3049,43 @@ less, greater
 
 	* uni1EA1 (U+1EA1): X=388.0,Y=-237.0 (should be at descender -235?)
 
+	* uni1EA2 (U+1EA2): X=312.0,Y=767.0 (should be at ascender 765?)
+
+	* uni1EAB (U+1EAB): X=411.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1EAB (U+1EAB): X=411.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1EAC (U+1EAC): X=310.0,Y=-237.0 (should be at descender -235?)
+
+	* uni1EAC (U+1EAC): X=470.0,Y=-237.0 (should be at descender -235?)
+
 	* uni1EAD (U+1EAD): X=228.0,Y=-237.0 (should be at descender -235?)
 
 	* uni1EAD (U+1EAD): X=388.0,Y=-237.0 (should be at descender -235?)
 
-	* uni1EAF (U+1EAF): X=133.0,Y=767.0 (should be at ascender 765?)
+	* uni1EAF (U+1EAF): X=213.5,Y=692.0 (should be at cap-height 690?)
 
-	* uni1EAF (U+1EAF): X=479.0,Y=767.0 (should be at ascender 765?)
+	* uni1EAF (U+1EAF): X=398.5,Y=692.0 (should be at cap-height 690?)
 
-	* uni1EB1 (U+1EB1): X=133.0,Y=767.0 (should be at ascender 765?)
+	* uni1EB1 (U+1EB1): X=218.5,Y=692.0 (should be at cap-height 690?)
 
-	* uni1EB1 (U+1EB1): X=479.0,Y=767.0 (should be at ascender 765?)
+	* uni1EB1 (U+1EB1): X=403.5,Y=692.0 (should be at cap-height 690?)
 
-	* uni1EB3 (U+1EB3): X=133.0,Y=767.0 (should be at ascender 765?)
+	* uni1EB3 (U+1EB3): X=213.5,Y=692.0 (should be at cap-height 690?)
 
-	* uni1EB3 (U+1EB3): X=479.0,Y=767.0 (should be at ascender 765?)
+	* uni1EB3 (U+1EB3): X=398.5,Y=692.0 (should be at cap-height 690?)
 
-	* uni1EB5 (U+1EB5): X=133.0,Y=767.0 (should be at ascender 765?)
+	* uni1EB5 (U+1EB5): X=213.5,Y=692.0 (should be at cap-height 690?)
 
-	* uni1EB5 (U+1EB5): X=479.0,Y=767.0 (should be at ascender 765?)
+	* uni1EB5 (U+1EB5): X=398.5,Y=692.0 (should be at cap-height 690?)
+
+	* uni1EB6 (U+1EB6): X=310.0,Y=-237.0 (should be at descender -235?)
+
+	* uni1EB6 (U+1EB6): X=470.0,Y=-237.0 (should be at descender -235?)
 
 	* uni1EB7 (U+1EB7): X=228.0,Y=-237.0 (should be at descender -235?)
 
 	* uni1EB7 (U+1EB7): X=388.0,Y=-237.0 (should be at descender -235?)
-
-	* uni1EB7 (U+1EB7): X=133.0,Y=767.0 (should be at ascender 765?)
-
-	* uni1EB7 (U+1EB7): X=479.0,Y=767.0 (should be at ascender 765?)
 
 	* uni1EB8 (U+1EB8): X=240.0,Y=-237.0 (should be at descender -235?)
 
@@ -2867,9 +3095,21 @@ less, greater
 
 	* uni1EB9 (U+1EB9): X=379.0,Y=-237.0 (should be at descender -235?)
 
+	* uni1EBA (U+1EBA): X=265.0,Y=767.0 (should be at ascender 765?)
+
+	* uni1EC5 (U+1EC5): X=413.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1EC5 (U+1EC5): X=413.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1EC6 (U+1EC6): X=240.0,Y=-237.0 (should be at descender -235?)
+
+	* uni1EC6 (U+1EC6): X=400.0,Y=-237.0 (should be at descender -235?)
+
 	* uni1EC7 (U+1EC7): X=219.0,Y=-237.0 (should be at descender -235?)
 
 	* uni1EC7 (U+1EC7): X=379.0,Y=-237.0 (should be at descender -235?)
+
+	* uni1EC8 (U+1EC8): X=138.0,Y=767.0 (should be at ascender 765?)
 
 	* uni1ECA (U+1ECA): X=113.0,Y=-237.0 (should be at descender -235?)
 
@@ -2887,6 +3127,30 @@ less, greater
 
 	* uni1ECD (U+1ECD): X=410.0,Y=-237.0 (should be at descender -235?)
 
+	* uni1ECE (U+1ECE): X=365.0,Y=767.0 (should be at ascender 765?)
+
+	* uni1ED7 (U+1ED7): X=435.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1ED7 (U+1ED7): X=435.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1ED8 (U+1ED8): X=338.0,Y=-237.0 (should be at descender -235?)
+
+	* uni1ED8 (U+1ED8): X=498.0,Y=-237.0 (should be at descender -235?)
+
+	* uni1ED9 (U+1ED9): X=250.0,Y=-237.0 (should be at descender -235?)
+
+	* uni1ED9 (U+1ED9): X=410.0,Y=-237.0 (should be at descender -235?)
+
+	* uni1EDE (U+1EDE): X=365.0,Y=767.0 (should be at ascender 765?)
+
+	* uni1EE2 (U+1EE2): X=338.0,Y=-237.0 (should be at descender -235?)
+
+	* uni1EE2 (U+1EE2): X=498.0,Y=-237.0 (should be at descender -235?)
+
+	* uni1EE3 (U+1EE3): X=250.0,Y=-237.0 (should be at descender -235?)
+
+	* uni1EE3 (U+1EE3): X=410.0,Y=-237.0 (should be at descender -235?)
+
 	* uni1EE4 (U+1EE4): X=294.0,Y=-237.0 (should be at descender -235?)
 
 	* uni1EE4 (U+1EE4): X=454.0,Y=-237.0 (should be at descender -235?)
@@ -2895,23 +3159,29 @@ less, greater
 
 	* uni1EE5 (U+1EE5): X=413.0,Y=-237.0 (should be at descender -235?)
 
-	* uni1EF5 (U+1EF5): X=349.0,Y=-237.0 (should be at descender -235?)
+	* uni1EE6 (U+1EE6): X=356.0,Y=767.0 (should be at ascender 765?)
 
-	* uni1EF5 (U+1EF5): X=509.0,Y=-237.0 (should be at descender -235?)
+	* uni1EEC (U+1EEC): X=356.0,Y=767.0 (should be at ascender 765?)
 
-	* uni20BF (U+20BF): X=367.0,Y=1.0 (should be at baseline 0?)
+	* uni1EF0 (U+1EF0): X=294.0,Y=-237.0 (should be at descender -235?)
 
-	* trademark (U+2122): X=73.0,Y=689.0 (should be at cap-height 690?)
+	* uni1EF0 (U+1EF0): X=454.0,Y=-237.0 (should be at descender -235?)
 
-	* trademark (U+2122): X=207.0,Y=689.0 (should be at cap-height 690?)
+	* uni1EF1 (U+1EF1): X=253.0,Y=-237.0 (should be at descender -235?)
 
-	* trademark (U+2122): X=292.0,Y=689.0 (should be at cap-height 690?)
+	* uni1EF1 (U+1EF1): X=413.0,Y=-237.0 (should be at descender -235?)
 
-	* trademark (U+2122): X=402.0,Y=689.0 (should be at cap-height 690?)
+	* uni1EF4 (U+1EF4): X=287.0,Y=-237.0 (should be at descender -235?)
 
-	* trademark (U+2122): X=527.0,Y=689.0 (should be at cap-height 690?) 
+	* uni1EF4 (U+1EF4): X=447.0,Y=-237.0 (should be at descender -235?)
 
-	* trademark (U+2122): X=659.0,Y=689.0 (should be at cap-height 690?) [code: found-misalignments]
+	* uni1EF5 (U+1EF5): X=369.0,Y=-237.0 (should be at descender -235?)
+
+	* uni1EF5 (U+1EF5): X=529.0,Y=-237.0 (should be at descender -235?)
+
+	* uni1EF6 (U+1EF6): X=346.0,Y=767.0 (should be at ascender 765?) 
+
+	* uni20BF (U+20BF): X=367.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2935,33 +3205,31 @@ less, greater
 
 	* fi (U+FB01): L<<281.0,480.0>--<649.0,513.0>> -> L<<649.0,513.0>--<682.0,513.0>>
 
-	* trademark (U+2122): L<<12.0,695.0>--<73.0,689.0>> -> L<<73.0,689.0>--<207.0,689.0>>
+	* trademark (U+2122): L<<12.0,696.0>--<73.0,690.0>> -> L<<73.0,690.0>--<207.0,690.0>>
 
-	* trademark (U+2122): L<<2.0,695.0>--<12.0,695.0>> -> L<<12.0,695.0>--<73.0,689.0>>
+	* trademark (U+2122): L<<2.0,696.0>--<12.0,696.0>> -> L<<12.0,696.0>--<73.0,690.0>>
 
-	* trademark (U+2122): L<<207.0,689.0>--<268.0,695.0>> -> L<<268.0,695.0>--<278.0,695.0>> 
+	* trademark (U+2122): L<<207.0,690.0>--<268.0,696.0>> -> L<<268.0,696.0>--<278.0,696.0>> 
 
-	* trademark (U+2122): L<<73.0,689.0>--<207.0,689.0>> -> L<<207.0,689.0>--<268.0,695.0>> [code: found-colinear-vectors]
+	* trademark (U+2122): L<<73.0,690.0>--<207.0,690.0>> -> L<<207.0,690.0>--<268.0,696.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* paragraph (U+00B6): L<<329.0,-107.0>--<328.0,266.0>>
+	* uni1EA7 (U+1EA7): L<<510.0,940.0>--<509.0,686.0>>
 
-	* paragraph (U+00B6): L<<387.0,630.0>--<389.0,-107.0>>
+	* uni1EC1 (U+1EC1): L<<512.0,940.0>--<511.0,686.0>> 
 
-	* paragraph (U+00B6): L<<470.0,-107.0>--<468.0,630.0>> 
-
-	* paragraph (U+00B6): L<<528.0,597.0>--<530.0,-107.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[21] Platypi-RegularItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+	* uni1ED3 (U+1ED3): L<<534.0,940.0>--<533.0,686.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[20] Platypi-RegularItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.200; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -2986,7 +3254,7 @@ less, greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1055, but got 965 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
@@ -2995,13 +3263,13 @@ less, greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i̵̇ i̵̊ i̵̋ ǐ̵ i̵̒ i̶̇ i̶̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̉ j̛̀ j̛́ j̛̃ j̛̄ j̛̆ j̛̇ j̛̈ j̛̉ j̛̊ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
 
 
@@ -3027,11 +3295,29 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- i.TRK
 
-	- i.loclTRK
+	- uni03020300
 
-	- periodcentered.loclCAT 
+	- uni03020300.case
 
-	- periodcentered.loclCAT.case
+	- uni03020301
+
+	- uni03020301.case
+
+	- uni03020309
+
+	- uni03020309.case
+
+	- uni03060300
+
+	- uni03060300.case
+
+	- uni03060301
+
+	- uni03060301.case
+
+	- uni03060309 
+
+	- uni03060309.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3039,22 +3325,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
-
-	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: degree	Contours detected: 0	Expected: 2
-
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -3076,13 +3346,29 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
@@ -3090,51 +3376,40 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
-
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: degree	Contours detected: 0	Expected: 2
-
-	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1 
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
 
-	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 515 among a set of 4 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 517:
-less
-
-Width = 516:
-greater
-
-Width = 584:
-multiply
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -3154,7 +3429,11 @@ multiply
 
 	* question (U+003F): X=232.5,Y=691.0 (should be at cap-height 690?)
 
-	* at (U+0040): X=813.0,Y=1.0 (should be at baseline 0?)
+	* at (U+0040): X=475.0,Y=689.0 (should be at cap-height 690?)
+
+	* at (U+0040): X=102.5,Y=1.0 (should be at baseline 0?)
+
+	* at (U+0040): X=811.0,Y=1.0 (should be at baseline 0?)
 
 	* G (U+0047): X=564.5,Y=689.0 (should be at cap-height 690?)
 
@@ -3166,23 +3445,21 @@ multiply
 
 	* section (U+00A7): X=280.5,Y=689.0 (should be at cap-height 690?)
 
-	* registered (U+00AE): X=278.0,Y=688.0 (should be at cap-height 690?)
+	* registered (U+00AE): X=280.0,Y=688.0 (should be at cap-height 690?)
 
-	* registered (U+00AE): X=387.0,Y=688.0 (should be at cap-height 690?)
+	* registered (U+00AE): X=393.0,Y=688.0 (should be at cap-height 690?)
+
+	* uni00B5 (U+00B5): X=-25.0,Y=-237.0 (should be at descender -235?)
+
+	* uni00B5 (U+00B5): X=-31.0,Y=-237.0 (should be at descender -235?)
 
 	* cedilla (U+00B8): X=110.0,Y=-234.0 (should be at descender -235?)
 
 	* Ccedilla (U+00C7): X=287.0,Y=-234.0 (should be at descender -235?)
 
-	* atilde (U+00E3): X=568.0,Y=691.0 (should be at cap-height 690?)
-
 	* ccedilla (U+00E7): X=203.0,Y=-234.0 (should be at descender -235?)
 
-	* ntilde (U+00F1): X=595.0,Y=691.0 (should be at cap-height 690?)
-
-	* otilde (U+00F5): X=549.0,Y=691.0 (should be at cap-height 690?)
-
-	* Abreve (U+0102): X=338.5,Y=767.0 (should be at ascender 765?)
+	* Abreve (U+0102): X=330.5,Y=767.0 (should be at ascender 765?)
 
 	* Aogonek (U+0104): X=488.0,Y=-2.0 (should be at baseline 0?)
 
@@ -3214,8 +3491,6 @@ multiply
 
 	* uni0122 (U+0122): X=564.5,Y=689.0 (should be at cap-height 690?)
 
-	* itilde (U+0129): X=424.0,Y=691.0 (should be at cap-height 690?)
-
 	* Ibreve (U+012C): X=193.5,Y=767.0 (should be at ascender 765?)
 
 	* Iogonek (U+012E): X=83.0,Y=-2.0 (should be at baseline 0?)
@@ -3246,8 +3521,6 @@ multiply
 
 	* tcaron (U+0165): X=358.0,Y=767.0 (should be at ascender 765?)
 
-	* utilde (U+0169): X=560.0,Y=691.0 (should be at cap-height 690?)
-
 	* Ubreve (U+016C): X=402.5,Y=767.0 (should be at ascender 765?)
 
 	* Uogonek (U+0172): X=312.0,Y=-2.0 (should be at baseline 0?)
@@ -3255,6 +3528,8 @@ multiply
 	* Zdotaccent (U+017B): X=353.5,Y=763.0 (should be at ascender 765?)
 
 	* zcaron (U+017E): X=224.0,Y=767.0 (should be at ascender 765?)
+
+	* uni018F (U+018F): X=235.5,Y=691.5 (should be at cap-height 690?)
 
 	* uni01CE (U+01CE): X=264.0,Y=767.0 (should be at ascender 765?)
 
@@ -3264,15 +3539,39 @@ multiply
 
 	* caron (U+02C7): X=161.0,Y=767.0 (should be at ascender 765?)
 
-	* tilde (U+02DC): X=498.0,Y=691.0 (should be at cap-height 690?)
-
-	* tildecomb (U+0303): X=498.0,Y=691.0 (should be at cap-height 690?)
-
 	* uni030C (U+030C): X=161.0,Y=767.0 (should be at ascender 765?)
 
 	* uni0327 (U+0327): X=110.0,Y=-234.0 (should be at descender -235?)
 
-	* uni1EBD (U+1EBD): X=533.0,Y=691.0 (should be at cap-height 690?)
+	* uni1EA2 (U+1EA2): X=333.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1EAB (U+1EAB): X=453.0,Y=767.0 (should be at ascender 765?)
+
+	* uni1EB3 (U+1EB3): X=357.0,Y=692.0 (should be at cap-height 690?)
+
+	* uni1EB6 (U+1EB6): X=330.5,Y=767.0 (should be at ascender 765?)
+
+	* uni1EBA (U+1EBA): X=344.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1EC5 (U+1EC5): X=418.0,Y=767.0 (should be at ascender 765?)
+
+	* uni1EC8 (U+1EC8): X=197.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1ECE (U+1ECE): X=405.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1ED7 (U+1ED7): X=434.0,Y=767.0 (should be at ascender 765?)
+
+	* uni1EDE (U+1EDE): X=405.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1EE0 (U+1EE0): X=267.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EE6 (U+1EE6): X=406.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1EEC (U+1EEC): X=406.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1EEE (U+1EEE): X=302.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EF6 (U+1EF6): X=375.0,Y=764.0 (should be at ascender 765?)
 
 	* quoteright (U+2019): X=279.5,Y=688.0 (should be at cap-height 690?)
 
@@ -3360,6 +3659,14 @@ multiply
 
 	* Tcaron (U+0164): L<<583.0,690.0>--<714.0,698.0>> -> L<<714.0,698.0>--<727.0,698.0>>
 
+	* Tmacronbelow (U+1E6E): L<<138.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<270.0,690.0>>
+
+	* Tmacronbelow (U+1E6E): L<<150.0,698.0>--<270.0,690.0>> -> L<<270.0,690.0>--<583.0,690.0>>
+
+	* Tmacronbelow (U+1E6E): L<<270.0,690.0>--<583.0,690.0>> -> L<<583.0,690.0>--<714.0,698.0>>
+
+	* Tmacronbelow (U+1E6E): L<<583.0,690.0>--<714.0,698.0>> -> L<<714.0,698.0>--<727.0,698.0>>
+
 	* Z (U+005A): L<<138.0,699.0>--<151.0,699.0>> -> L<<151.0,699.0>--<272.0,690.0>>
 
 	* Z (U+005A): L<<151.0,699.0>--<272.0,690.0>> -> L<<272.0,690.0>--<631.0,690.0>>
@@ -3376,13 +3683,17 @@ multiply
 
 	* Zdotaccent (U+017B): L<<151.0,699.0>--<272.0,690.0>> -> L<<272.0,690.0>--<631.0,690.0>>
 
-	* trademark (U+2122): L<<138.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<270.0,690.0>>
+	* trademark (U+2122): L<<145.0,695.0>--<153.0,695.0>> -> L<<153.0,695.0>--<212.0,690.0>>
 
-	* trademark (U+2122): L<<150.0,698.0>--<270.0,690.0>> -> L<<270.0,690.0>--<583.0,690.0>>
+	* trademark (U+2122): L<<153.0,695.0>--<212.0,690.0>> -> L<<212.0,690.0>--<342.0,690.0>>
 
-	* trademark (U+2122): L<<270.0,690.0>--<583.0,690.0>> -> L<<583.0,690.0>--<714.0,698.0>>
+	* trademark (U+2122): L<<212.0,690.0>--<342.0,690.0>> -> L<<342.0,690.0>--<402.0,695.0>>
 
-	* trademark (U+2122): L<<583.0,690.0>--<714.0,698.0>> -> L<<714.0,698.0>--<727.0,698.0>>
+	* trademark (U+2122): L<<342.0,690.0>--<402.0,695.0>> -> L<<402.0,695.0>--<411.0,695.0>>
+
+	* uni00B5 (U+00B5): L<<-31.0,-237.0>--<83.0,162.0>> -> L<<83.0,162.0>--<84.0,167.0>>
+
+	* uni00B5 (U+00B5): L<<83.0,162.0>--<84.0,167.0>> -> L<<84.0,167.0>--<138.0,356.0>>
 
 	* uni0136 (U+0136): L<<762.0,673.0>--<638.0,597.0>> -> L<<638.0,597.0>--<412.0,436.0>>
 
@@ -3394,17 +3705,45 @@ multiply
 
 	* uni021A (U+021A): L<<583.0,690.0>--<714.0,698.0>> -> L<<714.0,698.0>--<727.0,698.0>>
 
-	* uni1EBC (U+1EBC): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>> 
+	* uni1EB8 (U+1EB8): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>>
 
-	* uni1EBC (U+1EBC): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[22] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+	* uni1EB8 (U+1EB8): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>>
+
+	* uni1EBA (U+1EBA): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>>
+
+	* uni1EBA (U+1EBA): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>>
+
+	* uni1EBE (U+1EBE): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>>
+
+	* uni1EBE (U+1EBE): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>>
+
+	* uni1EC0 (U+1EC0): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>>
+
+	* uni1EC0 (U+1EC0): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>>
+
+	* uni1EC2 (U+1EC2): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>>
+
+	* uni1EC2 (U+1EC2): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>>
+
+	* uni1EC4 (U+1EC4): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>>
+
+	* uni1EC4 (U+1EC4): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>>
+
+	* uni1EC6 (U+1EC6): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>> 
+
+	* uni1EC6 (U+1EC6): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>> [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[21] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.200; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -3429,7 +3768,7 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1055, but got 965 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
@@ -3438,13 +3777,13 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i̵̇ i̵̊ i̵̋ ǐ̵ i̵̒ i̶̇ i̶̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̉ j̛̀ j̛́ j̛̃ j̛̄ j̛̆ j̛̇ j̛̈ j̛̉ j̛̊ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -3483,11 +3822,29 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 	- i.TRK
 
-	- i.loclTRK
+	- uni03020300
 
-	- periodcentered.loclCAT 
+	- uni03020300.case
 
-	- periodcentered.loclCAT.case
+	- uni03020301
+
+	- uni03020301.case
+
+	- uni03020309
+
+	- uni03020309.case
+
+	- uni03060300
+
+	- uni03060300.case
+
+	- uni03060301
+
+	- uni03060301.case
+
+	- uni03060309 
+
+	- uni03060309.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3495,22 +3852,6 @@ Got: 'Regular'. [code: bad-subfamilyname]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
-
-	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: degree	Contours detected: 0	Expected: 2
-
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -3532,13 +3873,29 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
@@ -3546,51 +3903,40 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
-
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: degree	Contours detected: 0	Expected: 2
-
-	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1 
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
 
-	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 515 among a set of 4 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 510:
-less
-
-Width = 511:
-greater
-
-Width = 584:
-multiply
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -3678,6 +4024,14 @@ multiply
 
 	* Tcaron (U+0164): L<<589.0,690.0>--<748.0,698.0>> -> L<<748.0,698.0>--<766.0,698.0>>
 
+	* Tmacronbelow (U+1E6E): L<<131.0,698.0>--<149.0,698.0>> -> L<<149.0,698.0>--<284.0,690.0>>
+
+	* Tmacronbelow (U+1E6E): L<<149.0,698.0>--<284.0,690.0>> -> L<<284.0,690.0>--<589.0,690.0>>
+
+	* Tmacronbelow (U+1E6E): L<<284.0,690.0>--<589.0,690.0>> -> L<<589.0,690.0>--<748.0,698.0>>
+
+	* Tmacronbelow (U+1E6E): L<<589.0,690.0>--<748.0,698.0>> -> L<<748.0,698.0>--<766.0,698.0>>
+
 	* Z (U+005A): L<<133.0,704.0>--<151.0,704.0>> -> L<<151.0,704.0>--<307.0,690.0>>
 
 	* Z (U+005A): L<<151.0,704.0>--<307.0,690.0>> -> L<<307.0,690.0>--<673.0,690.0>>
@@ -3694,13 +4048,17 @@ multiply
 
 	* Zdotaccent (U+017B): L<<151.0,704.0>--<307.0,690.0>> -> L<<307.0,690.0>--<673.0,690.0>>
 
-	* trademark (U+2122): L<<131.0,698.0>--<149.0,698.0>> -> L<<149.0,698.0>--<284.0,690.0>>
+	* trademark (U+2122): L<<138.0,696.0>--<147.0,696.0>> -> L<<147.0,696.0>--<207.0,690.0>>
 
-	* trademark (U+2122): L<<149.0,698.0>--<284.0,690.0>> -> L<<284.0,690.0>--<589.0,690.0>>
+	* trademark (U+2122): L<<147.0,696.0>--<207.0,690.0>> -> L<<207.0,690.0>--<340.0,690.0>>
 
-	* trademark (U+2122): L<<284.0,690.0>--<589.0,690.0>> -> L<<589.0,690.0>--<748.0,698.0>>
+	* trademark (U+2122): L<<207.0,690.0>--<340.0,690.0>> -> L<<340.0,690.0>--<401.0,696.0>>
 
-	* trademark (U+2122): L<<589.0,690.0>--<748.0,698.0>> -> L<<748.0,698.0>--<766.0,698.0>>
+	* trademark (U+2122): L<<340.0,690.0>--<401.0,696.0>> -> L<<401.0,696.0>--<411.0,696.0>>
+
+	* uni00B5 (U+00B5): L<<-52.0,-236.0>--<66.0,176.0>> -> L<<66.0,176.0>--<67.0,179.0>>
+
+	* uni00B5 (U+00B5): L<<66.0,176.0>--<67.0,179.0>> -> L<<67.0,179.0>--<121.0,366.0>>
 
 	* uni0136 (U+0136): L<<834.0,669.0>--<701.0,593.0>> -> L<<701.0,593.0>--<481.0,442.0>>
 
@@ -3712,10 +4070,38 @@ multiply
 
 	* uni021A (U+021A): L<<589.0,690.0>--<748.0,698.0>> -> L<<748.0,698.0>--<766.0,698.0>>
 
-	* uni1EBC (U+1EBC): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>> 
+	* uni1EB8 (U+1EB8): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>>
 
-	* uni1EBC (U+1EBC): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[23] Platypi-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+	* uni1EB8 (U+1EB8): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>>
+
+	* uni1EBA (U+1EBA): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>>
+
+	* uni1EBA (U+1EBA): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>>
+
+	* uni1EBC (U+1EBC): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>>
+
+	* uni1EBE (U+1EBE): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>>
+
+	* uni1EBE (U+1EBE): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>>
+
+	* uni1EC0 (U+1EC0): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>>
+
+	* uni1EC0 (U+1EC0): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>>
+
+	* uni1EC2 (U+1EC2): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>>
+
+	* uni1EC2 (U+1EC2): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>>
+
+	* uni1EC4 (U+1EC4): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>>
+
+	* uni1EC4 (U+1EC4): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>>
+
+	* uni1EC6 (U+1EC6): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>> 
+
+	* uni1EC6 (U+1EC6): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>> [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[21] Platypi-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Semi Bold'. Expected OS/2 usWeightClass is 700, got 600. [code: bad-value]
@@ -3726,7 +4112,7 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.200; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -3751,7 +4137,7 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1055, but got 965 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
@@ -3760,13 +4146,13 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ j̦̓ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ j̦̓ į̆ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -3819,6 +4205,30 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -3833,11 +4243,37 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: tbar	Contours detected: 2	Expected: 1 
+	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -3845,15 +4281,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 518 among a set of 5 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 517:
-less, greater
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -3901,10 +4328,6 @@ less, greater
 
 	* Aring (U+00C5): X=442.0,Y=763.0 (should be at ascender 765?)
 
-	* atilde (U+00E3): X=275.5,Y=689.0 (should be at cap-height 690?)
-
-	* otilde (U+00F5): X=296.5,Y=689.0 (should be at cap-height 690?)
-
 	* thorn (U+00FE): X=235.0,Y=1.0 (should be at baseline 0?)
 
 	* Aogonek (U+0104): X=572.0,Y=-2.0 (should be at baseline 0?)
@@ -3914,8 +4337,6 @@ less, greater
 	* Eogonek (U+0118): X=410.0,Y=-2.0 (should be at baseline 0?)
 
 	* uni0123 (U+0123): X=247.5,Y=763.0 (should be at ascender 765?)
-
-	* itilde (U+0129): X=152.5,Y=689.0 (should be at cap-height 690?)
 
 	* Iogonek (U+012E): X=150.0,Y=-2.0 (should be at baseline 0?)
 
@@ -3931,8 +4352,6 @@ less, greater
 
 	* scaron (U+0161): X=134.0,Y=1.5 (should be at baseline 0?)
 
-	* utilde (U+0169): X=298.5,Y=689.0 (should be at cap-height 690?)
-
 	* Uring (U+016E): X=299.5,Y=763.0 (should be at ascender 765?)
 
 	* Uring (U+016E): X=471.0,Y=763.0 (should be at ascender 765?)
@@ -3947,13 +4366,31 @@ less, greater
 
 	* uni0E3F (U+0E3F): X=368.0,Y=1.0 (should be at baseline 0?)
 
-	* uni1EAB (U+1EAB): X=606.5,Y=766.5 (should be at ascender 765?)
+	* uni1EA5 (U+1EA5): X=417.0,Y=689.0 (should be at cap-height 690?)
 
-	* uni1EAF (U+1EAF): X=251.0,Y=764.0 (should be at ascender 765?)
+	* uni1EAE (U+1EAE): X=243.5,Y=767.0 (should be at ascender 765?)
 
-	* uni1EB1 (U+1EB1): X=333.0,Y=764.0 (should be at ascender 765?)
+	* uni1EAE (U+1EAE): X=470.5,Y=767.0 (should be at ascender 765?)
 
-	* uni1EF9 (U+1EF9): X=299.5,Y=689.0 (should be at cap-height 690?)
+	* uni1EB0 (U+1EB0): X=242.0,Y=766.5 (should be at ascender 765?)
+
+	* uni1EB0 (U+1EB0): X=469.0,Y=766.5 (should be at ascender 765?)
+
+	* uni1EB2 (U+1EB2): X=243.5,Y=767.0 (should be at ascender 765?)
+
+	* uni1EB2 (U+1EB2): X=470.5,Y=767.0 (should be at ascender 765?)
+
+	* uni1EB3 (U+1EB3): X=310.0,Y=763.0 (should be at ascender 765?)
+
+	* uni1EB4 (U+1EB4): X=243.5,Y=766.5 (should be at ascender 765?)
+
+	* uni1EB4 (U+1EB4): X=470.5,Y=766.5 (should be at ascender 765?)
+
+	* uni1EB5 (U+1EB5): X=148.0,Y=764.0 (should be at ascender 765?)
+
+	* uni1EBF (U+1EBF): X=421.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1ED1 (U+1ED1): X=438.0,Y=689.0 (should be at cap-height 690?)
 
 	* quoteleft (U+2018): X=152.0,Y=688.0 (should be at cap-height 690?)
 
@@ -4071,13 +4508,13 @@ less, greater
 
 	* fi (U+FB01): L<<244.0,474.0>--<594.0,500.0>> -> L<<594.0,500.0>--<622.0,500.0>>
 
-	* trademark (U+2122): L<<11.0,695.0>--<71.0,690.0>> -> L<<71.0,690.0>--<203.0,690.0>>
+	* trademark (U+2122): L<<11.0,696.0>--<71.0,690.0>> -> L<<71.0,690.0>--<203.0,690.0>>
 
-	* trademark (U+2122): L<<2.0,695.0>--<11.0,695.0>> -> L<<11.0,695.0>--<71.0,690.0>>
+	* trademark (U+2122): L<<2.0,696.0>--<11.0,696.0>> -> L<<11.0,696.0>--<71.0,690.0>>
 
-	* trademark (U+2122): L<<203.0,690.0>--<263.0,695.0>> -> L<<263.0,695.0>--<272.0,695.0>>
+	* trademark (U+2122): L<<203.0,690.0>--<263.0,696.0>> -> L<<263.0,696.0>--<272.0,696.0>>
 
-	* trademark (U+2122): L<<71.0,690.0>--<203.0,690.0>> -> L<<203.0,690.0>--<263.0,695.0>>
+	* trademark (U+2122): L<<71.0,690.0>--<203.0,690.0>> -> L<<203.0,690.0>--<263.0,696.0>>
 
 	* uni0162 (U+0162): L<<197.0,690.0>--<522.0,690.0>> -> L<<522.0,690.0>--<659.0,702.0>>
 
@@ -4103,29 +4540,41 @@ less, greater
 
 	* uni1EB8 (U+1EB8): L<<422.0,690.0>--<557.0,702.0>> -> L<<557.0,702.0>--<572.0,702.0>>
 
-	* uni1EBC (U+1EBC): L<<28.0,690.0>--<422.0,690.0>> -> L<<422.0,690.0>--<557.0,702.0>> 
+	* uni1EBA (U+1EBA): L<<28.0,690.0>--<422.0,690.0>> -> L<<422.0,690.0>--<557.0,702.0>>
 
-	* uni1EBC (U+1EBC): L<<422.0,690.0>--<557.0,702.0>> -> L<<557.0,702.0>--<572.0,702.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+	* uni1EBA (U+1EBA): L<<422.0,690.0>--<557.0,702.0>> -> L<<557.0,702.0>--<572.0,702.0>>
 
+	* uni1EBC (U+1EBC): L<<28.0,690.0>--<422.0,690.0>> -> L<<422.0,690.0>--<557.0,702.0>>
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+	* uni1EBC (U+1EBC): L<<422.0,690.0>--<557.0,702.0>> -> L<<557.0,702.0>--<572.0,702.0>>
 
-	* paragraph (U+00B6): L<<310.0,-107.0>--<308.0,295.0>>
+	* uni1EBE (U+1EBE): L<<28.0,690.0>--<422.0,690.0>> -> L<<422.0,690.0>--<557.0,702.0>>
 
-	* paragraph (U+00B6): L<<362.0,635.0>--<364.0,-107.0>>
+	* uni1EBE (U+1EBE): L<<422.0,690.0>--<557.0,702.0>> -> L<<557.0,702.0>--<572.0,702.0>>
 
-	* paragraph (U+00B6): L<<451.0,-107.0>--<449.0,635.0>> 
+	* uni1EC0 (U+1EC0): L<<28.0,690.0>--<422.0,690.0>> -> L<<422.0,690.0>--<557.0,702.0>>
 
-	* paragraph (U+00B6): L<<503.0,608.0>--<505.0,-107.0>> [code: found-semi-vertical]
+	* uni1EC0 (U+1EC0): L<<422.0,690.0>--<557.0,702.0>> -> L<<557.0,702.0>--<572.0,702.0>>
+
+	* uni1EC2 (U+1EC2): L<<28.0,690.0>--<422.0,690.0>> -> L<<422.0,690.0>--<557.0,702.0>>
+
+	* uni1EC2 (U+1EC2): L<<422.0,690.0>--<557.0,702.0>> -> L<<557.0,702.0>--<572.0,702.0>>
+
+	* uni1EC4 (U+1EC4): L<<28.0,690.0>--<422.0,690.0>> -> L<<422.0,690.0>--<557.0,702.0>>
+
+	* uni1EC4 (U+1EC4): L<<422.0,690.0>--<557.0,702.0>> -> L<<557.0,702.0>--<572.0,702.0>>
+
+	* uni1EC6 (U+1EC6): L<<28.0,690.0>--<422.0,690.0>> -> L<<422.0,690.0>--<557.0,702.0>> 
+
+	* uni1EC6 (U+1EC6): L<<422.0,690.0>--<557.0,702.0>> -> L<<557.0,702.0>--<572.0,702.0>> [code: found-colinear-vectors]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 114 | 109 | 1203 | 61 | 820 | 0 |
-| 0% | 5% | 5% | 52% | 3% | 36% | 0% |
+| 0 | 114 | 95 | 1203 | 61 | 834 | 0 |
+| 0% | 5% | 4% | 52% | 3% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
