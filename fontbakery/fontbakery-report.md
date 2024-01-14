@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[23] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+<details><summary><b>[24] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Semi Bold Italic'. Expected OS/2 usWeightClass is 700, got 600. [code: bad-value]
@@ -53,7 +53,7 @@ Fontbakery version: 0.8.13
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̉ j̛̀ j̛́ j̛̃ j̛̄ j̛̆ j̛̇ j̛̈ j̛̉ j̛̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -79,6 +79,10 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 * ⚠ **WARN** OS/2 VendorID value 'BOLT' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -96,30 +100,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- i.TRK
-
-	- uni03020300
-
-	- uni03020300.case
-
-	- uni03020301
-
-	- uni03020301.case
-
-	- uni03020309
-
-	- uni03020309.case
-
-	- uni03060300
-
-	- uni03060300.case
-
-	- uni03060301
-
-	- uni03060301.case
-
-	- uni03060309 
-
-	- uni03060309.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -181,6 +161,10 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
@@ -324,6 +308,8 @@ The following glyphs do not have the recommended number of contours:
 	* Zdotaccent (U+017B): L<<136.0,702.0>--<151.0,702.0>> -> L<<151.0,702.0>--<291.0,690.0>>
 
 	* Zdotaccent (U+017B): L<<151.0,702.0>--<291.0,690.0>> -> L<<291.0,690.0>--<654.0,690.0>>
+
+	* three (U+0033): L<<301.0,331.0>--<308.0,363.0>> -> L<<308.0,363.0>--<316.0,393.0>>
 
 	* trademark (U+2122): L<<209.0,690.0>--<341.0,690.0>> -> L<<341.0,690.0>--<402.0,696.0>>
 
@@ -1266,7 +1252,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<428.0,690.0>--<549.0,699.0>> -> L<<549.0,699.0>--<562.0,699.0>> 
 
 	* uni20BF (U+20BF): L<<220.0,379.0>--<249.0,379.0>> -> L<<249.0,379.0>--<327.0,382.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[23] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[24] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Extra Bold Italic'. Expected OS/2 usWeightClass is 700, got 800. [code: bad-value]
@@ -1317,7 +1303,7 @@ The following glyphs do not have the recommended number of contours:
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̉ j̛̀ j̛́ j̛̃ j̛̄ j̛̆ j̛̇ j̛̈ j̛̉ j̛̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -1343,6 +1329,10 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 * ⚠ **WARN** OS/2 VendorID value 'BOLT' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1360,30 +1350,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- i.TRK
-
-	- uni03020300
-
-	- uni03020300.case
-
-	- uni03020301
-
-	- uni03020301.case
-
-	- uni03020309
-
-	- uni03020309.case
-
-	- uni03060300
-
-	- uni03060300.case
-
-	- uni03060301
-
-	- uni03060301.case
-
-	- uni03060309 
-
-	- uni03060309.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1445,6 +1411,10 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
@@ -1588,6 +1558,8 @@ The following glyphs do not have the recommended number of contours:
 	* Zdotaccent (U+017B): L<<131.0,706.0>--<151.0,706.0>> -> L<<151.0,706.0>--<320.0,690.0>>
 
 	* Zdotaccent (U+017B): L<<151.0,706.0>--<320.0,690.0>> -> L<<320.0,690.0>--<689.0,690.0>>
+
+	* three (U+0033): L<<311.0,326.0>--<321.0,364.0>> -> L<<321.0,364.0>--<330.0,398.0>>
 
 	* trademark (U+2122): L<<135.0,696.0>--<145.0,696.0>> -> L<<145.0,696.0>--<205.0,690.0>>
 
@@ -2243,7 +2215,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC4 (U+1EC4): L<<581.0,704.0>--<582.0,524.0>> 
 
 	* uni1EC6 (U+1EC6): L<<581.0,704.0>--<582.0,524.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[22] Platypi-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[23] Platypi-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -2290,7 +2262,7 @@ The following glyphs do not have the recommended number of contours:
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̉ j̛̀ j̛́ j̛̃ j̛̄ j̛̆ j̛̇ j̛̈ j̛̉ j̛̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -2316,6 +2288,10 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 * ⚠ **WARN** OS/2 VendorID value 'BOLT' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -2326,30 +2302,6 @@ Got: 'Regular'. [code: bad-subfamilyname]
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- i.TRK
-
-	- uni03020300
-
-	- uni03020300.case
-
-	- uni03020301
-
-	- uni03020301.case
-
-	- uni03020309
-
-	- uni03020309.case
-
-	- uni03060300
-
-	- uni03060300.case
-
-	- uni03060301
-
-	- uni03060301.case
-
-	- uni03060309 
-
-	- uni03060309.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2414,6 +2366,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
@@ -2459,7 +2415,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* three (U+0033): X=253.5,Y=688.0 (should be at cap-height 690?)
+	* three (U+0033): X=248.5,Y=688.0 (should be at cap-height 690?)
 
 	* six (U+0036): X=544.5,Y=688.0 (should be at cap-height 690?)
 
@@ -3222,7 +3178,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC1 (U+1EC1): L<<512.0,940.0>--<511.0,686.0>> 
 
 	* uni1ED3 (U+1ED3): L<<534.0,940.0>--<533.0,686.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[20] Platypi-RegularItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] Platypi-RegularItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -3269,7 +3225,7 @@ The following glyphs do not have the recommended number of contours:
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̉ j̛̀ j̛́ j̛̃ j̛̄ j̛̆ j̛̇ j̛̈ j̛̉ j̛̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
 
 
@@ -3284,6 +3240,10 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** OS/2 VendorID value 'BOLT' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3294,30 +3254,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- i.TRK
-
-	- uni03020300
-
-	- uni03020300.case
-
-	- uni03020301
-
-	- uni03020301.case
-
-	- uni03020309
-
-	- uni03020309.case
-
-	- uni03060300
-
-	- uni03060300.case
-
-	- uni03060301
-
-	- uni03060301.case
-
-	- uni03060309 
-
-	- uni03060309.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3379,6 +3315,10 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
@@ -3459,7 +3399,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* ccedilla (U+00E7): X=203.0,Y=-234.0 (should be at descender -235?)
 
-	* Abreve (U+0102): X=330.5,Y=767.0 (should be at ascender 765?)
+	* Abreve (U+0102): X=328.5,Y=767.0 (should be at ascender 765?)
 
 	* Aogonek (U+0104): X=488.0,Y=-2.0 (should be at baseline 0?)
 
@@ -3543,7 +3483,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0327 (U+0327): X=110.0,Y=-234.0 (should be at descender -235?)
 
-	* uni1EA2 (U+1EA2): X=333.0,Y=764.0 (should be at ascender 765?)
+	* uni1EA2 (U+1EA2): X=332.0,Y=764.0 (should be at ascender 765?)
 
 	* uni1EAB (U+1EAB): X=453.0,Y=767.0 (should be at ascender 765?)
 
@@ -3736,7 +3676,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>> 
 
 	* uni1EC6 (U+1EC6): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[21] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[22] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -3783,7 +3723,7 @@ The following glyphs do not have the recommended number of contours:
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̉ j̛̀ j̛́ j̛̃ j̛̄ j̛̆ j̛̇ j̛̈ j̛̉ j̛̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -3811,6 +3751,10 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 * ⚠ **WARN** OS/2 VendorID value 'BOLT' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3821,30 +3765,6 @@ Got: 'Regular'. [code: bad-subfamilyname]
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- i.TRK
-
-	- uni03020300
-
-	- uni03020300.case
-
-	- uni03020301
-
-	- uni03020301.case
-
-	- uni03020309
-
-	- uni03020309.case
-
-	- uni03060300
-
-	- uni03060300.case
-
-	- uni03060301
-
-	- uni03060301.case
-
-	- uni03060309 
-
-	- uni03060309.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3906,6 +3826,10 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
@@ -4047,6 +3971,8 @@ The following glyphs do not have the recommended number of contours:
 	* Zdotaccent (U+017B): L<<133.0,704.0>--<151.0,704.0>> -> L<<151.0,704.0>--<307.0,690.0>>
 
 	* Zdotaccent (U+017B): L<<151.0,704.0>--<307.0,690.0>> -> L<<307.0,690.0>--<673.0,690.0>>
+
+	* three (U+0033): L<<306.0,328.0>--<316.0,365.0>> -> L<<316.0,365.0>--<324.0,396.0>>
 
 	* trademark (U+2122): L<<138.0,696.0>--<147.0,696.0>> -> L<<147.0,696.0>--<207.0,690.0>>
 
@@ -4573,7 +4499,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 114 | 95 | 1203 | 61 | 834 | 0 |
+| 0 | 114 | 100 | 1198 | 61 | 834 | 0 |
 | 0% | 5% | 4% | 52% | 3% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
