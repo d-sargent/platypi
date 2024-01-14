@@ -30,11 +30,15 @@ The original design was developed while studying at Type West under the guidance
 * Lynne Yun [Website](http://www.lynneyun.com)
 * Gen Ramirez [Website](https://genramirez.com)
 
-Additional direction, polish, and advice was provided by:
+Some timely advice on serif design was provided by:
+
+* David Jonathan Ross [Website](https://djr.com)
+
+Additional design advice was provided by:
 
 * Troy Leinster [Website](https://www.leinstertype.com)
 
-This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished; I like to think you would have approved.
+This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished; you would have approved.
 
 ## Building
 
@@ -51,7 +55,8 @@ The proof files and QA tests are also available automatically via GitHub Actions
 ## Changelog
 
 **January 2024. Version 0.35**
-* Support for Australian Indigenous languages completed
+* Support for Australian Indigenous languages added
+* Support for Vietnamese language added
 
 **January 2024. Version 0.30**
 * Google Fonts Latin Core Character Set completed
