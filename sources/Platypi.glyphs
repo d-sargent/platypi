@@ -3,7 +3,13 @@
 .formatVersion = 3;
 DisplayStrings = (
 "0123456789",
-"ZE@"
+"ZE@",
+"ẮHgpj",
+"Ắsking how to use
+How to look
+at centred thjesge with ẰẲẴ
+ẤẦẨẪ
+How does line height work"
 );
 axes = (
 {
@@ -27,6 +33,10 @@ value = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "EditView Line Height";
+value = 1300;
 }
 );
 date = "2023-08-20 04:53:40 +0000";
@@ -204,20 +214,12 @@ axesValues = (
 );
 customParameters = (
 {
-name = winAscent;
-value = 1123;
-},
-{
-name = winDescent;
-value = 342;
-},
-{
 name = typoAscender;
-value = 935;
+value = 1122;
 },
 {
 name = typoDescender;
-value = 251;
+value = -251;
 },
 {
 name = typoLineGap;
@@ -225,15 +227,23 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 935;
+value = 1122;
 },
 {
 name = hheaDescender;
-value = 251;
+value = -251;
 },
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = winAscent;
+value = 1122;
+},
+{
+name = winDescent;
+value = 342;
 }
 );
 guides = (
@@ -472,20 +482,12 @@ axesValues = (
 );
 customParameters = (
 {
-name = winAscent;
-value = 1123;
-},
-{
-name = winDescent;
-value = 342;
-},
-{
 name = typoAscender;
-value = 935;
+value = 1122;
 },
 {
 name = typoDescender;
-value = 251;
+value = -251;
 },
 {
 name = typoLineGap;
@@ -493,15 +495,23 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 935;
+value = 1122;
 },
 {
 name = hheaDescender;
-value = 251;
+value = -251;
 },
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = winAscent;
+value = 1122;
+},
+{
+name = winDescent;
+value = 342;
 }
 );
 guides = (
@@ -92279,7 +92289,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 The Platypi Project Authors (https://github.com/d-sargent/platypi)";
+value = "Copyright 2024 The Platypi Project Authors (https://github.com/d-sargent/platypi)";
 }
 );
 },
@@ -92290,6 +92300,23 @@ value = BOLT;
 {
 key = versionString;
 value = "Version %d.%03d";
+},
+{
+key = licenses;
+values = (
+{
+language = ENG;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = designerURL;
+value = "https://davidsargent.com.au";
 }
 );
 unitsPerEm = 1000;
