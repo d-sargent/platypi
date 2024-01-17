@@ -12,9 +12,9 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Inspired by the enigmatic [platypus](https://platypus.asn.au), _Platypi_ blends sharp and dramatic wedge serifs with more conventional curves and proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. Heavier weights push this tension further with increased stroke tapering and overall contrast. The name _Platypi_ is a term commonly used as the plural of platypus, allthough this term is technically incorrect.
+Inspired by the enigmatic Australian native platypus, _Platypi_ blends heavy wedge serifs with more conventional curves and proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. Heavier weights push this tension further with increased stroke tapering and overall contrast. The name _Platypi_ is a term commonly used as the plural of platypus, allthough this term is technically incorrect [More information](https://platypus.asn.au).
 
-The typeface features five weights with matching italic styles and language support for Indigenous Australian and Vietnamese languages.
+_Platypi_ features five weights with matching italic styles and language support for Indigenous Australian and Vietnamese languages.
 
 ![Sample Image](documentation/platypi-sample-images-jan-2024-2.png)
 ![Sample Image](documentation/platypi-sample-images-jan-2024-3.png)
