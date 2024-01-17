@@ -12,15 +12,18 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Inspired by the enigmatic platypus, Platypi blends unexpected features with conventional approaches. Dramatically tapered strokes and sheared wedge serifs combine with smooth curves and traditional proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. Heavier weights push this tension further with increased tapering and overall contrast.
+Inspired by the enigmatic platypus, Platypi blends sharp and dramatic wedge serifs with more conventional curves and proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. Heavier weights push this tension further with increased stroke tapering and overall contrast.
 
-An original design for Platypi was produced while completing a Certificate in Type Design at Type West / Letterform Archive in 2022. The project aimed to create a 'latin' wedge serif model suitable for long-form text usage. The original design featured multiple weights alongside a single-weight italic style. In 2023 all letterforms were redrawn after reflection and time away from the project. All weights now have matching italic styles. In 2024, the project aims to develop expanded language support.
+The typeface features five weights with matching italic styles and language support for Indigenous Australian and Vietnamese languages.
 
-![Sample Image](documentation/platypi-sample-image-oct-2023.png)
+![Sample Image](documentation/platypi-sample-images-jan-2024-2.png)
+![Sample Image](documentation/platypi-sample-images-jan-2024-3.png)
+![Sample Image](documentation/platypi-sample-images-jan-2024-4.png)
+![Sample Image](documentation/platypi-sample-images-jan-2024-5.png)
 
 ## About the Designer
 
-David Sargent is Creative Director of Liveworm, a work-integrated learning incubator within the Queensland College of Art & Design, Griffith University. Liveworm operates as a working design studio for students to engage with a broad range of ‘real world’ projects for not-for-profit, cultural, educational, and small to medium commercial clients. As a design researcher, David is interested in how creative practice can engage, communicate, and spark social change. His studio practice focuses on typography, expressive lettering, and disruptive augmented reality, with creative works exhibited in Australian and international galleries. He releases typefaces under the moniker Bolt Cutter Type.
+David Sargent is an Australian academic and designer living and working on Jagera and Turrbal land. He is Creative Director of Liveworm, a work-integrated learning incubator within the Queensland College of Art & Design, Griffith University. Liveworm operates as a working design studio for students to engage with a broad range of ‘real world’ projects for not-for-profit, cultural, educational, and small to medium commercial clients. As a design researcher, David is interested in how creative practice can engage, communicate, and spark social change. His studio practice focuses on typography, expressive lettering, and disruptive augmented reality, with creative works exhibited in Australian and international galleries. He releases typefaces under the moniker Bolt Cutter Type.
 
 ## Contributors
 
@@ -38,7 +41,7 @@ Additional design advice was provided by:
 
 * Troy Leinster [Website](https://www.leinstertype.com)
 
-This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished; you would have approved.
+This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished.
 
 ## Building
 
@@ -53,6 +56,10 @@ If you want to build fonts manually on your own computer:
 The proof files and QA tests are also available automatically via GitHub Actions - look at https://d-sargent.github.io/platypi.
 
 ## Changelog
+
+**January 2024. Version 0.4**
+* Vertical metrics added
+* Kerning added
 
 **January 2024. Version 0.35**
 * Support for Australian Indigenous languages added
@@ -69,10 +76,10 @@ The proof files and QA tests are also available automatically via GitHub Actions
 * Streamlined serif design
 
 **December 2022. Version 0.10**
-* Original version created while studying at Type West
-* Upright roman design in light weight
-* Upright roman design in extra bold weight
-* Italic design in light weight only
+* Original design created while studying at Type West
+
+The initial design for Platypi was produced while completing a Certificate in Type Design at Type West / Letterform Archive [Website](https://letterformarchive.org/type-west-online/) in 2022. The project aimed to create a 'latin' wedge serif model suitable for long-form text applications. This original design featured multiple upright weights alongside a single-weight italic style. In 2023, all letterforms were redrawn after reflection and time away from the project. 
+
 
 ## License
 
