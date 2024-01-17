@@ -69,15 +69,15 @@ The proof files and QA tests are also available automatically via GitHub Actions
 * Support for Australian Indigenous languages added
 * Support for Vietnamese language added
 
-**January 2024. Version 0.30**
+**December 2023. Version 0.30**
 * Google Fonts Latin Core Character Set completed
 
 **August 2023. Version 0.20**
 * Redrawn design started and uploaded onto GitHub
 * Upright roman design in light and extra bold weights
 * Matching italic design in light and extra bold weights
-* Reconfigured vertical metrics for larger x-height
-* Streamlined serif design
+* Reconfigured font metrics for larger x-height and shorter ascenders/descenders
+* Streamlined serif design approach
 
 **December 2022. Version 0.10**
 * Original design created while studying at Type West
