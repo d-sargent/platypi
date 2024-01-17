@@ -66,7 +66,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 * Kerning added
 * Most Fontbakery fails corrected
 
-**January 2024. Version 0.35**
+**January 2024. Version 0.40**
 * Support for Australian Indigenous languages added
 * Support for Vietnamese language added
 
