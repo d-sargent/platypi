@@ -1,4 +1,6 @@
 sources:
   - Platypi.glyphs
   - Platypi-Italic.glyphs
+axisOrder: 
+  - wght
 familyName: Platypi
