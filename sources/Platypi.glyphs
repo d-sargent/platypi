@@ -2,7 +2,7 @@
 .appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
-"̄/macroncomb.case"
+"/f_f_i ﬁﬂ"
 );
 axes = (
 {
@@ -45004,9 +45004,19 @@ color = 4;
 glyphname = f_f_i;
 kernLeft = KO_f;
 kernRight = KO_fi;
-lastChange = "2024-01-14 04:29:42 +0000";
+lastChange = "2024-01-17 23:39:01 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (337,0);
+},
+{
+name = caret_2;
+pos = (695,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -45112,6 +45122,16 @@ nodes = (
 width = 1013;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (385,0);
+},
+{
+name = caret_2;
+pos = (788,0);
+}
+);
 layerId = m002;
 shapes = (
 {
@@ -45439,13 +45459,17 @@ color = 4;
 glyphname = fi;
 kernLeft = KO_f;
 kernRight = KO_fi;
-lastChange = "2024-01-09 04:08:43 +0000";
+lastChange = "2024-01-17 23:39:34 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom_1;
 pos = (541,0);
+},
+{
+name = caret_1;
+pos = (339,0);
 },
 {
 name = ogonek_1;
@@ -45523,6 +45547,10 @@ anchors = (
 {
 name = bottom_1;
 pos = (621,0);
+},
+{
+name = caret_1;
+pos = (387,0);
 },
 {
 name = ogonek_1;
@@ -45775,13 +45803,17 @@ color = 4;
 glyphname = fl;
 kernLeft = KO_f;
 kernRight = KO_i;
-lastChange = "2024-01-12 05:09:17 +0000";
+lastChange = "2024-01-17 23:39:31 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 pos = (541,0);
+},
+{
+name = caret_1;
+pos = (339,0);
 },
 {
 name = center;
@@ -45869,6 +45901,10 @@ anchors = (
 {
 name = bottom;
 pos = (621,0);
+},
+{
+name = caret_1;
+pos = (387,0);
 },
 {
 name = center;
