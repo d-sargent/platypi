@@ -1,19 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"0123456789",
-"ZE@",
-"ẮHgpj",
-"Ắsking how to use
-How to look
-at centred  thjesge with ẰẲẴ
-ẤẦẨẪ
-How does line height work",
-"áäāḏéëēìíīḻŋṉñòóöœṟṯùúûūŭÁÄĀḎÉËĒÌÍĪḺŊṈÑÒÓÖŒṞṮÙÚÛŪŬ",
-"ÁĂẮẶẰẲẴÂẤẬẦẨẪẠÀẢÃĐÉÊẾỆỀỂỄẸÈẺẼÍỊÌỈĨÓÔỐỘỒỔỖỌÒỎƠỚỢỜỞỠÕÚỤÙỦƯỨỰỪỬỮŨÝỴỲỶỸáăắặằẳẵâấậầẩẫạàảãđéêếệềểễẹèẻẽíịìỉĩóôốộồổỗọòỏơớợờởỡõúụùủưứựừửữũýỵỳỷỹ",
-" vx"
-);
 axes = (
 {
 name = Weight;
