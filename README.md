@@ -61,9 +61,10 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-**January 2024. Version 0.4**
+**January 2024. Version 1.00**
 * Vertical metrics added
 * Kerning added
+* Most Fontbakery fails corrected
 
 **January 2024. Version 0.35**
 * Support for Australian Indigenous languages added
