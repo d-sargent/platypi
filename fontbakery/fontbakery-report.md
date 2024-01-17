@@ -2,114 +2,14 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[2] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Each font in a family must have the same set of vertical metrics values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/vertical_metrics">com.google.fonts/check/family/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** sTypoAscender is not the same across the family:
-Platypi Semi Bold Italic: 765
-Platypi Light: 1122
-Platypi: 1122
-Platypi Extra Bold Italic: 765
-Platypi Bold: 1122
-Platypi Light Italic: 765
-Platypi Extra Bold: 1122
-Platypi Regular Italic: 765
-Platypi Bold Italic: 765
-Platypi Semi Bold: 1122 [code: sTypoAscender-mismatch]
-* 🔥 **FAIL** sTypoDescender is not the same across the family:
-Platypi Semi Bold Italic: -235
-Platypi Light: -251
-Platypi: -251
-Platypi Extra Bold Italic: -235
-Platypi Bold: -251
-Platypi Light Italic: -235
-Platypi Extra Bold: -251
-Platypi Regular Italic: -235
-Platypi Bold Italic: -235
-Platypi Semi Bold: -251 [code: sTypoDescender-mismatch]
-* 🔥 **FAIL** sTypoLineGap is not the same across the family:
-Platypi Semi Bold Italic: 200
-Platypi Light: 0
-Platypi: 0
-Platypi Extra Bold Italic: 200
-Platypi Bold: 0
-Platypi Light Italic: 200
-Platypi Extra Bold: 0
-Platypi Regular Italic: 200
-Platypi Bold Italic: 200
-Platypi Semi Bold: 0 [code: sTypoLineGap-mismatch]
-* 🔥 **FAIL** usWinAscent is not the same across the family:
-Platypi Semi Bold Italic: 965
-Platypi Light: 1122
-Platypi: 1122
-Platypi Extra Bold Italic: 965
-Platypi Bold: 1122
-Platypi Light Italic: 965
-Platypi Extra Bold: 1122
-Platypi Regular Italic: 965
-Platypi Bold Italic: 965
-Platypi Semi Bold: 1122 [code: usWinAscent-mismatch]
-* 🔥 **FAIL** usWinDescent is not the same across the family:
-Platypi Semi Bold Italic: 235
-Platypi Light: 342
-Platypi: 342
-Platypi Extra Bold Italic: 235
-Platypi Bold: 342
-Platypi Light Italic: 235
-Platypi Extra Bold: 342
-Platypi Regular Italic: 235
-Platypi Bold Italic: 235
-Platypi Semi Bold: 342 [code: usWinDescent-mismatch]
-* 🔥 **FAIL** ascent is not the same across the family:
-Platypi Semi Bold Italic: 965
-Platypi Light: 1122
-Platypi: 1122
-Platypi Extra Bold Italic: 965
-Platypi Bold: 1122
-Platypi Light Italic: 965
-Platypi Extra Bold: 1122
-Platypi Regular Italic: 965
-Platypi Bold Italic: 965
-Platypi Semi Bold: 1122 [code: ascent-mismatch]
-* 🔥 **FAIL** descent is not the same across the family:
-Platypi Semi Bold Italic: -235
-Platypi Light: -251
-Platypi: -251
-Platypi Extra Bold Italic: -235
-Platypi Bold: -251
-Platypi Light Italic: -235
-Platypi Extra Bold: -251
-Platypi Regular Italic: -235
-Platypi Bold Italic: -235
-Platypi Semi Bold: -251 [code: descent-mismatch]
-</div></details><details><summary>⚠ <b>WARN:</b> Make sure all font files have the same version value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/family/equal_font_versions">com.google.fonts/check/family/equal_font_versions</a>)</summary><div>
-
-
-* ⚠ **WARN** Version info differs among font files of the same font project.
-These were the version values found:
-* fonts/ttf/Platypi-SemiBoldItalic.ttf: 0.350006103515625
-* fonts/ttf/Platypi-Light.ttf: 0.399993896484375
-* fonts/ttf/Platypi-Regular.ttf: 0.399993896484375
-* fonts/ttf/Platypi-ExtraBoldItalic.ttf: 0.350006103515625
-* fonts/ttf/Platypi-Bold.ttf: 0.399993896484375
-* fonts/ttf/Platypi-LightItalic.ttf: 0.350006103515625
-* fonts/ttf/Platypi-ExtraBold.ttf: 0.399993896484375
-* fonts/ttf/Platypi-RegularItalic.ttf: 0.350006103515625
-* fonts/ttf/Platypi-BoldItalic.ttf: 0.350006103515625
-* fonts/ttf/Platypi-SemiBold.ttf: 0.399993896484375
- [code: mismatch]
-</div></details><br></div></details><details><summary><b>[24] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+<details><summary><b>[20] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Semi Bold Italic'. Expected OS/2 usWeightClass is 700, got 600. [code: bad-value]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version %d.%03d; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -123,23 +23,10 @@ These were the version values found:
 | Poscript Name | Platypi-SemiBoldItalic | PlatypiSemi-BoldItalic |
 | Typographic Family Name | Platypi | N/A |
 | Typographic Subfamily Name | Semi Bold Italic | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "200" it should be 0 [code: bad-OS/2.sTypoLineGap]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Platypi-SemiBoldItalic.ttf', 'fonts/ttf/Platypi-ExtraBoldItalic.ttf', 'fonts/ttf/Platypi-LightItalic.ttf', 'fonts/ttf/Platypi-RegularItalic.ttf', 'fonts/ttf/Platypi-BoldItalic.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoAscender (765) and hhea ascent (965) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 1122 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -150,6 +37,10 @@ These were the version values found:
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** name version string for platform 3, encoding 1 ("Version %d.%03d; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]"), could not be parsed. [code: parse]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -202,13 +93,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- i.TRK
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -304,10 +188,188 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* exclam (U+0021): X=350.0,Y=691.0 (should be at cap-height 690?)
+
+	* question (U+003F): X=240.5,Y=691.0 (should be at cap-height 690?)
+
+	* at (U+0040): X=96.5,Y=1.5 (should be at baseline 0?)
+
+	* at (U+0040): X=826.0,Y=1.0 (should be at baseline 0?)
+
+	* G (U+0047): X=584.0,Y=688.0 (should be at cap-height 690?)
+
+	* G (U+0047): X=486.5,Y=1.5 (should be at baseline 0?)
+
+	* d (U+0064): X=426.0,Y=489.0 (should be at x-height 490?)
+
+	* g (U+0067): X=526.0,Y=489.5 (should be at x-height 490?)
+
+	* p (U+0070): X=170.0,Y=1.0 (should be at baseline 0?)
+
+	* r (U+0072): X=517.0,Y=488.0 (should be at x-height 490?)
+
+	* s (U+0073): X=379.5,Y=490.5 (should be at x-height 490?)
+
+	* x (U+0078): X=628.0,Y=488.0 (should be at x-height 490?)
+
+	* section (U+00A7): X=338.5,Y=1.5 (should be at baseline 0?)
+
+	* dieresis (U+00A8): X=355.5,Y=691.0 (should be at cap-height 690?)
+
+	* dieresis (U+00A8): X=150.0,Y=691.0 (should be at cap-height 690?)
+
+	* acute (U+00B4): X=355.0,Y=692.0 (should be at cap-height 690?)
+
+	* aacute (U+00E1): X=568.0,Y=692.0 (should be at cap-height 690?)
+
+	* adieresis (U+00E4): X=451.5,Y=691.0 (should be at cap-height 690?)
+
+	* adieresis (U+00E4): X=246.0,Y=691.0 (should be at cap-height 690?)
+
+	* eacute (U+00E9): X=534.0,Y=692.0 (should be at cap-height 690?)
+
+	* edieresis (U+00EB): X=416.5,Y=691.0 (should be at cap-height 690?)
+
+	* edieresis (U+00EB): X=211.0,Y=691.0 (should be at cap-height 690?)
+
+	* idieresis (U+00EF): X=270.5,Y=691.5 (should be at cap-height 690?)
+
+	* idieresis (U+00EF): X=105.0,Y=691.5 (should be at cap-height 690?)
+
+	* oacute (U+00F3): X=551.0,Y=692.0 (should be at cap-height 690?)
+
+	* odieresis (U+00F6): X=433.5,Y=691.0 (should be at cap-height 690?)
+
+	* odieresis (U+00F6): X=228.0,Y=691.0 (should be at cap-height 690?)
+
+	* oslash (U+00F8): X=47.0,Y=-2.0 (should be at baseline 0?)
+
+	* uacute (U+00FA): X=560.0,Y=692.0 (should be at cap-height 690?)
+
+	* udieresis (U+00FC): X=442.5,Y=691.0 (should be at cap-height 690?)
+
+	* udieresis (U+00FC): X=237.0,Y=691.0 (should be at cap-height 690?)
+
+	* yacute (U+00FD): X=513.0,Y=692.0 (should be at cap-height 690?)
+
+	* thorn (U+00FE): X=149.0,Y=1.0 (should be at baseline 0?)
+
+	* ydieresis (U+00FF): X=396.5,Y=691.0 (should be at cap-height 690?)
+
+	* ydieresis (U+00FF): X=191.0,Y=691.0 (should be at cap-height 690?)
+
+	* Aogonek (U+0104): X=502.0,Y=-2.0 (should be at baseline 0?)
+
+	* cacute (U+0107): X=534.0,Y=692.0 (should be at cap-height 690?)
+
+	* ccaron (U+010D): X=365.0,Y=689.0 (should be at cap-height 690?)
+
+	* Eogonek (U+0118): X=364.0,Y=-2.0 (should be at baseline 0?)
+
+	* ecaron (U+011B): X=365.0,Y=689.0 (should be at cap-height 690?)
+
+	* Gcircumflex (U+011C): X=584.0,Y=688.0 (should be at cap-height 690?)
+
+	* Gcircumflex (U+011C): X=486.5,Y=1.5 (should be at baseline 0?)
+
+	* Gbreve (U+011E): X=584.0,Y=688.0 (should be at cap-height 690?)
+
+	* Gbreve (U+011E): X=486.5,Y=1.5 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=584.0,Y=688.0 (should be at cap-height 690?)
+
+	* Gdotaccent (U+0120): X=486.5,Y=1.5 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=584.0,Y=688.0 (should be at cap-height 690?)
+
+	* uni0122 (U+0122): X=486.5,Y=1.5 (should be at baseline 0?)
+
+	* itilde (U+0129): X=230.5,Y=691.5 (should be at cap-height 690?)
+
+	* Iogonek (U+012E): X=100.0,Y=-2.0 (should be at baseline 0?)
+
+	* nacute (U+0144): X=593.0,Y=692.0 (should be at cap-height 690?)
+
+	* ncaron (U+0148): X=424.0,Y=689.0 (should be at cap-height 690?)
+
+	* racute (U+0155): X=516.0,Y=692.0 (should be at cap-height 690?)
+
+	* rcaron (U+0159): X=347.0,Y=689.0 (should be at cap-height 690?)
+
+	* sacute (U+015B): X=503.0,Y=692.0 (should be at cap-height 690?)
+
+	* scaron (U+0161): X=334.0,Y=689.0 (should be at cap-height 690?)
+
+	* Uogonek (U+0172): X=324.0,Y=-2.0 (should be at baseline 0?)
+
+	* uogonek (U+0173): X=393.0,Y=-252.0 (should be at descender -251?)
+
+	* uogonek (U+0173): X=393.0,Y=-252.0 (should be at descender -251?)
+
+	* zacute (U+017A): X=527.0,Y=692.0 (should be at cap-height 690?)
+
+	* zcaron (U+017E): X=358.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni018F (U+018F): X=241.5,Y=691.0 (should be at cap-height 690?)
+
+	* uni01CE (U+01CE): X=399.0,Y=689.0 (should be at cap-height 690?)
+
+	* Gcaron (U+01E6): X=584.0,Y=688.0 (should be at cap-height 690?)
+
+	* Gcaron (U+01E6): X=486.5,Y=1.5 (should be at baseline 0?)
+
+	* gcaron (U+01E7): X=346.0,Y=689.0 (should be at cap-height 690?)
+
+	* aeacute (U+01FD): X=720.0,Y=692.0 (should be at cap-height 690?)
+
+	* oslashacute (U+01FF): X=47.0,Y=-2.0 (should be at baseline 0?)
+
+	* oslashacute (U+01FF): X=551.0,Y=692.0 (should be at cap-height 690?)
+
+	* caron (U+02C7): X=294.0,Y=689.0 (should be at cap-height 690?)
+
+	* acutecomb (U+0301): X=355.0,Y=692.0 (should be at cap-height 690?)
+
+	* uni0308 (U+0308): X=355.5,Y=691.0 (should be at cap-height 690?)
+
+	* uni0308 (U+0308): X=150.0,Y=691.0 (should be at cap-height 690?)
+
+	* uni030C (U+030C): X=294.0,Y=689.0 (should be at cap-height 690?)
+
+	* wacute (U+1E83): X=673.0,Y=692.0 (should be at cap-height 690?)
+
+	* wdieresis (U+1E85): X=556.5,Y=691.0 (should be at cap-height 690?)
+
+	* wdieresis (U+1E85): X=351.0,Y=691.0 (should be at cap-height 690?)
+
+	* uni1EA9 (U+1EA9): X=521.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1EA9 (U+1EA9): X=521.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1EB3 (U+1EB3): X=375.0,Y=688.0 (should be at cap-height 690?)
+
+	* uni1EB3 (U+1EB3): X=375.0,Y=688.0 (should be at cap-height 690?)
+
+	* uni1EC3 (U+1EC3): X=487.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1EC3 (U+1EC3): X=487.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1ED5 (U+1ED5): X=504.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1ED5 (U+1ED5): X=504.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1EDB (U+1EDB): X=551.0,Y=692.0 (should be at cap-height 690?)
+
+	* uni1EE1 (U+1EE1): X=318.5,Y=691.5 (should be at cap-height 690?)
+
+	* uni1EE9 (U+1EE9): X=560.0,Y=692.0 (should be at cap-height 690?) 
+
+	* uni1EEF (U+1EEF): X=364.5,Y=691.5 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -464,14 +526,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>> 
 
 	* uni1EC6 (U+1EC6): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[15] Platypi-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] Platypi-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
 * 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version %d.%03d; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Platypi-SemiBoldItalic.ttf', 'fonts/ttf/Platypi-ExtraBoldItalic.ttf', 'fonts/ttf/Platypi-LightItalic.ttf', 'fonts/ttf/Platypi-RegularItalic.ttf', 'fonts/ttf/Platypi-BoldItalic.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -891,14 +949,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni20A9 (U+20A9): L<<348.0,82.0>--<348.0,82.0>> -> L<<348.0,82.0>--<348.0,82.0>> 
 
 	* uni20A9 (U+20A9): L<<737.0,82.0>--<737.0,82.0>> -> L<<737.0,82.0>--<737.0,82.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[15] Platypi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] Platypi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
 * 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version %d.%03d; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Platypi-SemiBoldItalic.ttf', 'fonts/ttf/Platypi-ExtraBoldItalic.ttf', 'fonts/ttf/Platypi-LightItalic.ttf', 'fonts/ttf/Platypi-RegularItalic.ttf', 'fonts/ttf/Platypi-BoldItalic.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1326,18 +1380,14 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<428.0,690.0>--<549.0,699.0>> -> L<<549.0,699.0>--<562.0,699.0>> 
 
 	* uni20BF (U+20BF): L<<220.0,379.0>--<249.0,379.0>> -> L<<249.0,379.0>--<327.0,382.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[24] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Extra Bold Italic'. Expected OS/2 usWeightClass is 700, got 800. [code: bad-value]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version %d.%03d; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -1351,23 +1401,10 @@ The following glyphs do not have the recommended number of contours:
 | Poscript Name | Platypi-ExtraBoldItalic | PlatypiExtra-BoldItalic |
 | Typographic Family Name | Platypi | N/A |
 | Typographic Subfamily Name | Extra Bold Italic | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "200" it should be 0 [code: bad-OS/2.sTypoLineGap]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Platypi-SemiBoldItalic.ttf', 'fonts/ttf/Platypi-ExtraBoldItalic.ttf', 'fonts/ttf/Platypi-LightItalic.ttf', 'fonts/ttf/Platypi-RegularItalic.ttf', 'fonts/ttf/Platypi-BoldItalic.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoAscender (765) and hhea ascent (965) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 1122 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -1378,6 +1415,10 @@ The following glyphs do not have the recommended number of contours:
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** name version string for platform 3, encoding 1 ("Version %d.%03d; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]"), could not be parsed. [code: parse]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -1430,13 +1471,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- i.TRK
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1532,10 +1566,162 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* exclam (U+0021): X=394.0,Y=688.0 (should be at cap-height 690?)
+
+	* at (U+0040): X=88.0,Y=1.5 (should be at baseline 0?)
+
+	* at (U+0040): X=849.0,Y=1.0 (should be at baseline 0?)
+
+	* J (U+004A): X=138.5,Y=-1.0 (should be at baseline 0?)
+
+	* Q (U+0051): X=446.0,Y=-2.0 (should be at baseline 0?)
+
+	* a (U+0061): X=584.0,Y=502.0 (should be at x-height 500?)
+
+	* a (U+0061): X=613.0,Y=502.0 (should be at x-height 500?)
+
+	* c (U+0063): X=455.0,Y=501.5 (should be at x-height 500?)
+
+	* g (U+0067): X=78.0,Y=-2.0 (should be at baseline 0?)
+
+	* g (U+0067): X=78.0,Y=-1.0 (should be at baseline 0?)
+
+	* q (U+0071): X=584.0,Y=502.0 (should be at x-height 500?)
+
+	* q (U+0071): X=613.0,Y=502.0 (should be at x-height 500?)
+
+	* r (U+0072): X=574.0,Y=498.0 (should be at x-height 500?)
+
+	* x (U+0078): X=-17.0,Y=2.0 (should be at baseline 0?)
+
+	* x (U+0078): X=664.0,Y=498.0 (should be at x-height 500?)
+
+	* braceleft (U+007B): X=319.0,Y=689.5 (should be at cap-height 690?)
+
+	* acute (U+00B4): X=371.0,Y=689.0 (should be at cap-height 690?)
+
+	* aacute (U+00E1): X=602.0,Y=689.0 (should be at cap-height 690?)
+
+	* atilde (U+00E3): X=480.0,Y=690.5 (should be at cap-height 690?)
+
+	* eacute (U+00E9): X=568.0,Y=689.0 (should be at cap-height 690?)
+
+	* ntilde (U+00F1): X=502.0,Y=690.5 (should be at cap-height 690?)
+
+	* oacute (U+00F3): X=587.0,Y=689.0 (should be at cap-height 690?)
+
+	* otilde (U+00F5): X=465.0,Y=690.5 (should be at cap-height 690?)
+
+	* uacute (U+00FA): X=592.0,Y=689.0 (should be at cap-height 690?)
+
+	* yacute (U+00FD): X=553.0,Y=689.0 (should be at cap-height 690?)
+
+	* cacute (U+0107): X=563.0,Y=689.0 (should be at cap-height 690?)
+
+	* dcaron (U+010F): X=873.0,Y=688.0 (should be at cap-height 690?)
+
+	* gcircumflex (U+011D): X=78.0,Y=-2.0 (should be at baseline 0?)
+
+	* gcircumflex (U+011D): X=78.0,Y=-1.0 (should be at baseline 0?)
+
+	* gbreve (U+011F): X=78.0,Y=-2.0 (should be at baseline 0?)
+
+	* gbreve (U+011F): X=78.0,Y=-1.0 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=78.0,Y=-2.0 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=78.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=78.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=78.0,Y=-1.0 (should be at baseline 0?)
+
+	* itilde (U+0129): X=119.0,Y=691.0 (should be at cap-height 690?)
+
+	* IJ (U+0132): X=519.5,Y=-1.0 (should be at baseline 0?)
+
+	* Jcircumflex (U+0134): X=138.5,Y=-1.0 (should be at baseline 0?)
+
+	* lcaron (U+013E): X=561.0,Y=688.0 (should be at cap-height 690?)
+
+	* nacute (U+0144): X=624.0,Y=689.0 (should be at cap-height 690?)
+
+	* racute (U+0155): X=555.0,Y=689.0 (should be at cap-height 690?)
+
+	* sacute (U+015B): X=537.0,Y=689.0 (should be at cap-height 690?)
+
+	* tcaron (U+0165): X=571.0,Y=688.0 (should be at cap-height 690?)
+
+	* utilde (U+0169): X=470.0,Y=690.5 (should be at cap-height 690?)
+
+	* uogonek (U+0173): X=421.0,Y=-253.0 (should be at descender -251?)
+
+	* uogonek (U+0173): X=486.0,Y=1.0 (should be at baseline 0?)
+
+	* uogonek (U+0173): X=421.0,Y=-253.0 (should be at descender -251?)
+
+	* zacute (U+017A): X=558.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni018F (U+018F): X=251.5,Y=689.5 (should be at cap-height 690?)
+
+	* gcaron (U+01E7): X=78.0,Y=-2.0 (should be at baseline 0?)
+
+	* gcaron (U+01E7): X=78.0,Y=-1.0 (should be at baseline 0?)
+
+	* aeacute (U+01FD): X=761.0,Y=689.0 (should be at cap-height 690?)
+
+	* oslashacute (U+01FF): X=587.0,Y=689.0 (should be at cap-height 690?)
+
+	* tilde (U+02DC): X=397.0,Y=690.5 (should be at cap-height 690?)
+
+	* acutecomb (U+0301): X=371.0,Y=689.0 (should be at cap-height 690?)
+
+	* tildecomb (U+0303): X=397.0,Y=690.5 (should be at cap-height 690?)
+
+	* wacute (U+1E83): X=715.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1EA4 (U+1EA4): X=709.0,Y=1123.0 (should be at ascender 1122?)
+
+	* uni1EA4 (U+1EA4): X=717.0,Y=1123.0 (should be at ascender 1122?)
+
+	* uni1EA7 (U+1EA7): X=609.0,Y=688.0 (should be at cap-height 690?)
+
+	* uni1EAF (U+1EAF): X=519.5,Y=688.5 (should be at cap-height 690?)
+
+	* uni1EB1 (U+1EB1): X=519.5,Y=688.5 (should be at cap-height 690?)
+
+	* uni1EB3 (U+1EB3): X=519.5,Y=688.5 (should be at cap-height 690?)
+
+	* uni1EB5 (U+1EB5): X=518.5,Y=688.5 (should be at cap-height 690?)
+
+	* uni1EBD (U+1EBD): X=446.0,Y=690.5 (should be at cap-height 690?)
+
+	* uni1EBE (U+1EBE): X=704.0,Y=1123.0 (should be at ascender 1122?)
+
+	* uni1EBE (U+1EBE): X=712.0,Y=1123.0 (should be at ascender 1122?)
+
+	* uni1EC1 (U+1EC1): X=575.0,Y=688.0 (should be at cap-height 690?)
+
+	* uni1ED0 (U+1ED0): X=783.0,Y=1123.0 (should be at ascender 1122?)
+
+	* uni1ED0 (U+1ED0): X=791.0,Y=1123.0 (should be at ascender 1122?)
+
+	* uni1ED3 (U+1ED3): X=594.0,Y=688.0 (should be at cap-height 690?)
+
+	* uni1EDB (U+1EDB): X=587.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1EE1 (U+1EE1): X=204.0,Y=691.0 (should be at cap-height 690?)
+
+	* uni1EE9 (U+1EE9): X=592.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni1EEF (U+1EEF): X=265.0,Y=691.0 (should be at cap-height 690?) 
+
+	* uni1EF9 (U+1EF9): X=431.0,Y=690.5 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1692,14 +1878,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>> 
 
 	* uni1EC6 (U+1EC6): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[16] Platypi-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] Platypi-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
 * 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version %d.%03d; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Platypi-SemiBoldItalic.ttf', 'fonts/ttf/Platypi-ExtraBoldItalic.ttf', 'fonts/ttf/Platypi-LightItalic.ttf', 'fonts/ttf/Platypi-RegularItalic.ttf', 'fonts/ttf/Platypi-BoldItalic.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2191,14 +2373,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC4 (U+1EC4): L<<581.0,704.0>--<582.0,524.0>> 
 
 	* uni1EC6 (U+1EC6): L<<581.0,704.0>--<582.0,524.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[23] Platypi-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] Platypi-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
-</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
-
-
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version %d.%03d; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -2212,23 +2390,10 @@ The following glyphs do not have the recommended number of contours:
 | Poscript Name | Platypi-LightItalic | Platypi-LightItalic |
 | Typographic Family Name | Platypi | Platypi |
 | Typographic Subfamily Name | Light Italic | Light Italic | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "200" it should be 0 [code: bad-OS/2.sTypoLineGap]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Platypi-SemiBoldItalic.ttf', 'fonts/ttf/Platypi-ExtraBoldItalic.ttf', 'fonts/ttf/Platypi-LightItalic.ttf', 'fonts/ttf/Platypi-RegularItalic.ttf', 'fonts/ttf/Platypi-BoldItalic.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoAscender (765) and hhea ascent (965) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 1122 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -2239,6 +2404,10 @@ The following glyphs do not have the recommended number of contours:
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** name version string for platform 3, encoding 1 ("Version %d.%03d; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]"), could not be parsed. [code: parse]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -2284,13 +2453,6 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- i.TRK
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -2390,10 +2552,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -2415,33 +2573,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* bracketright (U+005D): X=231.0,Y=692.0 (should be at cap-height 690?)
 
-	* g (U+0067): X=6.5,Y=-237.0 (should be at descender -235?)
-
 	* g (U+0067): X=478.0,Y=478.0 (should be at x-height 480?)
 
 	* section (U+00A7): X=272.0,Y=690.5 (should be at cap-height 690?)
 
 	* acute (U+00B4): X=339.0,Y=692.0 (should be at cap-height 690?)
 
-	* cedilla (U+00B8): X=109.5,Y=-233.5 (should be at descender -235?)
-
-	* Atilde (U+00C3): X=221.0,Y=764.0 (should be at ascender 765?)
-
-	* Aring (U+00C5): X=481.0,Y=763.0 (should be at ascender 765?)
-
-	* Aring (U+00C5): X=399.0,Y=767.0 (should be at ascender 765?)
-
-	* Aring (U+00C5): X=399.0,Y=767.0 (should be at ascender 765?)
-
-	* Ccedilla (U+00C7): X=286.5,Y=-233.5 (should be at descender -235?)
-
-	* Ntilde (U+00D1): X=247.0,Y=764.0 (should be at ascender 765?)
-
-	* Otilde (U+00D5): X=294.0,Y=764.0 (should be at ascender 765?)
-
 	* aacute (U+00E1): X=534.0,Y=692.0 (should be at cap-height 690?)
-
-	* ccedilla (U+00E7): X=198.5,Y=-233.5 (should be at descender -235?)
 
 	* eacute (U+00E9): X=499.0,Y=692.0 (should be at cap-height 690?)
 
@@ -2455,39 +2593,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* cacute (U+0107): X=504.0,Y=692.0 (should be at cap-height 690?)
 
-	* Cdotaccent (U+010A): X=411.0,Y=763.0 (should be at ascender 765?)
-
-	* dcaron (U+010F): X=625.0,Y=766.0 (should be at ascender 765?)
-
-	* dcaron (U+010F): X=628.0,Y=766.0 (should be at ascender 765?)
-
-	* Edotaccent (U+0116): X=377.0,Y=763.0 (should be at ascender 765?)
-
 	* Eogonek (U+0118): X=365.0,Y=-2.0 (should be at baseline 0?)
 
-	* gcircumflex (U+011D): X=6.5,Y=-237.0 (should be at descender -235?)
-
-	* gbreve (U+011F): X=6.5,Y=-237.0 (should be at descender -235?)
-
-	* Gdotaccent (U+0120): X=420.0,Y=763.0 (should be at ascender 765?)
-
-	* gdotaccent (U+0121): X=6.5,Y=-237.0 (should be at descender -235?)
-
-	* uni0123 (U+0123): X=6.5,Y=-237.0 (should be at descender -235?)
-
-	* Itilde (U+0128): X=82.0,Y=764.0 (should be at ascender 765?)
-
 	* Iogonek (U+012E): X=74.0,Y=-2.0 (should be at baseline 0?)
-
-	* Idotaccent (U+0130): X=222.0,Y=763.0 (should be at ascender 765?)
 
 	* Lcaron (U+013D): X=431.0,Y=691.0 (should be at cap-height 690?)
 
 	* Lcaron (U+013D): X=434.0,Y=691.0 (should be at cap-height 690?)
-
-	* lcaron (U+013E): X=346.0,Y=766.0 (should be at ascender 765?)
-
-	* lcaron (U+013E): X=349.0,Y=766.0 (should be at ascender 765?)
 
 	* nacute (U+0144): X=562.0,Y=692.0 (should be at cap-height 690?)
 
@@ -2495,31 +2607,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* sacute (U+015B): X=468.0,Y=692.0 (should be at cap-height 690?)
 
-	* Scedilla (U+015E): X=266.5,Y=-233.5 (should be at descender -235?)
-
-	* scedilla (U+015F): X=192.5,Y=-233.5 (should be at descender -235?)
-
-	* tcaron (U+0165): X=340.0,Y=766.0 (should be at ascender 765?)
-
-	* tcaron (U+0165): X=343.0,Y=766.0 (should be at ascender 765?)
-
-	* Utilde (U+0168): X=289.0,Y=764.0 (should be at ascender 765?)
-
-	* Uring (U+016E): X=549.0,Y=763.0 (should be at ascender 765?)
-
-	* Uring (U+016E): X=467.0,Y=767.0 (should be at ascender 765?)
-
-	* Uring (U+016E): X=467.0,Y=767.0 (should be at ascender 765?)
-
 	* Uogonek (U+0172): X=307.0,Y=-2.0 (should be at baseline 0?)
 
 	* zacute (U+017A): X=495.0,Y=692.0 (should be at cap-height 690?)
 
-	* Zdotaccent (U+017B): X=349.0,Y=763.0 (should be at ascender 765?)
-
 	* uni018F (U+018F): X=232.5,Y=692.0 (should be at cap-height 690?)
-
-	* gcaron (U+01E7): X=6.5,Y=-237.0 (should be at descender -235?)
 
 	* aeacute (U+01FD): X=679.0,Y=692.0 (should be at cap-height 690?)
 
@@ -2527,45 +2619,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* acutecomb (U+0301): X=339.0,Y=692.0 (should be at cap-height 690?)
 
-	* uni0327 (U+0327): X=109.5,Y=-233.5 (should be at descender -235?)
-
 	* uni0338 (U+0338): X=21.0,Y=1.0 (should be at baseline 0?)
 
 	* wacute (U+1E83): X=631.0,Y=692.0 (should be at cap-height 690?)
-
-	* uni1EA2 (U+1EA2): X=329.0,Y=763.0 (should be at ascender 765?)
 
 	* uni1EA5 (U+1EA5): X=477.0,Y=689.0 (should be at cap-height 690?)
 
 	* uni1EAF (U+1EAF): X=341.0,Y=689.0 (should be at cap-height 690?)
 
-	* uni1EB3 (U+1EB3): X=402.0,Y=766.0 (should be at ascender 765?)
-
-	* uni1EBA (U+1EBA): X=345.0,Y=763.0 (should be at ascender 765?)
-
-	* uni1EBC (U+1EBC): X=237.0,Y=764.0 (should be at ascender 765?)
-
 	* uni1EBF (U+1EBF): X=442.0,Y=689.0 (should be at cap-height 690?)
-
-	* uni1EC8 (U+1EC8): X=190.0,Y=763.0 (should be at ascender 765?)
-
-	* uni1ECE (U+1ECE): X=402.0,Y=763.0 (should be at ascender 765?)
 
 	* uni1ED1 (U+1ED1): X=457.0,Y=689.0 (should be at cap-height 690?)
 
-	* uni1EDB (U+1EDB): X=514.0,Y=692.0 (should be at cap-height 690?)
+	* uni1EDB (U+1EDB): X=514.0,Y=692.0 (should be at cap-height 690?) 
 
-	* uni1EDE (U+1EDE): X=402.0,Y=763.0 (should be at ascender 765?)
-
-	* uni1EE6 (U+1EE6): X=397.0,Y=763.0 (should be at ascender 765?)
-
-	* uni1EE9 (U+1EE9): X=527.0,Y=692.0 (should be at cap-height 690?)
-
-	* uni1EEC (U+1EEC): X=397.0,Y=763.0 (should be at ascender 765?)
-
-	* uni1EF6 (U+1EF6): X=363.0,Y=763.0 (should be at ascender 765?) 
-
-	* uni1EF8 (U+1EF8): X=255.0,Y=764.0 (should be at ascender 765?) [code: found-misalignments]
+	* uni1EE9 (U+1EE9): X=527.0,Y=692.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2730,7 +2798,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>> 
 
 	* uni1EC6 (U+1EC6): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[18] Platypi-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] Platypi-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Extra Bold'. Expected OS/2 usWeightClass is 700, got 800. [code: bad-value]
@@ -2751,10 +2819,6 @@ The following glyphs do not have the recommended number of contours:
 | Poscript Name | Platypi-ExtraBold | PlatypiExtra-Bold |
 | Typographic Family Name | Platypi | N/A |
 | Typographic Subfamily Name | Extra Bold | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Platypi-SemiBoldItalic.ttf', 'fonts/ttf/Platypi-ExtraBoldItalic.ttf', 'fonts/ttf/Platypi-LightItalic.ttf', 'fonts/ttf/Platypi-RegularItalic.ttf', 'fonts/ttf/Platypi-BoldItalic.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3012,14 +3076,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC1 (U+1EC1): L<<512.0,940.0>--<511.0,686.0>> 
 
 	* uni1ED3 (U+1ED3): L<<534.0,940.0>--<533.0,686.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[21] Platypi-RegularItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] Platypi-RegularItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
-</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
-
-
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version %d.%03d; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -3027,29 +3087,16 @@ The following glyphs do not have the recommended number of contours:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Platypi Italic | Platypi |
-| Subfamily Name | Regular | Italic |
+| Family Name | Platypi Regular | Platypi |
+| Subfamily Name | Italic | Italic |
 | Full Name | Platypi Regular Italic | Platypi Italic |
 | Poscript Name | Platypi-RegularItalic | Platypi-Italic |
 | Typographic Family Name | Platypi | N/A |
 | Typographic Subfamily Name | Regular Italic | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "200" it should be 0 [code: bad-OS/2.sTypoLineGap]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Platypi-SemiBoldItalic.ttf', 'fonts/ttf/Platypi-ExtraBoldItalic.ttf', 'fonts/ttf/Platypi-LightItalic.ttf', 'fonts/ttf/Platypi-RegularItalic.ttf', 'fonts/ttf/Platypi-BoldItalic.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoAscender (765) and hhea ascent (965) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 1122 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -3060,10 +3107,10 @@ The following glyphs do not have the recommended number of contours:
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
-</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** On the 'name' table, the full font name 'Platypi Regular Italic' does not begin with the font family name 'Platypi Italic' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
+* 🔥 **FAIL** name version string for platform 3, encoding 1 ("Version %d.%03d; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]"), could not be parsed. [code: parse]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -3094,13 +3141,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- i.TRK
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -3196,10 +3236,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -3231,129 +3267,31 @@ The following glyphs do not have the recommended number of contours:
 
 	* registered (U+00AE): X=393.0,Y=688.0 (should be at cap-height 690?)
 
-	* uni00B5 (U+00B5): X=-25.0,Y=-237.0 (should be at descender -235?)
-
-	* uni00B5 (U+00B5): X=-31.0,Y=-237.0 (should be at descender -235?)
-
-	* cedilla (U+00B8): X=110.0,Y=-234.0 (should be at descender -235?)
-
-	* Ccedilla (U+00C7): X=287.0,Y=-234.0 (should be at descender -235?)
-
-	* ccedilla (U+00E7): X=203.0,Y=-234.0 (should be at descender -235?)
-
-	* Abreve (U+0102): X=328.5,Y=767.0 (should be at ascender 765?)
-
 	* Aogonek (U+0104): X=488.0,Y=-2.0 (should be at baseline 0?)
 
-	* Cdotaccent (U+010A): X=411.5,Y=763.0 (should be at ascender 765?)
-
-	* ccaron (U+010D): X=232.0,Y=767.0 (should be at ascender 765?)
-
-	* dcaron (U+010F): X=643.0,Y=767.0 (should be at ascender 765?)
-
-	* dcaron (U+010F): X=646.0,Y=767.0 (should be at ascender 765?)
-
-	* Ebreve (U+0114): X=340.5,Y=767.0 (should be at ascender 765?)
-
-	* Edotaccent (U+0116): X=373.5,Y=763.0 (should be at ascender 765?)
-
 	* Eogonek (U+0118): X=364.0,Y=-2.0 (should be at baseline 0?)
-
-	* ecaron (U+011B): X=229.0,Y=767.0 (should be at ascender 765?)
 
 	* Gcircumflex (U+011C): X=564.5,Y=689.0 (should be at cap-height 690?)
 
 	* Gbreve (U+011E): X=564.5,Y=689.0 (should be at cap-height 690?)
 
-	* Gbreve (U+011E): X=389.5,Y=767.0 (should be at ascender 765?)
-
 	* Gdotaccent (U+0120): X=564.5,Y=689.0 (should be at cap-height 690?)
-
-	* Gdotaccent (U+0120): X=422.5,Y=763.0 (should be at ascender 765?)
 
 	* uni0122 (U+0122): X=564.5,Y=689.0 (should be at cap-height 690?)
 
-	* Ibreve (U+012C): X=193.5,Y=767.0 (should be at ascender 765?)
-
 	* Iogonek (U+012E): X=83.0,Y=-2.0 (should be at baseline 0?)
-
-	* Idotaccent (U+0130): X=226.5,Y=763.0 (should be at ascender 765?)
 
 	* Lcaron (U+013D): X=444.0,Y=692.0 (should be at cap-height 690?)
 
 	* Lcaron (U+013D): X=447.0,Y=692.0 (should be at cap-height 690?)
 
-	* lcaron (U+013E): X=358.0,Y=767.0 (should be at ascender 765?)
-
-	* lcaron (U+013E): X=361.0,Y=767.0 (should be at ascender 765?)
-
-	* ncaron (U+0148): X=291.0,Y=767.0 (should be at ascender 765?)
-
-	* Obreve (U+014E): X=401.5,Y=767.0 (should be at ascender 765?)
-
-	* rcaron (U+0159): X=208.0,Y=767.0 (should be at ascender 765?)
-
-	* Scedilla (U+015E): X=268.0,Y=-234.0 (should be at descender -235?)
-
-	* scedilla (U+015F): X=198.0,Y=-234.0 (should be at descender -235?)
-
-	* scaron (U+0161): X=198.0,Y=767.0 (should be at ascender 765?)
-
-	* tcaron (U+0165): X=355.0,Y=767.0 (should be at ascender 765?)
-
-	* tcaron (U+0165): X=358.0,Y=767.0 (should be at ascender 765?)
-
-	* Ubreve (U+016C): X=402.5,Y=767.0 (should be at ascender 765?)
-
 	* Uogonek (U+0172): X=312.0,Y=-2.0 (should be at baseline 0?)
-
-	* Zdotaccent (U+017B): X=353.5,Y=763.0 (should be at ascender 765?)
-
-	* zcaron (U+017E): X=224.0,Y=767.0 (should be at ascender 765?)
 
 	* uni018F (U+018F): X=235.5,Y=691.5 (should be at cap-height 690?)
 
-	* uni01CE (U+01CE): X=264.0,Y=767.0 (should be at ascender 765?)
-
 	* Gcaron (U+01E6): X=564.5,Y=689.0 (should be at cap-height 690?)
 
-	* gcaron (U+01E7): X=212.0,Y=767.0 (should be at ascender 765?)
-
-	* caron (U+02C7): X=161.0,Y=767.0 (should be at ascender 765?)
-
-	* uni030C (U+030C): X=161.0,Y=767.0 (should be at ascender 765?)
-
-	* uni0327 (U+0327): X=110.0,Y=-234.0 (should be at descender -235?)
-
-	* uni1EA2 (U+1EA2): X=332.0,Y=764.0 (should be at ascender 765?)
-
-	* uni1EAB (U+1EAB): X=453.0,Y=767.0 (should be at ascender 765?)
-
 	* uni1EB3 (U+1EB3): X=357.0,Y=692.0 (should be at cap-height 690?)
-
-	* uni1EB6 (U+1EB6): X=330.5,Y=767.0 (should be at ascender 765?)
-
-	* uni1EBA (U+1EBA): X=344.0,Y=764.0 (should be at ascender 765?)
-
-	* uni1EC5 (U+1EC5): X=418.0,Y=767.0 (should be at ascender 765?)
-
-	* uni1EC8 (U+1EC8): X=197.0,Y=764.0 (should be at ascender 765?)
-
-	* uni1ECE (U+1ECE): X=405.0,Y=764.0 (should be at ascender 765?)
-
-	* uni1ED7 (U+1ED7): X=434.0,Y=767.0 (should be at ascender 765?)
-
-	* uni1EDE (U+1EDE): X=405.0,Y=764.0 (should be at ascender 765?)
-
-	* uni1EE0 (U+1EE0): X=267.0,Y=763.0 (should be at ascender 765?)
-
-	* uni1EE6 (U+1EE6): X=406.0,Y=764.0 (should be at ascender 765?)
-
-	* uni1EEC (U+1EEC): X=406.0,Y=764.0 (should be at ascender 765?)
-
-	* uni1EEE (U+1EEE): X=302.0,Y=763.0 (should be at ascender 765?)
-
-	* uni1EF6 (U+1EF6): X=375.0,Y=764.0 (should be at ascender 765?)
 
 	* quoteright (U+2019): X=279.5,Y=688.0 (should be at cap-height 690?)
 
@@ -3518,14 +3456,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>> 
 
 	* uni1EC6 (U+1EC6): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[22] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
-</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
-
-
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.350; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version %d.%03d; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -3533,29 +3467,16 @@ The following glyphs do not have the recommended number of contours:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Platypi Bold Italic | Platypi |
-| Subfamily Name | Regular | Bold Italic |
+| Family Name | Platypi Bold | Platypi |
+| Subfamily Name | Italic | Bold Italic |
 | Full Name | Platypi Bold Italic | Platypi Bold Italic |
 | Poscript Name | Platypi-BoldItalic | Platypi-BoldItalic |
 | Typographic Family Name | Platypi | N/A |
 | Typographic Subfamily Name | Bold Italic | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "200" it should be 0 [code: bad-OS/2.sTypoLineGap]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Platypi-SemiBoldItalic.ttf', 'fonts/ttf/Platypi-ExtraBoldItalic.ttf', 'fonts/ttf/Platypi-LightItalic.ttf', 'fonts/ttf/Platypi-RegularItalic.ttf', 'fonts/ttf/Platypi-BoldItalic.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 965 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 342, but got 235 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoAscender (765) and hhea ascent (965) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1123, but got 1122 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -3566,23 +3487,18 @@ The following glyphs do not have the recommended number of contours:
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** name version string for platform 3, encoding 1 ("Version %d.%03d; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]"), could not be parsed. [code: parse]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
-* 🔥 **FAIL** head macStyle ITALIC bit should be set. [code: bad-ITALIC]
 * 🔥 **FAIL** head macStyle BOLD bit should be set. [code: bad-BOLD]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/fsselection">com.google.fonts/check/fsselection</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
-* 🔥 **FAIL** OS/2 fsSelection ITALIC bit should be set. [code: bad-ITALIC]
 * 🔥 **FAIL** OS/2 fsSelection BOLD bit should be set. [code: bad-BOLD]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table IDs 1, 2, 16, 17 to conform to Italic style. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/italic_names">com.google.fonts/check/name/italic_names</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name ID 1 (Family Name) must not contain 'Italic'. [code: bad-familyname]
-* 🔥 **FAIL** Name ID 2 (Subfamily Name) does not conform to specs. Only R/I/B/BI are allowed.
-Got: 'Regular'. [code: bad-subfamilyname]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -3613,13 +3529,6 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- i.TRK
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -3715,10 +3624,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -3877,7 +3782,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>> 
 
 	* uni1EC6 (U+1EC6): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[17] Platypi-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] Platypi-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Semi Bold'. Expected OS/2 usWeightClass is 700, got 600. [code: bad-value]
@@ -3898,10 +3803,6 @@ The following glyphs do not have the recommended number of contours:
 | Poscript Name | Platypi-SemiBold | PlatypiSemi-Bold |
 | Typographic Family Name | Platypi | N/A |
 | Typographic Subfamily Name | Semi Bold | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Platypi-SemiBoldItalic.ttf', 'fonts/ttf/Platypi-ExtraBoldItalic.ttf', 'fonts/ttf/Platypi-LightItalic.ttf', 'fonts/ttf/Platypi-RegularItalic.ttf', 'fonts/ttf/Platypi-BoldItalic.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -4291,8 +4192,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 105 | 92 | 1183 | 61 | 866 | 0 |
-| 0% | 5% | 4% | 51% | 3% | 38% | 0% |
+| 0 | 82 | 83 | 1178 | 61 | 903 | 0 |
+| 0% | 4% | 4% | 51% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
