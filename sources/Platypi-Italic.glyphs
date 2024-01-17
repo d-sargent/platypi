@@ -2,8 +2,9 @@
 .appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
-"/f_f_i",
-"ﬁ"
+nHAt,
+"ﬁ",
+Hn
 );
 axes = (
 {
@@ -268,6 +269,11 @@ pos = 13;
 }
 );
 name = "Light Italic";
+stemValues = (
+86,
+93,
+50
+);
 userData = {
 KernOnIndependentPairs = (
 "o o",
@@ -510,6 +516,11 @@ pos = 13;
 }
 );
 name = "Extra Bold Italic";
+stemValues = (
+169,
+186,
+65
+);
 userData = {
 KernOnIndependentPairs = (
 "o o"
@@ -80967,6 +80978,18 @@ key = licenseURL;
 value = "https://openfontlicense.org";
 }
 );
+stems = (
+{
+name = "lowercase n stem";
+},
+{
+name = "capital H stem";
+},
+{
+horizontal = 1;
+name = "capital H crossbar";
+}
+);
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
@@ -80992,6 +81015,6 @@ KernOnKerningWeightLimit = 36000;
 KernOnRegenerateGroups = 1;
 KernOnVersion = "1.28";
 };
-versionMajor = 0;
-versionMinor = 400;
+versionMajor = 1;
+versionMinor = 0;
 }

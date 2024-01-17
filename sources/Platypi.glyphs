@@ -2,8 +2,7 @@
 .appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
-E,
-"@"
+nHAt
 );
 axes = (
 {
@@ -280,6 +279,11 @@ over = -16;
 }
 );
 name = Light;
+stemValues = (
+90,
+96,
+55
+);
 userData = {
 KernOnIndependentPairs = (
 "o g",
@@ -554,6 +558,11 @@ over = -16;
 }
 );
 name = "Extra Bold";
+stemValues = (
+180,
+196,
+65
+);
 userData = {
 KernOnIndependentPairs = (
 "o g"
@@ -92509,6 +92518,18 @@ key = designerURL;
 value = "https://davidsargent.com.au";
 }
 );
+stems = (
+{
+name = "lowercase n stem";
+},
+{
+name = "capital H stem";
+},
+{
+horizontal = 1;
+name = "capital H crossbar";
+}
+);
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
@@ -92537,6 +92558,6 @@ KernOnKerningWeightLimit = 36000;
 KernOnRegenerateGroups = 1;
 KernOnVersion = "1.28";
 };
-versionMajor = 0;
-versionMinor = 500;
+versionMajor = 1;
+versionMinor = 0;
 }
