@@ -1,6 +1,10 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+E,
+"@"
+);
 axes = (
 {
 name = Weight;
@@ -205,7 +209,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1122;
+value = 1125;
 },
 {
 name = typoDescender;
@@ -217,7 +221,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1122;
+value = 1125;
 },
 {
 name = hheaDescender;
@@ -229,7 +233,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1122;
+value = 1125;
 },
 {
 name = winDescent;
@@ -473,7 +477,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1122;
+value = 1125;
 },
 {
 name = typoDescender;
@@ -485,7 +489,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1122;
+value = 1125;
 },
 {
 name = hheaDescender;
@@ -497,7 +501,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1122;
+value = 1125;
 },
 {
 name = winDescent;
@@ -92498,7 +92502,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 key = designerURL;
@@ -92534,5 +92538,5 @@ KernOnRegenerateGroups = 1;
 KernOnVersion = "1.28";
 };
 versionMajor = 0;
-versionMinor = 400;
+versionMinor = 500;
 }

@@ -196,7 +196,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1122;
+value = 1125;
 },
 {
 name = typoDescender;
@@ -208,7 +208,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1122;
+value = 1125;
 },
 {
 name = hheaDescender;
@@ -220,7 +220,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1122;
+value = 1125;
 },
 {
 name = winDescent;
@@ -453,7 +453,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1122;
+value = 1125;
 },
 {
 name = typoDescender;
@@ -465,7 +465,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1122;
+value = 1125;
 },
 {
 name = hheaDescender;
@@ -477,7 +477,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1122;
+value = 1125;
 },
 {
 name = winDescent;
@@ -59024,6 +59024,8 @@ axesValues = (
 instanceInterpolations = {
 m01 = 1;
 };
+isItalic = 1;
+linkStyle = Light;
 name = "Light Italic";
 weightClass = 300;
 },
@@ -59047,6 +59049,8 @@ instanceInterpolations = {
 "B15366B1-D24E-431F-AB58-0431975245D7" = 0.5;
 m01 = 0.5;
 };
+isItalic = 1;
+linkStyle = "Semi Bold";
 name = "Semi Bold Italic";
 weightClass = 600;
 },
@@ -59058,8 +59062,9 @@ instanceInterpolations = {
 "B15366B1-D24E-431F-AB58-0431975245D7" = 0.78;
 m01 = 0.22;
 };
+isBold = 1;
 isItalic = 1;
-linkStyle = Bold;
+linkStyle = Regular;
 name = "Bold Italic";
 weightClass = 700;
 },
@@ -59070,6 +59075,8 @@ axesValues = (
 instanceInterpolations = {
 "B15366B1-D24E-431F-AB58-0431975245D7" = 1;
 };
+isItalic = 1;
+linkStyle = "Extra Bold";
 name = "Extra Bold Italic";
 weightClass = 800;
 }
@@ -80957,7 +80964,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 }
 );
 unitsPerEm = 1000;
