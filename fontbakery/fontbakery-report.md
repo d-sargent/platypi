@@ -2,23 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[1] Family checks</b></summary><div><details><summary>⚠ <b>WARN:</b> Make sure all font files have the same version value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/family/equal_font_versions">com.google.fonts/check/family/equal_font_versions</a>)</summary><div>
-
-
-* ⚠ **WARN** Version info differs among font files of the same font project.
-These were the version values found:
-* fonts/ttf/Platypi-SemiBoldItalic.ttf: 0.399993896484375
-* fonts/ttf/Platypi-Light.ttf: 0.5
-* fonts/ttf/Platypi-Regular.ttf: 0.5
-* fonts/ttf/Platypi-ExtraBoldItalic.ttf: 0.399993896484375
-* fonts/ttf/Platypi-Bold.ttf: 0.5
-* fonts/ttf/Platypi-LightItalic.ttf: 0.399993896484375
-* fonts/ttf/Platypi-ExtraBold.ttf: 0.5
-* fonts/ttf/Platypi-RegularItalic.ttf: 0.399993896484375
-* fonts/ttf/Platypi-BoldItalic.ttf: 0.399993896484375
-* fonts/ttf/Platypi-SemiBold.ttf: 0.5
- [code: mismatch]
-</div></details><br></div></details><details><summary><b>[16] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+<details><summary><b>[16] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Semi Bold Italic'. Expected OS/2 usWeightClass is 700, got 600. [code: bad-value]
@@ -4145,7 +4129,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 69 | 82 | 1178 | 61 | 917 | 0 |
+| 0 | 69 | 81 | 1178 | 61 | 918 | 0 |
 | 0% | 3% | 4% | 51% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
