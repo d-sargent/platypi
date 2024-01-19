@@ -738,7 +738,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni021B (U+021B): X=295.5,Y=-252.0 (should be at descender -251?)
 
-	* uni0326 (U+0326): X=159.5,Y=-252.0 (should be at descender -251?) 
+	* uni0326 (U+0326): X=159.5,Y=-252.0 (should be at descender -251?)
+
+	* pi (U+03C0): X=650.0,Y=-0.5 (should be at baseline 0?) 
 
 	* uni1EB3 (U+1EB3): X=232.0,Y=692.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -1167,6 +1169,8 @@ The following glyphs do not have the recommended number of contours:
 	* tildecomb (U+0303): X=154.0,Y=689.0 (should be at cap-height 690?)
 
 	* uni0313 (U+0313): X=212.0,Y=692.0 (should be at cap-height 690?)
+
+	* pi (U+03C0): X=662.0,Y=1.0 (should be at baseline 0?)
 
 	* dmacronbelow (U+1E0F): X=342.0,Y=689.0 (should be at cap-height 690?)
 
