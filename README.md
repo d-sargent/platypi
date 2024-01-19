@@ -43,7 +43,7 @@ Some timely advice on serif design (bigger!) was provided by:
 
 Additional design advice post Type West was provided by:
 
-* Troy Leinster [Website](https://www.leinstertype.com)
+* Troy Leinster [Website](https://www.leinstertype.com/typemasters)
 
 This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished.
 
