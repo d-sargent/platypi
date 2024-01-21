@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[15] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+<details><summary><b>[16] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Semi Bold Italic'. Expected OS/2 usWeightClass is 700, got 600. [code: bad-value]
@@ -70,12 +70,23 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- uni004A0301 
+
+	- uni006A0301
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -93,13 +104,29 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: florin	Contours detected: 0	Expected: 1
+
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+	- Glyph name: pi	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -117,15 +144,27 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
+
+	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
+
+	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
@@ -139,9 +178,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
+
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
+	- Glyph name: pi	Contours detected: 0	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -157,7 +204,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
+
+	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
+
+	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -318,6 +373,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni030C (U+030C): X=294.0,Y=689.0 (should be at cap-height 690?)
 
+	* uni1E20 (U+1E20): X=584.0,Y=688.0 (should be at cap-height 690?)
+
+	* uni1E20 (U+1E20): X=486.5,Y=1.5 (should be at baseline 0?)
+
 	* wacute (U+1E83): X=673.0,Y=692.0 (should be at cap-height 690?)
 
 	* wdieresis (U+1E85): X=556.5,Y=691.0 (should be at cap-height 690?)
@@ -420,6 +479,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): L<<586.0,690.0>--<732.0,698.0>> -> L<<732.0,698.0>--<748.0,698.0>>
 
+	* Tbar (U+0166): L<<135.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<278.0,690.0>>
+
+	* Tbar (U+0166): L<<150.0,698.0>--<278.0,690.0>> -> L<<278.0,690.0>--<586.0,690.0>>
+
+	* Tbar (U+0166): L<<278.0,690.0>--<586.0,690.0>> -> L<<586.0,690.0>--<732.0,698.0>>
+
+	* Tbar (U+0166): L<<586.0,690.0>--<732.0,698.0>> -> L<<732.0,698.0>--<748.0,698.0>>
+
 	* Tcaron (U+0164): L<<135.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<278.0,690.0>>
 
 	* Tcaron (U+0164): L<<150.0,698.0>--<278.0,690.0>> -> L<<278.0,690.0>--<586.0,690.0>>
@@ -463,6 +530,14 @@ The following glyphs do not have the recommended number of contours:
 	* uni00B5 (U+00B5): L<<74.0,169.0>--<75.0,173.0>> -> L<<75.0,173.0>--<129.0,362.0>>
 
 	* uni0136 (U+0136): L<<801.0,671.0>--<673.0,596.0>> -> L<<673.0,596.0>--<449.0,439.0>>
+
+	* uni0162 (U+0162): L<<135.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<278.0,690.0>>
+
+	* uni0162 (U+0162): L<<150.0,698.0>--<278.0,690.0>> -> L<<278.0,690.0>--<586.0,690.0>>
+
+	* uni0162 (U+0162): L<<278.0,690.0>--<586.0,690.0>> -> L<<586.0,690.0>--<732.0,698.0>>
+
+	* uni0162 (U+0162): L<<586.0,690.0>--<732.0,698.0>> -> L<<732.0,698.0>--<748.0,698.0>>
 
 	* uni021A (U+021A): L<<135.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<278.0,690.0>>
 
@@ -1359,7 +1434,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<428.0,690.0>--<549.0,699.0>> -> L<<549.0,699.0>--<562.0,699.0>> 
 
 	* uni20BF (U+20BF): L<<220.0,379.0>--<249.0,379.0>> -> L<<249.0,379.0>--<327.0,382.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[15] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Extra Bold Italic'. Expected OS/2 usWeightClass is 700, got 800. [code: bad-value]
@@ -1427,12 +1502,23 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- uni004A0301 
+
+	- uni006A0301
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -1450,13 +1536,29 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: florin	Contours detected: 0	Expected: 1
+
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+	- Glyph name: pi	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -1474,15 +1576,27 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
+
+	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
+
+	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
@@ -1496,9 +1610,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
+
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
+	- Glyph name: pi	Contours detected: 0	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -1514,7 +1636,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
+
+	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
+
+	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -1611,7 +1741,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* sacute (U+015B): X=537.0,Y=689.0 (should be at cap-height 690?)
 
-	* tcaron (U+0165): X=571.0,Y=688.0 (should be at cap-height 690?)
+	* tcaron (U+0165): X=566.0,Y=688.0 (should be at cap-height 690?)
 
 	* utilde (U+0169): X=470.0,Y=690.5 (should be at cap-height 690?)
 
@@ -1638,6 +1768,10 @@ The following glyphs do not have the recommended number of contours:
 	* acutecomb (U+0301): X=371.0,Y=689.0 (should be at cap-height 690?)
 
 	* tildecomb (U+0303): X=397.0,Y=690.5 (should be at cap-height 690?)
+
+	* uni1E21 (U+1E21): X=78.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E21 (U+1E21): X=78.0,Y=-1.0 (should be at baseline 0?)
 
 	* wacute (U+1E83): X=715.0,Y=689.0 (should be at cap-height 690?)
 
@@ -1675,9 +1809,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EE9 (U+1EE9): X=592.0,Y=689.0 (should be at cap-height 690?)
 
-	* uni1EEF (U+1EEF): X=265.0,Y=691.0 (should be at cap-height 690?) 
+	* uni1EEF (U+1EEF): X=265.0,Y=691.0 (should be at cap-height 690?)
 
-	* uni1EF9 (U+1EF9): X=431.0,Y=690.5 (should be at cap-height 690?) [code: found-misalignments]
+	* uni1EF9 (U+1EF9): X=431.0,Y=690.5 (should be at cap-height 690?) 
+
+	* uni20BF (U+20BF): X=349.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1749,6 +1885,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): L<<591.0,690.0>--<760.0,698.0>> -> L<<760.0,698.0>--<780.0,698.0>>
 
+	* Tbar (U+0166): L<<129.0,698.0>--<148.0,698.0>> -> L<<148.0,698.0>--<289.0,690.0>>
+
+	* Tbar (U+0166): L<<148.0,698.0>--<289.0,690.0>> -> L<<289.0,690.0>--<591.0,690.0>>
+
+	* Tbar (U+0166): L<<289.0,690.0>--<591.0,690.0>> -> L<<591.0,690.0>--<760.0,698.0>>
+
+	* Tbar (U+0166): L<<591.0,690.0>--<760.0,698.0>> -> L<<760.0,698.0>--<780.0,698.0>>
+
 	* Tcaron (U+0164): L<<129.0,698.0>--<148.0,698.0>> -> L<<148.0,698.0>--<289.0,690.0>>
 
 	* Tcaron (U+0164): L<<148.0,698.0>--<289.0,690.0>> -> L<<289.0,690.0>--<591.0,690.0>>
@@ -1794,6 +1938,14 @@ The following glyphs do not have the recommended number of contours:
 	* trademark (U+2122): L<<339.0,690.0>--<401.0,696.0>> -> L<<401.0,696.0>--<411.0,696.0>>
 
 	* uni0136 (U+0136): L<<860.0,668.0>--<721.0,590.0>> -> L<<721.0,590.0>--<506.0,445.0>>
+
+	* uni0162 (U+0162): L<<129.0,698.0>--<148.0,698.0>> -> L<<148.0,698.0>--<289.0,690.0>>
+
+	* uni0162 (U+0162): L<<148.0,698.0>--<289.0,690.0>> -> L<<289.0,690.0>--<591.0,690.0>>
+
+	* uni0162 (U+0162): L<<289.0,690.0>--<591.0,690.0>> -> L<<591.0,690.0>--<760.0,698.0>>
+
+	* uni0162 (U+0162): L<<591.0,690.0>--<760.0,698.0>> -> L<<760.0,698.0>--<780.0,698.0>>
 
 	* uni021A (U+021A): L<<129.0,698.0>--<148.0,698.0>> -> L<<148.0,698.0>--<289.0,690.0>>
 
@@ -2328,7 +2480,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC4 (U+1EC4): L<<581.0,704.0>--<582.0,524.0>> 
 
 	* uni1EC6 (U+1EC6): L<<581.0,704.0>--<582.0,524.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] Platypi-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] Platypi-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
 * 🔥 **FAIL** Licensing inconsistency in name table entries! NameID=13 (LICENSE DESCRIPTION) indicates Open Font licensing, but NameID=14 (LICENSE URL) has 'https://openfontlicense.org'. Expected: 'https://scripts.sil.org/OFL' [code: licensing-inconsistency]
@@ -2379,12 +2531,23 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- uni004A0301 
+
+	- uni006A0301
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -2402,15 +2565,31 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: florin	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni019D	Contours detected: 2	Expected: 1
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+	- Glyph name: pi	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -2428,15 +2607,27 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
+
+	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
+
+	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
@@ -2450,11 +2641,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
+
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: pi	Contours detected: 0	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019D	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -2470,7 +2669,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
+
+	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
+
+	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -2557,9 +2764,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1ED1 (U+1ED1): X=457.0,Y=689.0 (should be at cap-height 690?)
 
-	* uni1EDB (U+1EDB): X=514.0,Y=692.0 (should be at cap-height 690?) 
+	* uni1EDB (U+1EDB): X=514.0,Y=692.0 (should be at cap-height 690?)
 
-	* uni1EE9 (U+1EE9): X=527.0,Y=692.0 (should be at cap-height 690?) [code: found-misalignments]
+	* uni1EE9 (U+1EE9): X=527.0,Y=692.0 (should be at cap-height 690?) 
+
+	* uni20BF (U+20BF): X=250.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2631,6 +2840,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): L<<581.0,690.0>--<704.0,698.0>> -> L<<704.0,698.0>--<715.0,698.0>>
 
+	* Tbar (U+0166): L<<140.0,698.0>--<151.0,698.0>> -> L<<151.0,698.0>--<266.0,690.0>>
+
+	* Tbar (U+0166): L<<151.0,698.0>--<266.0,690.0>> -> L<<266.0,690.0>--<581.0,690.0>>
+
+	* Tbar (U+0166): L<<266.0,690.0>--<581.0,690.0>> -> L<<581.0,690.0>--<704.0,698.0>>
+
+	* Tbar (U+0166): L<<581.0,690.0>--<704.0,698.0>> -> L<<704.0,698.0>--<715.0,698.0>>
+
 	* Tcaron (U+0164): L<<140.0,698.0>--<151.0,698.0>> -> L<<151.0,698.0>--<266.0,690.0>>
 
 	* Tcaron (U+0164): L<<151.0,698.0>--<266.0,690.0>> -> L<<266.0,690.0>--<581.0,690.0>>
@@ -2665,6 +2882,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* t (U+0074): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
 
+	* tbar (U+0167): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
+
 	* tcaron (U+0165): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
 
 	* tmacronbelow (U+1E6F): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
@@ -2682,6 +2901,16 @@ The following glyphs do not have the recommended number of contours:
 	* uni00B5 (U+00B5): L<<88.0,158.0>--<89.0,163.0>> -> L<<89.0,163.0>--<143.0,353.0>>
 
 	* uni0136 (U+0136): L<<741.0,674.0>--<616.0,595.0>> -> L<<616.0,595.0>--<391.0,434.0>>
+
+	* uni0162 (U+0162): L<<140.0,698.0>--<151.0,698.0>> -> L<<151.0,698.0>--<266.0,690.0>>
+
+	* uni0162 (U+0162): L<<151.0,698.0>--<266.0,690.0>> -> L<<266.0,690.0>--<581.0,690.0>>
+
+	* uni0162 (U+0162): L<<266.0,690.0>--<581.0,690.0>> -> L<<581.0,690.0>--<704.0,698.0>>
+
+	* uni0162 (U+0162): L<<581.0,690.0>--<704.0,698.0>> -> L<<704.0,698.0>--<715.0,698.0>>
+
+	* uni0163 (U+0163): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
 
 	* uni021A (U+021A): L<<140.0,698.0>--<151.0,698.0>> -> L<<151.0,698.0>--<266.0,690.0>>
 
@@ -3001,7 +3230,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC1 (U+1EC1): L<<512.0,940.0>--<511.0,686.0>> 
 
 	* uni1ED3 (U+1ED3): L<<534.0,940.0>--<533.0,686.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] Platypi-RegularItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] Platypi-RegularItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
 * 🔥 **FAIL** Licensing inconsistency in name table entries! NameID=13 (LICENSE DESCRIPTION) indicates Open Font licensing, but NameID=14 (LICENSE URL) has 'https://openfontlicense.org'. Expected: 'https://scripts.sil.org/OFL' [code: licensing-inconsistency]
@@ -3065,12 +3294,23 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- uni004A0301 
+
+	- uni006A0301
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -3088,13 +3328,29 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: florin	Contours detected: 0	Expected: 1
+
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+	- Glyph name: pi	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -3112,15 +3368,27 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
+
+	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
+
+	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
@@ -3134,9 +3402,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
+
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
+	- Glyph name: pi	Contours detected: 0	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -3152,7 +3428,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
+
+	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
+
+	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -3215,13 +3499,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* Gcaron (U+01E6): X=564.5,Y=689.0 (should be at cap-height 690?)
 
+	* uni1E20 (U+1E20): X=564.5,Y=689.0 (should be at cap-height 690?)
+
 	* uni1EB3 (U+1EB3): X=357.0,Y=692.0 (should be at cap-height 690?)
 
 	* quoteright (U+2019): X=279.5,Y=688.0 (should be at cap-height 690?)
 
-	* quotedblright (U+201D): X=458.5,Y=688.0 (should be at cap-height 690?) 
+	* quotedblright (U+201D): X=458.5,Y=688.0 (should be at cap-height 690?)
 
-	* quotedblright (U+201D): X=279.5,Y=688.0 (should be at cap-height 690?) [code: found-misalignments]
+	* quotedblright (U+201D): X=279.5,Y=688.0 (should be at cap-height 690?) 
+
+	* uni20BF (U+20BF): X=257.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -3295,6 +3583,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): L<<583.0,690.0>--<714.0,698.0>> -> L<<714.0,698.0>--<727.0,698.0>>
 
+	* Tbar (U+0166): L<<138.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<270.0,690.0>>
+
+	* Tbar (U+0166): L<<150.0,698.0>--<270.0,690.0>> -> L<<270.0,690.0>--<583.0,690.0>>
+
+	* Tbar (U+0166): L<<270.0,690.0>--<583.0,690.0>> -> L<<583.0,690.0>--<714.0,698.0>>
+
+	* Tbar (U+0166): L<<583.0,690.0>--<714.0,698.0>> -> L<<714.0,698.0>--<727.0,698.0>>
+
 	* Tcaron (U+0164): L<<138.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<270.0,690.0>>
 
 	* Tcaron (U+0164): L<<150.0,698.0>--<270.0,690.0>> -> L<<270.0,690.0>--<583.0,690.0>>
@@ -3341,6 +3637,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0136 (U+0136): L<<762.0,673.0>--<638.0,597.0>> -> L<<638.0,597.0>--<412.0,436.0>>
 
+	* uni0162 (U+0162): L<<138.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<270.0,690.0>>
+
+	* uni0162 (U+0162): L<<150.0,698.0>--<270.0,690.0>> -> L<<270.0,690.0>--<583.0,690.0>>
+
+	* uni0162 (U+0162): L<<270.0,690.0>--<583.0,690.0>> -> L<<583.0,690.0>--<714.0,698.0>>
+
+	* uni0162 (U+0162): L<<583.0,690.0>--<714.0,698.0>> -> L<<714.0,698.0>--<727.0,698.0>>
+
 	* uni021A (U+021A): L<<138.0,698.0>--<150.0,698.0>> -> L<<150.0,698.0>--<270.0,690.0>>
 
 	* uni021A (U+021A): L<<150.0,698.0>--<270.0,690.0>> -> L<<270.0,690.0>--<583.0,690.0>>
@@ -3377,10 +3681,12 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EC4 (U+1EC4): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>>
 
-	* uni1EC6 (U+1EC6): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>> 
+	* uni1EC6 (U+1EC6): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>>
 
-	* uni1EC6 (U+1EC6): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+	* uni1EC6 (U+1EC6): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>> 
+
+	* uni20BF (U+20BF): L<<246.0,382.0>--<270.0,382.0>> -> L<<270.0,382.0>--<350.0,384.0>> [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[13] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
 * 🔥 **FAIL** Licensing inconsistency in name table entries! NameID=13 (LICENSE DESCRIPTION) indicates Open Font licensing, but NameID=14 (LICENSE URL) has 'https://openfontlicense.org'. Expected: 'https://scripts.sil.org/OFL' [code: licensing-inconsistency]
@@ -3431,12 +3737,23 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- uni004A0301 
+
+	- uni006A0301
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -3454,13 +3771,29 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: florin	Contours detected: 0	Expected: 1
+
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+	- Glyph name: pi	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -3478,15 +3811,27 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
+
+	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
+
+	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
@@ -3500,9 +3845,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
+
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
+	- Glyph name: pi	Contours detected: 0	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -3518,7 +3871,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
+
+	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
+
+	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -3597,6 +3958,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): L<<589.0,690.0>--<748.0,698.0>> -> L<<748.0,698.0>--<766.0,698.0>>
 
+	* Tbar (U+0166): L<<131.0,698.0>--<149.0,698.0>> -> L<<149.0,698.0>--<284.0,690.0>>
+
+	* Tbar (U+0166): L<<149.0,698.0>--<284.0,690.0>> -> L<<284.0,690.0>--<589.0,690.0>>
+
+	* Tbar (U+0166): L<<284.0,690.0>--<589.0,690.0>> -> L<<589.0,690.0>--<748.0,698.0>>
+
+	* Tbar (U+0166): L<<589.0,690.0>--<748.0,698.0>> -> L<<748.0,698.0>--<766.0,698.0>>
+
 	* Tcaron (U+0164): L<<131.0,698.0>--<149.0,698.0>> -> L<<149.0,698.0>--<284.0,690.0>>
 
 	* Tcaron (U+0164): L<<149.0,698.0>--<284.0,690.0>> -> L<<284.0,690.0>--<589.0,690.0>>
@@ -3644,6 +4013,14 @@ The following glyphs do not have the recommended number of contours:
 	* uni00B5 (U+00B5): L<<66.0,176.0>--<67.0,179.0>> -> L<<67.0,179.0>--<121.0,366.0>>
 
 	* uni0136 (U+0136): L<<834.0,669.0>--<701.0,593.0>> -> L<<701.0,593.0>--<481.0,442.0>>
+
+	* uni0162 (U+0162): L<<131.0,698.0>--<149.0,698.0>> -> L<<149.0,698.0>--<284.0,690.0>>
+
+	* uni0162 (U+0162): L<<149.0,698.0>--<284.0,690.0>> -> L<<284.0,690.0>--<589.0,690.0>>
+
+	* uni0162 (U+0162): L<<284.0,690.0>--<589.0,690.0>> -> L<<589.0,690.0>--<748.0,698.0>>
+
+	* uni0162 (U+0162): L<<589.0,690.0>--<748.0,698.0>> -> L<<748.0,698.0>--<766.0,698.0>>
 
 	* uni021A (U+021A): L<<131.0,698.0>--<149.0,698.0>> -> L<<149.0,698.0>--<284.0,690.0>>
 
@@ -4093,7 +4470,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 69 | 71 | 1178 | 61 | 928 | 0 |
+| 0 | 69 | 76 | 1178 | 61 | 923 | 0 |
 | 0% | 3% | 3% | 51% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
