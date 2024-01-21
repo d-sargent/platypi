@@ -36639,6 +36639,7 @@ width = 460;
 }
 );
 unicode = 357;
+changeCount = 1;
 },
 {
 glyphname = tcedilla;
@@ -36707,6 +36708,7 @@ width = 460;
 }
 );
 unicode = 539;
+changeCount = 1;
 },
 {
 glyphname = tmacronbelow;
@@ -36742,6 +36744,7 @@ width = 460;
 }
 );
 unicode = 7791;
+changeCount = 1;
 },
 {
 color = 8;
