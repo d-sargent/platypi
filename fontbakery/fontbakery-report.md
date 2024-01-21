@@ -86,8 +86,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: currency	Contours detected: 0	Expected: 2
-
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
@@ -104,8 +102,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
-
 	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
@@ -114,8 +110,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: florin	Contours detected: 0	Expected: 1
-
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
@@ -123,10 +117,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
-
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -144,12 +134,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -161,8 +145,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
@@ -176,17 +158,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
-
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-	- Glyph name: pi	Contours detected: 0	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -202,13 +178,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -368,6 +338,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni0308 (U+0308): X=150.0,Y=691.0 (should be at cap-height 690?)
 
 	* uni030C (U+030C): X=294.0,Y=689.0 (should be at cap-height 690?)
+
+	* uni0E3F (U+0E3F): X=296.0,Y=1.0 (should be at baseline 0?)
 
 	* uni1E20 (U+1E20): X=584.0,Y=688.0 (should be at cap-height 690?)
 
@@ -542,6 +514,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni021A (U+021A): L<<278.0,690.0>--<586.0,690.0>> -> L<<586.0,690.0>--<732.0,698.0>>
 
 	* uni021A (U+021A): L<<586.0,690.0>--<732.0,698.0>> -> L<<732.0,698.0>--<748.0,698.0>>
+
+	* uni0E3F (U+0E3F): L<<245.0,0.0>--<243.0,0.0>> -> L<<243.0,0.0>--<-26.0,0.0>>
 
 	* uni1EB8 (U+1EB8): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>>
 
@@ -1395,7 +1369,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni021A (U+021A): L<<59.0,699.0>--<185.0,690.0>> -> L<<185.0,690.0>--<512.0,690.0>>
 
-	* uni0E3F (U+0E3F): L<<220.0,379.0>--<260.0,379.0>> -> L<<260.0,379.0>--<300.0,381.0>>
+	* uni0E3F (U+0E3F): L<<220.0,379.0>--<260.0,379.0>> -> L<<260.0,379.0>--<295.0,380.0>>
 
 	* uni1EB8 (U+1EB8): L<<29.0,690.0>--<428.0,690.0>> -> L<<428.0,690.0>--<549.0,699.0>>
 
@@ -1514,8 +1488,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: currency	Contours detected: 0	Expected: 2
-
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
@@ -1532,8 +1504,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
-
 	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
@@ -1542,8 +1512,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: florin	Contours detected: 0	Expected: 1
-
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
@@ -1551,10 +1519,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
-
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -1572,12 +1536,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -1589,8 +1547,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
@@ -1604,17 +1560,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
-
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-	- Glyph name: pi	Contours detected: 0	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -1630,13 +1580,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -1760,6 +1704,8 @@ The following glyphs do not have the recommended number of contours:
 	* acutecomb (U+0301): X=371.0,Y=689.0 (should be at cap-height 690?)
 
 	* tildecomb (U+0303): X=397.0,Y=690.5 (should be at cap-height 690?)
+
+	* uni0E3F (U+0E3F): X=333.0,Y=1.0 (should be at baseline 0?)
 
 	* uni1E21 (U+1E21): X=78.0,Y=-2.0 (should be at baseline 0?)
 
@@ -1946,6 +1892,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni021A (U+021A): L<<289.0,690.0>--<591.0,690.0>> -> L<<591.0,690.0>--<760.0,698.0>>
 
 	* uni021A (U+021A): L<<591.0,690.0>--<760.0,698.0>> -> L<<760.0,698.0>--<780.0,698.0>>
+
+	* uni0E3F (U+0E3F): L<<350.0,322.0>--<344.0,322.0>> -> L<<344.0,322.0>--<302.0,322.0>>
 
 	* uni1EB8 (U+1EB8): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>>
 
@@ -2231,7 +2179,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni030A (U+030A): X=101.0,Y=692.0 (should be at cap-height 690?)
 
-	* uni0E3F (U+0E3F): X=385.0,Y=1.0 (should be at baseline 0?)
+	* uni0E3F (U+0E3F): X=384.0,Y=1.0 (should be at baseline 0?)
 
 	* Nmacronbelow (U+1E48): X=663.0,Y=-1.0 (should be at baseline 0?)
 
@@ -2539,8 +2487,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: currency	Contours detected: 0	Expected: 2
-
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
@@ -2557,8 +2503,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
-
 	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
@@ -2566,8 +2510,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: florin	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni019D	Contours detected: 2	Expected: 1
 
@@ -2578,10 +2520,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
-
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -2599,12 +2537,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -2616,8 +2548,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
@@ -2631,19 +2561,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
-
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-	- Glyph name: pi	Contours detected: 0	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019D	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -2659,13 +2583,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -2741,6 +2659,10 @@ The following glyphs do not have the recommended number of contours:
 	* acutecomb (U+0301): X=339.0,Y=692.0 (should be at cap-height 690?)
 
 	* uni0338 (U+0338): X=21.0,Y=1.0 (should be at baseline 0?)
+
+	* pi (U+03C0): X=591.5,Y=-0.5 (should be at baseline 0?)
+
+	* uni0E3F (U+0E3F): X=259.0,Y=2.0 (should be at baseline 0?)
 
 	* wacute (U+1E83): X=631.0,Y=692.0 (should be at cap-height 690?)
 
@@ -2909,6 +2831,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni021A (U+021A): L<<581.0,690.0>--<704.0,698.0>> -> L<<704.0,698.0>--<715.0,698.0>>
 
 	* uni021B (U+021B): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
+
+	* uni0E3F (U+0E3F): L<<214.0,0.0>--<207.0,0.0>> -> L<<207.0,0.0>--<-24.0,0.0>>
 
 	* uni1EB8 (U+1EB8): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>>
 
@@ -3298,8 +3222,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: currency	Contours detected: 0	Expected: 2
-
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
@@ -3316,8 +3238,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
-
 	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
@@ -3326,8 +3246,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: florin	Contours detected: 0	Expected: 1
-
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
@@ -3335,10 +3253,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
-
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -3356,12 +3270,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -3373,8 +3281,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
@@ -3388,17 +3294,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
-
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-	- Glyph name: pi	Contours detected: 0	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -3414,13 +3314,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -3482,6 +3376,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni018F (U+018F): X=235.5,Y=691.5 (should be at cap-height 690?)
 
 	* Gcaron (U+01E6): X=564.5,Y=689.0 (should be at cap-height 690?)
+
+	* pi (U+03C0): X=603.5,Y=1.0 (should be at baseline 0?)
+
+	* uni0E3F (U+0E3F): X=272.0,Y=2.0 (should be at baseline 0?)
 
 	* uni1E20 (U+1E20): X=564.5,Y=689.0 (should be at cap-height 690?)
 
@@ -3637,6 +3535,12 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni021A (U+021A): L<<583.0,690.0>--<714.0,698.0>> -> L<<714.0,698.0>--<727.0,698.0>>
 
+	* uni0E3F (U+0E3F): L<<169.0,48.0>--<233.0,48.0>> -> L<<233.0,48.0>--<236.0,48.0>>
+
+	* uni0E3F (U+0E3F): L<<225.0,0.0>--<220.0,0.0>> -> L<<220.0,0.0>--<-25.0,0.0>>
+
+	* uni0E3F (U+0E3F): L<<246.0,382.0>--<270.0,382.0>> -> L<<270.0,382.0>--<313.0,383.0>>
+
 	* uni1EB8 (U+1EB8): L<<125.0,690.0>--<496.0,690.0>> -> L<<496.0,690.0>--<617.0,698.0>>
 
 	* uni1EB8 (U+1EB8): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>>
@@ -3737,8 +3641,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: currency	Contours detected: 0	Expected: 2
-
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
@@ -3755,8 +3657,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
-
 	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
@@ -3765,8 +3665,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: florin	Contours detected: 0	Expected: 1
-
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
@@ -3774,10 +3672,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
-
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -3795,12 +3689,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -3812,8 +3700,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: currency	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
@@ -3827,17 +3713,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: napostrophe	Contours detected: 0	Expected: 2
-
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-	- Glyph name: pi	Contours detected: 0	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3 or 5
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -3853,13 +3733,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -4261,7 +4135,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0219 (U+0219): X=134.0,Y=1.5 (should be at baseline 0?)
 
-	* uni0E3F (U+0E3F): X=368.0,Y=1.0 (should be at baseline 0?)
+	* uni0E3F (U+0E3F): X=365.0,Y=1.0 (should be at baseline 0?)
 
 	* uni1EA5 (U+1EA5): X=417.0,Y=689.0 (should be at cap-height 690?)
 
@@ -4411,7 +4285,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni021A (U+021A): L<<60.0,702.0>--<197.0,690.0>> -> L<<197.0,690.0>--<522.0,690.0>>
 
-	* uni0E3F (U+0E3F): L<<248.0,379.0>--<260.0,379.0>> -> L<<260.0,379.0>--<317.0,382.0>>
+	* uni0E3F (U+0E3F): L<<248.0,379.0>--<260.0,379.0>> -> L<<260.0,379.0>--<314.0,382.0>>
 
 	* uni1EB8 (U+1EB8): L<<28.0,690.0>--<422.0,690.0>> -> L<<422.0,690.0>--<557.0,702.0>>
 
