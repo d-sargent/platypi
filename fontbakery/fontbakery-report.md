@@ -148,8 +148,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
@@ -209,8 +207,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
 
@@ -1580,8 +1576,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
@@ -1641,8 +1635,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
 
@@ -2611,8 +2603,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
@@ -2674,8 +2664,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
 
@@ -3372,8 +3360,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
@@ -3433,8 +3419,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
 
@@ -3815,8 +3799,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
@@ -3876,8 +3858,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2 
 
