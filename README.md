@@ -64,7 +64,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 **January 2024. Version 1.00**
 * Vertical metrics added
 * Kerning added
-* Most Fontbakery fails corrected
+* _Most_ Fontbakery fails corrected, a couple left I still can't work out...
 
 **January 2024. Version 0.40**
 * Support for Australian Indigenous languages added
@@ -85,6 +85,15 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 The initial design for Platypi was produced while completing a Certificate in Type Design at Type West / Letterform Archive [Website](https://letterformarchive.org/type-west-online/) in 2022. The project aimed to create a 'latin' wedge serif model suitable for long-form text applications. This original design featured multiple upright weights alongside a single-weight italic style. In 2023–24, all letterforms were redrawn after reflection and time away from the project, along with matching italic styles and additional language support. 
 
+## Future plans
+
+**Expanded language support**
+* Finish Google Fonts Latin Plus character set
+* Add Sámi character set
+* Add Pan African character set
+
+**Variable fonts**
+* Create variable version (weight axis)
 
 ## License
 
