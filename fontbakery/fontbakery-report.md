@@ -487,6 +487,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* Zdotaccent (U+017B): L<<151.0,702.0>--<291.0,690.0>> -> L<<291.0,690.0>--<654.0,690.0>>
 
+	* kgreenlandic (U+0138): L<<636.0,471.0>--<556.0,422.0>> -> L<<556.0,422.0>--<397.0,312.0>>
+
 	* three (U+0033): L<<301.0,331.0>--<308.0,363.0>> -> L<<308.0,363.0>--<316.0,393.0>>
 
 	* trademark (U+2122): L<<209.0,690.0>--<341.0,690.0>> -> L<<341.0,690.0>--<402.0,696.0>>
@@ -1229,9 +1231,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EE1 (U+1EE1): X=230.0,Y=689.0 (should be at cap-height 690?)
 
-	* uni1EEF (U+1EEF): X=231.0,Y=689.0 (should be at cap-height 690?) 
+	* uni1EEF (U+1EEF): X=231.0,Y=689.0 (should be at cap-height 690?)
 
-	* uni1EF9 (U+1EF9): X=225.0,Y=689.0 (should be at cap-height 690?) [code: found-misalignments]
+	* uni1EF9 (U+1EF9): X=225.0,Y=689.0 (should be at cap-height 690?)
+
+	* dagger (U+2020): X=143.0,Y=688.0 (should be at cap-height 690?)
+
+	* dagger (U+2020): X=265.0,Y=688.0 (should be at cap-height 690?)
+
+	* daggerdbl (U+2021): X=143.0,Y=688.0 (should be at cap-height 690?) 
+
+	* daggerdbl (U+2021): X=265.0,Y=688.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1864,6 +1874,8 @@ The following glyphs do not have the recommended number of contours:
 	* Zdotaccent (U+017B): L<<131.0,706.0>--<151.0,706.0>> -> L<<151.0,706.0>--<320.0,690.0>>
 
 	* Zdotaccent (U+017B): L<<151.0,706.0>--<320.0,690.0>> -> L<<320.0,690.0>--<689.0,690.0>>
+
+	* kgreenlandic (U+0138): L<<685.0,478.0>--<599.0,430.0>> -> L<<599.0,430.0>--<455.0,334.0>>
 
 	* three (U+0033): L<<311.0,326.0>--<321.0,364.0>> -> L<<321.0,364.0>--<330.0,398.0>>
 
@@ -2790,6 +2802,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* Zdotaccent (U+017B): L<<151.0,698.0>--<261.0,690.0>> -> L<<261.0,690.0>--<618.0,690.0>>
 
+	* kgreenlandic (U+0138): L<<587.0,464.0>--<478.0,390.0>> -> L<<478.0,390.0>--<338.0,289.0>>
+
 	* t (U+0074): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
 
 	* tbar (U+0167): L<<211.0,475.0>--<396.0,492.0>> -> L<<396.0,492.0>--<408.0,492.0>>
@@ -3389,7 +3403,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* quotedblright (U+201D): X=458.5,Y=688.0 (should be at cap-height 690?)
 
-	* quotedblright (U+201D): X=279.5,Y=688.0 (should be at cap-height 690?) 
+	* quotedblright (U+201D): X=279.5,Y=688.0 (should be at cap-height 690?)
+
+	* dagger (U+2020): X=244.0,Y=688.0 (should be at cap-height 690?)
+
+	* dagger (U+2020): X=366.0,Y=688.0 (should be at cap-height 690?)
+
+	* daggerdbl (U+2021): X=244.0,Y=688.0 (should be at cap-height 690?)
+
+	* daggerdbl (U+2021): X=366.0,Y=688.0 (should be at cap-height 690?) 
 
 	* uni20BF (U+20BF): X=257.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -3504,6 +3526,8 @@ The following glyphs do not have the recommended number of contours:
 	* Zdotaccent (U+017B): L<<138.0,699.0>--<151.0,699.0>> -> L<<151.0,699.0>--<272.0,690.0>>
 
 	* Zdotaccent (U+017B): L<<151.0,699.0>--<272.0,690.0>> -> L<<272.0,690.0>--<631.0,690.0>>
+
+	* kgreenlandic (U+0138): L<<605.0,467.0>--<517.0,409.0>> -> L<<517.0,409.0>--<359.0,297.0>>
 
 	* trademark (U+2122): L<<145.0,695.0>--<153.0,695.0>> -> L<<153.0,695.0>--<212.0,690.0>>
 
@@ -3851,6 +3875,8 @@ The following glyphs do not have the recommended number of contours:
 	* Zdotaccent (U+017B): L<<133.0,704.0>--<151.0,704.0>> -> L<<151.0,704.0>--<307.0,690.0>>
 
 	* Zdotaccent (U+017B): L<<151.0,704.0>--<307.0,690.0>> -> L<<307.0,690.0>--<673.0,690.0>>
+
+	* kgreenlandic (U+0138): L<<663.0,475.0>--<582.0,427.0>> -> L<<582.0,427.0>--<429.0,324.0>>
 
 	* three (U+0033): L<<306.0,328.0>--<316.0,365.0>> -> L<<316.0,365.0>--<324.0,396.0>>
 
