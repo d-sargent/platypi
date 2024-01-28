@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[11] Platypi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+<details><summary><b>[12] Platypi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
 * 🔥 **FAIL** Licensing inconsistency in name table entries! NameID=13 (LICENSE DESCRIPTION) indicates Open Font licensing, but NameID=14 (LICENSE URL) has 'https://openfontlicense.org'. Expected: 'https://scripts.sil.org/OFL' [code: licensing-inconsistency]
@@ -45,6 +45,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- i.TRK
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -259,9 +266,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* dagger (U+2020): X=265.0,Y=688.0 (should be at cap-height 690?)
 
-	* daggerdbl (U+2021): X=143.0,Y=688.0 (should be at cap-height 690?) 
+	* daggerdbl (U+2021): X=143.0,Y=688.0 (should be at cap-height 690?)
 
-	* daggerdbl (U+2021): X=265.0,Y=688.0 (should be at cap-height 690?) [code: found-misalignments]
+	* daggerdbl (U+2021): X=265.0,Y=688.0 (should be at cap-height 690?)
+
+	* colonmonetary (U+20A1): X=241.0,Y=-2.0 (should be at baseline 0?) 
+
+	* f_f_i (U+FB03): X=532.0,Y=691.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -373,6 +384,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* Zdotaccent (U+017B): L<<71.0,699.0>--<215.0,690.0>> -> L<<215.0,690.0>--<584.0,690.0>>
 
+	* f_f_i (U+FB03): L<<584.0,471.0>--<922.0,492.0>> -> L<<922.0,492.0>--<947.0,492.0>>
+
 	* fi (U+FB01): L<<220.0,471.0>--<559.0,492.0>> -> L<<559.0,492.0>--<584.0,492.0>>
 
 	* trademark (U+2122): L<<10.0,695.0>--<70.0,690.0>> -> L<<70.0,690.0>--<200.0,690.0>>
@@ -434,7 +447,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<428.0,690.0>--<549.0,699.0>> -> L<<549.0,699.0>--<562.0,699.0>> 
 
 	* uni20BF (U+20BF): L<<220.0,379.0>--<249.0,379.0>> -> L<<249.0,379.0>--<327.0,382.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[11] Platypi-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Platypi-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
 * 🔥 **FAIL** Licensing inconsistency in name table entries! NameID=13 (LICENSE DESCRIPTION) indicates Open Font licensing, but NameID=14 (LICENSE URL) has 'https://openfontlicense.org'. Expected: 'https://scripts.sil.org/OFL' [code: licensing-inconsistency]
@@ -477,6 +490,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- i.TRK
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -663,9 +683,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0326 (U+0326): X=159.5,Y=-252.0 (should be at descender -251?)
 
-	* pi (U+03C0): X=650.0,Y=-0.5 (should be at baseline 0?) 
+	* pi (U+03C0): X=650.0,Y=-0.5 (should be at baseline 0?)
 
-	* uni1EB3 (U+1EB3): X=232.0,Y=692.0 (should be at cap-height 690?) [code: found-misalignments]
+	* uni1EB3 (U+1EB3): X=232.0,Y=692.0 (should be at cap-height 690?)
+
+	* colonmonetary (U+20A1): X=231.0,Y=1.0 (should be at baseline 0?) 
+
+	* f_f_i (U+FB03): X=521.0,Y=688.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -777,6 +801,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* f (U+0066): L<<207.0,477.0>--<362.0,492.0>> -> L<<362.0,492.0>--<374.0,492.0>>
 
+	* f_f_i (U+FB03): L<<562.0,469.0>--<894.0,487.0>> -> L<<894.0,487.0>--<917.0,487.0>>
+
 	* fi (U+FB01): L<<207.0,469.0>--<539.0,487.0>> -> L<<539.0,487.0>--<562.0,487.0>>
 
 	* t (U+0074): L<<187.0,476.0>--<384.0,492.0>> -> L<<384.0,492.0>--<396.0,492.0>>
@@ -850,7 +876,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni20A9 (U+20A9): L<<348.0,82.0>--<348.0,82.0>> -> L<<348.0,82.0>--<348.0,82.0>> 
 
 	* uni20A9 (U+20A9): L<<737.0,82.0>--<737.0,82.0>> -> L<<737.0,82.0>--<737.0,82.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] Platypi-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] Platypi-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
 * 🔥 **FAIL** Licensing inconsistency in name table entries! NameID=13 (LICENSE DESCRIPTION) indicates Open Font licensing, but NameID=14 (LICENSE URL) has 'https://openfontlicense.org'. Expected: 'https://scripts.sil.org/OFL' [code: licensing-inconsistency]
@@ -893,6 +919,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- i.TRK
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1101,6 +1134,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* Nmacronbelow (U+1E48): X=574.0,Y=-1.0 (should be at baseline 0?)
 
+	* uni20A6 (U+20A6): X=643.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni20A6 (U+20A6): X=554.0,Y=-1.0 (should be at baseline 0?)
+
 	* uni20BF (U+20BF): X=356.0,Y=1.0 (should be at baseline 0?)
 
 	* uni2116 (U+2116): X=663.0,Y=-1.0 (should be at baseline 0?) 
@@ -1214,6 +1251,8 @@ The following glyphs do not have the recommended number of contours:
 	* Zdotaccent (U+017B): L<<47.0,704.0>--<66.0,704.0>> -> L<<66.0,704.0>--<227.0,690.0>>
 
 	* Zdotaccent (U+017B): L<<66.0,704.0>--<227.0,690.0>> -> L<<227.0,690.0>--<625.0,690.0>>
+
+	* f_f_i (U+FB03): L<<656.0,477.0>--<1016.0,507.0>> -> L<<1016.0,507.0>--<1046.0,507.0>>
 
 	* fi (U+FB01): L<<265.0,477.0>--<625.0,507.0>> -> L<<625.0,507.0>--<656.0,507.0>>
 
@@ -1336,7 +1375,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC4 (U+1EC4): L<<581.0,704.0>--<582.0,524.0>> 
 
 	* uni1EC6 (U+1EC6): L<<581.0,704.0>--<582.0,524.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Platypi-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
 * 🔥 **FAIL** Licensing inconsistency in name table entries! NameID=13 (LICENSE DESCRIPTION) indicates Open Font licensing, but NameID=14 (LICENSE URL) has 'https://openfontlicense.org'. Expected: 'https://scripts.sil.org/OFL' [code: licensing-inconsistency]
@@ -1383,6 +1422,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- i.TRK
 
 	- uni004A0301 
 
@@ -1433,6 +1474,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
 	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
@@ -1440,6 +1483,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
@@ -1479,6 +1524,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
 	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
@@ -1486,6 +1533,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
@@ -1495,6 +1544,15 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 515 among a set of 12 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 517:
+approxequal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1671,7 +1729,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<121.0,690.0>--<489.0,690.0>> -> L<<489.0,690.0>--<632.0,698.0>> 
 
 	* uni1EC6 (U+1EC6): L<<489.0,690.0>--<632.0,698.0>> -> L<<632.0,698.0>--<650.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] Platypi-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] Platypi-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
 * 🔥 **FAIL** Licensing inconsistency in name table entries! NameID=13 (LICENSE DESCRIPTION) indicates Open Font licensing, but NameID=14 (LICENSE URL) has 'https://openfontlicense.org'. Expected: 'https://scripts.sil.org/OFL' [code: licensing-inconsistency]
@@ -1718,6 +1776,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- i.TRK
 
 	- uni004A0301 
 
@@ -1770,6 +1830,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
 	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
@@ -1777,6 +1839,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
@@ -1818,6 +1882,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
 	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
@@ -1825,6 +1891,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
@@ -1834,6 +1902,15 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 515 among a set of 12 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 520:
+approxequal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1919,9 +1996,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EDB (U+1EDB): X=514.0,Y=692.0 (should be at cap-height 690?)
 
-	* uni1EE9 (U+1EE9): X=527.0,Y=692.0 (should be at cap-height 690?) 
+	* uni1EE9 (U+1EE9): X=527.0,Y=692.0 (should be at cap-height 690?)
 
-	* uni20BF (U+20BF): X=250.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
+	* uni20BF (U+20BF): X=250.0,Y=1.0 (should be at baseline 0?) 
+
+	* f_f_i (U+FB03): X=325.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2110,7 +2189,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<126.0,690.0>--<498.0,690.0>> -> L<<498.0,690.0>--<612.0,698.0>> 
 
 	* uni1EC6 (U+1EC6): L<<498.0,690.0>--<612.0,698.0>> -> L<<612.0,698.0>--<623.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[14] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] Platypi-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Extra Bold Italic'. Expected OS/2 usWeightClass is 700, got 800. [code: bad-value]
@@ -2175,6 +2254,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- i.TRK
+
 	- uni004A0301 
 
 	- uni006A0301
@@ -2224,6 +2305,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
 	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
@@ -2231,6 +2314,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
@@ -2270,6 +2355,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
 	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
@@ -2277,6 +2364,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
@@ -2286,6 +2375,15 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 515 among a set of 12 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 516:
+approxequal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -2447,9 +2545,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EEF (U+1EEF): X=265.0,Y=691.0 (should be at cap-height 690?)
 
-	* uni1EF9 (U+1EF9): X=431.0,Y=690.5 (should be at cap-height 690?) 
+	* uni1EF9 (U+1EF9): X=431.0,Y=690.5 (should be at cap-height 690?)
 
-	* uni20BF (U+20BF): X=349.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+	* uni20BF (U+20BF): X=349.0,Y=2.0 (should be at baseline 0?)
+
+	* f_f_i (U+FB03): X=500.0,Y=689.0 (should be at cap-height 690?) 
+
+	* f_f_i (U+FB03): X=480.0,Y=692.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2626,7 +2728,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<120.0,690.0>--<486.0,690.0>> -> L<<486.0,690.0>--<638.0,698.0>> 
 
 	* uni1EC6 (U+1EC6): L<<486.0,690.0>--<638.0,698.0>> -> L<<638.0,698.0>--<657.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[13] Platypi-RegularItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] Platypi-RegularItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
 * 🔥 **FAIL** Licensing inconsistency in name table entries! NameID=13 (LICENSE DESCRIPTION) indicates Open Font licensing, but NameID=14 (LICENSE URL) has 'https://openfontlicense.org'. Expected: 'https://scripts.sil.org/OFL' [code: licensing-inconsistency]
@@ -2687,6 +2789,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- i.TRK
+
 	- uni004A0301 
 
 	- uni006A0301
@@ -2736,6 +2840,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
 	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
@@ -2743,6 +2849,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
@@ -2782,6 +2890,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
 	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
@@ -2789,6 +2899,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
@@ -2798,6 +2910,15 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 515 among a set of 12 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 519:
+approxequal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -2845,7 +2966,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* Lcaron (U+013D): X=444.0,Y=692.0 (should be at cap-height 690?)
 
-	* Lcaron (U+013D): X=448.0,Y=692.0 (should be at cap-height 690?)
+	* Lcaron (U+013D): X=447.0,Y=692.0 (should be at cap-height 690?)
 
 	* Uogonek (U+0172): X=312.0,Y=-2.0 (should be at baseline 0?)
 
@@ -2873,7 +2994,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* daggerdbl (U+2021): X=244.0,Y=688.0 (should be at cap-height 690?)
 
-	* daggerdbl (U+2021): X=366.0,Y=688.0 (should be at cap-height 690?) 
+	* daggerdbl (U+2021): X=366.0,Y=688.0 (should be at cap-height 690?)
+
+	* colonmonetary (U+20A1): X=210.0,Y=1.0 (should be at baseline 0?) 
 
 	* uni20BF (U+20BF): X=257.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -3060,7 +3183,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<496.0,690.0>--<617.0,698.0>> -> L<<617.0,698.0>--<629.0,698.0>> 
 
 	* uni20BF (U+20BF): L<<246.0,382.0>--<270.0,382.0>> -> L<<270.0,382.0>--<350.0,384.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[13] Platypi-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] Platypi-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Semi Bold'. Expected OS/2 usWeightClass is 700, got 600. [code: bad-value]
@@ -3120,6 +3243,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- i.TRK
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -3284,9 +3414,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* quotedblleft (U+201C): X=389.0,Y=688.0 (should be at cap-height 690?)
 
-	* quotedblleft (U+201C): X=152.0,Y=688.0 (should be at cap-height 690?) 
+	* quotedblleft (U+201C): X=152.0,Y=688.0 (should be at cap-height 690?)
 
-	* uni20A8 (U+20A8): X=773.0,Y=1.5 (should be at baseline 0?) [code: found-misalignments]
+	* uni20A8 (U+20A8): X=773.0,Y=1.5 (should be at baseline 0?) 
+
+	* f_f_i (U+FB03): X=402.0,Y=692.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -3396,6 +3528,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* Zdotaccent (U+017B): L<<68.0,702.0>--<222.0,690.0>> -> L<<222.0,690.0>--<606.0,690.0>>
 
+	* f_f_i (U+FB03): L<<622.0,474.0>--<972.0,500.0>> -> L<<972.0,500.0>--<1000.0,500.0>>
+
 	* fi (U+FB01): L<<244.0,474.0>--<594.0,500.0>> -> L<<594.0,500.0>--<622.0,500.0>>
 
 	* trademark (U+2122): L<<11.0,696.0>--<71.0,690.0>> -> L<<71.0,690.0>--<203.0,690.0>>
@@ -3457,7 +3591,13 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<28.0,690.0>--<422.0,690.0>> -> L<<422.0,690.0>--<557.0,702.0>> 
 
 	* uni1EC6 (U+1EC6): L<<422.0,690.0>--<557.0,702.0>> -> L<<557.0,702.0>--<572.0,702.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[14] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* uni20BC (U+20BC): L<<79.0,89.0>--<78.0,352.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[15] Platypi-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Semi Bold Italic'. Expected OS/2 usWeightClass is 700, got 600. [code: bad-value]
@@ -3522,6 +3662,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- i.TRK
+
 	- uni004A0301 
 
 	- uni006A0301
@@ -3571,6 +3713,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
 	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
@@ -3578,6 +3722,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
@@ -3617,6 +3763,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
 	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
@@ -3624,6 +3772,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
@@ -3633,6 +3783,15 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 515 among a set of 12 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 518:
+approxequal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -3682,9 +3841,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* edieresis (U+00EB): X=211.0,Y=691.0 (should be at cap-height 690?)
 
-	* idieresis (U+00EF): X=270.5,Y=691.5 (should be at cap-height 690?)
+	* idieresis (U+00EF): X=271.0,Y=691.5 (should be at cap-height 690?)
 
-	* idieresis (U+00EF): X=105.0,Y=691.5 (should be at cap-height 690?)
+	* idieresis (U+00EF): X=105.5,Y=691.5 (should be at cap-height 690?)
 
 	* oacute (U+00F3): X=551.0,Y=692.0 (should be at cap-height 690?)
 
@@ -3734,7 +3893,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0122 (U+0122): X=486.5,Y=1.5 (should be at baseline 0?)
 
-	* itilde (U+0129): X=230.5,Y=691.5 (should be at cap-height 690?)
+	* itilde (U+0129): X=231.5,Y=691.5 (should be at cap-height 690?)
 
 	* Iogonek (U+012E): X=100.0,Y=-2.0 (should be at baseline 0?)
 
@@ -3816,11 +3975,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EDB (U+1EDB): X=551.0,Y=692.0 (should be at cap-height 690?)
 
-	* uni1EE1 (U+1EE1): X=318.5,Y=691.5 (should be at cap-height 690?)
+	* uni1EE1 (U+1EE1): X=319.5,Y=691.5 (should be at cap-height 690?)
 
-	* uni1EE9 (U+1EE9): X=560.0,Y=692.0 (should be at cap-height 690?) 
+	* uni1EE9 (U+1EE9): X=560.0,Y=692.0 (should be at cap-height 690?)
 
-	* uni1EEF (U+1EEF): X=364.5,Y=691.5 (should be at cap-height 690?) [code: found-misalignments]
+	* uni1EEF (U+1EEF): X=364.5,Y=691.5 (should be at cap-height 690?)
+
+	* colonmonetary (U+20A1): X=222.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni20B2 (U+20B2): X=476.5,Y=1.5 (should be at baseline 0?) 
+
+	* f_f_i (U+FB03): X=243.0,Y=692.0 (should be at cap-height 690?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -3997,7 +4162,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC6 (U+1EC6): L<<123.0,690.0>--<492.0,690.0>> -> L<<492.0,690.0>--<625.0,698.0>> 
 
 	* uni1EC6 (U+1EC6): L<<492.0,690.0>--<625.0,698.0>> -> L<<625.0,698.0>--<640.0,698.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[14] Platypi-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] Platypi-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Extra Bold'. Expected OS/2 usWeightClass is 700, got 800. [code: bad-value]
@@ -4057,6 +4222,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- i.TRK
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -4245,6 +4417,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* Zdotaccent (U+017B): L<<64.0,706.0>--<231.0,690.0>> -> L<<231.0,690.0>--<640.0,690.0>>
 
+	* f_f_i (U+FB03): L<<682.0,480.0>--<1050.0,513.0>> -> L<<1050.0,513.0>--<1083.0,513.0>>
+
 	* fi (U+FB01): L<<281.0,480.0>--<649.0,513.0>> -> L<<649.0,513.0>--<682.0,513.0>>
 
 	* trademark (U+2122): L<<12.0,696.0>--<73.0,690.0>> -> L<<73.0,690.0>--<207.0,690.0>>
@@ -4272,8 +4446,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 49 | 76 | 1178 | 61 | 943 | 0 |
-| 0% | 2% | 3% | 51% | 3% | 41% | 0% |
+| 0 | 49 | 87 | 1178 | 61 | 932 | 0 |
+| 0% | 2% | 4% | 51% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
