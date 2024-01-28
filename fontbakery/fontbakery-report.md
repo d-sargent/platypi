@@ -1424,10 +1424,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- i.TRK
-
-	- uni004A0301 
-
-	- uni006A0301
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1778,10 +1774,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- i.TRK
-
-	- uni004A0301 
-
-	- uni006A0301
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2255,10 +2247,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- i.TRK
-
-	- uni004A0301 
-
-	- uni006A0301
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2790,10 +2778,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- i.TRK
-
-	- uni004A0301 
-
-	- uni006A0301
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3663,10 +3647,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- i.TRK
-
-	- uni004A0301 
-
-	- uni006A0301
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
