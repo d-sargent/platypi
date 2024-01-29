@@ -64,6 +64,10 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.i
+
+	- gravecomb.i 
+
 	- i.TRK
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
@@ -523,6 +527,10 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.i
+
+	- gravecomb.i 
+
 	- i.TRK
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
@@ -932,9 +940,9 @@ When in doubt, please choose OFL for new font projects. [code: no-license-found]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̛̓ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ i̧̓ i̱̓ i̵̓ i̶̓ i̷̓ i̸̓ j̓ j̛̓ j̣̓ j̦̀ j̦́ j̦̃ j̦̄ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -1335,6 +1343,10 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- acutecomb.i
+
+	- gravecomb.i 
 
 	- i.TRK
  [code: unreachable-glyphs]
@@ -1883,9 +1895,9 @@ When in doubt, please choose OFL for new font projects. [code: no-license-found]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̛̓ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ i̧̓ i̱̓ i̵̓ i̶̓ i̷̓ i̸̓ j̓ j̛̓ j̣̓ j̦̀ j̦́ j̦̃ j̦̄ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -2247,9 +2259,9 @@ When in doubt, please choose OFL for new font projects. [code: no-license-found]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̛̓ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ i̧̓ i̱̓ i̵̓ i̶̓ i̷̓ i̸̓ j̓ j̛̓ j̣̓ j̦̀ j̦́ j̦̃ j̦̄ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -2717,9 +2729,9 @@ When in doubt, please choose OFL for new font projects. [code: no-license-found]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̛̓ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ i̧̓ i̱̓ i̵̓ i̶̓ i̷̓ i̸̓ j̓ j̛̓ j̣̓ j̦̀ j̦́ j̦̃ j̦̄ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -3283,6 +3295,10 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.i
+
+	- gravecomb.i 
+
 	- i.TRK
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
@@ -3676,9 +3692,9 @@ When in doubt, please choose OFL for new font projects. [code: no-license-found]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̛̓ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ i̧̓ i̱̓ i̵̓ i̶̓ i̷̓ i̸̓ j̓ j̛̓ j̣̓ j̦̀ j̦́ j̦̃ j̦̄ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -4216,9 +4232,9 @@ When in doubt, please choose OFL for new font projects. [code: no-license-found]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̛̓ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̦̓ i̧̓ i̱̓ i̵̓ i̶̓ i̷̓ i̸̓ j̓ j̛̓ j̣̓ j̦̀ j̦́ j̦̃ j̦̄ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -4702,6 +4718,10 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.i
+
+	- gravecomb.i 
+
 	- i.TRK
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
@@ -4976,6 +4996,10 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- acutecomb.i
+
+	- gravecomb.i 
 
 	- i.TRK
  [code: unreachable-glyphs]
