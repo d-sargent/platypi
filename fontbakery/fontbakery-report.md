@@ -254,9 +254,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* lmacronbelow (U+1E3B): X=33.0,Y=689.0 (should be at cap-height 690?)
 
-	* uni1EAF (U+1EAF): X=234.0,Y=689.0 (should be at cap-height 690?)
+	* uni1EAF (U+1EAF): X=235.0,Y=689.0 (should be at cap-height 690?)
 
-	* uni1EB1 (U+1EB1): X=332.0,Y=689.0 (should be at cap-height 690?)
+	* uni1EB1 (U+1EB1): X=333.0,Y=689.0 (should be at cap-height 690?)
 
 	* uni1EBD (U+1EBD): X=215.0,Y=689.0 (should be at cap-height 690?)
 
@@ -1460,7 +1460,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* iogonek (U+012F): X=148.0,Y=-2.0 (should be at baseline 0?)
 
-	* IJ (U+0132): X=537.5,Y=-1.5 (should be at baseline 0?)
+	* IJ (U+0132): X=525.5,Y=-1.5 (should be at baseline 0?)
 
 	* Jcircumflex (U+0134): X=184.5,Y=-1.5 (should be at baseline 0?)
 
@@ -3335,7 +3335,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* iogonek (U+012F): X=142.0,Y=-2.0 (should be at baseline 0?)
 
-	* IJ (U+0132): X=517.5,Y=-2.0 (should be at baseline 0?)
+	* IJ (U+0132): X=508.5,Y=-2.0 (should be at baseline 0?)
 
 	* Jcircumflex (U+0134): X=179.5,Y=-2.0 (should be at baseline 0?)
 
@@ -3377,7 +3377,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* quoteleft (U+2018): X=154.0,Y=690.5 (should be at cap-height 690?)
 
-	* quotedblleft (U+201C): X=396.5,Y=690.5 (should be at cap-height 690?)
+	* quotedblleft (U+201C): X=397.0,Y=690.5 (should be at cap-height 690?)
 
 	* quotedblleft (U+201C): X=154.0,Y=690.5 (should be at cap-height 690?)
 
@@ -3871,27 +3871,9 @@ approxequal
 
 	* wacute (U+1E83): X=680.0,Y=691.0 (should be at cap-height 690?)
 
-	* uni1EA7 (U+1EA7): X=598.0,Y=688.0 (should be at cap-height 690?)
+	* uni1EB3 (U+1EB3): X=380.0,Y=692.0 (should be at cap-height 690?)
 
-	* uni1EA9 (U+1EA9): X=528.0,Y=689.0 (should be at cap-height 690?)
-
-	* uni1EA9 (U+1EA9): X=528.0,Y=689.0 (should be at cap-height 690?)
-
-	* uni1EB3 (U+1EB3): X=379.0,Y=691.0 (should be at cap-height 690?)
-
-	* uni1EB3 (U+1EB3): X=379.0,Y=691.0 (should be at cap-height 690?)
-
-	* uni1EC1 (U+1EC1): X=564.0,Y=688.0 (should be at cap-height 690?)
-
-	* uni1EC3 (U+1EC3): X=493.0,Y=689.0 (should be at cap-height 690?)
-
-	* uni1EC3 (U+1EC3): X=493.0,Y=689.0 (should be at cap-height 690?)
-
-	* uni1ED3 (U+1ED3): X=581.0,Y=688.0 (should be at cap-height 690?)
-
-	* uni1ED5 (U+1ED5): X=511.0,Y=689.0 (should be at cap-height 690?)
-
-	* uni1ED5 (U+1ED5): X=511.0,Y=689.0 (should be at cap-height 690?)
+	* uni1EB3 (U+1EB3): X=380.0,Y=692.0 (should be at cap-height 690?)
 
 	* uni1EDB (U+1EDB): X=557.0,Y=691.0 (should be at cap-height 690?)
 
@@ -4313,13 +4295,13 @@ approxequal
 
 	* uni1E20 (U+1E20): X=564.5,Y=689.0 (should be at cap-height 690?)
 
-	* uni1EB3 (U+1EB3): X=357.0,Y=692.0 (should be at cap-height 690?)
+	* uni1EB3 (U+1EB3): X=357.0,Y=691.0 (should be at cap-height 690?)
 
-	* quoteright (U+2019): X=279.5,Y=688.0 (should be at cap-height 690?)
+	* quoteright (U+2019): X=279.0,Y=688.0 (should be at cap-height 690?)
 
-	* quotedblright (U+201D): X=458.5,Y=688.0 (should be at cap-height 690?)
+	* quotedblright (U+201D): X=458.0,Y=688.0 (should be at cap-height 690?)
 
-	* quotedblright (U+201D): X=279.5,Y=688.0 (should be at cap-height 690?)
+	* quotedblright (U+201D): X=279.0,Y=688.0 (should be at cap-height 690?)
 
 	* dagger (U+2020): X=244.0,Y=688.0 (should be at cap-height 690?)
 
@@ -4706,7 +4688,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* iogonek (U+012F): X=153.0,Y=-2.0 (should be at baseline 0?)
 
-	* IJ (U+0132): X=555.0,Y=-1.0 (should be at baseline 0?)
+	* IJ (U+0132): X=540.0,Y=-1.0 (should be at baseline 0?)
 
 	* Jcircumflex (U+0134): X=189.0,Y=-1.0 (should be at baseline 0?)
 
@@ -4776,11 +4758,11 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* uni1EA7 (U+1EA7): L<<510.0,940.0>--<509.0,686.0>>
+	* uni1EA7 (U+1EA7): L<<510.0,941.0>--<509.0,686.0>>
 
-	* uni1EC1 (U+1EC1): L<<512.0,940.0>--<511.0,686.0>> 
+	* uni1EC1 (U+1EC1): L<<512.0,941.0>--<511.0,686.0>> 
 
-	* uni1ED3 (U+1ED3): L<<534.0,940.0>--<533.0,686.0>> [code: found-semi-vertical]
+	* uni1ED3 (U+1ED3): L<<534.0,941.0>--<533.0,686.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[12] Platypi-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
@@ -5041,7 +5023,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0326 (U+0326): X=99.0,Y=-252.5 (should be at descender -251?)
 
-	* uni1EAF (U+1EAF): X=257.0,Y=688.0 (should be at cap-height 690?)
+	* uni1EB3 (U+1EB3): X=252.0,Y=691.0 (should be at cap-height 690?)
+
+	* uni1EB3 (U+1EB3): X=252.0,Y=691.0 (should be at cap-height 690?)
 
 	* uni1EBD (U+1EBD): X=493.0,Y=692.0 (should be at cap-height 690?)
 
