@@ -14,7 +14,7 @@
 
 Inspired by the enigmatic Australian platypus, _Platypi_ blends heavy wedge serifs usually seen in display faces with more conventional curves and proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. Heavier weights push this tension further with increased stroke tapering and overall contrast. The name _Platypi_ is a word commonly used as the plural of platypus, allthough this term is technically incorrect.
 
-_Platypi_ features five weights with matching italic styles and language support for Indigenous Australian and Vietnamese languages.
+_Platypi_ features six weights with matching italic styles and language support for Indigenous Australian and Vietnamese languages.
 
 ![Sample Image](documentation/platypi-sample-images-jan-2024-2.png)
 ![Sample Image](documentation/platypi-sample-images-jan-2024-3.png)
