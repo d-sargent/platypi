@@ -1,10 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf",
-"ijıĳ,“”‘’/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/circumflexcomb_gravecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_tildecomb.case/circumflexcomb_hookabovecomb.case/brevecomb_gravecomb.case/brevecomb_acutecomb.case/brevecomb_tildecomb.case/brevecomb_hookabovecomb.case"
-);
 axes = (
 {
 name = Weight;
@@ -27714,17 +27710,21 @@ width = 337;
 glyphname = idotbelow;
 kernLeft = KO_i;
 kernRight = KO_i;
-lastChange = "2024-01-16 09:35:08 +0000";
+lastChange = "2024-01-30 07:39:56 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-ref = i;
-},
-{
 pos = (57,0);
 ref = dotbelowcomb;
+},
+{
+ref = idotless;
+},
+{
+pos = (32,0);
+ref = dotaccentcomb;
 }
 );
 width = 300;
@@ -27733,16 +27733,22 @@ width = 300;
 layerId = "B15366B1-D24E-431F-AB58-0431975245D7";
 shapes = (
 {
-ref = i;
-},
-{
 pos = (67,0);
 ref = dotbelowcomb;
+},
+{
+ref = idotless;
+},
+{
+pos = (34,0);
+ref = dotaccentcomb;
 }
 );
 width = 337;
 }
 );
+metricLeft = "=i";
+metricRight = "=i";
 unicode = 7883;
 },
 {
