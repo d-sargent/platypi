@@ -1,14 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"ﬃ
-ﬃﬁﬂ
-ffi fi fl ii
-Twider Agider 
-nizid niknid 
-nirwid nirrid "
-);
 axes = (
 {
 name = Weight;
@@ -63,9 +55,9 @@ features = (
 automatic = 1;
 code = "feature locl;
 feature ordn;
-feature case;
 feature pnum;
 feature tnum;
+feature case;
 feature zero;
 ";
 tag = aalt;

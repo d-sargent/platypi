@@ -1,10 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"ﬃﬁﬂ
-ffi fi fl ii"
-);
 axes = (
 {
 name = Weight;
@@ -420,6 +416,7 @@ KernOnModels = (
 "N N",
 "P S",
 "K S",
+"i l",
 "l l",
 "t f",
 "g r",
@@ -655,7 +652,7 @@ color = 4;
 glyphname = A;
 kernLeft = KO_A;
 kernRight = KO_A;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -2500,7 +2497,7 @@ color = 4;
 glyphname = B;
 kernLeft = KO_H;
 kernRight = KO_B;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 layerId = m01;
@@ -2815,7 +2812,7 @@ color = 4;
 glyphname = C;
 kernLeft = KO_C;
 kernRight = KO_C;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -3840,7 +3837,7 @@ color = 4;
 glyphname = D;
 kernLeft = KO_H;
 kernRight = KO_D;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -4494,7 +4491,7 @@ color = 4;
 glyphname = E;
 kernLeft = KO_H;
 kernRight = KO_E;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -5854,7 +5851,7 @@ color = 4;
 glyphname = F;
 kernLeft = KO_H;
 kernRight = KO_F;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 layerId = m01;
@@ -6243,7 +6240,7 @@ color = 4;
 glyphname = G;
 kernLeft = KO_C;
 kernRight = KO_G;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -6889,7 +6886,7 @@ color = 4;
 glyphname = H;
 kernLeft = KO_H;
 kernRight = KO_H;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -7219,7 +7216,7 @@ color = 4;
 glyphname = I;
 kernLeft = KO_H;
 kernRight = KO_H;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -7748,7 +7745,7 @@ color = 4;
 glyphname = J;
 kernLeft = KO_J;
 kernRight = KO_J;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 associatedMasterId = m01;
@@ -8625,7 +8622,7 @@ color = 4;
 glyphname = K;
 kernLeft = KO_H;
 kernRight = KO_K;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -9164,7 +9161,7 @@ color = 4;
 glyphname = L;
 kernLeft = KO_H;
 kernRight = KO_L;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -9668,7 +9665,7 @@ color = 4;
 glyphname = M;
 kernLeft = KO_M;
 kernRight = KO_M;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 background = {
@@ -10220,7 +10217,7 @@ color = 4;
 glyphname = N;
 kernLeft = KO_N;
 kernRight = KO_N;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 associatedMasterId = m002;
@@ -11691,7 +11688,7 @@ color = 4;
 glyphname = O;
 kernLeft = KO_O;
 kernRight = KO_O;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -13551,7 +13548,7 @@ color = 4;
 glyphname = P;
 kernLeft = KO_H;
 kernRight = KO_P;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 guides = (
@@ -13891,7 +13888,7 @@ color = 4;
 glyphname = R;
 kernLeft = KO_H;
 kernRight = KO_R;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -14314,7 +14311,7 @@ color = 4;
 glyphname = S;
 kernLeft = KO_S;
 kernRight = KO_S;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -15859,7 +15856,7 @@ color = 4;
 glyphname = T;
 kernLeft = KO_T;
 kernRight = KO_T;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -16476,7 +16473,7 @@ color = 4;
 glyphname = U;
 kernLeft = KO_U;
 kernRight = KO_U;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -17970,7 +17967,7 @@ color = 4;
 glyphname = V;
 kernLeft = KO_V;
 kernRight = KO_V;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 guides = (
@@ -18726,7 +18723,7 @@ color = 4;
 glyphname = X;
 kernLeft = KO_X;
 kernRight = KO_K;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 guides = (
@@ -19105,7 +19102,7 @@ color = 4;
 glyphname = Y;
 kernLeft = KO_Y;
 kernRight = KO_Y;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -19670,7 +19667,7 @@ color = 4;
 glyphname = Z;
 kernLeft = KO_Z;
 kernRight = KO_Z;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -20022,7 +20019,7 @@ color = 4;
 glyphname = a;
 kernLeft = KO_a;
 kernRight = KO_a;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 associatedMasterId = m01;
@@ -22849,7 +22846,7 @@ color = 4;
 glyphname = b;
 kernLeft = KO_b;
 kernRight = KO_p;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 layerId = m01;
@@ -23022,7 +23019,7 @@ color = 4;
 glyphname = c;
 kernLeft = KO_e;
 kernRight = KO_c;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -23924,7 +23921,7 @@ color = 4;
 glyphname = d;
 kernLeft = KO_d;
 kernRight = KO_d;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -24764,7 +24761,7 @@ unicode = 240;
 glyphname = dcaron;
 kernLeft = KO_d;
 kernRight = KO_dcaron;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 layerId = m01;
@@ -24885,7 +24882,7 @@ color = 4;
 glyphname = e;
 kernLeft = KO_e;
 kernRight = KO_e;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -26365,7 +26362,7 @@ color = 4;
 glyphname = f;
 kernLeft = KO_f;
 kernRight = KO_f;
-lastChange = "2024-01-30 22:40:53 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 guides = (
@@ -26819,7 +26816,7 @@ color = 4;
 glyphname = g;
 kernLeft = KO_g;
 kernRight = KO_g;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -29117,7 +29114,7 @@ color = 4;
 glyphname = h;
 kernLeft = KO_l;
 kernRight = KO_n;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -29571,7 +29568,7 @@ color = 4;
 glyphname = i;
 kernLeft = KO_i;
 kernRight = KO_i;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 guides = (
@@ -30339,7 +30336,7 @@ color = 4;
 glyphname = j;
 kernLeft = KO_j;
 kernRight = KO_j;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 layerId = m01;
@@ -30690,7 +30687,7 @@ unicode = 567;
 {
 glyphname = jacute;
 kernRight = KO_jacute;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 layerId = m01;
@@ -30762,7 +30759,7 @@ color = 4;
 glyphname = k;
 kernLeft = KO_l;
 kernRight = KO_k;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -31660,7 +31657,7 @@ color = 4;
 glyphname = l;
 kernLeft = KO_l;
 kernRight = KO_i;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -31849,7 +31846,7 @@ unicode = 314;
 glyphname = lcaron;
 kernLeft = KO_l;
 kernRight = KO_lcaron;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 layerId = m01;
@@ -32131,7 +32128,7 @@ color = 4;
 glyphname = m;
 kernLeft = KO_n;
 kernRight = KO_n;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 layerId = m01;
@@ -32706,7 +32703,7 @@ color = 4;
 glyphname = n;
 kernLeft = KO_n;
 kernRight = KO_n;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -33814,7 +33811,7 @@ color = 4;
 glyphname = o;
 kernLeft = KO_o;
 kernRight = KO_o;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -35682,7 +35679,7 @@ color = 4;
 glyphname = p;
 kernLeft = KO_p;
 kernRight = KO_p;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 guides = (
@@ -36484,7 +36481,7 @@ color = 4;
 glyphname = q;
 kernLeft = KO_d;
 kernRight = KO_q;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 layerId = m01;
@@ -36607,7 +36604,7 @@ color = 4;
 glyphname = r;
 kernLeft = KO_n;
 kernRight = KO_r;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -37129,7 +37126,7 @@ color = 4;
 glyphname = s;
 kernLeft = KO_s;
 kernRight = KO_s;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -39052,7 +39049,7 @@ color = 4;
 glyphname = t;
 kernLeft = KO_t;
 kernRight = KO_t;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -39460,7 +39457,7 @@ color = 4;
 glyphname = u;
 kernLeft = KO_u;
 kernRight = KO_u;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -40401,7 +40398,7 @@ color = 4;
 glyphname = v;
 kernLeft = KO_v;
 kernRight = KO_v;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 guides = (
@@ -40578,7 +40575,7 @@ color = 4;
 glyphname = w;
 kernLeft = KO_v;
 kernRight = KO_v;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -41289,7 +41286,7 @@ color = 4;
 glyphname = x;
 kernLeft = KO_x;
 kernRight = KO_x;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 guides = (
@@ -41848,7 +41845,7 @@ color = 4;
 glyphname = y;
 kernLeft = KO_y;
 kernRight = KO_y;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 anchors = (
@@ -42834,7 +42831,7 @@ color = 4;
 glyphname = z;
 kernLeft = KO_z;
 kernRight = KO_z;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -54421,7 +54418,7 @@ color = 4;
 glyphname = quotedblright;
 kernLeft = KO_quoteright;
 kernRight = KO_quoteright;
-lastChange = "2024-01-30 22:40:20 +0000";
+lastChange = "2024-01-30 22:46:10 +0000";
 layers = (
 {
 layerId = m01;
