@@ -1,8 +1,5 @@
 sources:
   - Platypi.glyphs
   - Platypi-Italic.glyphs
-axisOrder: 
-  - wght
-  - ital
 familyName: Platypi
 buildOTF: false
