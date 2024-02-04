@@ -13,7 +13,7 @@ import subprocess
 
 BASE_OWNER = "googlefonts"
 BASE_REPONAME = "googlefonts-project-template"
-DUMMY_URL = "https://yourname.github.io/your-font-repository-name"
+DUMMY_URL = "https://d-sargent.github.io/platypi"
 
 
 def repo_url(owner, name):
