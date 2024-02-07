@@ -61,6 +61,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
+**February 2024. Version 1.20**
+* Google Fonts Latin Plus Character Set completed
+
 **January 2024. Version 1.00**
 * Vertical metrics added
 * Kerning added
@@ -88,7 +91,6 @@ The initial design for Platypi was produced while completing a Certificate in Ty
 ## Future plans
 
 **Expanded language support**
-* Finish Google Fonts Latin Plus character set
 * Add Sámi character set
 * Add Pan African character set
 
