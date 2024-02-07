@@ -31,7 +31,7 @@ As a design researcher, David is interested in how creative practice can engage,
 
 ## Contributors
 
-The original design was developed while studying at Type West under the guidance of:
+The original design was developed while studying at _Type West_ under the guidance of:
 
 * Juan Villanueva [Website](http://www.juankafka.com)
 * Lynne Yun [Website](http://www.lynneyun.com)
@@ -41,7 +41,7 @@ Some timely advice on serif design (bigger!) was provided by:
 
 * David Jonathan Ross [Website](https://djr.com)
 
-Additional design advice post Type West was provided by:
+Additional design advice as part of the _Type Masters_ program was provided by:
 
 * Troy Leinster [Website](https://www.leinstertype.com/typemasters)
 
