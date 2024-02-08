@@ -91,8 +91,9 @@ The initial design for Platypi was produced while completing a Certificate in Ty
 ## Future plans
 
 **Expanded language support**
-* Add Sámi character set
-* Add Pan African character set
+* Add GF_PriAfrican character set
+* Add GF_African character set
+* Add GF_Beyond character set
 
 **Variable fonts**
 * Create variable version (weight axis)
