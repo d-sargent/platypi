@@ -33,19 +33,19 @@ As a design researcher, David is interested in how creative practice can engage,
 
 The original design was developed while studying at _Type West_ under the guidance of:
 
-* Juan Villanueva [Website](http://www.juankafka.com)
-* Lynne Yun [Website](http://www.lynneyun.com)
-* Gen Ramirez [Website](https://genramirez.com)
+* [Juan Villanueva](http://www.juankafka.com)
+* [Lynne Yun](http://www.lynneyun.com)
+* [Gen Ramirez](https://genramirez.com)
 
 Some timely advice on serif design (bigger!) was provided by:
 
-* David Jonathan Ross [Website](https://djr.com)
+* [David Jonathan Ross](https://djr.com)
 
 Additional design advice as part of the _Type Masters_ program was provided by:
 
-* Troy Leinster [Website](https://www.leinstertype.com/typemasters)
+* [Troy Leinster](https://www.leinstertype.com/typemasters)
 
-This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished.
+This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished. Pip pip!
 
 ## Building
 
