@@ -14,7 +14,7 @@
 
 Inspired by the enigmatic Australian platypus, _Platypi_ blends heavy wedge serifs usually seen in display faces with more conventional curves and proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. Heavier weights push this tension further with increased stroke tapering and overall contrast. The name _Platypi_ is a word commonly used as the plural of platypus, allthough this term is technically incorrect.
 
-_Platypi_ features six weights with matching italic styles and language support for Indigenous Australian and Vietnamese languages.
+_Platypi_ features six weights with matching italic styles. It supports Indigenous Australian and Vietnamese languages, and includes the full Google Fonts Latin Plus Character Set.
 
 ![Sample Image](documentation/platypi-sample-images-jan-2024-2.png)
 ![Sample Image](documentation/platypi-sample-images-jan-2024-3.png)
@@ -31,21 +31,21 @@ As a design researcher, David is interested in how creative practice can engage,
 
 ## Contributors
 
-The original design was developed while studying at Type West under the guidance of:
+The original design was developed while studying at _Type West_ under the guidance of:
 
-* Juan Villanueva [Website](http://www.juankafka.com)
-* Lynne Yun [Website](http://www.lynneyun.com)
-* Gen Ramirez [Website](https://genramirez.com)
+* [Juan Villanueva](http://www.juankafka.com)
+* [Lynne Yun](http://www.lynneyun.com)
+* [Gen Ramirez](https://genramirez.com)
 
 Some timely advice on serif design (bigger!) was provided by:
 
-* David Jonathan Ross [Website](https://djr.com)
+* [David Jonathan Ross](https://djr.com)
 
-Additional design advice post Type West was provided by:
+Additional design advice as part of the _Type Masters_ program was provided by:
 
-* Troy Leinster [Website](https://www.leinstertype.com/typemasters)
+* [Troy Leinster](https://www.leinstertype.com/typemasters)
 
-This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished.
+This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished. Pip pip!
 
 ## Building
 
@@ -60,6 +60,9 @@ If you want to build fonts manually on your own computer:
 The proof files and QA tests are also available automatically via GitHub Actions - look at https://d-sargent.github.io/platypi.
 
 ## Changelog
+
+**February 2024. Version 1.20**
+* Google Fonts Latin Plus Character Set completed
 
 **January 2024. Version 1.00**
 * Vertical metrics added
@@ -78,19 +81,19 @@ The proof files and QA tests are also available automatically via GitHub Actions
 * Upright roman design in light and extra bold weights
 * Matching italic design in light and extra bold weights
 * Reconfigured font metrics for larger x-height and shorter ascenders/descenders
-* Streamlined serif design approach
+* Streamlined serif design
 
 **December 2022. Version 0.10**
 * Original design created while studying at Type West
 
-The initial design for Platypi was produced while completing a Certificate in Type Design at Type West / Letterform Archive [Website](https://letterformarchive.org/type-west-online/) in 2022. The project aimed to create a 'latin' wedge serif model suitable for long-form text applications. This original design featured multiple upright weights alongside a single-weight italic style. In 2023–24, all letterforms were redrawn after reflection and time away from the project, along with matching italic styles and additional language support. 
+The initial design for Platypi was produced while completing a Certificate in Type Design at [Type West](https://letterformarchive.org/type-west-online/) in 2022. The project aimed to create a wedge serif model suitable for long-form text applications. The original design completed at Type West featured multiple upright weights alongside a single-weight italic style. In 2023–24, all letterforms were redrawn after reflection and time away from the project, along with the addition of matching italic styles and additional language support. 
 
 ## Future plans
 
 **Expanded language support**
-* Finish Google Fonts Latin Plus character set
-* Add Sámi character set
-* Add Pan African character set
+* Add GF_PriAfrican Character Set
+* Add GF_African Character Set
+* Add GF_Beyond Character Set
 
 **Variable fonts**
 * Create variable version (weight axis)
