@@ -14,7 +14,7 @@
 
 Inspired by the enigmatic Australian platypus, _Platypi_ blends heavy wedge serifs usually seen in display faces with more conventional curves and proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. Heavier weights push this tension further with increased stroke tapering and overall contrast. The name _Platypi_ is a word commonly used as the plural of platypus, allthough this term is technically incorrect.
 
-_Platypi_ features six weights with matching italic styles and language support for Indigenous Australian and Vietnamese languages.
+_Platypi_ features six weights with matching italic styles and language support for Indigenous Australian and Vietnamese languages (Google Fonts Latin Plus characterset).
 
 ![Sample Image](documentation/platypi-sample-images-jan-2024-2.png)
 ![Sample Image](documentation/platypi-sample-images-jan-2024-3.png)
@@ -81,19 +81,19 @@ The proof files and QA tests are also available automatically via GitHub Actions
 * Upright roman design in light and extra bold weights
 * Matching italic design in light and extra bold weights
 * Reconfigured font metrics for larger x-height and shorter ascenders/descenders
-* Streamlined serif design approach
+* Streamlined serif design
 
 **December 2022. Version 0.10**
 * Original design created while studying at Type West
 
-The initial design for Platypi was produced while completing a Certificate in Type Design at Type West / Letterform Archive [Website](https://letterformarchive.org/type-west-online/) in 2022. The project aimed to create a 'latin' wedge serif model suitable for long-form text applications. This original design featured multiple upright weights alongside a single-weight italic style. In 2023–24, all letterforms were redrawn after reflection and time away from the project, along with matching italic styles and additional language support. 
+The initial design for Platypi was produced while completing a Certificate in Type Design at [Type West](https://letterformarchive.org/type-west-online/) in 2022. The project aimed to create a wedge serif model suitable for long-form text applications. The original design completed at Type West featured multiple upright weights alongside a single-weight italic style. In 2023–24, all letterforms were redrawn after reflection and time away from the project, along with the addition of matching italic styles and additional language support. 
 
 ## Future plans
 
 **Expanded language support**
-* Add GF_PriAfrican character set
-* Add GF_African character set
-* Add GF_Beyond character set
+* Add GF_PriAfrican Character Set
+* Add GF_African Character Set
+* Add GF_Beyond Character Set
 
 **Variable fonts**
 * Create variable version (weight axis)
