@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3241";
 .formatVersion = 3;
 axes = (
 {
@@ -10,7 +10,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat Dmacronbelow E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lmacronbelow Lslash M N Nacute Ncaron Ncommaaccent Nhookleft Nmacronbelow Ntilde Eng O Oacute Obreve Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oogonek Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent Rmacronbelow S Sacute Saltillo Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tmacronbelow U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat Dmacronbelow E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lmacronbelow Lslash M N Nacute Ncaron Ncommaaccent Nhookleft Nmacronbelow Ntilde Eng O Oacute Obreve Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oogonek Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent Rmacronbelow S Sacute Saltillo Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tmacronbelow U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Omega";
 name = Uppercase;
 }
 );
@@ -27,6 +27,19 @@ value = 1;
 {
 name = "EditView Line Height";
 value = 1300;
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+300 = 300;
+400 = 390;
+500 = 480;
+600 = 590;
+700 = 700;
+800 = 800;
+};
+};
 }
 );
 date = "2023-08-20 04:53:40 +0000";
@@ -54,6 +67,7 @@ features = (
 {
 automatic = 1;
 code = "feature locl;
+feature sups;
 feature numr;
 feature dnom;
 feature frac;
@@ -62,35 +76,14 @@ feature pnum;
 feature tnum;
 feature case;
 feature zero;
-feature sups;
+feature subs;
+feature sinf;
 ";
 tag = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaabovecomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb dotbelowcomb macronbelowcomb ogonekcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb circumflexcomb_gravecomb circumflexcomb_acutecomb circumflexcomb_tildecomb circumflexcomb_hookabovecomb caroncomb brevecomb brevecomb_gravecomb brevecomb_acutecomb brevecomb_tildecomb brevecomb_hookabovecomb ringcomb tildecomb macroncomb hookabovecomb horncomb ogonekcomb macronbelowcomb strokeshortcomb slashshortcomb slashlongcomb tildecomb.narrow];
-	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case circumflexcomb_gravecomb.case circumflexcomb_acutecomb.case circumflexcomb_tildecomb.case circumflexcomb_hookabovecomb.case caroncomb.case brevecomb.case brevecomb_gravecomb.case brevecomb_acutecomb.case brevecomb_tildecomb.case brevecomb_hookabovecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case horncomb.case ogonekcomb.case macronbelowcomb.case strokeshortcomb.case slashshortcomb.case slashlongcomb.case tildecomb.narrow.case];
-	sub @Markscomb @Markscomb' by @MarkscombCase;
-	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_1;
-
-lookup ccmp_Other_2 {
-	sub @Markscomb' @MarkscombCase by @MarkscombCase;
-	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
-
-lookup ccmp_latn_1 {
-	sub fi by f i;
-	sub fl by f l;
-	sub Ldot by L periodcentered.loclCAT.case;
-} ccmp_latn_1;
-
-lookup ccmp_latn_2 {
+code = "lookup ccmp_DFLT_1 {
 	lookupflag 0;
 	sub brevecomb acutecomb by brevecomb_acutecomb;
 	sub brevecomb gravecomb by brevecomb_gravecomb;
@@ -100,59 +93,112 @@ lookup ccmp_latn_2 {
 	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
 	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
-} ccmp_latn_2;
+} ccmp_DFLT_1;
+
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaabovecomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	lookupflag 0;
+	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb circumflexcomb_gravecomb circumflexcomb_acutecomb circumflexcomb_tildecomb circumflexcomb_hookabovecomb caroncomb brevecomb brevecomb_gravecomb brevecomb_acutecomb brevecomb_tildecomb brevecomb_hookabovecomb ringcomb tildecomb macroncomb hookabovecomb horncomb ogonekcomb macronbelowcomb strokeshortcomb slashshortcomb slashlongcomb tildecomb.narrow];
+	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case circumflexcomb_gravecomb.case circumflexcomb_acutecomb.case circumflexcomb_tildecomb.case circumflexcomb_hookabovecomb.case caroncomb.case brevecomb.case brevecomb_gravecomb.case brevecomb_acutecomb.case brevecomb_tildecomb.case brevecomb_hookabovecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case horncomb.case ogonekcomb.case macronbelowcomb.case strokeshortcomb.case slashshortcomb.case slashlongcomb.case tildecomb.narrow.case];
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+
+lookup ccmp_Other_3 {
+	lookupflag 0;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_3;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+	sub Ldot by L periodcentered.loclCAT.case;
+	sub ldot by l periodcentered.loclCAT;
+} ccmp_latn_1;
 
 script latn;
 lookup ccmp_latn_1;
-lookup ccmp_latn_2;
 ";
 tag = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
 	sub i by idotaccent;
 } locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
 
+script latn;
+language ROM;
 lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-	language MOL;
 	sub Scedilla by Scommaaccent;
 	sub scedilla by scommaaccent;
 	sub Tcedilla by Tcommaaccent;
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
+language MOL;
+lookup locl_latn_1;
 
+script latn;
+language CAT;
 lookup locl_latn_2 {
-	script latn;
-	language CAT;
 	sub l periodcentered' l by periodcentered.loclCAT;
 	sub L periodcentered' L by periodcentered.loclCAT.case;
 } locl_latn_2;
 
+script latn;
+language NLD;
 lookup locl_latn_3 {
-	script latn;
-	language NLD;
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
 } locl_latn_3;
 ";
 tag = locl;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = subs;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = sinf;
 },
 {
 automatic = 1;
@@ -354,6 +400,7 @@ locked = 1;
 pos = (353,617);
 }
 );
+iconName = Light;
 id = m01;
 metricValues = (
 {
@@ -376,7 +423,6 @@ over = -16;
 pos = -235;
 },
 {
-over = -16;
 pos = 13;
 }
 );
@@ -7763,7 +7809,7 @@ KernOnName = I;
 glyphname = IJ;
 kernLeft = KO_H;
 kernRight = KO_J;
-lastChange = "2024-02-07 10:06:14 +0000";
+lastChange = "2024-02-23 11:25:42 +0000";
 layers = (
 {
 layerId = m01;
@@ -7782,9 +7828,11 @@ width = 831;
 layerId = "B15366B1-D24E-431F-AB58-0431975245D7";
 shapes = (
 {
+alignment = -1;
 ref = I;
 },
 {
+alignment = -1;
 pos = (381,0);
 ref = J;
 }
@@ -55213,12 +55261,13 @@ width = 105;
 {
 color = 8;
 glyphname = periodcentered.loclCAT.case;
-lastChange = "2024-01-09 08:24:11 +0000";
+lastChange = "2024-02-23 11:25:42 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (-176,285);
 ref = period;
 }
@@ -55229,6 +55278,7 @@ width = 0;
 layerId = "B15366B1-D24E-431F-AB58-0431975245D7";
 shapes = (
 {
+alignment = -1;
 pos = (-172,260);
 ref = period;
 }
@@ -55790,33 +55840,36 @@ color = 8;
 glyphname = quotedblbase;
 kernLeft = KO_comma;
 kernRight = KO_comma;
-lastChange = "2024-01-09 04:11:52 +0000";
+lastChange = "2024-02-23 11:26:19 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+pos = (159,0);
 ref = comma;
 },
 {
 ref = comma;
 }
 );
-width = 173;
+width = 332;
 },
 {
 layerId = "B15366B1-D24E-431F-AB58-0431975245D7";
 shapes = (
 {
+pos = (224,0);
 ref = comma;
 },
 {
 ref = comma;
 }
 );
-width = 214;
+width = 438;
 }
 );
+metricRight = quotesinglbase;
 unicode = 8222;
 },
 {
@@ -63675,7 +63728,7 @@ unicode = 177;
 {
 color = 8;
 glyphname = approxequal;
-lastChange = "2024-01-28 03:10:02 +0000";
+lastChange = "2024-02-23 11:34:33 +0000";
 layers = (
 {
 layerId = m01;
@@ -63689,7 +63742,7 @@ pos = (17,71);
 ref = asciitilde;
 }
 );
-width = 520;
+width = 515;
 },
 {
 layerId = "B15366B1-D24E-431F-AB58-0431975245D7";
@@ -63703,11 +63756,10 @@ pos = (18,74);
 ref = asciitilde;
 }
 );
-width = 516;
+width = 515;
 }
 );
 metricLeft = "=o";
-metricRight = "=o";
 unicode = 8776;
 },
 {
@@ -96680,6 +96732,15 @@ type = "italic angle";
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = ENG;
+value = "Copyright 2024 The Platypi Project Authors (https://github.com/d-sargent/platypi)";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -96687,6 +96748,23 @@ language = ENG;
 value = "David Sargent";
 }
 );
+},
+{
+key = designerURL;
+value = "https://davidsargent.com.au";
+},
+{
+key = licenses;
+values = (
+{
+language = ENG;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;
@@ -96698,34 +96776,8 @@ value = "Bolt Cutter Type";
 );
 },
 {
-key = copyrights;
-values = (
-{
-language = ENG;
-value = "Copyright 2024 The Platypi Project Authors (https://github.com/d-sargent/platypi)";
-}
-);
-},
-{
 key = vendorID;
 value = BOLT;
-},
-{
-key = designerURL;
-value = "https://davidsargent.com.au";
-},
-{
-key = licenses;
-values = (
-{
-language = ENG;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-}
-);
-},
-{
-key = licenseURL;
-value = "https://openfontlicense.org";
 }
 );
 stems = (
