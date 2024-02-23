@@ -27,6 +27,19 @@ value = 1;
 {
 name = "EditView Line Height";
 value = 1300;
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+300 = 300;
+400 = 390;
+500 = 480;
+600 = 590;
+700 = 700;
+800 = 800;
+};
+};
 }
 );
 date = "2023-08-20 04:53:40 +0000";
@@ -63715,7 +63728,7 @@ unicode = 177;
 {
 color = 8;
 glyphname = approxequal;
-lastChange = "2024-01-28 03:10:02 +0000";
+lastChange = "2024-02-23 11:34:33 +0000";
 layers = (
 {
 layerId = m01;
@@ -63729,7 +63742,7 @@ pos = (17,71);
 ref = asciitilde;
 }
 );
-width = 520;
+width = 515;
 },
 {
 layerId = "B15366B1-D24E-431F-AB58-0431975245D7";
@@ -63743,11 +63756,10 @@ pos = (18,74);
 ref = asciitilde;
 }
 );
-width = 516;
+width = 515;
 }
 );
 metricLeft = "=o";
-metricRight = "=o";
 unicode = 8776;
 },
 {
