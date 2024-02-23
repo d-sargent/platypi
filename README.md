@@ -14,7 +14,7 @@
 
 Drawing inspiration from the unusual blend of characteristics observed in the Australian platypus, _Platypi_ combines sharp, heavy wedge serifs usually seen in display faces with more conventional curves and proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. The heavier weights push this tension further with increased stroke tapering and overall contrast. _Platypi_ features six weights with matching italic styles. It supports Indigenous Australian and Vietnamese languages, and includes the full Google Fonts Latin Plus Character Set.
 
-Sidenote: the word _Platypi_ is commonly used as the plural of platypus. However, this term is a form of pseudo-Latin, with the correct version being _platypuses_.
+The word _Platypi_ is commonly used as the plural of platypus; however, it is a form of pseudo-Latin. The correct plural is _platypuses_.
 
 ![Sample Image](documentation/platypi-sample-images-jan-2024-2.png)
 ![Sample Image](documentation/platypi-sample-images-jan-2024-3.png)
@@ -25,7 +25,7 @@ Sidenote: the word _Platypi_ is commonly used as the plural of platypus. However
 
 David Sargent is an Australian academic and designer living and working on Jagera and Turrbal land. 
 
-He is Creative Director of [Liveworm](https://liveworm.com.au), a work-integrated learning incubator within the [Queensland College of Art & Design](https://www.griffith.edu.au/arts-education-law/queensland-college-art-design), Griffith University. Liveworm operates as a working design studio for students to engage with a broad range of ‘real world’ projects for not-for-profit, cultural, educational, and small to medium commercial clients. 
+He is Creative Director of [Liveworm](https://liveworm.com.au), a work-integrated learning incubator within the [Queensland College of Art & Design, Griffith University](https://www.griffith.edu.au/arts-education-law/queensland-college-art-design). Liveworm operates as a working design studio for students to engage with a broad range of ‘real world’ projects for not-for-profit, cultural, educational, and small to medium commercial clients. 
 
 As a design researcher, David is interested in how creative practice can engage, communicate, and spark social change. His studio practice focuses on typography, expressive lettering, and disruptive augmented reality, with creative works exhibited in Australian and international galleries. He releases typefaces under the moniker Bolt Cutter Type.
 
@@ -96,9 +96,6 @@ The initial design for Platypi was produced while completing a Certificate in Ty
 * Add GF_PriAfrican Character Set
 * Add GF_African Character Set
 * Add GF_Beyond Character Set
-
-**Variable fonts**
-* Create variable version (weight axis)
 
 ## License
 
