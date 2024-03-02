@@ -16,10 +16,10 @@ Drawing inspiration from the unusual blend of characteristics observed in the Au
 
 The word _Platypi_ is commonly used as the plural of platypus; however, it is a form of pseudo-Latin. The correct plural is _platypuses_.
 
-![Sample Image](documentation/platypi-sample-images-jan-2024-2.png)
-![Sample Image](documentation/platypi-sample-images-jan-2024-3.png)
-![Sample Image](documentation/platypi-sample-images-jan-2024-4.png)
-![Sample Image](documentation/platypi-sample-images-jan-2024-5.png)
+![Sample Image](documentation/platypi-sample-images-march-2024-2.png)
+![Sample Image](documentation/platypi-sample-images-march-2024-3.png)
+![Sample Image](documentation/platypi-sample-images-march-2024-4.png)
+![Sample Image](documentation/platypi-sample-images-march-2024-5.png)
 
 ## About the Designer
 
