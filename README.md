@@ -35,7 +35,7 @@ The original design was developed while studying at _Type West_ under the guidan
 
 * [Juan Villanueva](http://www.juankafka.com)
 * [Lynne Yun](http://www.lynneyun.com)
-* [Gen Ramirez](https://genramirez.com)
+* [Gen Ramírez](https://genramirez.com)
 
 Some timely advice on serif design (bigger!) was provided by:
 
