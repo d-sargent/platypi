@@ -61,11 +61,10 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-**March 2024. Version 1.30**
-* Ready to onboard to Google Fonts library
-
 **February 2024. Version 1.20**
 * Google Fonts Latin Plus Character Set completed
+* Ready to onboard to Google Fonts library
+
 
 **January 2024. Version 1.10**
 * _Most_ Fontbakery fails corrected, a couple left I still can't work out...
