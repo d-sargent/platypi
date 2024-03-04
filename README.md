@@ -35,18 +35,6 @@ Additional design advice as part of the _Type Masters_ program was provided by:
 
 This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished. Pip pip!
 
-## Building
-
-Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
-
-If you want to build fonts manually on your own computer:
-
-* `make build` will produce font files.
-* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
-* `make proof` will generate HTML proof files.
-
-The proof files and QA tests are also available automatically via GitHub Actions - look at https://d-sargent.github.io/platypi.
-
 ## Changelog
 
 **February 2024. Version 1.20**
@@ -80,12 +68,15 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 The initial design for Platypi was produced while completing a Certificate in Type Design at [Type West](https://letterformarchive.org/type-west-online/) in 2022. The project aimed to create a wedge serif model suitable for long-form text applications. The original design completed at Type West featured multiple upright weights alongside a single-weight italic style. In 2023–24, all letterforms were redrawn after reflection and time away from the project, along with the addition of matching italic styles and additional language support. 
 
-## Future plans
+## Future roadmap
 
-**Expanded language support**
-* Add GF_PriAfrican Character Set
-* Add GF_African Character Set
-* Add GF_Beyond Character Set
+**Expand language support**
+
+This project continues! In time, I am aiming to expand the [character set](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Latin/glyphs) to cover the following:
+
+* Google Fonts PriAfrican Character Set
+* Google Fonts African Character Set
+* Google Fonts Beyond Character Set
 
 ## License
 
