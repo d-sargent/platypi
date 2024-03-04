@@ -1,17 +1,5 @@
 # Platypi
 
-[![][Fontbakery]](https://d-sargent.github.io/platypi/fontbakery/fontbakery-report.html)
-[![][Universal]](https://d-sargent.github.io/platypi/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://d-sargent.github.io/platypi/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://d-sargent.github.io/platypi/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://d-sargent.github.io/platypi/fontbakery/fontbakery-report.html)
-
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2FUniversal.json
-
 Drawing inspiration from the unusual blend of characteristics observed in the Australian platypus, _Platypi_ combines sharp, heavy wedge serifs usually seen in display faces with more conventional curves and proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. The heavier weights push this tension further with increased stroke tapering and overall contrast. _Platypi_ features six weights with matching italic styles. It supports Indigenous Australian and Vietnamese languages, and includes the full Google Fonts Latin Plus Character Set.
 
 The word _Platypi_ is commonly used as the plural of platypus; however, it is a form of pseudo-Latin. The correct plural is _platypuses_.
