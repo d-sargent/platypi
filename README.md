@@ -1,25 +1,13 @@
 # Platypi
 
-[![][Fontbakery]](https://d-sargent.github.io/platypi/fontbakery/fontbakery-report.html)
-[![][Universal]](https://d-sargent.github.io/platypi/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://d-sargent.github.io/platypi/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://d-sargent.github.io/platypi/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://d-sargent.github.io/platypi/fontbakery/fontbakery-report.html)
-
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd-sargent%2Fplatypi%2Fgh-pages%2Fbadges%2FUniversal.json
-
 Drawing inspiration from the unusual blend of characteristics observed in the Australian platypus, _Platypi_ combines sharp, heavy wedge serifs usually seen in display faces with more conventional curves and proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. The heavier weights push this tension further with increased stroke tapering and overall contrast. _Platypi_ features six weights with matching italic styles. It supports Indigenous Australian and Vietnamese languages, and includes the full Google Fonts Latin Plus Character Set.
 
 The word _Platypi_ is commonly used as the plural of platypus; however, it is a form of pseudo-Latin. The correct plural is _platypuses_.
 
-![Sample Image](documentation/platypi-sample-images-jan-2024-2.png)
-![Sample Image](documentation/platypi-sample-images-jan-2024-3.png)
-![Sample Image](documentation/platypi-sample-images-jan-2024-4.png)
-![Sample Image](documentation/platypi-sample-images-jan-2024-5.png)
+![Sample Image](documentation/platypi-sample-images-march-2024-2.png)
+![Sample Image](documentation/platypi-sample-images-march-2024-3.png)
+![Sample Image](documentation/platypi-sample-images-march-2024-4.png)
+![Sample Image](documentation/platypi-sample-images-march-2024-5.png)
 
 ## About the Designer
 
@@ -35,7 +23,7 @@ The original design was developed while studying at _Type West_ under the guidan
 
 * [Juan Villanueva](http://www.juankafka.com)
 * [Lynne Yun](http://www.lynneyun.com)
-* [Gen Ramirez](https://genramirez.com)
+* [Gen Ramírez](https://genramirez.com)
 
 Some timely advice on serif design (bigger!) was provided by:
 
@@ -47,25 +35,12 @@ Additional design advice as part of the _Type Masters_ program was provided by:
 
 This project is dedicated to the memory of Donald Welch. A shame you never got to see it finished. Pip pip!
 
-## Building
-
-Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
-
-If you want to build fonts manually on your own computer:
-
-* `make build` will produce font files.
-* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
-* `make proof` will generate HTML proof files.
-
-The proof files and QA tests are also available automatically via GitHub Actions - look at https://d-sargent.github.io/platypi.
-
 ## Changelog
-
-**March 2024. Version 1.30**
-* Ready to onboard to Google Fonts library
 
 **February 2024. Version 1.20**
 * Google Fonts Latin Plus Character Set completed
+* Ready to onboard to Google Fonts library
+
 
 **January 2024. Version 1.10**
 * _Most_ Fontbakery fails corrected, a couple left I still can't work out...
@@ -93,12 +68,15 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 The initial design for Platypi was produced while completing a Certificate in Type Design at [Type West](https://letterformarchive.org/type-west-online/) in 2022. The project aimed to create a wedge serif model suitable for long-form text applications. The original design completed at Type West featured multiple upright weights alongside a single-weight italic style. In 2023–24, all letterforms were redrawn after reflection and time away from the project, along with the addition of matching italic styles and additional language support. 
 
-## Future plans
+## Future roadmap
 
-**Expanded language support**
-* Add GF_PriAfrican Character Set
-* Add GF_African Character Set
-* Add GF_Beyond Character Set
+**Expand language support**
+
+This project continues! In time, I am aiming to expand the [character set](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Latin/glyphs) to cover the following:
+
+* Google Fonts PriAfrican Character Set
+* Google Fonts African Character Set
+* Google Fonts Beyond Character Set
 
 ## License
 
