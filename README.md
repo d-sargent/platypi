@@ -2,7 +2,7 @@
 
 Drawing inspiration from the unusual blend of characteristics observed in the Australian platypus, _Platypi_ combines sharp, heavy wedge serifs usually seen in display faces with more conventional curves and proportions to achieve a practical text typeface with a unique and distinctive visual rhythm. The heavier weights push this tension further with increased stroke tapering and overall contrast. _Platypi_ features six weights with matching italic styles. It supports Indigenous Australian and Vietnamese languages, and includes the full Google Fonts Latin Plus Character Set.
 
-The word _Platypi_ is commonly used as the plural of platypus; however, it is a form of pseudo-Latin. The correct plural is _platypuses_.
+Factoid: The word _Platypi_ is commonly used as the plural of platypus; however, it is a form of pseudo-Latin. The correct plural is _platypuses_.
 
 ![Sample Image](documentation/platypi-sample-images-march-2024-2.png)
 ![Sample Image](documentation/platypi-sample-images-march-2024-3.png)
