@@ -37,10 +37,14 @@ This project is dedicated to the memory of Donald Welch. A shame you never got t
 
 ## Changelog
 
+**May 2024. Version 1.30**
+* Google Fonts Pan African Character Set completed for Roman weights
+* Google Fonts African Character Set completed for Roman weights
+* Google Fonts Beyond Character Set completed for Roman weights
+
 **February 2024. Version 1.20**
 * Google Fonts Latin Plus Character Set completed
 * Ready to onboard to Google Fonts library
-
 
 **January 2024. Version 1.10**
 * _Most_ Fontbakery fails corrected, a couple left I still can't work out...
@@ -74,7 +78,7 @@ The initial design for Platypi was produced while completing a Certificate in Ty
 
 This project continues! In time, I am aiming to expand the [character set](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Latin/glyphs) to cover the following:
 
-* Google Fonts PriAfrican Character Set
+* Google Fonts Pan African Character Set
 * Google Fonts African Character Set
 * Google Fonts Beyond Character Set
 
