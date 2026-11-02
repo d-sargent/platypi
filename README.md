@@ -41,6 +41,10 @@ This project is dedicated to the memory of Donald Welch. A shame you never got t
 * Google Fonts Pan African Character Set completed for Roman weights
 * Google Fonts African Character Set completed for Roman weights
 * Google Fonts Beyond Character Set completed for Roman weights
+* Some character spacing issues addressed for Roman weights
+
+**April 2024. Version 1.20**
+* Published on [Google Fonts](https://fonts.google.com/specimen/Platypi)
 
 **February 2024. Version 1.20**
 * Google Fonts Latin Plus Character Set completed
